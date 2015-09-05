@@ -9,7 +9,7 @@
 		}
 ,
 		"rect" : [ 109.0, 44.0, 1145.0, 706.0 ],
-		"bglocked" : 1,
+		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -103,6 +103,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"frgb" : 0.0,
+					"hint" : "Current volume of the sfplay module",
 					"id" : "obj-81",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -150,6 +151,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
+					"hint" : "Current volume of the sfplay module",
 					"id" : "obj-79",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -252,6 +254,7 @@
 					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
 					"contdata" : 1,
+					"hint" : "Current volume of the sfplay module",
 					"id" : "obj-25",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -275,6 +278,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"frgb" : 0.0,
+					"hint" : "Currently loaded soundfile",
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -328,6 +332,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
+					"hint" : "Currently loaded soundfile",
 					"id" : "obj-10",
 					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
@@ -366,7 +371,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "sound file playback (signal)",
 					"id" : "obj-44",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -377,7 +382,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "loop on/off",
+					"annotation" : "Loop on/off",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
 					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
@@ -388,7 +393,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"hint" : "loop on/off",
+					"hint" : "Loop on/off",
 					"id" : "obj-41",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -1139,6 +1144,7 @@
 					"fontname" : "Courier",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
+					"hint" : "Current playback position",
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1157,6 +1163,7 @@
 					"fontname" : "Courier",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
+					"hint" : "Current playback position",
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1203,6 +1210,7 @@
 					"fontname" : "Courier",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
+					"hint" : "Current playback position",
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1506,6 +1514,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Opens the file browser to choose a soundfile to load",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
 					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
@@ -1516,6 +1525,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"hint" : "Opens the file browser to choose a soundfile to load",
 					"id" : "obj-27",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -1588,6 +1598,7 @@
 					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"bordercolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"contdata" : 1,
+					"hint" : "Current playback position",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
 					"maxclass" : "multislider",
@@ -1625,6 +1636,7 @@
 				"box" : 				{
 					"border" : 0.0,
 					"bordercolor" : [ 0.2, 0.286275, 0.298039, 0.2 ],
+					"hint" : "drop a soundfile onto this module to load it",
 					"id" : "obj-2",
 					"ignoreclick" : 1,
 					"maxclass" : "dropfile",
@@ -1633,8 +1645,9 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 360.0, 180.0, 120.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 195.0, 195.0 ],
-					"rounded" : 10.0
+					"presentation_rect" : [ 0.0, 5.0, 195.0, 183.868988 ],
+					"rounded" : 10.0,
+					"types" : [ "AIFF", "WAVE" ]
 				}
 
 			}
@@ -1642,7 +1655,7 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 0.047059, 0.972549, 0.392157, 1.0 ],
-					"hint" : "delayed signal",
+					"hint" : "audio playback",
 					"id" : "obj-29",
 					"maxclass" : "panel",
 					"numinlets" : 1,
