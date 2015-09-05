@@ -4,9 +4,25 @@ A modular kit providing high-level sound generation, processing and performance 
 
 ## Installation
 
-Download the [latest release](https://github.com/mus264/264-tools/releases/latest), to your Max packages folder. You can find this under `~/Documents/Max/Packages` for Max 6 or `~/Documents/Max 7/Packages` for Max 7.
+The best way to install *264 Tools* and make sure you always have the latest version, is to use Nathanaël Lécaudé’s *[Max Package Downloader](https://github.com/natcl/max_package_downloader)*:
 
-Alternatively, and to make installation and future updates a breeze, use Nathanaël Lécaudé’s [Max Package Downloader](https://github.com/natcl/max_package_downloader).
+1. Download and uncompress [__this ZIP file__](https://github.com/natcl/max_package_downloader/archive/master.zip "Max Package Downloader — most recent version") to your Max Packages directory. You can find this under `~/Documents/Max/Packages` for Max 6 or `~/Documents/Max 7/Packages` for Max 7. If you use both Max 6 and 7, install it for both.
+
+2. Open (or restart) Max.
+
+Once you have *Max Package Downloader* installed you can install or update *264 Tools* by following these steps:
+
+1. In Max’s __‘Extras’__ menu, __select ‘Package Downloader’__.
+
+2. __Select ‘264 Tools’__ from the Package Downloader’s drop-down menu.
+
+3. The information displayed will let you know the latest available version — __‘Remote version’__ — as well as the version you have installed — __‘Local version’__.
+
+4. __Click ‘Download’__, to install/update *264 Tools*.
+
+---
+
+Alternatively, download the [latest release](https://github.com/mus264/264-tools/releases/latest) directly to your Max packages folder and repeat to update manually.
 
 ## Current Functionality
 
