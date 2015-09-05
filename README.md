@@ -6,7 +6,14 @@ A modular kit providing high-level sound generation, processing and performance 
 
 Download the [latest release](https://github.com/mus264/264-tools/releases/latest), to your Max packages folder. You can find this under `~/Documents/Max/Packages` for Max 6 or `~/Documents/Max 7/Packages` for Max 7.
 
-To make installation and future updates a breeze, use Nathanaël Lécaudé’s [Max Package Downloader](https://github.com/natcl/max_package_downloader).
+Alternatively, and to make installation and future updates a breeze, use Nathanaël Lécaudé’s [Max Package Downloader](https://github.com/natcl/max_package_downloader).
+
+## Current Functionality
+
+The toolkit currently includes the following modules:
+
+* `264.delay~` — a single, flexible delay line, for use in a `bpatcher`
+* `264.sfplay~` — a simple sound file player, for use in a `bpatcher`
 
 ## Compatibility
 
