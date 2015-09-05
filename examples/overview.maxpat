@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 244.0, 503.0 ],
+		"rect" : [ 25.0, 69.0, 449.0, 503.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,18 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "bpatcher",
+					"name" : "264.sfplay~.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 225.0, 165.0, 195.0, 195.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "toggle",
@@ -62,7 +74,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 15.0, 375.0, 195.0, 41.0 ],
+					"patching_rect" : [ 15.0, 390.0, 195.0, 41.0 ],
 					"presentation_rect" : [ 17.0, 318.0, 50.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -194,6 +206,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -203,8 +224,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-4" : [ "output-gain", "output", 0 ]
+			"obj-4" : [ "output-gain", "output", 0 ],
+			"obj-2" : [ "input-gain", "input", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -230,6 +251,13 @@
 			}
 , 			{
 				"name" : "264.pattr-read-write.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.sfplay~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
