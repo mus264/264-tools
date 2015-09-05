@@ -53,8 +53,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 390.0, 135.0, 50.0, 20.0 ],
-					"text" : "change"
+					"patching_rect" : [ 390.0, 135.0, 63.0, 20.0 ],
+					"text" : "change 0."
 				}
 
 			}
@@ -83,8 +83,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 135.0, 105.0, 50.0, 20.0 ],
-					"text" : "change"
+					"patching_rect" : [ 135.0, 105.0, 63.0, 20.0 ],
+					"text" : "change 0."
 				}
 
 			}
@@ -172,8 +172,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 825.0, 135.0, 50.0, 20.0 ],
-					"text" : "change"
+					"patching_rect" : [ 825.0, 135.0, 63.0, 20.0 ],
+					"text" : "change 0."
 				}
 
 			}
@@ -187,8 +187,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 675.0, 105.0, 50.0, 20.0 ],
-					"text" : "change"
+					"patching_rect" : [ 675.0, 105.0, 63.0, 20.0 ],
+					"text" : "change 0."
 				}
 
 			}
@@ -573,7 +573,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 261.333313, 165.0, 102.0, 20.0 ],
+					"patching_rect" : [ 255.0, 165.0, 102.0, 20.0 ],
 					"text" : "loadmess mute 1"
 				}
 
@@ -588,7 +588,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 231.333344, 225.0, 54.0, 20.0 ],
+					"patching_rect" : [ 225.0, 225.0, 54.0, 20.0 ],
 					"text" : "muted?"
 				}
 
@@ -601,7 +601,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 291.333313, 225.0, 20.0, 20.0 ]
+					"patching_rect" : [ 285.0, 225.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -615,7 +615,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 246.333344, 195.0, 64.0, 20.0 ],
+					"patching_rect" : [ 237.0, 195.0, 67.0, 20.0 ],
 					"text" : "thispoly~"
 				}
 
@@ -630,8 +630,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 135.0, 135.0, 186.0, 20.0 ],
-					"text" : "adsr~ 50. 100. 1. 100. @legato 1"
+					"patching_rect" : [ 135.0, 135.0, 172.0, 20.0 ],
+					"text" : "adsr~ 50. 0. 1. 100. @legato 1"
 				}
 
 			}
@@ -2289,7 +2289,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }
