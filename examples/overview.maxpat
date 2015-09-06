@@ -32,10 +32,11 @@
 					"id" : "obj-6",
 					"maxclass" : "bpatcher",
 					"name" : "264.sfplay~.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 225.0, 165.0, 195.0, 195.0 ]
+					"patching_rect" : [ 225.0, 165.0, 195.0, 195.0 ],
+					"varname" : "264.sfplay~"
 				}
 
 			}
@@ -230,35 +231,42 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "264.delay~.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.delay-poly~.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.pattr-control.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.pattr-read-write.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.midi-learn.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.sfplay~.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
