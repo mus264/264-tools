@@ -810,8 +810,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 435.0, 132.0, 20.0 ],
-					"text" : "scale 0.01 22.1 0. 127."
+					"patching_rect" : [ 240.0, 435.0, 125.0, 20.0 ],
+					"text" : "scale 0.01 22. 0. 127."
 				}
 
 			}
@@ -869,8 +869,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 225.0, 82.0, 20.0 ],
-					"text" : "clip 0.01 22.1"
+					"patching_rect" : [ 240.0, 225.0, 75.0, 20.0 ],
+					"text" : "clip 0.01 22."
 				}
 
 			}
@@ -909,8 +909,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 195.0, 159.0, 20.0 ],
-					"text" : "scale 0. 127. 0.01 22.1 1.07"
+					"patching_rect" : [ 240.0, 195.0, 152.0, 20.0 ],
+					"text" : "scale 0. 127. 0.01 22. 1.07"
 				}
 
 			}
@@ -964,7 +964,7 @@
 					"presentation_rect" : [ 15.0, 103.0, 163.0, 80.0 ],
 					"prototypename" : "M4L.black",
 					"range" : [ 0.041667, 24.0 ],
-					"setfilter" : [ 0, 1, 1, 1, 0, 440.0, 0.787333, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 3, 1, 1, 0, 440.0, 0.787333, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"textcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ]
 				}
 
