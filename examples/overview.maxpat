@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 436.0, 602.0 ],
+		"rect" : [ 4.0, 44.0, 807.0, 702.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,14 +29,28 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "bpatcher",
+					"name" : "264.tog.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 525.0, 255.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 442.0, 222.0, 0.0, 0.0 ],
+					"varname" : "264.tog[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "overview-filter" ],
 					"id" : "obj-7",
 					"maxclass" : "bpatcher",
 					"name" : "264.filter~.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 225.0, 300.0, 195.0, 195.0 ],
+					"patching_rect" : [ 300.0, 345.0, 195.0, 195.0 ],
 					"varname" : "264.filter~"
 				}
 
@@ -49,7 +63,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 15.0, 60.0, 60.0 ],
+					"patching_rect" : [ 375.0, 30.0, 60.0, 60.0 ],
 					"varname" : "264.go!"
 				}
 
@@ -62,7 +76,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 225.0, 15.0, 60.0, 60.0 ],
+					"patching_rect" : [ 300.0, 30.0, 60.0, 60.0 ],
 					"varname" : "264.tog"
 				}
 
@@ -75,7 +89,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 225.0, 90.0, 195.0, 195.0 ],
+					"patching_rect" : [ 300.0, 120.0, 195.0, 195.0 ],
 					"varname" : "264.sfplay~"
 				}
 
@@ -88,7 +102,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 150.0, 30.0, 30.0 ]
+					"patching_rect" : [ 30.0, 165.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -100,22 +114,21 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 570.0, 57.0, 20.0 ],
+					"patching_rect" : [ 30.0, 645.0, 86.5, 20.0 ],
 					"text" : "dac~ 1 2"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"channels" : 1,
 					"id" : "obj-4",
 					"maxclass" : "live.gain~",
-					"numinlets" : 1,
-					"numoutlets" : 4,
+					"numinlets" : 2,
+					"numoutlets" : 5,
 					"orientation" : 1,
-					"outlettype" : [ "signal", "", "float", "list" ],
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 15.0, 510.0, 195.0, 41.0 ],
+					"patching_rect" : [ 30.0, 570.0, 289.0, 48.0 ],
 					"presentation_rect" : [ 17.0, 318.0, 50.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -142,7 +155,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 15.0, 300.0, 195.0, 195.0 ],
+					"patching_rect" : [ 30.0, 345.0, 195.0, 195.0 ],
 					"varname" : "264.delay~"
 				}
 
@@ -157,7 +170,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 15.0, 240.0, 195.0, 41.0 ],
+					"patching_rect" : [ 30.0, 270.0, 195.0, 41.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 50.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -185,7 +198,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 15.0, 195.0, 57.0, 20.0 ],
+					"patching_rect" : [ 30.0, 225.0, 57.0, 20.0 ],
 					"text" : "adc~ 1 2"
 				}
 
@@ -206,6 +219,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -250,7 +272,7 @@
 					"destination" : [ "obj-5", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
+					"source" : [ "obj-4", 1 ]
 				}
 
 			}
@@ -274,7 +296,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
