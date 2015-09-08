@@ -26,10 +26,19 @@ Alternatively, download the [latest release](https://github.com/mus264/264-tools
 
 ## Current Functionality
 
-The toolkit currently includes the following modules:
+The toolkit currently includes the following modules, which should be loaded in a `bpatcher`.
 
-* `264.delay~` — a single, flexible delay line, for use in a `bpatcher`
-* `264.sfplay~` — a simple sound file player, for use in a `bpatcher`
+### Audio
+
+* `264.delay~` — a single, flexible delay line
+* `264.sfplay~` — a simple sound file player
+* `264.filter~` — a highpass, lowpass or bandpass filter
+
+### Control
+
+* `264.midi-learn` — a utility permitting quick linking of inputs with a MIDI controller
+* `264.tog` — a MIDI-ready toggle switch
+* `264.go!` — a MIDI-ready button
 
 ## Compatibility
 
