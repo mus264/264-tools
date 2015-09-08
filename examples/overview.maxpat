@@ -35,7 +35,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 15.0, 60.0, 60.0 ],
+					"patching_rect" : [ 300.0, 90.0, 60.0, 60.0 ],
 					"varname" : "264.go!"
 				}
 
@@ -58,7 +58,7 @@
 					"id" : "obj-6",
 					"maxclass" : "bpatcher",
 					"name" : "264.sfplay~.maxpat",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 225.0, 165.0, 195.0, 195.0 ],
@@ -206,7 +206,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
+					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
@@ -269,9 +269,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4" : [ "output-gain", "output", 0 ],
 			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-13::obj-5" : [ "live.button", "live.button", 0 ]
+			"obj-13::obj-5" : [ "live.button", "live.button", 0 ],
+			"obj-4" : [ "output-gain", "output", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
