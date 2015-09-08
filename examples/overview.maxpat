@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 449.0, 503.0 ],
+		"rect" : [ 25.0, 69.0, 436.0, 602.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,13 +29,27 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "overview-filter" ],
+					"id" : "obj-7",
+					"maxclass" : "bpatcher",
+					"name" : "264.filter~.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 225.0, 300.0, 195.0, 195.0 ],
+					"varname" : "264.filter~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "bpatcher",
 					"name" : "264.go!.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 90.0, 60.0, 60.0 ],
+					"patching_rect" : [ 300.0, 15.0, 60.0, 60.0 ],
 					"varname" : "264.go!"
 				}
 
@@ -48,7 +62,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 225.0, 90.0, 60.0, 60.0 ],
+					"patching_rect" : [ 225.0, 15.0, 60.0, 60.0 ],
 					"varname" : "264.tog"
 				}
 
@@ -61,7 +75,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 225.0, 165.0, 195.0, 195.0 ],
+					"patching_rect" : [ 225.0, 90.0, 195.0, 195.0 ],
 					"varname" : "264.sfplay~"
 				}
 
@@ -74,7 +88,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 15.0, 150.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -86,7 +100,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 450.0, 57.0, 20.0 ],
+					"patching_rect" : [ 15.0, 570.0, 57.0, 20.0 ],
 					"text" : "dac~ 1 2"
 				}
 
@@ -101,7 +115,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 15.0, 390.0, 195.0, 41.0 ],
+					"patching_rect" : [ 15.0, 510.0, 195.0, 41.0 ],
 					"presentation_rect" : [ 17.0, 318.0, 50.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -128,7 +142,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 15.0, 165.0, 195.0, 195.0 ],
+					"patching_rect" : [ 15.0, 300.0, 195.0, 195.0 ],
 					"varname" : "264.delay~"
 				}
 
@@ -143,7 +157,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 15.0, 105.0, 195.0, 41.0 ],
+					"patching_rect" : [ 15.0, 240.0, 195.0, 41.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 50.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -171,7 +185,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 15.0, 60.0, 57.0, 20.0 ],
+					"patching_rect" : [ 15.0, 195.0, 57.0, 20.0 ],
 					"text" : "adc~ 1 2"
 				}
 
@@ -251,10 +265,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -269,6 +292,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
 			"obj-2" : [ "input-gain", "input", 0 ],
 			"obj-13::obj-5" : [ "live.button", "live.button", 0 ],
 			"obj-4" : [ "output-gain", "output", 0 ]
@@ -325,6 +349,13 @@
 			}
 , 			{
 				"name" : "264.go!.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.filter~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
