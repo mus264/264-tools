@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 516.0, 114.0, 319.0, 434.0 ],
+		"rect" : [ 516.0, 114.0, 593.0, 434.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -175,30 +175,18 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
-					"bgcolor" : [ 0.2, 0.286275, 0.298039, 0.66 ],
-					"bordercolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
-					"focusbordercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
+					"bgcolor" : [ 0.913725, 0.913725, 0.913725, 0.0 ],
+					"blinkcolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
+					"fgcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"id" : "obj-5",
-					"maxclass" : "live.button",
+					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 30.0, 150.0, 30.0, 30.0 ],
+					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+					"patching_rect" : [ 30.0, 147.0, 35.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 21.0, 30.0, 30.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.button",
-							"parameter_shortname" : "live.button",
-							"parameter_type" : 2,
-							"parameter_mmax" : 1.0,
-							"parameter_enum" : [ "off", "on" ]
-						}
-
-					}
-,
+					"presentation_rect" : [ 25.0, 17.0, 35.0, 35.0 ],
 					"varname" : "#1-go-button"
 				}
 
@@ -346,10 +334,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-5" : [ "live.button", "live.button", 0 ]
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "264.midi-learn.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
