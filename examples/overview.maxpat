@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 807.0, 702.0 ],
+		"rect" : [ 4.0, 44.0, 616.0, 702.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 255.0, 60.0, 60.0 ],
-					"presentation_rect" : [ 166.0, 236.0, 0.0, 0.0 ],
 					"varname" : "264.go![1]"
 				}
 
@@ -50,7 +49,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 30.0, 30.0, 60.0, 60.0 ],
-					"presentation_rect" : [ 142.0, 33.0, 0.0, 0.0 ],
 					"varname" : "264.tog[2]"
 				}
 
