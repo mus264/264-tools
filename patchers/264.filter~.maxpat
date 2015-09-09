@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 46.0, 868.0, 712.0 ],
+		"rect" : [ 0.0, 46.0, 993.0, 704.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -255,7 +255,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Pause",
+					"annotation" : "Bypass the filter and pass on the incoming signal",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.75 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
 					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 0.75 ],
@@ -266,7 +266,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"hint" : "Pause",
+					"hint" : "Bypass the filter and pass on the incoming signal",
 					"id" : "obj-16",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -540,9 +540,11 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Q or resonance of the filter",
 					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 0.0 ],
 					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
 					"contdata" : 1,
+					"hint" : "Q or resonance of the filter",
 					"id" : "obj-59",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -795,9 +797,11 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Centre or cut-off frequency of the filter",
 					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 0.0 ],
 					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
 					"contdata" : 1,
+					"hint" : "Centre or cut-off frequency of the filter",
 					"id" : "obj-110",
 					"maxclass" : "multislider",
 					"numinlets" : 1,

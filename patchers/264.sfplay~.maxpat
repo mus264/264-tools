@@ -970,10 +970,11 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Rate at which the sound file plays back",
 					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
 					"contdata" : 1,
-					"hint" : "Current volume of the sfplay module",
+					"hint" : "Rate at which the sound file plays back",
 					"id" : "obj-64",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -1216,6 +1217,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Current volume of the sfplay module",
 					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
 					"contdata" : 1,
@@ -2601,7 +2603,7 @@
 				"box" : 				{
 					"border" : 0.0,
 					"bordercolor" : [ 0.2, 0.286275, 0.298039, 0.2 ],
-					"hint" : "drop a soundfile onto this module to load it",
+					"hint" : "Drop a soundfile onto this module to load it",
 					"id" : "obj-2",
 					"ignoreclick" : 1,
 					"maxclass" : "dropfile",

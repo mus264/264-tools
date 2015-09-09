@@ -204,9 +204,11 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "How long is sound delayed (in seconds)",
 					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 0.0 ],
 					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
 					"contdata" : 1,
+					"hint" : "How long is sound delayed (in seconds)",
 					"id" : "obj-110",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -221,7 +223,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
 					"thickness" : 4,
-					"varname" : "#1-delay-slider[1]"
+					"varname" : "#1-delay-slider"
 				}
 
 			}
@@ -543,7 +545,7 @@
 					}
 ,
 					"text" : "pattrstorage @changemode 0",
-					"varname" : "u299008869"
+					"varname" : "u846000933"
 				}
 
 			}
@@ -651,14 +653,13 @@
 					"patching_rect" : [ 465.0, 525.0, 59.5, 20.0 ],
 					"restore" : 					{
 						"#1-delay-slider" : [ 0.0 ],
-						"#1-delay-slider[1]" : [ 0.0 ],
 						"#1-feedback-slider" : [ 0.0 ],
 						"#1-filter-freq-slider" : [ 0.0 ],
 						"#1-volume-slider" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u270008918"
+					"varname" : "u167001222"
 				}
 
 			}
@@ -897,9 +898,11 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Cut-off frequency of feedback filter",
 					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
 					"contdata" : 1,
+					"hint" : "Cut-off frequency of feedback filter",
 					"id" : "obj-26",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -974,9 +977,11 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "How much the sound feeds back into the delay system",
 					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
 					"contdata" : 1,
+					"hint" : "How much the sound feeds back into the delay system",
 					"id" : "obj-20",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -1069,8 +1074,7 @@
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
-					"thickness" : 4,
-					"varname" : "#1-delay-slider"
+					"thickness" : 4
 				}
 
 			}
@@ -1144,9 +1148,11 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Volume of the delay module",
 					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
 					"contdata" : 1,
+					"hint" : "Volume of the delay module",
 					"id" : "obj-18",
 					"maxclass" : "multislider",
 					"numinlets" : 1,

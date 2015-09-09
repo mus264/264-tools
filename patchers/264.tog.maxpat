@@ -175,9 +175,11 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Toggle on/off (sends out 1 for on, 0 for off)",
 					"bgcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"bordercolor" : [ 0.301961, 0.337255, 0.403922, 0.0 ],
 					"checkedcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+					"hint" : "Toggle on/off (sends out 1 for on, 0 for off)",
 					"id" : "obj-5",
 					"maxclass" : "toggle",
 					"numinlets" : 1,

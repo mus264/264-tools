@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 516.0, 114.0, 593.0, 434.0 ],
+		"rect" : [ 516.0, 114.0, 301.0, 434.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -175,9 +175,11 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Click to send a “bang” out the outlet",
 					"bgcolor" : [ 0.913725, 0.913725, 0.913725, 0.0 ],
 					"blinkcolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"fgcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+					"hint" : "Click to send a “bang” out the outlet",
 					"id" : "obj-5",
 					"maxclass" : "button",
 					"numinlets" : 1,
