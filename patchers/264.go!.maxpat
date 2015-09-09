@@ -199,7 +199,7 @@
 
 					}
 ,
-					"varname" : "#1-nanotog"
+					"varname" : "#1-go-button"
 				}
 
 			}
