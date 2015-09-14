@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 616.0, 702.0 ],
+		"rect" : [ 4.0, 44.0, 939.0, 702.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,12 +29,110 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "bpatcher",
+					"name" : "264.tog.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 840.0, 255.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 839.0, 253.0, 0.0, 0.0 ],
+					"varname" : "264.tog[4]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"channels" : 1,
+					"id" : "obj-17",
+					"maxclass" : "live.gain~",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"orientation" : 1,
+					"outlettype" : [ "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 615.0, 555.0, 195.0, 41.0 ],
+					"presentation_rect" : [ 392.0, 591.0, 50.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "output-gain[1]",
+							"parameter_shortname" : "output",
+							"parameter_type" : 0,
+							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "output-gain[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "bpatcher",
+					"name" : "264.grains~.maxpat",
+					"numinlets" : 9,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 615.0, 345.0, 195.0, 195.0 ],
+					"varname" : "264.grains~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "bpatcher",
+					"name" : "264.go!.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 690.0, 30.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 693.0, 29.0, 0.0, 0.0 ],
+					"varname" : "264.go![2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "bpatcher",
+					"name" : "264.tog.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 615.0, 30.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 618.0, 29.0, 0.0, 0.0 ],
+					"varname" : "264.tog[3]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "bpatcher",
+					"name" : "264.sfplay~.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 615.0, 120.0, 195.0, 195.0 ],
+					"presentation_rect" : [ 618.0, 119.0, 0.0, 0.0 ],
+					"varname" : "264.sfplay~[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "bpatcher",
 					"name" : "264.go!.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 165.0, 255.0, 60.0, 60.0 ],
 					"varname" : "264.go![1]"
 				}
@@ -87,7 +185,7 @@
 					"name" : "264.go!.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 375.0, 30.0, 60.0, 60.0 ],
 					"varname" : "264.go!"
 				}
@@ -127,7 +225,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 645.0, 86.5, 20.0 ],
+					"patching_rect" : [ 30.0, 675.0, 86.5, 20.0 ],
 					"text" : "dac~ 1 2"
 				}
 
@@ -141,7 +239,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 30.0, 570.0, 289.0, 48.0 ],
+					"patching_rect" : [ 30.0, 615.0, 289.0, 48.0 ],
 					"presentation_rect" : [ 17.0, 318.0, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -282,6 +380,51 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 8 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -334,13 +477,33 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-14::obj-5" : [ "live.button[1]", "live.button", 0 ],
+			"obj-16::obj-138" : [ "0-pitch-variance", "var.", 0 ],
+			"obj-16::obj-22" : [ "0-rate-variance", "var.", 0 ],
 			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
+			"obj-17" : [ "output-gain[1]", "output", 0 ],
 			"obj-4" : [ "output-gain", "output", 0 ],
-			"obj-13::obj-5" : [ "live.button", "live.button", 0 ]
+			"obj-16::obj-95" : [ "0-size-variance", "var.", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -405,6 +568,17 @@
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "264.grains~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "disis_munger~.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
