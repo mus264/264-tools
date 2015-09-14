@@ -45,6 +45,10 @@ The toolkit currently includes the following modules, which should be loaded in 
 
 These modules have been tested with Max 6 and 7. They will not work with Max/MSP 5 or lower. Please report bugs under the issues tab above.
 
+## Acknowledgments
+
+`264.grains~` relies on the `disis_munger~` granulation external, which has a substantial ancestry including work by Ivica Ico Bukvic, Ji-Sun Kim, Dan Trueman, and R. Luke DuBois.
+
 ## License
 
 This software is free to use, modify, and redistribute under a [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.txt).
