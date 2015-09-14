@@ -1032,7 +1032,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "@loop", 1, "@file", 3 ],
+									"args" : [ "@loop", 1, "@file", "cello-f2.aif" ],
 									"id" : "obj-2",
 									"maxclass" : "bpatcher",
 									"name" : "demosound.maxpat",
