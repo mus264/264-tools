@@ -41,6 +41,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 127.5, 34.0, 62.0, 18.0 ],
 					"text" : "randomize",
+					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1011,8 +1012,10 @@
 			}
 , 			{
 				"box" : 				{
+					"activeneedlecolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"annotation" : "grain pitch randomisation (%)",
 					"appearance" : 1,
+					"focusbordercolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"hint" : "grain pitch randomisation (%)",
 					"id" : "obj-138",
 					"maxclass" : "live.dial",
@@ -1042,6 +1045,7 @@
 ,
 					"showname" : 0,
 					"shownumber" : 0,
+					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"varname" : "#1-pitch-variance"
 				}
 
@@ -1474,8 +1478,10 @@
 			}
 , 			{
 				"box" : 				{
+					"activeneedlecolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"annotation" : "grain size randomisation (%)",
 					"appearance" : 1,
+					"focusbordercolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"hint" : "grain size randomisation (%)",
 					"id" : "obj-95",
 					"maxclass" : "live.dial",
@@ -1505,6 +1511,7 @@
 ,
 					"showname" : 0,
 					"shownumber" : 0,
+					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"varname" : "#1-size-variance"
 				}
 
@@ -2101,8 +2108,10 @@
 			}
 , 			{
 				"box" : 				{
+					"activeneedlecolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"annotation" : "grain rate randomisation (%)",
 					"appearance" : 1,
+					"focusbordercolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"hint" : "grain rate randomisation (%)",
 					"id" : "obj-22",
 					"maxclass" : "live.dial",
@@ -2132,6 +2141,7 @@
 ,
 					"showname" : 0,
 					"shownumber" : 0,
+					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"varname" : "#1-rate-variance"
 				}
 
