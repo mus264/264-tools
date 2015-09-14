@@ -1066,7 +1066,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "front" ],
-									"patching_rect" : [ 330.0, 510.0, 41.0, 20.0 ],
+									"patching_rect" : [ 375.0, 532.0, 41.0, 20.0 ],
 									"text" : "t front"
 								}
 
@@ -1081,7 +1081,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 330.0, 540.0, 69.0, 20.0 ],
+									"patching_rect" : [ 375.0, 555.0, 69.0, 20.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -1096,7 +1096,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.0, 480.0, 25.0, 25.0 ]
+									"patching_rect" : [ 375.0, 504.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1155,8 +1155,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 225.0, 200.0, 208.0 ],
-									"text" : "      264.grains~ cuts incoming\n      sound into small pieces or “grains”. These are then combined to resynthesise the audio input.\n\nThe rate slider permits control over how often a grain is triggered; the size slider controls the length of each grain; while the pitch slide allows transposition of the original audio.\n\nThe 3 “randomize” dials allow you to introduce instability into these parameters.",
+									"patching_rect" : [ 240.0, 225.0, 195.0, 208.0 ],
+									"text" : "      264.grains~ cuts incoming\n      sound into small pieces or “grains”. These are then combined to resynthesise the audio input.\n\nThe rate slider permits control over how often a grain is triggered; the size slider controls the length of each grain; while the pitch slide allows transposition of the original audio.\n\nThe three “randomize” dials allow you to introduce instability into these parameters.",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
 
@@ -1332,8 +1332,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 955.0, 255.0, 236.0, 141.0 ],
-					"text" : "Almost all Max objects have “inlets” and “outlets” — the portals which allow information to be received and transmitted that we connect with patch “cords”.\n\nTo make your life a little easier, 264 Tools modules colour code their inlets.\n\n    green = audio\n    orange = control messages",
+					"patching_rect" : [ 955.0, 255.0, 233.0, 141.0 ],
+					"text" : "Almost all Max objects have “inlets” and “outlets” — the portals which allow information to be received and transmitted that we connect with patch “cords”.\n\nTo make your life a little easier, 264 Tools modules colour code their inlets & outlets.\n\n    green = audio\n    orange = control messages",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
@@ -1576,8 +1576,8 @@
 					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgoveroncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.696649, 0.791317, 0.999251, 1.0 ],
-					"borderoncolor" : [ 0.696649, 0.791317, 0.999251, 1.0 ],
+					"bordercolor" : [ 0.698039, 0.792157, 1.0, 0.8 ],
+					"borderoncolor" : [ 0.698039, 0.792157, 1.0, 0.8 ],
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
