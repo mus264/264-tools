@@ -790,7 +790,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "volume (0–127 / 0.–1.)",
+					"comment" : "signal to be delayed",
 					"id" : "obj-40",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
