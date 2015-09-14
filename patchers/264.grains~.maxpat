@@ -385,7 +385,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Bypass the filter and pass on the incoming signal",
+					"annotation" : "Bypass the granulator and pass on the incoming signal",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.75 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
 					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 0.75 ],
@@ -396,7 +396,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"hint" : "Bypass the filter and pass on the incoming signal",
+					"hint" : "Bypass the granulator and pass on the incoming signal",
 					"id" : "obj-16",
 					"maxclass" : "textbutton",
 					"mode" : 1,
