@@ -851,7 +851,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 154.0, 85.0, 450.0, 668.0 ],
+						"rect" : [ 154.0, 85.0, 450.0, 677.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -890,7 +890,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 105.0, 592.5, 315.0, 30.0 ],
+									"patching_rect" : [ 105.0, 607.5, 315.0, 30.0 ],
 									"rounded" : 0.0,
 									"text" : "Listen to music chosen by improviser Richard Scott",
 									"textcolor" : [ 0.752941, 0.14902, 0.14902, 1.0 ],
@@ -911,7 +911,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 105.0, 629.0, 195.0, 58.0 ],
+									"patching_rect" : [ 105.0, 644.0, 195.0, 58.0 ],
 									"text" : ";\rmax launchbrowser http://chrisswithinbank.net/2015/09/improvisers-listen-1-richard-scott/"
 								}
 
@@ -926,8 +926,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 597.5, 75.0, 20.0 ],
-									"presentation_rect" : [ 27.0, 568.0, 0.0, 0.0 ],
+									"patching_rect" : [ 15.0, 612.5, 75.0, 20.0 ],
 									"text" : "B O N U S",
 									"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
 									"textjustification" : 1
@@ -1230,7 +1229,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 570.0, 75.0, 75.0 ],
+									"patching_rect" : [ 15.0, 585.0, 75.0, 75.0 ],
 									"shape" : 1
 								}
 
@@ -1242,7 +1241,8 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 52.0, 570.0, 385.0, 75.0 ]
+									"patching_rect" : [ 52.0, 585.0, 385.0, 75.0 ],
+									"rounded" : 4
 								}
 
 							}
