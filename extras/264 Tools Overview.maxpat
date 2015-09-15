@@ -851,7 +851,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 95.0, 107.0, 449.0, 580.0 ],
+						"rect" : [ 154.0, 85.0, 450.0, 668.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -873,6 +873,68 @@
 						"tags" : "",
 						"title" : "Week 2, 9/15",
 						"boxes" : [ 							{
+								"box" : 								{
+									"bgcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+									"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.15 ],
+									"bgovercolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+									"bgoveroncolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+									"border" : 0,
+									"bordercolor" : [ 0.6, 0.6, 0.6, 0.0 ],
+									"borderoncolor" : [ 0.4, 0.4, 0.4, 0.0 ],
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 105.0, 592.5, 315.0, 30.0 ],
+									"rounded" : 0.0,
+									"text" : "Listen to music chosen by improviser Richard Scott",
+									"textcolor" : [ 0.752941, 0.14902, 0.14902, 1.0 ],
+									"textoncolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+									"textovercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
+									"underline" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-18",
+									"linecount" : 4,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 105.0, 629.0, 195.0, 58.0 ],
+									"text" : ";\rmax launchbrowser http://chrisswithinbank.net/2015/09/improvisers-listen-1-richard-scott/"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-9",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 597.5, 75.0, 20.0 ],
+									"presentation_rect" : [ 27.0, 568.0, 0.0, 0.0 ],
+									"text" : "B O N U S",
+									"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+									"textjustification" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"border" : 0,
@@ -1155,9 +1217,32 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 225.0, 195.0, 208.0 ],
+									"patching_rect" : [ 240.0, 225.0, 197.0, 208.0 ],
 									"text" : "      264.grains~ cuts incoming\n      sound into small pieces or “grains”. These are then combined to resynthesise the audio input.\n\nThe rate slider permits control over how often a grain is triggered; the size slider controls the length of each grain; while the pitch slide allows transposition of the original audio.\n\nThe three “randomize” dials allow you to introduce instability into these parameters.",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+									"id" : "obj-10",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 570.0, 75.0, 75.0 ],
+									"shape" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+									"id" : "obj-22",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 52.0, 570.0, 385.0, 75.0 ]
 								}
 
 							}
@@ -1204,6 +1289,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-21", 0 ]
 								}
 
 							}
@@ -1332,7 +1426,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 955.0, 255.0, 233.0, 141.0 ],
+					"patching_rect" : [ 955.0, 255.0, 236.0, 141.0 ],
 					"text" : "Almost all Max objects have “inlets” and “outlets” — the portals which allow information to be received and transmitted that we connect with patch “cords”.\n\nTo make your life a little easier, 264 Tools modules colour code their inlets & outlets.\n\n    green = audio\n    orange = control messages",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
@@ -1737,7 +1831,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.0, 585.0, 454.0, 48.0 ],
-					"presentation_rect" : [ 17.0, 318.0, 50.0, 48.0 ],
+					"presentation_rect" : [ 17.0, 318.0, 50.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "output-gain",
@@ -2033,16 +2127,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
-			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
 			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
+			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
 			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
+			"obj-2" : [ "input-gain", "input", 0 ],
+			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
 			"obj-4" : [ "output-gain", "output", 0 ],
-			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ]
+			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
+			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
+			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
