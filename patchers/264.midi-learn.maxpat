@@ -76,7 +76,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 180.0, 105.0, 93.0, 20.0 ],
-									"presentation_rect" : [ 153.0, 108.0, 0.0, 0.0 ],
 									"text" : "to arrow panel",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -322,7 +321,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 360.0, 525.0, 225.0, 33.0 ],
-					"text" : "Chris Swithinbank, based on Hans Tutschku’s [ht.one.delay]",
+					"text" : "Chris Swithinbank, based on Hans Tutschku’s [ht.midi-learn]",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
@@ -461,7 +460,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u259006990"
+					"varname" : "u171004758"
 				}
 
 			}
