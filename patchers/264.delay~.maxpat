@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 868.0, 684.0 ],
+		"rect" : [ 0.0, 44.0, 868.0, 676.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -495,8 +495,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 555.0, 98.0, 20.0 ],
-					"text" : "264.pattr-control"
+					"patching_rect" : [ 300.0, 555.0, 205.0, 20.0 ],
+					"text" : "264.pattr-control #1-264del~ params"
 				}
 
 			}
@@ -537,19 +537,20 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-51",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 585.0, 169.0, 20.0 ],
+					"patching_rect" : [ 300.0, 585.0, 224.5, 33.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 730, 336, 2010, 1088 ],
+						"client_rect" : [ 0, 44, 1280, 796 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 583, 69, 1204, 530 ]
 					}
 ,
-					"text" : "pattrstorage @changemode 0",
-					"varname" : "u846000933"
+					"text" : "pattrstorage #1-264del~ @changemode 0 @greedy 2",
+					"varname" : "#1-264del~"
 				}
 
 			}
@@ -663,7 +664,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u167001222"
+					"varname" : "u251001763"
 				}
 
 			}
