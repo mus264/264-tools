@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 290.0, 178.0, 731.0, 294.0 ],
+		"rect" : [ 337.0, 111.0, 750.0, 294.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -82,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 180.0, 32.5, 20.0 ],
+					"patching_rect" : [ 270.0, 180.0, 32.5, 20.0 ],
 					"text" : "gate"
 				}
 
@@ -116,7 +116,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Store preset (bang)",
 					"id" : "obj-12",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -151,7 +151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 388.5, 90.0, 34.0, 20.0 ],
+					"patching_rect" : [ 388.5, 90.0, 166.5, 20.0 ],
 					"text" : "t b b"
 				}
 
@@ -166,8 +166,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 298.5, 60.0, 77.0, 20.0 ],
-					"text" : "r save_bang"
+					"patching_rect" : [ 283.5, 60.0, 91.0, 20.0 ],
+					"text" : "r #2-save-bang"
 				}
 
 			}
@@ -209,7 +209,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 298.5, 150.0, 24.0, 20.0 ],
+					"patching_rect" : [ 283.5, 150.0, 24.0, 20.0 ],
 					"text" : "t b"
 				}
 
@@ -235,8 +235,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.0, 60.0, 123.0, 20.0 ],
-					"text" : "r preset_store_action"
+					"patching_rect" : [ 420.0, 60.0, 135.0, 20.0 ],
+					"text" : "r #2-preset-store-action"
 				}
 
 			}
@@ -265,8 +265,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 583.75, 60.0, 132.0, 20.0 ],
-					"text" : "r preset_store_number"
+					"patching_rect" : [ 583.75, 60.0, 144.0, 20.0 ],
+					"text" : "r #2-preset-store-number"
 				}
 
 			}
@@ -280,8 +280,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.5, 60.0, 134.0, 20.0 ],
-					"text" : "r preset_recall_number"
+					"patching_rect" : [ 28.5, 60.0, 146.0, 20.0 ],
+					"text" : "r #2-preset-recall-number"
 				}
 
 			}
@@ -295,7 +295,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 210.0, 154.0, 20.0 ],
+					"patching_rect" : [ 150.0, 210.0, 149.0, 20.0 ],
 					"text" : "264.pattr-read-write #1 #2"
 				}
 
@@ -339,7 +339,7 @@
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 24.5, 51.5, 294.5, 51.5 ],
+					"midpoints" : [ 24.5, 51.5, 279.5, 51.5 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -503,7 +503,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "264.pattr-read-write.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
