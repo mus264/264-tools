@@ -40,6 +40,7 @@ The toolkit currently includes the following modules, which should be loaded in 
 * `264.midi-learn` — a utility permitting quick linking of inputs with a MIDI controller
 * `264.tog` — a MIDI-ready toggle switch
 * `264.go!` — a MIDI-ready button
+* `264.midi-presets` — manage mapping presets between your MIDI controller and `264.midi-learn` objects
 
 ## Compatibility
 
