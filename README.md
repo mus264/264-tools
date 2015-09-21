@@ -49,6 +49,8 @@ These modules have been tested with Max 6 and 7. They will not work with Max/MSP
 
 `264.grains~` relies on the `disis_munger~` granulation external, which has a substantial ancestry including work by Ivica Ico Bukvic, Ji-Sun Kim, Dan Trueman, and R. Luke DuBois.
 
+`264.midi-presets` and `264.param-presets` rely on [Patrick Delges](http://www.crfmw.be/max/)’s `filesys` Java class to manage file locations.
+
 ## License
 
 This software is free to use, modify, and redistribute under a [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.txt).
