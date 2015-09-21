@@ -144,6 +144,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-del-ffreq" ],
 					"id" : "obj-37",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -153,12 +154,13 @@
 					"patching_rect" : [ 600.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 95.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[3]"
+					"varname" : "delay-filter-frequency"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-del-fbck" ],
 					"id" : "obj-36",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -168,12 +170,13 @@
 					"patching_rect" : [ 465.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 74.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[2]"
+					"varname" : "delay-feedback"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-del-time" ],
 					"id" : "obj-25",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -183,12 +186,13 @@
 					"patching_rect" : [ 330.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 53.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[1]"
+					"varname" : "delay-time"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-del-volume" ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -198,7 +202,7 @@
 					"patching_rect" : [ 195.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 32.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn"
+					"varname" : "delay-volume"
 				}
 
 			}

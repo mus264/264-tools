@@ -760,6 +760,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-sfp-volume" ],
 					"id" : "obj-67",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -769,12 +770,13 @@
 					"patching_rect" : [ 630.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 43.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[1]"
+					"varname" : "playback-volume"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-sfp-speed" ],
 					"id" : "obj-66",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -784,7 +786,7 @@
 					"patching_rect" : [ 795.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.5, 64.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn"
+					"varname" : "playback-speed"
 				}
 
 			}
@@ -3500,6 +3502,20 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "264.midi-learn.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.pattr-control.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.pattr-read-write.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

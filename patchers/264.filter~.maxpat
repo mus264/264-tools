@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 46.0, 993.0, 704.0 ],
+		"rect" : [ 0.0, 46.0, 991.0, 704.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -525,6 +525,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-fltr-Q" ],
 					"id" : "obj-58",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -534,7 +535,7 @@
 					"patching_rect" : [ 495.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 53.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[2]"
+					"varname" : "filter-Q"
 				}
 
 			}
@@ -782,6 +783,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-fltr-frequency" ],
 					"id" : "obj-25",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -791,7 +793,7 @@
 					"patching_rect" : [ 270.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 32.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[1]"
+					"varname" : "filter-frequency"
 				}
 
 			}
@@ -1916,6 +1918,20 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "264.midi-learn.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.pattr-control.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.pattr-read-write.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

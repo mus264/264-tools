@@ -794,6 +794,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-grains-volume" ],
 					"id" : "obj-159",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -803,7 +804,7 @@
 					"patching_rect" : [ 1230.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 116.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[7]"
+					"varname" : "grain-volume"
 				}
 
 			}
@@ -1111,6 +1112,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-grains-pitch" ],
 					"id" : "obj-127",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -1120,7 +1122,7 @@
 					"patching_rect" : [ 930.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 95.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[5]"
+					"varname" : "grain-pitch"
 				}
 
 			}
@@ -1234,6 +1236,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-grains-pitch-v" ],
 					"id" : "obj-137",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -1243,7 +1246,7 @@
 					"patching_rect" : [ 1080.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 136.0, 95.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[6]"
+					"varname" : "grain-pitch-variation"
 				}
 
 			}
@@ -1495,6 +1498,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-grains-size" ],
 					"id" : "obj-82",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -1504,7 +1508,7 @@
 					"patching_rect" : [ 600.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 74.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[3]"
+					"varname" : "grain-size"
 				}
 
 			}
@@ -1643,6 +1647,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-grains-size-v" ],
 					"id" : "obj-94",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -1652,7 +1657,7 @@
 					"patching_rect" : [ 765.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 136.0, 74.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[4]"
+					"varname" : "grain-size-variation"
 				}
 
 			}
@@ -1904,6 +1909,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-grains-rate" ],
 					"id" : "obj-25",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -1913,7 +1919,7 @@
 					"patching_rect" : [ 270.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 53.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[1]"
+					"varname" : "grain-rate"
 				}
 
 			}
@@ -2273,6 +2279,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1-grains-rate-v" ],
 					"id" : "obj-26",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -2282,7 +2289,7 @@
 					"patching_rect" : [ 435.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 136.0, 53.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[2]"
+					"varname" : "grain-rate-variation"
 				}
 
 			}
@@ -3616,13 +3623,27 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-95" : [ "#1-size-variance", "var.", 0 ],
+			"obj-22" : [ "#1-rate-variance", "var.", 0 ],
 			"obj-138" : [ "#1-pitch-variance", "var.", 0 ],
-			"obj-22" : [ "#1-rate-variance", "var.", 0 ]
+			"obj-95" : [ "#1-size-variance", "var.", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "264.midi-learn.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.pattr-control.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.pattr-read-write.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
