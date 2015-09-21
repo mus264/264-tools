@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 939.0, 702.0 ],
+		"rect" : [ 4.0, 44.0, 1275.0, 702.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "midi-presets-module" ],
+					"id" : "obj-19",
+					"maxclass" : "bpatcher",
+					"name" : "264.midi-presets.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 0,
+					"patching_rect" : [ 975.0, 120.0, 195.0, 195.0 ],
+					"varname" : "264.midi-presets"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "bypass-filter-1" ],
 					"id" : "obj-18",
 					"maxclass" : "bpatcher",
 					"name" : "264.tog.maxpat",
@@ -36,7 +50,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 840.0, 255.0, 60.0, 60.0 ],
-					"presentation_rect" : [ 839.0, 253.0, 0.0, 0.0 ],
 					"varname" : "264.tog[4]"
 				}
 
@@ -52,7 +65,7 @@
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 615.0, 555.0, 195.0, 41.0 ],
-					"presentation_rect" : [ 392.0, 591.0, 50.0, 48.0 ],
+					"presentation_rect" : [ 392.0, 591.0, 50.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "output-gain[1]",
@@ -72,6 +85,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "overview-grains" ],
 					"id" : "obj-16",
 					"maxclass" : "bpatcher",
 					"name" : "264.grains~.maxpat",
@@ -85,6 +99,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "sfplay-pause-2" ],
 					"id" : "obj-8",
 					"maxclass" : "bpatcher",
 					"name" : "264.go!.maxpat",
@@ -92,13 +107,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 690.0, 30.0, 60.0, 60.0 ],
-					"presentation_rect" : [ 693.0, 29.0, 0.0, 0.0 ],
 					"varname" : "264.go![2]"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "sfplay-start-stop-2" ],
 					"id" : "obj-9",
 					"maxclass" : "bpatcher",
 					"name" : "264.tog.maxpat",
@@ -106,13 +121,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 615.0, 30.0, 60.0, 60.0 ],
-					"presentation_rect" : [ 618.0, 29.0, 0.0, 0.0 ],
 					"varname" : "264.tog[3]"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "sfplay-2" ],
 					"id" : "obj-15",
 					"maxclass" : "bpatcher",
 					"name" : "264.sfplay~.maxpat",
@@ -120,13 +135,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 615.0, 120.0, 195.0, 195.0 ],
-					"presentation_rect" : [ 618.0, 119.0, 0.0, 0.0 ],
 					"varname" : "264.sfplay~[1]"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "clear-delay-button" ],
 					"id" : "obj-14",
 					"maxclass" : "bpatcher",
 					"name" : "264.go!.maxpat",
@@ -140,6 +155,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "adc-toggle" ],
 					"id" : "obj-10",
 					"maxclass" : "bpatcher",
 					"name" : "264.tog.maxpat",
@@ -153,6 +169,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "bypass-filter-1" ],
 					"id" : "obj-11",
 					"maxclass" : "bpatcher",
 					"name" : "264.tog.maxpat",
@@ -180,6 +197,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "sfplay-pause-1" ],
 					"id" : "obj-13",
 					"maxclass" : "bpatcher",
 					"name" : "264.go!.maxpat",
@@ -193,6 +211,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "sfplay-start-stop-1" ],
 					"id" : "obj-12",
 					"maxclass" : "bpatcher",
 					"name" : "264.tog.maxpat",
@@ -206,6 +225,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "sfplay-1" ],
 					"id" : "obj-6",
 					"maxclass" : "bpatcher",
 					"name" : "264.sfplay~.maxpat",
@@ -260,6 +280,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "delay-module" ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "264.delay~.maxpat",
@@ -497,13 +518,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-16::obj-138" : [ "0-pitch-variance", "var.", 0 ],
-			"obj-16::obj-22" : [ "0-rate-variance", "var.", 0 ],
-			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
 			"obj-17" : [ "output-gain[1]", "output", 0 ],
+			"obj-16::obj-22" : [ "overview-grains-rate-variance", "var.", 0 ],
+			"obj-16::obj-138" : [ "overview-grains-pitch-variance", "var.", 0 ],
 			"obj-4" : [ "output-gain", "output", 0 ],
-			"obj-16::obj-95" : [ "0-size-variance", "var.", 0 ]
+			"obj-2" : [ "input-gain", "input", 0 ],
+			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
+			"obj-16::obj-95" : [ "overview-grains-size-variance", "var.", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -542,9 +563,51 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "delay-module-del-volume-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delay-module-del-time-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delay-module-del-fbck-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delay-module-del-ffreq-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "264.sfplay~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sfplay-1-sfp-speed-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sfplay-1-sfp-volume-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -556,9 +619,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "sfplay-start-stop-1-tog-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "264.go!.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sfplay-pause-1-bang-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -570,10 +647,150 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "overview-filter-fltr-frequency-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-filter-fltr-Q-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bypass-filter-1-tog-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "adc-toggle-tog-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "clear-delay-button-bang-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sfplay-2-sfp-speed-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sfplay-2-sfp-volume-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sfplay-start-stop-2-tog-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sfplay-pause-2-bang-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "264.grains~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-grains-grains-rate-v-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-grains-grains-rate-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-grains-grains-size-v-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-grains-grains-size-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-grains-grains-pitch-v-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-grains-grains-pitch-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-grains-grains-volume-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.midi-presets.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "midi-presets-module-recall-num-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "midi-presets-module-store-num-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
