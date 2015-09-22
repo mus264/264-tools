@@ -34,6 +34,7 @@ The toolkit currently includes the following modules, which should be loaded in 
 * `264.sfplay~` — a simple sound file player
 * `264.filter~` — a highpass, lowpass or bandpass filter
 * `264.grains~` — a live audio granulation module
+* `264.envelope~` — an envelope follower compatible with other modules
 
 ### Control
 
