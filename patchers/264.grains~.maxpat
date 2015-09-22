@@ -2273,7 +2273,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 75.0, 510.0, 1174.0, 20.0 ],
-					"text" : "disis_munger~ 30000 2 30 #1-munger"
+					"text" : "munger~ 30000 2 30 #1-munger"
 				}
 
 			}
@@ -3623,9 +3623,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-22" : [ "#1-rate-variance", "var.", 0 ],
+			"obj-95" : [ "#1-size-variance", "var.", 0 ],
 			"obj-138" : [ "#1-pitch-variance", "var.", 0 ],
-			"obj-95" : [ "#1-size-variance", "var.", 0 ]
+			"obj-22" : [ "#1-rate-variance", "var.", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3650,7 +3650,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "disis_munger~.mxo",
+				"name" : "munger~.mxo",
 				"type" : "iLaX"
 			}
  ]
