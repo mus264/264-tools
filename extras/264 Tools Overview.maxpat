@@ -688,7 +688,6 @@
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 239.0, 423.0, 20.0, 20.0 ],
-									"presentation_rect" : [ 244.0, 422.0, 0.0, 0.0 ],
 									"rounded" : 60.0,
 									"text" : "4",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -702,12 +701,11 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-22",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 420.0, 180.0, 60.0 ],
-									"presentation_rect" : [ 255.0, 363.0, 0.0, 0.0 ],
+									"patching_rect" : [ 240.0, 420.0, 197.0, 47.0 ],
 									"text" : "      Try comparing the filtered\n      sound and the unfiltered sound by toggling “Bypass” on/off.",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -874,7 +872,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 275.0, 150.0, 145.0, 20.0 ],
+									"patching_rect" : [ 275.0, 150.0, 123.0, 20.0 ],
 									"text" : "Start playing a sound",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -964,12 +962,12 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-6",
-									"linecount" : 13,
+									"linecount" : 11,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 210.0, 180.0, 181.0 ],
-									"text" : "      264.envelope~ converts an\n      audio signal into an simplified version of its amplitude envelope, which can then be used to control parameters of other 264 Tools modules.\n\nHere, the inverted envelope is controlling the frequency of the 264.filter~ module: when the audio gets louder, the filter swoops lower.",
+									"patching_rect" : [ 240.0, 210.0, 196.0, 154.0 ],
+									"text" : "      264.envelope~ converts an\n      audio signal into a simplified version of its amplitude envelope, which can then be used to control parameters of other 264 Tools modules.\n\nHere, the inverted envelope is controlling the frequency of the 264.filter~ module: when the audio gets louder, the filter swoops lower.",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
 
