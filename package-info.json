@@ -15,5 +15,5 @@
     "link_win32": "https://github.com/mus264/264-tools/archive/v0.3.0.zip",
     "link_win64": "https://github.com/mus264/264-tools/archive/v0.3.0.zip",
     "relative_path": "None",
-    "alert_text": "You have successfully installed (or updated) 264 Tools. \n\nWelcome to v0.3.0! \n\nIf you’re new to the tools, check out \n‘264 Tools Overview’ in the Extras menu. \n\nIf you have a patch open using 264 Tools,\n please close and re-open it now."
+    "alert_text": "You have successfully installed (or updated) 264 Tools. \n\nWelcome to v0.3.0! \n\nIf you’re new to the tools, check out ‘264 Tools \nOverview’ in the Extras menu. \n\nIf you have a patch open using 264 Tools, please close \nand re-open it now."
 }
