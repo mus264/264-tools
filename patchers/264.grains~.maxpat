@@ -926,8 +926,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 450.0, 150.0, 31.0 ],
-					"text" : "voices 30, ramptime 70, minsize 5, verbose 0"
+					"patching_rect" : [ 75.0, 450.0, 139.0, 31.0 ],
+					"text" : "voices 30, ramptime 70, minsize 5"
 				}
 
 			}
@@ -3623,9 +3623,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-95" : [ "#1-size-variance", "var.", 0 ],
+			"obj-22" : [ "#1-rate-variance", "var.", 0 ],
 			"obj-138" : [ "#1-pitch-variance", "var.", 0 ],
-			"obj-22" : [ "#1-rate-variance", "var.", 0 ]
+			"obj-95" : [ "#1-size-variance", "var.", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3643,10 +3643,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.pattr-read-write.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
