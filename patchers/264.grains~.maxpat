@@ -921,13 +921,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-148",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 450.0, 139.0, 31.0 ],
-					"text" : "voices 30, ramptime 70, minsize 5"
+					"patching_rect" : [ 75.0, 450.0, 272.0, 18.0 ],
+					"text" : "maxvoices 30, voices 30, ramptime 70, minsize 5"
 				}
 
 			}
@@ -2273,7 +2272,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 75.0, 510.0, 1174.0, 20.0 ],
-					"text" : "munger~ 30000 2 30 #1-munger"
+					"text" : "munger~ 30000 2"
 				}
 
 			}
@@ -3623,9 +3622,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-22" : [ "#1-rate-variance", "var.", 0 ],
 			"obj-138" : [ "#1-pitch-variance", "var.", 0 ],
-			"obj-95" : [ "#1-size-variance", "var.", 0 ]
+			"obj-95" : [ "#1-size-variance", "var.", 0 ],
+			"obj-22" : [ "#1-rate-variance", "var.", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
