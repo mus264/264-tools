@@ -48,7 +48,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-78",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 300.0, 585.0, 177.0, 20.0 ],
@@ -112,7 +112,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u772009102"
+					"varname" : "u909009979"
 				}
 
 			}
@@ -385,7 +385,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 390.0, 315.0, 50.0, 18.0 ],
+					"patching_rect" : [ 345.0, 315.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -7.0, 1.0, 35.0, 18.0 ],
 					"text" : " ",
@@ -495,7 +495,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.0, 285.0, 96.0, 20.0 ],
+					"patching_rect" : [ 465.0, 285.0, 96.0, 20.0 ],
 					"text" : "loadmess set \" \""
 				}
 
@@ -509,7 +509,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 285.0, 109.0, 20.0 ],
+					"patching_rect" : [ 345.0, 285.0, 109.0, 20.0 ],
 					"text" : "sprintf set %ld:%ld"
 				}
 
@@ -523,7 +523,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 255.0, 50.0, 20.0 ],
+					"patching_rect" : [ 345.0, 255.0, 50.0, 20.0 ],
 					"text" : "pak 0 0"
 				}
 
@@ -538,7 +538,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 285.0, 65.0, 20.0 ],
+					"patching_rect" : [ 225.0, 285.0, 65.0, 20.0 ],
 					"text" : "r midi-port"
 				}
 
@@ -553,7 +553,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 150.0, 375.0, 60.0, 20.0 ],
+					"patching_rect" : [ 135.0, 375.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -567,7 +567,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 405.0, 32.5, 18.0 ],
+					"patching_rect" : [ 120.0, 405.0, 32.5, 18.0 ],
 					"text" : "1"
 				}
 
@@ -586,29 +586,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-4",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 255.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-5",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 255.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
+					"comment" : "Set MIDI channel (int)",
 					"id" : "obj-6",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -620,13 +598,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Set controller number (int)",
 					"id" : "obj-8",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 195.0, 25.0, 25.0 ]
+					"patching_rect" : [ 210.0, 195.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -640,7 +618,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 345.0, 60.0, 20.0 ],
+					"patching_rect" : [ 120.0, 345.0, 60.0, 20.0 ],
 					"text" : "r initbang"
 				}
 
@@ -675,7 +653,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 195.0, 225.0, 37.0, 20.0 ],
+					"patching_rect" : [ 210.0, 225.0, 37.0, 20.0 ],
 					"triscale" : 0.9,
 					"varname" : "#1-264ml-num"
 				}
@@ -691,7 +669,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 195.0, 64.0, 20.0 ],
+					"patching_rect" : [ 240.0, 195.0, 49.0, 20.0 ],
 					"text" : "gate"
 				}
 
@@ -785,7 +763,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 255.0, 74.0, 20.0 ],
+					"patching_rect" : [ 210.0, 255.0, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -800,7 +778,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 225.0, 315.0, 64.0, 20.0 ],
+					"patching_rect" : [ 210.0, 315.0, 64.0, 20.0 ],
 					"text" : "ctlin 15"
 				}
 
@@ -817,7 +795,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 225.0, 345.0, 37.0, 20.0 ],
+					"patching_rect" : [ 210.0, 345.0, 37.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -834,7 +812,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 270.0, 345.0, 37.0, 20.0 ],
+					"patching_rect" : [ 255.0, 345.0, 37.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -849,7 +827,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 270.0, 375.0, 33.0, 20.0 ],
+					"patching_rect" : [ 255.0, 375.0, 33.0, 20.0 ],
 					"text" : "=="
 				}
 
@@ -862,7 +840,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 270.0, 405.0, 20.0, 20.0 ]
+					"patching_rect" : [ 255.0, 405.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -876,7 +854,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 435.0, 34.0, 20.0 ],
+					"patching_rect" : [ 210.0, 435.0, 34.0, 20.0 ],
 					"text" : "gate"
 				}
 
@@ -986,7 +964,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Connected MIDI controller value (int)",
 					"id" : "obj-34",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -1058,16 +1036,7 @@
 					"destination" : [ "obj-24", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 339.5, 372.5, 293.5, 372.5 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"midpoints" : [ 339.5, 372.5, 278.5, 372.5 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1093,15 +1062,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
@@ -1348,7 +1308,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 99.5, 191.0, 234.5, 191.0 ],
+					"midpoints" : [ 99.5, 191.0, 249.5, 191.0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -1489,10 +1449,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.pattr-read-write.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]
