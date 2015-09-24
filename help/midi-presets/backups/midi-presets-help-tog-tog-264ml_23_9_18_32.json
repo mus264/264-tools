@@ -1,0 +1,36 @@
+{
+	"pattrstorage" : 	{
+		"name" : "midi-presets-help-tog-tog-264ml",
+		"slots" : 		{
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"midi-presets-help-tog-tog-264ml-chan" : [ 1 ],
+					"midi-presets-help-tog-tog-264ml-num" : [ 48 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"midi-presets-help-tog-tog-264ml-chan" : [ 1 ],
+					"midi-presets-help-tog-tog-264ml-num" : [ 64 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"midi-presets-help-tog-tog-264ml-chan" : [ 1 ],
+					"midi-presets-help-tog-tog-264ml-num" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
