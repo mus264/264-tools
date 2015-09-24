@@ -765,8 +765,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 630.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 43.0, 20.0, 20.0 ],
@@ -781,8 +781,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 795.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.5, 64.0, 20.0, 20.0 ],
@@ -1033,7 +1033,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 525.0, 405.0, 41.0, 18.0 ],
-					"text" : "$1 40"
+					"text" : "$1 20"
 				}
 
 			}
@@ -3515,10 +3515,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.pattr-read-write.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]
