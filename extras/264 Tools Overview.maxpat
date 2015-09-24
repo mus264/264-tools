@@ -650,7 +650,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 481.0, 44.0, 451.0, 752.0 ],
+						"rect" : [ 481.0, 44.0, 736.0, 731.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -670,8 +670,155 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"title" : "Week 2, 9/15",
+						"title" : "Week 3, 9/22",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-32",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 454.0, 684.0, 236.0, 21.0 ],
+									"text" : "bpatcher 264.sfplay~ @args first-sfplay",
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 452.0, 684.0, 245.0, 21.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
+									"frgb" : 0.0,
+									"id" : "obj-31",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 450.0, 522.0, 80.0, 22.0 ],
+									"text" : "Important:",
+									"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-30",
+									"linecount" : 10,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 450.0, 540.0, 270.0, 141.0 ],
+									"text" : "To work properly, 264.midi-presets requires that you give each module in your patch a unique “name”.\n\nIn the inspector, enter this name — with no spaces, slashes or strange characters — into the “Argument(s)” field.\n\nYou can also do this when you first create a module, for example by typing:",
+									"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-29",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 450.0, 450.0, 270.0, 60.0 ],
+									"presentation_rect" : [ 450.0, 464.0, 0.0, 0.0 ],
+									"text" : "The MIDI controllers (first two faders & dials on the Korg nanoKontrol) have been associated with the sliders of the 264.envelope~ and 264.filter~ modules.",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 18.0,
+									"frgb" : 0.0,
+									"id" : "obj-28",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 450.0, 90.0, 153.0, 27.0 ],
+									"text" : "264.midi-presets",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 18.0,
+									"frgb" : 0.0,
+									"id" : "obj-27",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 90.0, 135.0, 27.0 ],
+									"text" : "264.envelope~",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-26",
+									"linecount" : 8,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 450.0, 120.0, 270.0, 114.0 ],
+									"text" : "Unlike the other modules, 264.midi-presets doesn’t play a direct role in creating or controlling sound. Instead it helps you get going more quickly by storing the mapping you’ve set up between your MIDI controller and your patch.\n\nTry hitting the “Recall” button below (preset 1) and watching the midi-learn arrows on the left.",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "264-overview-presets" ],
+									"id" : "obj-24",
+									"maxclass" : "bpatcher",
+									"name" : "264.midi-presets.maxpat",
+									"numinlets" : 4,
+									"numoutlets" : 0,
+									"patching_rect" : [ 480.0, 240.0, 195.0, 195.0 ],
+									"varname" : "264.midi-presets"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "live.line",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 431.0, 88.0, 5.0, 632.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"border" : 0,
@@ -687,7 +834,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 239.0, 423.0, 20.0, 20.0 ],
+									"patching_rect" : [ 14.0, 438.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "4",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -701,11 +848,11 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-22",
-									"linecount" : 3,
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 420.0, 197.0, 47.0 ],
+									"patching_rect" : [ 15.0, 435.0, 180.0, 60.0 ],
 									"text" : "      Try comparing the filtered\n      sound and the unfiltered sound by toggling “Bypass” on/off.",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -721,7 +868,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 164.0, 187.0, 72.0, 20.0 ],
+									"patching_rect" : [ 344.0, 172.0, 72.0, 20.0 ],
 									"text" : "loadmess 1"
 								}
 
@@ -736,7 +883,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 76.0, 187.0, 82.0, 20.0 ],
+									"patching_rect" : [ 256.0, 172.0, 82.0, 20.0 ],
 									"text" : "loadmess 1.5"
 								}
 
@@ -751,7 +898,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 103.0, 398.0, 75.0, 20.0 ],
+									"patching_rect" : [ 283.0, 383.0, 75.0, 20.0 ],
 									"text" : "loadmess 4."
 								}
 
@@ -766,7 +913,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 147.0, 398.0, 72.0, 20.0 ],
+									"patching_rect" : [ 327.0, 383.0, 72.0, 20.0 ],
 									"text" : "loadmess 2"
 								}
 
@@ -780,7 +927,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 15.0, 420.0, 195.0, 195.0 ],
+									"patching_rect" : [ 195.0, 405.0, 195.0, 195.0 ],
 									"varname" : "264.filter~"
 								}
 
@@ -794,7 +941,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 30.0, 210.0, 195.0, 195.0 ],
+									"patching_rect" : [ 210.0, 195.0, 195.0, 195.0 ],
 									"varname" : "264.envelope~"
 								}
 
@@ -815,27 +962,11 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 239.0, 213.0, 20.0, 20.0 ],
+									"patching_rect" : [ 14.0, 198.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "3",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 									"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-12",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 95.0, 690.0, 150.0, 33.0 ],
-									"text" : "Turn on the DSP (if it isn’t on already)",
-									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
 
 							}
@@ -855,7 +986,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 75.0, 690.0, 20.0, 20.0 ],
+									"patching_rect" : [ 15.0, 120.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -872,8 +1003,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 275.0, 150.0, 123.0, 20.0 ],
-									"text" : "Start playing a sound",
+									"patching_rect" : [ 35.0, 165.0, 151.0, 20.0 ],
+									"text" : "Start playing drumLoop.aif",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
 
@@ -894,7 +1025,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 255.0, 150.0, 20.0, 20.0 ],
+									"patching_rect" : [ 15.0, 165.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -909,7 +1040,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 690.0, 45.0, 45.0 ]
+									"patching_rect" : [ 195.0, 675.0, 45.0, 45.0 ]
 								}
 
 							}
@@ -923,7 +1054,7 @@
 									"orientation" : 1,
 									"outlettype" : [ "signal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 15.0, 630.0, 195.0, 41.0 ],
+									"patching_rect" : [ 196.0, 615.0, 210.0, 41.0 ],
 									"presentation_rect" : [ 452.0, 651.0, 50.0, 41.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
@@ -952,7 +1083,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 15.0, 90.0, 225.0, 95.0 ]
+									"patching_rect" : [ 195.0, 90.0, 225.0, 95.0 ]
 								}
 
 							}
@@ -962,12 +1093,12 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-6",
-									"linecount" : 11,
+									"linecount" : 16,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 210.0, 196.0, 154.0 ],
-									"text" : "      264.envelope~ converts an\n      audio signal into a simplified version of its amplitude envelope, which can then be used to control parameters of other 264 Tools modules.\n\nHere, the inverted envelope is controlling the frequency of the 264.filter~ module: when the audio gets louder, the filter swoops lower.",
+									"patching_rect" : [ 15.0, 195.0, 182.0, 221.0 ],
+									"text" : "      264.envelope~ converts an\n      audio signal into a simplified version of its amplitude envelope, which can then be used to control parameters of other 264 Tools modules.\n\nThe sharpness impacts how quickly the envelope reacts to changes in the incoming audio.\n\nHere, the inverted envelope is controlling the frequency of the 264.filter~ module: when the audio gets louder, the filter swoops lower.",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
 
@@ -982,7 +1113,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "front" ],
-									"patching_rect" : [ 375.0, 690.0, 41.0, 20.0 ],
+									"patching_rect" : [ 16.0, 660.0, 41.0, 20.0 ],
 									"text" : "t front"
 								}
 
@@ -997,7 +1128,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 375.0, 720.0, 69.0, 20.0 ],
+									"patching_rect" : [ 16.0, 690.0, 69.0, 20.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -1012,7 +1143,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 375.0, 660.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 630.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1025,8 +1156,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 45.0, 169.0, 21.0 ],
-									"text" : "Introducing 264.envelope~",
+									"patching_rect" : [ 30.0, 45.0, 276.0, 21.0 ],
+									"text" : "Introducing 264.envelope~ & 264.midi-presets",
 									"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 								}
 
@@ -1056,7 +1187,38 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 10.0, 420.0, 65.0 ],
+									"patching_rect" : [ 15.0, 10.0, 705.0, 65.0 ],
+									"rounded" : 4
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-12",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 35.0, 120.0, 150.0, 33.0 ],
+									"text" : "Turn on the DSP (if it isn’t on already)",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+									"border" : 1,
+									"bordercolor" : [ 0.2, 0.286275, 0.298039, 0.5 ],
+									"id" : "obj-34",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 444.0, 518.0, 276.0, 195.0 ],
+									"presentation_rect" : [ 45.0, 603.0, 0.0, 0.0 ],
 									"rounded" : 4
 								}
 
@@ -1896,8 +2058,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 975.0, 60.0, 20.0, 20.0 ],
 					"varname" : "264.midi-learn"
 				}
@@ -2518,20 +2680,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
-			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-39::obj-2::obj-32" : [ "[1]", "[2]", 0 ],
+			"obj-39::obj-10::obj-6" : [ "week3-filter-filter-type", "week3-filter-filter-type", 0 ],
 			"obj-4" : [ "output-gain", "output", 0 ],
-			"obj-39::obj-2::obj-35" : [ "[9]", "Level", 0 ],
-			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
 			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
+			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
+			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
+			"obj-39::obj-2::obj-35" : [ "[9]", "Level", 0 ],
+			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
+			"obj-2" : [ "input-gain", "input", 0 ],
+			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
 			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
 			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
-			"obj-39::obj-10::obj-6" : [ "week3-filter-filter-type", "week3-filter-filter-type", 0 ],
-			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
-			"obj-39::obj-2::obj-32" : [ "[1]", "[2]", 0 ],
-			"obj-2" : [ "input-gain", "input", 0 ],
 			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ]
 		}
 ,
@@ -2557,10 +2719,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.pattr-read-write.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -2648,7 +2810,42 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "disis_munger~.mxo",
+				"name" : "overview-envfol-env-sharpness-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/midi-presets",
+				"patcherrelativepath" : "./midi-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-envfol-env-gain-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/midi-presets",
+				"patcherrelativepath" : "./midi-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "week3-filter-fltr-frequency-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/midi-presets",
+				"patcherrelativepath" : "./midi-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "week3-filter-fltr-Q-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/midi-presets",
+				"patcherrelativepath" : "./midi-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.midi-presets.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "munger~.mxo",
 				"type" : "iLaX"
 			}
  ]
