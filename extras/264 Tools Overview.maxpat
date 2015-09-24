@@ -682,12 +682,15 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 454.0, 684.0, 236.0, 21.0 ],
 									"text" : "bpatcher 264.sfplay~ @args first-sfplay",
+									"textcolor" : [ 0.92, 0.92, 0.92, 1.0 ],
 									"textjustification" : 1
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+									"color" : [ 0.5, 0.5, 0.5, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-33",
@@ -724,7 +727,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 540.0, 270.0, 141.0 ],
+									"patching_rect" : [ 450.0, 540.0, 272.0, 141.0 ],
 									"text" : "To work properly, 264.midi-presets requires that you give each module in your patch a unique “name”.\n\nIn the inspector, enter this name — with no spaces, slashes or strange characters — into the “Argument(s)” field.\n\nYou can also do this when you first create a module, for example by typing:",
 									"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 								}
@@ -741,7 +744,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 450.0, 450.0, 270.0, 60.0 ],
-									"presentation_rect" : [ 450.0, 464.0, 0.0, 0.0 ],
 									"text" : "The MIDI controllers (first two faders & dials on the Korg nanoKontrol) have been associated with the sliders of the 264.envelope~ and 264.filter~ modules.",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -789,7 +791,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 120.0, 270.0, 114.0 ],
+									"patching_rect" : [ 450.0, 120.0, 273.0, 114.0 ],
 									"text" : "Unlike the other modules, 264.midi-presets doesn’t play a direct role in creating or controlling sound. Instead it helps you get going more quickly by storing the mapping you’ve set up between your MIDI controller and your patch.\n\nTry hitting the “Recall” button below (preset 1) and watching the midi-learn arrows on the left.",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -1218,7 +1220,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 444.0, 518.0, 276.0, 195.0 ],
-									"presentation_rect" : [ 45.0, 603.0, 0.0, 0.0 ],
 									"rounded" : 4
 								}
 
@@ -2680,13 +2681,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-39::obj-2::obj-32" : [ "[1]", "[2]", 0 ],
+			"obj-39::obj-2::obj-35" : [ "[1]", "Level", 0 ],
 			"obj-39::obj-10::obj-6" : [ "week3-filter-filter-type", "week3-filter-filter-type", 0 ],
 			"obj-4" : [ "output-gain", "output", 0 ],
 			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
 			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
 			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
-			"obj-39::obj-2::obj-35" : [ "[9]", "Level", 0 ],
+			"obj-39::obj-2::obj-32" : [ "[9]", "[2]", 0 ],
 			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
 			"obj-2" : [ "input-gain", "input", 0 ],

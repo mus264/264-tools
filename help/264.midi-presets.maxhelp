@@ -92,6 +92,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 282.0, 346.0, 236.0, 21.0 ],
 									"text" : "bpatcher 264.sfplay~ @args first-sfplay",
+									"textcolor" : [ 0.92, 0.92, 0.92, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -107,7 +108,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 215.0, 260.0, 410.0, 79.0 ],
-									"presentation_rect" : [ 225.0, 259.0, 0.0, 0.0 ],
 									"text" : "To use 264.midi-presets, make sure that all your 264 Tools modules have an argument set in the inspector that is unique.\n\nWhen creating new modules the simplest way to do that is to use @args while typing, for example if you had two 264.sfplay~ modules:"
 								}
 
@@ -291,6 +291,8 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+									"color" : [ 0.5, 0.5, 0.5, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-17",
@@ -312,12 +314,15 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 282.0, 376.0, 257.0, 21.0 ],
 									"text" : "bpatcher 264.sfplay~ @args second-sfplay",
+									"textcolor" : [ 0.92, 0.92, 0.92, 1.0 ],
 									"textjustification" : 1
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+									"color" : [ 0.5, 0.5, 0.5, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-20",
@@ -503,13 +508,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "midi-presets-module-recall-num-264ml.json",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/help/midi-presets",
-				"patcherrelativepath" : "./midi-presets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "264.pattr-control.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -521,13 +519,6 @@
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "midi-presets-module-store-num-264ml.json",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/help/midi-presets",
-				"patcherrelativepath" : "./midi-presets",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
