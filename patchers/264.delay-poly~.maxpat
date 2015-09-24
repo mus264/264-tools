@@ -220,6 +220,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1065.0, 45.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 6"
 				}
 
@@ -902,7 +906,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 237.0, 195.0, 67.0, 20.0 ],
+					"patching_rect" : [ 225.0, 195.0, 79.0, 20.0 ],
 					"text" : "thispoly~"
 				}
 
@@ -917,8 +921,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 135.0, 135.0, 172.0, 20.0 ],
-					"text" : "adsr~ 50. 0. 1. 100. @legato 1"
+					"patching_rect" : [ 135.0, 135.0, 166.0, 20.0 ],
+					"text" : "adsr~ 20. 0. 1. 20. @legato 1"
 				}
 
 			}
