@@ -2,6 +2,15 @@
 	"pattrstorage" : 	{
 		"name" : "midi-presets-help-tog-tog-264ml",
 		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"midi-presets-help-tog-tog-264ml-chan" : [ 1 ],
+					"midi-presets-help-tog-tog-264ml-num" : [ 32 ]
+				}
+
+			}
+,
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
