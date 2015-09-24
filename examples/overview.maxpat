@@ -56,7 +56,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "bypass-filter-1" ],
+					"args" : [ "bypass-grains" ],
 					"id" : "obj-18",
 					"maxclass" : "bpatcher",
 					"name" : "264.tog.maxpat",
@@ -140,7 +140,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "bypass-filter-1" ],
+					"args" : [ "bypass-filter" ],
 					"id" : "obj-11",
 					"maxclass" : "bpatcher",
 					"name" : "264.tog.maxpat",
@@ -447,8 +447,8 @@
 			"obj-4" : [ "output-gain", "output", 0 ],
 			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
 			"obj-16::obj-95" : [ "overview-grains-size-variance", "var.", 0 ],
-			"obj-2" : [ "input-gain", "input", 0 ],
 			"obj-16::obj-22" : [ "overview-grains-rate-variance", "var.", 0 ],
+			"obj-2" : [ "input-gain", "input", 0 ],
 			"obj-16::obj-138" : [ "overview-grains-pitch-variance", "var.", 0 ]
 		}
 ,
@@ -474,10 +474,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.pattr-read-write.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -530,13 +530,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "set-patch-path.js",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "264.envelope~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -544,7 +537,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "disis_munger~.mxo",
+				"name" : "munger~.mxo",
 				"type" : "iLaX"
 			}
  ]
