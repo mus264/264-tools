@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.midi-presets" module="264 Tools" kind="patcher">
+
+	<digest>
+		Store and recall MIDI controller mappings.
+	</digest>
+
+	<description>
+		Manages numbered presets containing	mapping
+		of MIDI controller data in 264 Tools modules.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chris Swithinbank</metadata>
+		<metadata name="tag">264 Tools</metadata>
+		<metadata name="tag">264 Tools abstractions</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="int/float">
+			<digest>
+				Preset to be recalled
+			</digest>
+			<description>
+				Sets preset number to be recalled. Floats are interpreted as indexes (e.g. 2. = preset 2), integers are understood as MIDI with 0–127 mapped to 1–10.
+			</description>
+		</inlet>
+		<inlet id="1" type="bang">
+			<digest>
+				Recall preset
+			</digest>
+			<description>
+				Recalls the preset chosen via the number box or first inlet.
+			</description>
+		</inlet>
+		<inlet id="2" type="int/float">
+			<digest>
+				Preset to be stored
+			</digest>
+			<description>
+				Sets preset number to be stored. Floats are interpreted as indexes (e.g. 2. = preset 2), integers are understood as MIDI with 0–127 mapped to 1–10.
+			</description>
+		</inlet>
+		<inlet id="3" type="bang">
+			<digest>
+				Store preset
+			</digest>
+			<description>
+				Stores the preset chosen via the number box or first inlet.
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="unique id" optional="0" type="symbol">
+			<digest>
+				Unique identifier
+			</digest>
+			<description>
+				A unique name allows the module to communicate with the 264 Tools preset mechanisms.
+			</description>
+		</objarg>
+	</objarglist>
+
+	<!--MESSAGES-->
+
+	<!--ATTRIBUTES-->
+
+	<!--EXAMPLE-->
+
+	<!--DISCUSSION-->
+	<discussion>
+		Used in a <o>bpatcher</o>, <o>264.midi-presets</o> allows you to easily store and recall mappings to <o>264.midi-learn</o> objects — provided they have been provided unique names as their first argument. The presets are stored as JSON files in a directory named midi-presets in the folder where your patch is saved.
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="264.midi-learn" />
+	</seealsolist>
+
+</c74object>
