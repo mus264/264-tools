@@ -1,0 +1,65 @@
+{
+  "264.delay~": {
+    "digest": "Use in a bpatcher for a simple delay line interface.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
+  "264.sfplay~": {
+    "digest": "Use in a bpatcher for a simple soundfile player.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
+  "264.filter~": {
+    "digest": "Use in a bpatcher for a highpass, lowpass, or bandpass filter.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
+  "264.grains~": {
+    "digest": "Use in a bpatcher for a live audio granulation module.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
+  "264.envelope~": {
+    "digest": "Use in a bpatcher to convert audio to a control envelope.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
+  "264.midi-learn": {
+    "digest": "Use in a bpatcher to quickly map MIDI controls in Max.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
+  "264.midi-presets": {
+    "digest": "Use in a bpatcher to store mappings of 264.midi-learn.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
+  "264.tog": {
+    "digest": "Use in a bpatcher for a MIDI-ready toggle.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
+  "264.go!": {
+    "digest": "Use in a bpatcher for a MIDI-ready button.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  }
+}
