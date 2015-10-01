@@ -35,7 +35,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "bang", "float", "", "" ],
+					"outlettype" : [ "bang", "float", "", "float" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1084,14 +1084,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 480.0, 60.0, 109.0, 33.0 ],
-					"text" : "room size\n(0–127 / 0.01–1.6)",
+					"text" : "plate size\n(0–127 / 0.01–1.6)",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "room size (0–127 / 0.01–1.6)",
+					"comment" : "plate size (0–127 / 0.01–1.6)",
 					"id" : "obj-88",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -1440,11 +1440,11 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.572549, 0.615686, 0.658824, 0.75 ],
-					"annotation" : "Room size",
+					"annotation" : "Plate size",
 					"bgcolor" : [ 0.572549, 0.615686, 0.658824, 0.75 ],
 					"bordercolor" : [ 0.27451, 0.32549, 0.4, 0.75 ],
 					"focusbordercolor" : [ 0.2, 0.286275, 0.298039, 0.75 ],
-					"hint" : "Room size",
+					"hint" : "Plate size",
 					"id" : "obj-6",
 					"maxclass" : "live.tab",
 					"mode" : 1,
@@ -1550,7 +1550,7 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
-					"hint" : "room size (0–127 / 0.01–1.6)",
+					"hint" : "plate size (0–127 / 0.01–1.6)",
 					"id" : "obj-89",
 					"maxclass" : "panel",
 					"numinlets" : 1,
