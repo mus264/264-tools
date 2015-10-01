@@ -1032,12 +1032,11 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-55",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 690.0, 225.0, 33.0 ],
-					"text" : "Chris Swithinbank, based on Hans Tutschku’s [ht.one.delay]",
+					"patching_rect" : [ 30.0, 690.0, 225.0, 20.0 ],
+					"text" : "Chris Swithinbank",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
