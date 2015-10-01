@@ -29,11 +29,11 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.890196, 0.901961, 0.917647, 1.0 ],
-					"bordercolor" : [ 0.864018, 0.877655, 0.897206, 1.0 ],
+					"bgcolor" : [ 0.964787, 0.964787, 0.964787, 1.0 ],
+					"bordercolor" : [ 0.961365, 0.961365, 0.961365, 1.0 ],
 					"calccount" : 16,
-					"fgcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
-					"gridcolor" : [ 0.301961, 0.337255, 0.403922, 0.25098 ],
+					"fgcolor" : [ 0.2, 0.286275, 0.298039, 0.36 ],
+					"gridcolor" : [ 0.301961, 0.337255, 0.403922, 0.09 ],
 					"id" : "obj-3",
 					"ignoreclick" : 1,
 					"maxclass" : "scope~",
@@ -1105,14 +1105,13 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-63",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 405.0, 34.0, 29.0 ],
+					"patching_rect" : [ 285.0, 405.0, 34.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 122.0, 33.0, 57.0, 18.0 ],
-					"text" : "80 Hz",
+					"text" : "1 Hz",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
 					"textjustification" : 2
 				}
