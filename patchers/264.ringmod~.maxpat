@@ -34,6 +34,7 @@
 					"calccount" : 16,
 					"fgcolor" : [ 0.2, 0.286275, 0.298039, 0.36 ],
 					"gridcolor" : [ 0.301961, 0.337255, 0.403922, 0.09 ],
+					"hint" : "A visualisation of the modulating signal",
 					"id" : "obj-3",
 					"ignoreclick" : 1,
 					"maxclass" : "scope~",
@@ -1108,10 +1109,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 405.0, 34.0, 18.0 ],
+					"patching_rect" : [ 285.0, 405.0, 36.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 122.0, 33.0, 57.0, 18.0 ],
-					"text" : "1 Hz",
+					"text" : "80 Hz",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
 					"textjustification" : 2
 				}
