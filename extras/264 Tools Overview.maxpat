@@ -449,7 +449,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 44.0, 735.0, 730.0 ],
+						"rect" : [ 25.0, 44.0, 887.0, 563.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -475,12 +475,126 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"hidden" : 1,
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 660.0, 195.0, 82.0, 20.0 ],
+									"text" : "loadmess 0.4"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 755.200012, 195.0, 75.0, 20.0 ],
+									"text" : "loadmess 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-30",
+									"linecount" : 18,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 450.0, 120.0, 180.0, 248.0 ],
+									"text" : "The 264.reverb~ module allows a range of controls over the reverb effect.\n\n- the “size” of the room (by default this is set to medium)\n\n- the frequency of a lowpass filter that effectively controls the “brightness” of the reverb sound\n\n- whether the reverb is short or long (this sets internal feedback amounts)\n\n- independent levels for the “dry” sound, and for the “wet” reverb sound",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-29",
+									"local" : 1,
+									"maxclass" : "ezdac~",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 645.0, 495.0, 45.0, 45.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"channels" : 1,
+									"id" : "obj-24",
+									"maxclass" : "live.gain~",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"orientation" : 1,
+									"outlettype" : [ "signal", "", "float", "list" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 645.0, 435.0, 210.0, 41.0 ],
+									"presentation_rect" : [ 448.0, 433.0, 50.0, 41.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "output-gain[4]",
+											"parameter_shortname" : "output",
+											"parameter_type" : 0,
+											"parameter_mmin" : -70.0,
+											"parameter_mmax" : 6.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ -12 ],
+											"parameter_unitstyle" : 4
+										}
+
+									}
+,
+									"varname" : "output-gain[2]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "overview-reverb-ex" ],
+									"id" : "obj-18",
+									"maxclass" : "bpatcher",
+									"name" : "264.reverb~.maxpat",
+									"numinlets" : 6,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 645.0, 225.0, 195.0, 195.0 ],
+									"varname" : "264.reverb~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "@loop", 1, "@file", "cherokee.aif", "@vol", 0 ],
+									"id" : "obj-15",
+									"maxclass" : "bpatcher",
+									"name" : "demosound.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 645.0, 90.0, 225.0, 95.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
 									"id" : "obj-4",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "front" ],
-									"patching_rect" : [ 645.0, 40.0, 41.0, 20.0 ],
+									"patching_rect" : [ 450.0, 30.0, 41.0, 20.0 ],
 									"text" : "t front"
 								}
 
@@ -495,7 +609,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 645.0, 70.0, 69.0, 20.0 ],
+									"patching_rect" : [ 450.0, 60.0, 69.0, 20.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -510,7 +624,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 645.0, 10.0, 25.0, 25.0 ]
+									"patching_rect" : [ 450.0, 0.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -523,8 +637,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 525.0, 174.0, 20.0 ],
-									"presentation_rect" : [ 12.0, 496.0, 0.0, 0.0 ],
+									"patching_rect" : [ 15.0, 517.0, 174.0, 20.0 ],
 									"text" : "(Frequencies are given in kHz)",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -651,7 +764,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 75.0, 315.0, 32.5, 18.0 ],
-									"presentation_rect" : [ 18.0, 253.0, 0.0, 0.0 ],
 									"text" : "1."
 								}
 
@@ -752,7 +864,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 431.0, 88.0, 5.0, 632.0 ]
+									"patching_rect" : [ 431.0, 88.0, 5.0, 452.0 ]
 								}
 
 							}
@@ -977,7 +1089,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 10.0, 705.0, 65.0 ],
+									"patching_rect" : [ 15.0, 10.0, 855.0, 65.0 ],
 									"rounded" : 4
 								}
 
@@ -1010,6 +1122,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-38", 1 ],
 									"disabled" : 0,
 									"hidden" : 1,
@@ -1037,6 +1158,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-38", 1 ],
 									"disabled" : 0,
 									"hidden" : 1,
@@ -1055,10 +1185,46 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-18", 2 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-38", 1 ],
 									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 1 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-26", 0 ]
 								}
 
 							}
@@ -3232,21 +3398,26 @@
 			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
 			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
-			"obj-39::obj-2::obj-32" : [ "[1]", "[2]", 0 ],
+			"obj-41::obj-15::obj-32" : [ "[10]", "[2]", 0 ],
+			"obj-39::obj-2::obj-35" : [ "[1]", "Level", 0 ],
 			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-39::obj-2::obj-35" : [ "[9]", "Level", 0 ],
+			"obj-39::obj-2::obj-32" : [ "[9]", "[2]", 0 ],
 			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
 			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
 			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
 			"obj-39::obj-10::obj-6" : [ "week3-filter-filter-type", "week3-filter-filter-type", 0 ],
 			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
+			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
+			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
 			"obj-41::obj-2::obj-35" : [ "[2]", "Level", 0 ],
+			"obj-41::obj-15::obj-35" : [ "[4]", "Level", 0 ],
 			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
 			"obj-41::obj-2::obj-32" : [ "[3]", "[2]", 0 ],
 			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
-			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ]
+			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
+			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3398,6 +3569,20 @@
 			}
 , 			{
 				"name" : "264.ringmod~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.reverb~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.reverb-poly~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
