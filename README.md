@@ -35,6 +35,8 @@ The toolkit currently includes the following modules, which should be loaded in 
 * `264.filter~` — a highpass, lowpass or bandpass filter
 * `264.grains~` — a live audio granulation module
 * `264.envelope~` — an envelope follower compatible with other modules
+* `264.ringmod~` — modulate a signal with a single frequency oscillator
+* `264.reverb~` — a basic reverb module
 
 ### Control
 
@@ -52,6 +54,8 @@ These modules have been tested with Max 6 and 7. They will not work with Max/MSP
 `264.grains~` relies on the `munger~` granulation external, which has a substantial ancestry including work by Ivica Ico Bukvic, Ji-Sun Kim, Dan Trueman, and R. Luke DuBois, most recently for [percolate](https://github.com/Cycling74/percolate).
 
 `264.midi-presets` and `264.param-presets` rely on [Patrick Delges](http://www.crfmw.be/max/)’s `filesys` Java class to manage file locations.
+
+The `264.reverb~` core is heavily based on [Randy Jones](http://madronalabs.com/)’s `yafr2` example.
 
 ## License
 

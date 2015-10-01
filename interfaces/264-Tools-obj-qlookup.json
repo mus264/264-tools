@@ -34,6 +34,20 @@
       "264 Tools"
     ]
   },
+  "264.ringmod~": {
+    "digest": "Use in a bpatcher to modulate audio with a single oscillator.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
+  "264.reverb~": {
+    "digest": "Use in a bpatcher to apply reverb to audio.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
   "264.midi-learn": {
     "digest": "Use in a bpatcher to quickly map MIDI controls in Max.",
     "module": "264 Tools",
