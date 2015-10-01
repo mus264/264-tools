@@ -449,7 +449,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 44.0, 887.0, 563.0 ],
+						"rect" : [ 201.0, 139.0, 887.0, 563.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -510,7 +510,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 120.0, 180.0, 248.0 ],
+									"patching_rect" : [ 450.0, 120.0, 182.0, 248.0 ],
 									"text" : "The 264.reverb~ module allows a range of controls over the reverb effect.\n\n- the “size” of the room (by default this is set to medium)\n\n- the frequency of a lowpass filter that effectively controls the “brightness” of the reverb sound\n\n- whether the reverb is short or long (this sets internal feedback amounts)\n\n- independent levels for the “dry” sound, and for the “wet” reverb sound",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -573,7 +573,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "@loop", 1, "@file", "cherokee.aif", "@vol", 0 ],
+									"args" : [ "@loop", 1, "@file", "duduk.aif", "@vol", 0 ],
 									"id" : "obj-15",
 									"maxclass" : "bpatcher",
 									"name" : "demosound.maxpat",
@@ -3394,30 +3394,30 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4" : [ "output-gain", "output", 0 ],
-			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
-			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
-			"obj-41::obj-15::obj-32" : [ "[10]", "[2]", 0 ],
-			"obj-39::obj-2::obj-35" : [ "[1]", "Level", 0 ],
-			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-39::obj-2::obj-32" : [ "[9]", "[2]", 0 ],
-			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
-			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
-			"obj-39::obj-10::obj-6" : [ "week3-filter-filter-type", "week3-filter-filter-type", 0 ],
-			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
-			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
-			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
-			"obj-41::obj-2::obj-35" : [ "[2]", "Level", 0 ],
-			"obj-41::obj-15::obj-35" : [ "[4]", "Level", 0 ],
 			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
 			"obj-41::obj-2::obj-32" : [ "[3]", "[2]", 0 ],
 			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
+			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ],
+			"obj-41::obj-15::obj-35" : [ "[10]", "Level", 0 ],
 			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
-			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ]
+			"obj-39::obj-2::obj-32" : [ "[1]", "[2]", 0 ],
+			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
+			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
+			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
+			"obj-39::obj-2::obj-35" : [ "[9]", "Level", 0 ],
+			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
+			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
+			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
+			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
+			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-4" : [ "output-gain", "output", 0 ],
+			"obj-39::obj-10::obj-6" : [ "week3-filter-filter-type", "week3-filter-filter-type", 0 ],
+			"obj-2" : [ "input-gain", "input", 0 ],
+			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
+			"obj-41::obj-15::obj-32" : [ "[4]", "[2]", 0 ],
+			"obj-41::obj-2::obj-35" : [ "[2]", "Level", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
