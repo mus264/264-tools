@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 1186.0, 702.0 ],
+		"rect" : [ 4.0, 44.0, 1097.0, 702.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 660.0, 510.0, 195.0, 90.0 ],
+					"patching_rect" : [ 600.0, 510.0, 195.0, 90.0 ],
 					"varname" : "264.transpose~"
 				}
 
@@ -50,7 +50,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 345.0, 180.0, 195.0, 195.0 ],
+					"patching_rect" : [ 315.0, 180.0, 195.0, 195.0 ],
 					"varname" : "264.envelope"
 				}
 
@@ -63,7 +63,7 @@
 					"name" : "264.midi-presets.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 975.0, 150.0, 195.0, 195.0 ],
+					"patching_rect" : [ 885.0, 300.0, 195.0, 195.0 ],
 					"varname" : "264.midi-presets"
 				}
 
@@ -77,7 +77,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 870.0, 225.0, 60.0, 60.0 ],
+					"patching_rect" : [ 810.0, 225.0, 60.0, 60.0 ],
 					"varname" : "264.tog[4]"
 				}
 
@@ -91,7 +91,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 660.0, 300.0, 195.0, 195.0 ],
+					"patching_rect" : [ 600.0, 300.0, 195.0, 195.0 ],
 					"varname" : "264.grains~"
 				}
 
@@ -105,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 735.0, 15.0, 60.0, 60.0 ],
+					"patching_rect" : [ 675.0, 15.0, 60.0, 60.0 ],
 					"varname" : "264.go![2]"
 				}
 
@@ -119,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 660.0, 15.0, 60.0, 60.0 ],
+					"patching_rect" : [ 600.0, 15.0, 60.0, 60.0 ],
 					"varname" : "264.tog[3]"
 				}
 
@@ -133,7 +133,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 660.0, 90.0, 195.0, 195.0 ],
+					"patching_rect" : [ 600.0, 90.0, 195.0, 195.0 ],
 					"varname" : "264.sfplay~[1]"
 				}
 
@@ -189,7 +189,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 345.0, 390.0, 195.0, 195.0 ],
+					"patching_rect" : [ 315.0, 390.0, 195.0, 195.0 ],
 					"varname" : "264.sfplay~"
 				}
 
@@ -202,7 +202,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 675.0, 271.0, 20.0 ],
+					"patching_rect" : [ 30.0, 675.0, 247.0, 20.0 ],
 					"text" : "dac~ 1 2"
 				}
 
@@ -217,7 +217,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 30.0, 615.0, 649.0, 55.0 ],
+					"patching_rect" : [ 30.0, 615.0, 589.0, 55.0 ],
 					"presentation_rect" : [ 17.0, 318.0, 50.0, 55.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
