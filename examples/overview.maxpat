@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 1275.0, 702.0 ],
+		"rect" : [ 4.0, 44.0, 1186.0, 702.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "overview-pshift" ],
+					"id" : "obj-12",
+					"maxclass" : "bpatcher",
+					"name" : "264.transpose~.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 660.0, 510.0, 195.0, 90.0 ],
+					"varname" : "264.transpose~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "envelope-follower" ],
 					"id" : "obj-20",
 					"maxclass" : "bpatcher",
@@ -36,7 +50,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 345.0, 195.0, 195.0, 195.0 ],
+					"patching_rect" : [ 345.0, 180.0, 195.0, 195.0 ],
 					"varname" : "264.envelope"
 				}
 
@@ -63,7 +77,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 885.0, 285.0, 60.0, 60.0 ],
+					"patching_rect" : [ 870.0, 225.0, 60.0, 60.0 ],
 					"varname" : "264.tog[4]"
 				}
 
@@ -77,7 +91,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 660.0, 375.0, 195.0, 195.0 ],
+					"patching_rect" : [ 660.0, 300.0, 195.0, 195.0 ],
 					"varname" : "264.grains~"
 				}
 
@@ -91,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 735.0, 30.0, 60.0, 60.0 ],
+					"patching_rect" : [ 735.0, 15.0, 60.0, 60.0 ],
 					"varname" : "264.go![2]"
 				}
 
@@ -105,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 660.0, 30.0, 60.0, 60.0 ],
+					"patching_rect" : [ 660.0, 15.0, 60.0, 60.0 ],
 					"varname" : "264.tog[3]"
 				}
 
@@ -119,7 +133,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 660.0, 150.0, 195.0, 195.0 ],
+					"patching_rect" : [ 660.0, 90.0, 195.0, 195.0 ],
 					"varname" : "264.sfplay~[1]"
 				}
 
@@ -133,7 +147,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 30.0, 30.0, 60.0, 60.0 ],
+					"patching_rect" : [ 30.0, 15.0, 60.0, 60.0 ],
 					"varname" : "264.tog[2]"
 				}
 
@@ -147,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 255.0, 330.0, 60.0, 60.0 ],
+					"patching_rect" : [ 240.0, 315.0, 60.0, 60.0 ],
 					"varname" : "264.tog[1]"
 				}
 
@@ -161,7 +175,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 30.0, 405.0, 195.0, 195.0 ],
+					"patching_rect" : [ 30.0, 390.0, 195.0, 195.0 ],
 					"varname" : "264.filter~"
 				}
 
@@ -175,7 +189,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 345.0, 405.0, 195.0, 195.0 ],
+					"patching_rect" : [ 345.0, 390.0, 195.0, 195.0 ],
 					"varname" : "264.sfplay~"
 				}
 
@@ -188,7 +202,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 675.0, 145.0, 20.0 ],
+					"patching_rect" : [ 30.0, 675.0, 271.0, 20.0 ],
 					"text" : "dac~ 1 2"
 				}
 
@@ -231,7 +245,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 30.0, 195.0, 195.0, 195.0 ],
+					"patching_rect" : [ 30.0, 180.0, 195.0, 195.0 ],
 					"varname" : "264.delay~"
 				}
 
@@ -246,7 +260,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 30.0, 135.0, 195.0, 41.0 ],
+					"patching_rect" : [ 30.0, 120.0, 195.0, 41.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 50.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -274,7 +288,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 30.0, 105.0, 57.0, 20.0 ],
+					"patching_rect" : [ 30.0, 90.0, 57.0, 20.0 ],
 					"text" : "adc~ 1 2"
 				}
 
@@ -318,6 +332,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -327,7 +350,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 2 ],
+					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
@@ -402,6 +425,15 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -444,12 +476,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4" : [ "output-gain", "output", 0 ],
-			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
-			"obj-16::obj-95" : [ "overview-grains-size-variance", "var.", 0 ],
-			"obj-16::obj-22" : [ "overview-grains-rate-variance", "var.", 0 ],
 			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-16::obj-138" : [ "overview-grains-pitch-variance", "var.", 0 ]
+			"obj-16::obj-95" : [ "overview-grains-size-variance", "var.", 0 ],
+			"obj-16::obj-138" : [ "overview-grains-pitch-variance", "var.", 0 ],
+			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
+			"obj-16::obj-22" : [ "overview-grains-rate-variance", "var.", 0 ],
+			"obj-4" : [ "output-gain", "output", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -531,6 +563,20 @@
 			}
 , 			{
 				"name" : "264.envelope~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.transpose~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.transpose-pfft~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
