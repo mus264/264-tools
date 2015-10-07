@@ -1541,7 +1541,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 855.0, 60.0, 161.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.0, 1.0, 9.0, 5.0 ],
+					"presentation_rect" : [ 181.0, 1.0, 9.0, 5.0 ],
 					"rounded" : 0
 				}
 
@@ -1605,7 +1605,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 690.0, 60.0, 109.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 181.0, 1.0, 9.0, 5.0 ],
+					"presentation_rect" : [ 146.0, 1.0, 9.0, 5.0 ],
 					"rounded" : 0
 				}
 
