@@ -248,7 +248,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 352.0, 54.0, 496.0, 683.0 ],
+						"rect" : [ 352.0, 44.0, 492.0, 738.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -271,6 +271,124 @@
 						"title" : "Week 5, 10/6",
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-31",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 255.0, 570.0, 225.0, 47.0 ],
+									"text" : "Try switching the cello sound for vibes-a1.aif and setting the pitch tracker’s relative pitch to A1",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-30",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 255.0, 150.0, 223.0, 74.0 ],
+									"text" : "264.pitchtrack~ attempts to analyse the fundamental frequency of incoming audio and converts that into control messages that can be understood by other 264 Tools modules.",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+									"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.15 ],
+									"bgovercolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+									"bgoveroncolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+									"border" : 0,
+									"bordercolor" : [ 0.6, 0.6, 0.6, 0.0 ],
+									"borderoncolor" : [ 0.4, 0.4, 0.4, 0.0 ],
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 120.0, 667.5, 315.0, 30.0 ],
+									"rounded" : 0.0,
+									"text" : "Listen to music chosen by Vijay Iyer",
+									"textcolor" : [ 0.752941, 0.14902, 0.14902, 1.0 ],
+									"textoncolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+									"textovercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
+									"underline" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-18",
+									"linecount" : 3,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 120.0, 704.0, 357.0, 45.0 ],
+									"text" : ";\rmax launchbrowser http://chrisswithinbank.net/2015/10/improvisers-listen-2-vijay-iyer/"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-19",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 672.5, 75.0, 20.0 ],
+									"text" : "B O N U S",
+									"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+									"id" : "obj-25",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 645.0, 75.0, 75.0 ],
+									"shape" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+									"id" : "obj-29",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 52.0, 645.0, 428.0, 75.0 ],
+									"rounded" : 4
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"border" : 0,
 									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -285,7 +403,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 60.0, 447.5, 20.0, 20.0 ],
+									"patching_rect" : [ 45.0, 417.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "4",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -303,7 +421,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 80.0, 447.5, 160.0, 33.0 ],
+									"patching_rect" : [ 65.0, 417.5, 160.0, 33.0 ],
 									"text" : "Watch how 264.transpose~ responds to 264.pitchtrack~",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -325,7 +443,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 45.0, 300.0, 20.0, 20.0 ],
+									"patching_rect" : [ 30.0, 270.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "3",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -349,7 +467,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 150.0, 20.0, 20.0 ],
+									"patching_rect" : [ 255.0, 120.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -367,7 +485,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 285.0, 255.0, 85.0, 20.0 ],
+									"patching_rect" : [ 270.0, 225.0, 85.0, 20.0 ],
 									"text" : "loadmess 127"
 								}
 
@@ -382,7 +500,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 461.0, 255.0, 72.0, 20.0 ],
+									"patching_rect" : [ 446.0, 225.0, 72.0, 20.0 ],
 									"text" : "loadmess 1"
 								}
 
@@ -397,7 +515,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 375.0, 255.0, 79.0, 20.0 ],
+									"patching_rect" : [ 360.0, 225.0, 79.0, 20.0 ],
 									"text" : "loadmess 65"
 								}
 
@@ -411,7 +529,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 35.0, 150.0, 135.0, 20.0 ],
+									"patching_rect" : [ 275.0, 120.0, 135.0, 20.0 ],
 									"text" : "Start playing duduk.aif",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -466,7 +584,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 65.0, 300.0, 135.0, 20.0 ],
+									"patching_rect" : [ 50.0, 270.0, 135.0, 20.0 ],
 									"text" : "Start playing cello-f2.aif",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -478,12 +596,12 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-10",
-									"linecount" : 12,
+									"linecount" : 6,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 255.0, 495.0, 225.0, 167.0 ],
-									"text" : "264.pitchtrack~ attempts to analyse the fundamental frequency of incoming audio and converts that into control messages that can be understood by other 264 Tools modules.\n\nBecause we know that cello-f2.aif is of a constant pitch (an F2), we can use 264.pitchtrack~ in “relative” mode, to mimic the duduk’s melody by transposing the cello a different amount every time the duduk changes pitch.",
+									"patching_rect" : [ 255.0, 465.0, 225.0, 87.0 ],
+									"text" : "Because we know that cello-f2.aif is of a constant pitch (an F2), we can use 264.pitchtrack~ in “relative” mode, to mimic the duduk’s melody by transposing the cello a different amount every time the duduk changes pitch.",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
 
@@ -510,7 +628,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 600.0, 49.0, 49.0 ]
+									"patching_rect" : [ 15.0, 570.0, 45.0, 45.0 ]
 								}
 
 							}
@@ -523,7 +641,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 45.0, 495.0, 195.0, 90.0 ],
+									"patching_rect" : [ 30.0, 465.0, 195.0, 90.0 ],
 									"varname" : "264.transpose~"
 								}
 
@@ -537,7 +655,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 285.0, 287.5, 195.0, 195.0 ],
+									"patching_rect" : [ 270.0, 257.5, 195.0, 195.0 ],
 									"varname" : "264.pitchtrack~"
 								}
 
@@ -551,7 +669,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 15.0, 180.0, 225.0, 95.0 ]
+									"patching_rect" : [ 15.0, 150.0, 225.0, 95.0 ]
 								}
 
 							}
@@ -564,7 +682,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 45.0, 330.0, 225.0, 95.0 ]
+									"patching_rect" : [ 30.0, 300.0, 225.0, 95.0 ]
 								}
 
 							}
@@ -673,6 +791,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-21", 0 ]
 								}
 
 							}
@@ -820,7 +947,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 517.0, 197.0, 887.0, 563.0 ],
+						"rect" : [ 393.0, 197.0, 887.0, 563.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -881,7 +1008,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 120.0, 185.0, 248.0 ],
+									"patching_rect" : [ 450.0, 120.0, 188.0, 248.0 ],
 									"text" : "The 264.reverb~ module allows a range of controls over the reverb effect.\n\n- the “size” of the room (by default this is set to medium)\n\n- the frequency of a lowpass filter that effectively controls the “brightness” of the reverb sound\n\n- whether the reverb is short or long (this sets internal feedback amounts)\n\n- independent levels for the “dry” sound, and for the “wet” reverb sound",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -3781,19 +3908,19 @@
 			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
 			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
-			"obj-41::obj-15::obj-35" : [ "[4]", "Level", 0 ],
+			"obj-41::obj-15::obj-32" : [ "[4]", "[2]", 0 ],
 			"obj-43::obj-2::obj-21::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
 			"obj-2" : [ "input-gain", "input", 0 ],
 			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
 			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-41::obj-2::obj-32" : [ "[2]", "[2]", 0 ],
-			"obj-41::obj-2::obj-35" : [ "[3]", "Level", 0 ],
+			"obj-41::obj-2::obj-35" : [ "[2]", "Level", 0 ],
+			"obj-41::obj-2::obj-32" : [ "[3]", "[2]", 0 ],
 			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
 			"obj-43::obj-5::obj-32" : [ "[14]", "[2]", 0 ],
 			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
 			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ],
 			"obj-43::obj-5::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
-			"obj-41::obj-15::obj-32" : [ "[10]", "[2]", 0 ],
+			"obj-41::obj-15::obj-35" : [ "[10]", "Level", 0 ],
 			"obj-39::obj-2::obj-35" : [ "[1]", "Level", 0 ],
 			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
 			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ]
