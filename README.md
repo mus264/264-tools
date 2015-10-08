@@ -57,6 +57,10 @@ These modules have been tested with Max 6 and 7. They will not work with Max/MSP
 
 The `264.reverb~` core is heavily based on [Randy Jones](http://madronalabs.com/)’s `yafr2` example.
 
+`264.pitchtrack~` is built around the `sigmund~` sinusoidal analysis and pitch tracking external, originally developed by Miller Puckette, ported to Max/MSP by Miller Puckette, Cort Lippe & [Ted Apel](http://vud.org/). Included here is [Volker Böhm](http://vboehm.net/)’s [64-bit version][f9cd7a51].
+
+  [f9cd7a51]: https://github.com/v7b1/sigmund_64bit-version "v7b1/sigmund_64bit-version - GitHub"
+
 ## License
 
 This software is free to use, modify, and redistribute under a [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.txt).
