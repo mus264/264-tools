@@ -248,7 +248,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 640.0, 683.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -268,8 +268,309 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"title" : "Week 2, 9/15",
+						"title" : "Week 5, 10/6",
 						"boxes" : [ 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"border" : 0,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"hint" : "",
+									"id" : "obj-8",
+									"ignoreclick" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 60.0, 447.5, 20.0, 20.0 ],
+									"presentation_rect" : [ 41.0, 464.0, 0.0, 0.0 ],
+									"rounded" : 60.0,
+									"text" : "4",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+									"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-17",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 80.0, 447.5, 160.0, 33.0 ],
+									"presentation_rect" : [ 61.0, 464.0, 0.0, 0.0 ],
+									"text" : "Watch how 264.transpose~ responds to 264.pitchtrack~",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"border" : 0,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"hint" : "",
+									"id" : "obj-28",
+									"ignoreclick" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 45.0, 300.0, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "3",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+									"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"border" : 0,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"hint" : "",
+									"id" : "obj-26",
+									"ignoreclick" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 15.0, 150.0, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "2",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+									"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 285.0, 255.0, 85.0, 20.0 ],
+									"text" : "loadmess 127"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 461.0, 255.0, 72.0, 20.0 ],
+									"text" : "loadmess 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 375.0, 255.0, 79.0, 20.0 ],
+									"text" : "loadmess 65"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-15",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 35.0, 150.0, 135.0, 20.0 ],
+									"text" : "Start playing duduk.aif",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 18.0,
+									"frgb" : 0.0,
+									"id" : "obj-27",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 90.0, 297.0, 27.0 ],
+									"text" : "264.transpose~ & 264.pitchtrack~",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"border" : 0,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"hint" : "",
+									"id" : "obj-13",
+									"ignoreclick" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 15.0, 120.0, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "1",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+									"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-11",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 65.0, 300.0, 135.0, 20.0 ],
+									"text" : "Start playing cello-f2.aif",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-10",
+									"linecount" : 12,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 255.0, 495.0, 225.0, 167.0 ],
+									"text" : "264.pitchtrack~ attempts to analyse the fundamental frequency of incoming audio and converts that into control messages that can be understood by other 264 Tools modules.\n\nBecause we know that cello-f2.aif is of a constant pitch (an F2), we can use 264.pitchtrack~ in “relative” mode, to mimic the duduk’s melody by transposing the cello a different amount every time the duduk changes pitch.",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-12",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 35.0, 120.0, 210.0, 20.0 ],
+									"text" : "Turn on the DSP (if it isn’t on already)",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"local" : 1,
+									"maxclass" : "ezdac~",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 600.0, 49.0, 49.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "264extra-pshift" ],
+									"id" : "obj-7",
+									"maxclass" : "bpatcher",
+									"name" : "264.transpose~.maxpat",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 45.0, 495.0, 195.0, 90.0 ],
+									"varname" : "264.transpose~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "264extra-pitchtracking" ],
+									"id" : "obj-6",
+									"maxclass" : "bpatcher",
+									"name" : "264.pitchtrack~.maxpat",
+									"numinlets" : 5,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 285.0, 287.5, 195.0, 195.0 ],
+									"varname" : "264.pitchtrack~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "@loop", 1, "@file", "duduk.aif", "@vol", 0 ],
+									"id" : "obj-5",
+									"maxclass" : "bpatcher",
+									"name" : "demosound.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 15.0, 180.0, 225.0, 95.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "@loop", 1, "@file", "cello-f2.aif", "@vol", 0 ],
+									"id" : "obj-2",
+									"maxclass" : "bpatcher",
+									"name" : "demosound.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 45.0, 330.0, 225.0, 95.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -279,7 +580,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "front" ],
-									"patching_rect" : [ 15.0, 420.0, 41.0, 20.0 ],
+									"patching_rect" : [ 555.0, 40.0, 41.0, 20.0 ],
 									"text" : "t front"
 								}
 
@@ -294,7 +595,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 450.0, 69.0, 20.0 ],
+									"patching_rect" : [ 555.0, 70.0, 69.0, 20.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -309,7 +610,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 390.0, 25.0, 25.0 ]
+									"patching_rect" : [ 555.0, 10.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -322,8 +623,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 45.0, 147.0, 21.0 ],
-									"text" : "Introducing 264.grains~",
+									"patching_rect" : [ 30.0, 45.0, 386.0, 21.0 ],
+									"text" : "Introducing 264.transpose~, 264.pitchtrack~ and 264.brightness~",
 									"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 								}
 
@@ -339,7 +640,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 30.0, 15.0, 213.0, 33.0 ],
-									"text" : "Week 2, 9/15/2015",
+									"text" : "Week 5, 10/6/2015",
 									"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 								}
 
@@ -353,7 +654,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 10.0, 360.0, 65.0 ],
+									"patching_rect" : [ 15.0, 10.0, 615.0, 65.0 ],
 									"rounded" : 4
 								}
 
@@ -370,10 +671,82 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 3 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 4 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 1 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -394,13 +767,13 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p week5"
+					"text" : "p week5",
+					"varname" : "week5"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"annotation" : "",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.66 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
@@ -449,7 +822,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 201.0, 139.0, 887.0, 563.0 ],
+						"rect" : [ 517.0, 197.0, 887.0, 563.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -510,7 +883,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 120.0, 182.0, 248.0 ],
+									"patching_rect" : [ 450.0, 120.0, 185.0, 248.0 ],
 									"text" : "The 264.reverb~ module allows a range of controls over the reverb effect.\n\n- the “size” of the room (by default this is set to medium)\n\n- the frequency of a lowpass filter that effectively controls the “brightness” of the reverb sound\n\n- whether the reverb is short or long (this sets internal feedback amounts)\n\n- independent levels for the “dry” sound, and for the “wet” reverb sound",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -1363,7 +1736,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 481.0, 44.0, 736.0, 731.0 ],
+						"rect" : [ 556.0, 44.0, 736.0, 731.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -3394,30 +3767,38 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-41::obj-2::obj-32" : [ "[3]", "[2]", 0 ],
-			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
-			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ],
-			"obj-41::obj-15::obj-35" : [ "[10]", "Level", 0 ],
-			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
-			"obj-39::obj-2::obj-32" : [ "[1]", "[2]", 0 ],
-			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
-			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
-			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
-			"obj-39::obj-2::obj-35" : [ "[9]", "Level", 0 ],
-			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
 			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
-			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
-			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
+			"obj-43::obj-2::obj-32" : [ "[11]", "[2]", 0 ],
+			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
+			"obj-43::obj-2::obj-35" : [ "[12]", "Level", 0 ],
+			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
 			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-4" : [ "output-gain", "output", 0 ],
-			"obj-39::obj-10::obj-6" : [ "week3-filter-filter-type", "week3-filter-filter-type", 0 ],
-			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
 			"obj-41::obj-15::obj-32" : [ "[4]", "[2]", 0 ],
-			"obj-41::obj-2::obj-35" : [ "[2]", "Level", 0 ]
+			"obj-2" : [ "input-gain", "input", 0 ],
+			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
+			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
+			"obj-43::obj-6::obj-33" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-41::obj-2::obj-35" : [ "[3]", "Level", 0 ],
+			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
+			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ],
+			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
+			"obj-43::obj-2::obj-21::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
+			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
+			"obj-41::obj-15::obj-35" : [ "[10]", "Level", 0 ],
+			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-39::obj-2::obj-35" : [ "[1]", "Level", 0 ],
+			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
+			"obj-43::obj-5::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
+			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
+			"obj-43::obj-5::obj-35" : [ "[14]", "Level", 0 ],
+			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
+			"obj-43::obj-6::obj-32" : [ "Pitch", "live.numbox", 0 ],
+			"obj-39::obj-2::obj-32" : [ "[9]", "[2]", 0 ],
+			"obj-41::obj-2::obj-32" : [ "[2]", "[2]", 0 ],
+			"obj-39::obj-10::obj-6" : [ "week3-filter-filter-type", "week3-filter-filter-type", 0 ],
+			"obj-43::obj-5::obj-32" : [ "[13]", "[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3589,7 +3970,32 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "264.pitchtrack~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.transpose~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.transpose-pfft~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "munger~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sigmund~.mxo",
 				"type" : "iLaX"
 			}
  ]
