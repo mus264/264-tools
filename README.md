@@ -37,6 +37,8 @@ The toolkit currently includes the following modules, which should be loaded in 
 * `264.envelope~` — an envelope follower compatible with other modules
 * `264.ringmod~` — modulate a signal with a single frequency oscillator
 * `264.reverb~` — a basic reverb module
+* `264.transpose~` — a pitch shifter with 3 octave range above & below source
+* `264.pitchtrack~` — a fundamental frequency tracker
 
 ### Control
 
