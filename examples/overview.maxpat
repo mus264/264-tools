@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 1097.0, 702.0 ],
+		"rect" : [ 4.0, 44.0, 1233.0, 702.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,14 +29,28 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "overview-centroid" ],
+					"id" : "obj-14",
+					"maxclass" : "bpatcher",
+					"name" : "264.brightness~.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 450.0, 180.0, 195.0, 195.0 ],
+					"varname" : "264.brightness~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "overview-ptracker" ],
 					"id" : "obj-13",
 					"maxclass" : "bpatcher",
 					"name" : "264.pitchtrack~.maxpat",
-					"numinlets" : 4,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 810.0, 300.0, 195.0, 195.0 ],
+					"numinlets" : 5,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 870.0, 300.0, 195.0, 195.0 ],
 					"varname" : "264.pitchtrack~"
 				}
 
@@ -50,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 600.0, 510.0, 195.0, 90.0 ],
+					"patching_rect" : [ 660.0, 510.0, 195.0, 90.0 ],
 					"varname" : "264.transpose~"
 				}
 
@@ -64,7 +78,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 315.0, 180.0, 195.0, 195.0 ],
+					"patching_rect" : [ 30.0, 180.0, 195.0, 195.0 ],
 					"varname" : "264.envelope"
 				}
 
@@ -77,7 +91,7 @@
 					"name" : "264.midi-presets.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 885.0, 15.0, 195.0, 195.0 ],
+					"patching_rect" : [ 945.0, 15.0, 195.0, 195.0 ],
 					"varname" : "264.midi-presets"
 				}
 
@@ -91,7 +105,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 600.0, 300.0, 195.0, 195.0 ],
+					"patching_rect" : [ 660.0, 300.0, 195.0, 195.0 ],
 					"varname" : "264.grains~"
 				}
 
@@ -105,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 675.0, 15.0, 60.0, 60.0 ],
+					"patching_rect" : [ 735.0, 15.0, 60.0, 60.0 ],
 					"varname" : "264.go![2]"
 				}
 
@@ -119,7 +133,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 600.0, 15.0, 60.0, 60.0 ],
+					"patching_rect" : [ 660.0, 15.0, 60.0, 60.0 ],
 					"varname" : "264.tog[3]"
 				}
 
@@ -133,7 +147,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 600.0, 90.0, 195.0, 195.0 ],
+					"patching_rect" : [ 660.0, 90.0, 195.0, 195.0 ],
 					"varname" : "264.sfplay~[1]"
 				}
 
@@ -154,20 +168,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "bypass-filter" ],
-					"id" : "obj-11",
-					"maxclass" : "bpatcher",
-					"name" : "264.tog.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 240.0, 315.0, 60.0, 60.0 ],
-					"varname" : "264.tog[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "overview-filter" ],
 					"id" : "obj-7",
 					"maxclass" : "bpatcher",
@@ -175,7 +175,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 30.0, 390.0, 195.0, 195.0 ],
+					"patching_rect" : [ 240.0, 390.0, 195.0, 195.0 ],
 					"varname" : "264.filter~"
 				}
 
@@ -189,7 +189,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 315.0, 390.0, 195.0, 195.0 ],
+					"patching_rect" : [ 30.0, 390.0, 195.0, 195.0 ],
 					"varname" : "264.sfplay~"
 				}
 
@@ -245,7 +245,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 30.0, 180.0, 195.0, 195.0 ],
+					"patching_rect" : [ 240.0, 180.0, 195.0, 195.0 ],
 					"varname" : "264.delay~"
 				}
 
@@ -323,15 +323,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 4 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-4", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -350,9 +341,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 669.5, 294.0, 651.5, 294.0, 651.5, 170.0, 459.5, 170.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -371,16 +381,6 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 609.5, 502.0, 585.0, 502.0, 585.0, 609.0, 609.5, 609.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -459,7 +459,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
@@ -468,7 +468,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
@@ -495,14 +495,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
-			"obj-16::obj-95" : [ "overview-grains-size-variance", "var.", 0 ],
-			"obj-4" : [ "output-gain", "output", 0 ],
-			"obj-2" : [ "input-gain", "input", 0 ],
 			"obj-13::obj-33" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-16::obj-138" : [ "overview-grains-pitch-variance", "var.", 0 ],
+			"obj-4" : [ "output-gain", "output", 0 ],
 			"obj-16::obj-22" : [ "overview-grains-rate-variance", "var.", 0 ],
-			"obj-13::obj-32" : [ "Pitch", "live.numbox", 0 ]
+			"obj-2" : [ "input-gain", "input", 0 ],
+			"obj-16::obj-138" : [ "overview-grains-pitch-variance", "var.", 0 ],
+			"obj-16::obj-95" : [ "overview-grains-size-variance", "var.", 0 ],
+			"obj-13::obj-32" : [ "Pitch", "live.numbox", 0 ],
+			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -608,6 +608,27 @@
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.brightness~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.brightness-pfft~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.brightness-gen~.gendsp",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
