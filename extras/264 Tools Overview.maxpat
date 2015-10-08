@@ -248,7 +248,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 640.0, 683.0 ],
+						"rect" : [ 352.0, 54.0, 496.0, 683.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -286,7 +286,6 @@
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 60.0, 447.5, 20.0, 20.0 ],
-									"presentation_rect" : [ 41.0, 464.0, 0.0, 0.0 ],
 									"rounded" : 60.0,
 									"text" : "4",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -305,7 +304,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 80.0, 447.5, 160.0, 33.0 ],
-									"presentation_rect" : [ 61.0, 464.0, 0.0, 0.0 ],
 									"text" : "Watch how 264.transpose~ responds to 264.pitchtrack~",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -580,7 +578,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "front" ],
-									"patching_rect" : [ 555.0, 40.0, 41.0, 20.0 ],
+									"patching_rect" : [ 345.0, 40.0, 41.0, 20.0 ],
 									"text" : "t front"
 								}
 
@@ -595,7 +593,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 555.0, 70.0, 69.0, 20.0 ],
+									"patching_rect" : [ 345.0, 70.0, 69.0, 20.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -610,7 +608,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 555.0, 10.0, 25.0, 25.0 ]
+									"patching_rect" : [ 345.0, 10.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -623,8 +621,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 45.0, 386.0, 21.0 ],
-									"text" : "Introducing 264.transpose~, 264.pitchtrack~ and 264.brightness~",
+									"patching_rect" : [ 30.0, 45.0, 273.0, 21.0 ],
+									"text" : "Introducing 264.transpose~ & 264.pitchtrack~",
 									"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 								}
 
@@ -654,7 +652,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 10.0, 615.0, 65.0 ],
+									"patching_rect" : [ 15.0, 10.0, 465.0, 65.0 ],
 									"rounded" : 4
 								}
 
@@ -3471,7 +3469,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.0, 585.0, 454.0, 48.0 ],
-					"presentation_rect" : [ 17.0, 318.0, 50.0, 48.0 ],
+					"presentation_rect" : [ 17.0, 318.0, 50.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "output-gain",
@@ -3768,37 +3766,37 @@
  ],
 		"parameters" : 		{
 			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
-			"obj-43::obj-2::obj-32" : [ "[11]", "[2]", 0 ],
-			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
-			"obj-43::obj-2::obj-35" : [ "[12]", "Level", 0 ],
-			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
-			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-4" : [ "output-gain", "output", 0 ],
-			"obj-41::obj-15::obj-32" : [ "[4]", "[2]", 0 ],
-			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
-			"obj-43::obj-6::obj-33" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-41::obj-2::obj-35" : [ "[3]", "Level", 0 ],
-			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
-			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ],
-			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
-			"obj-43::obj-2::obj-21::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
-			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
-			"obj-41::obj-15::obj-35" : [ "[10]", "Level", 0 ],
-			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-39::obj-2::obj-35" : [ "[1]", "Level", 0 ],
-			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
-			"obj-43::obj-5::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
-			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
-			"obj-43::obj-5::obj-35" : [ "[14]", "Level", 0 ],
-			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
-			"obj-43::obj-6::obj-32" : [ "Pitch", "live.numbox", 0 ],
 			"obj-39::obj-2::obj-32" : [ "[9]", "[2]", 0 ],
-			"obj-41::obj-2::obj-32" : [ "[2]", "[2]", 0 ],
+			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
 			"obj-39::obj-10::obj-6" : [ "week3-filter-filter-type", "week3-filter-filter-type", 0 ],
-			"obj-43::obj-5::obj-32" : [ "[13]", "[2]", 0 ]
+			"obj-43::obj-5::obj-35" : [ "[13]", "Level", 0 ],
+			"obj-43::obj-2::obj-32" : [ "[12]", "[2]", 0 ],
+			"obj-43::obj-6::obj-33" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-43::obj-6::obj-32" : [ "Pitch", "live.numbox", 0 ],
+			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-43::obj-2::obj-35" : [ "[11]", "Level", 0 ],
+			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
+			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
+			"obj-4" : [ "output-gain", "output", 0 ],
+			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
+			"obj-41::obj-15::obj-35" : [ "[4]", "Level", 0 ],
+			"obj-43::obj-2::obj-21::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
+			"obj-2" : [ "input-gain", "input", 0 ],
+			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
+			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
+			"obj-41::obj-2::obj-32" : [ "[2]", "[2]", 0 ],
+			"obj-41::obj-2::obj-35" : [ "[3]", "Level", 0 ],
+			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
+			"obj-43::obj-5::obj-32" : [ "[14]", "[2]", 0 ],
+			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
+			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ],
+			"obj-43::obj-5::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
+			"obj-41::obj-15::obj-32" : [ "[10]", "[2]", 0 ],
+			"obj-39::obj-2::obj-35" : [ "[1]", "Level", 0 ],
+			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
+			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
