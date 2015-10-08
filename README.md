@@ -30,14 +30,22 @@ The toolkit currently includes the following modules, which should be loaded in 
 
 ### Audio
 
-* `264.delay~` — a single, flexible delay line
+#### Generation
+
 * `264.sfplay~` — a simple sound file player
+
+#### Processing
+
+* `264.delay~` — a single, flexible delay line
 * `264.filter~` — a highpass, lowpass or bandpass filter
 * `264.grains~` — a live audio granulation module
-* `264.envelope~` — an envelope follower compatible with other modules
 * `264.ringmod~` — modulate a signal with a single frequency oscillator
 * `264.reverb~` — a basic reverb module
 * `264.transpose~` — a pitch shifter with 3 octave range above & below source
+
+#### Analysis
+
+* `264.envelope~` — an envelope follower compatible with other modules
 * `264.pitchtrack~` — a fundamental frequency tracker
 
 ### Control
