@@ -48,6 +48,20 @@
       "264 Tools"
     ]
   },
+  "264.transpose~": {
+    "digest": "Use in a bpatcher to pitch shift audio by semitones.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
+  "264.pitchtrack~": {
+    "digest": "Use in a bpatcher to analyse fundamental frequencies.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
   "264.midi-learn": {
     "digest": "Use in a bpatcher to quickly map MIDI controls in Max.",
     "module": "264 Tools",
