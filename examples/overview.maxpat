@@ -29,6 +29,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "overview-ptracker" ],
+					"id" : "obj-13",
+					"maxclass" : "bpatcher",
+					"name" : "264.pitchtrack~.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 810.0, 300.0, 195.0, 195.0 ],
+					"varname" : "264.pitchtrack~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "overview-pshift" ],
 					"id" : "obj-12",
 					"maxclass" : "bpatcher",
@@ -63,22 +77,8 @@
 					"name" : "264.midi-presets.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 885.0, 300.0, 195.0, 195.0 ],
+					"patching_rect" : [ 885.0, 15.0, 195.0, 195.0 ],
 					"varname" : "264.midi-presets"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "bypass-grains" ],
-					"id" : "obj-18",
-					"maxclass" : "bpatcher",
-					"name" : "264.tog.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 810.0, 225.0, 60.0, 60.0 ],
-					"varname" : "264.tog[4]"
 				}
 
 			}
@@ -341,6 +341,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -359,10 +377,11 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 8 ],
+					"destination" : [ "obj-4", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-18", 0 ]
+					"midpoints" : [ 609.5, 502.0, 585.0, 502.0, 585.0, 609.0, 609.5, 609.0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -476,12 +495,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-16::obj-95" : [ "overview-grains-size-variance", "var.", 0 ],
-			"obj-16::obj-138" : [ "overview-grains-pitch-variance", "var.", 0 ],
 			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
+			"obj-16::obj-95" : [ "overview-grains-size-variance", "var.", 0 ],
+			"obj-4" : [ "output-gain", "output", 0 ],
+			"obj-2" : [ "input-gain", "input", 0 ],
+			"obj-13::obj-33" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-16::obj-138" : [ "overview-grains-pitch-variance", "var.", 0 ],
 			"obj-16::obj-22" : [ "overview-grains-rate-variance", "var.", 0 ],
-			"obj-4" : [ "output-gain", "output", 0 ]
+			"obj-13::obj-32" : [ "Pitch", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -583,7 +604,18 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "264.pitchtrack~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "munger~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sigmund~.mxo",
 				"type" : "iLaX"
 			}
  ]
