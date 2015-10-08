@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 1233.0, 702.0 ],
+		"rect" : [ 4.0, 44.0, 1159.0, 702.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "overview-grains" ],
+					"id" : "obj-11",
+					"maxclass" : "bpatcher",
+					"name" : "264.grains~.maxpat",
+					"numinlets" : 9,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 240.0, 390.0, 195.0, 195.0 ],
+					"varname" : "264.grains~[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "overview-centroid" ],
 					"id" : "obj-14",
 					"maxclass" : "bpatcher",
@@ -36,7 +50,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 450.0, 180.0, 195.0, 195.0 ],
+					"patching_rect" : [ 690.0, 300.0, 195.0, 195.0 ],
 					"varname" : "264.brightness~"
 				}
 
@@ -50,7 +64,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 870.0, 300.0, 195.0, 195.0 ],
+					"patching_rect" : [ 900.0, 300.0, 195.0, 195.0 ],
 					"varname" : "264.pitchtrack~"
 				}
 
@@ -64,7 +78,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 660.0, 510.0, 195.0, 90.0 ],
+					"patching_rect" : [ 450.0, 510.0, 195.0, 90.0 ],
 					"varname" : "264.transpose~"
 				}
 
@@ -98,20 +112,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "overview-grains" ],
-					"id" : "obj-16",
-					"maxclass" : "bpatcher",
-					"name" : "264.grains~.maxpat",
-					"numinlets" : 9,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 660.0, 300.0, 195.0, 195.0 ],
-					"varname" : "264.grains~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "sfplay-pause-2" ],
 					"id" : "obj-8",
 					"maxclass" : "bpatcher",
@@ -119,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 735.0, 15.0, 60.0, 60.0 ],
+					"patching_rect" : [ 525.0, 15.0, 60.0, 60.0 ],
 					"varname" : "264.go![2]"
 				}
 
@@ -133,7 +133,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 660.0, 15.0, 60.0, 60.0 ],
+					"patching_rect" : [ 450.0, 15.0, 60.0, 60.0 ],
 					"varname" : "264.tog[3]"
 				}
 
@@ -147,7 +147,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 660.0, 90.0, 195.0, 195.0 ],
+					"patching_rect" : [ 450.0, 90.0, 195.0, 195.0 ],
 					"varname" : "264.sfplay~[1]"
 				}
 
@@ -175,7 +175,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 240.0, 390.0, 195.0, 195.0 ],
+					"patching_rect" : [ 450.0, 300.0, 195.0, 195.0 ],
 					"varname" : "264.filter~"
 				}
 
@@ -323,6 +323,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -344,6 +353,7 @@
 					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 699.5, 495.0, 670.0, 495.0, 670.0, 295.0, 503.5, 295.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -362,26 +372,16 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 669.5, 294.0, 651.5, 294.0, 651.5, 170.0, 459.5, 170.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -414,7 +414,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
@@ -468,7 +468,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
@@ -495,13 +495,13 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-11::obj-95" : [ "overview-grains-size-variance[1]", "var.", 0 ],
 			"obj-13::obj-33" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-4" : [ "output-gain", "output", 0 ],
-			"obj-16::obj-22" : [ "overview-grains-rate-variance", "var.", 0 ],
-			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-16::obj-138" : [ "overview-grains-pitch-variance", "var.", 0 ],
-			"obj-16::obj-95" : [ "overview-grains-size-variance", "var.", 0 ],
 			"obj-13::obj-32" : [ "Pitch", "live.numbox", 0 ],
+			"obj-4" : [ "output-gain", "output", 0 ],
+			"obj-11::obj-22" : [ "overview-grains-rate-variance[1]", "var.", 0 ],
+			"obj-2" : [ "input-gain", "input", 0 ],
+			"obj-11::obj-138" : [ "overview-grains-pitch-variance[1]", "var.", 0 ],
 			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ]
 		}
 ,
@@ -569,13 +569,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.grains~.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "264.midi-presets.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -632,11 +625,18 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "munger~.mxo",
-				"type" : "iLaX"
+				"name" : "264.grains~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "sigmund~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "munger~.mxo",
 				"type" : "iLaX"
 			}
  ]
