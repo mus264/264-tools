@@ -2,6 +2,8 @@
 
 A modular kit providing high-level sound generation, processing and performance tools for students of Music 264 at Harvard University.
 
+![264 Tools modules](/source/modules-screenshot.png)
+
 ## Installation
 
 The best way to install *264 Tools* and make sure you always have the latest version, is to use Nathanaël Lécaudé’s *[Max Package Downloader](https://github.com/natcl/max_package_downloader)*:
