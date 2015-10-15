@@ -29,6 +29,24 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 645.0, 180.0, 52.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 56.0, 165.0, 54.0, 18.0 ],
+					"text" : "time gate",
+					"textcolor" : [ 0.2, 0.29, 0.3, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "",
 					"bgcolor" : [ 0.980392, 0.988235, 0.976471, 0.0 ],
 					"blinkcolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
@@ -136,7 +154,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 645.0, 135.0, 80.0, 20.0 ],
-					"presentation_rect" : [ 644.0, 137.0, 0.0, 0.0 ],
 					"text" : "route int float"
 				}
 
@@ -832,7 +849,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 360.0, 405.0, 124.0, 33.0 ],
-									"presentation_rect" : [ 363.0, 408.0, 0.0, 0.0 ],
 									"text" : "threshold triggered\n(bang)"
 								}
 
@@ -849,7 +865,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 45.0, 405.0, 134.0, 33.0 ],
-									"presentation_rect" : [ 45.0, 404.0, 0.0, 0.0 ],
 									"text" : "continuous envelope\n(0.–1., exponential)"
 								}
 
@@ -861,8 +876,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 331.0, 405.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 270.0, 602.0, 0.0, 0.0 ]
+									"patching_rect" : [ 331.0, 405.0, 25.0, 25.0 ]
 								}
 
 							}
