@@ -91,7 +91,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 705.0, 120.0, 195.0, 208.0 ],
-									"presentation_rect" : [ 701.0, 125.0, 0.0, 0.0 ],
 									"text" : "When preparing to perform, it is helpful to have tools and routines to check your system is up and running correctly.\n\n264.audiotest~ allows you to output a “speaker test” (some white noise) to check if your speakers are working.\n\nYou can also check whether Max’s audio is turned on, what input & output devices are selected, and keep an eye on the global levels being sent out of Max.",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -759,8 +758,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 45.0, 294.0, 21.0 ],
-									"text" : "Introducing 264.trigger~, 264.freeze~ & 264.test~",
+									"patching_rect" : [ 30.0, 45.0, 326.0, 21.0 ],
+									"text" : "Introducing 264.trigger~, 264.freeze~ & 264.audiotest~",
 									"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 								}
 
@@ -4629,13 +4628,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-43::obj-2::obj-35" : [ "[12]", "Level", 0 ],
+			"obj-43::obj-2::obj-32" : [ "[12]", "[2]", 0 ],
 			"obj-4" : [ "output-gain", "output", 0 ],
 			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
 			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
 			"obj-47::obj-6::obj-21::obj-6" : [ "live.tab[9]", "live.tab[1]", 0 ],
 			"obj-47::obj-2::obj-32" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-47::obj-6::obj-35" : [ "[16]", "Level", 0 ],
+			"obj-47::obj-6::obj-32" : [ "[16]", "[2]", 0 ],
 			"obj-41::obj-15::obj-35" : [ "[4]", "Level", 0 ],
 			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
 			"obj-43::obj-6::obj-113" : [ "Pitch[1]", "live.numbox", 0 ],
@@ -4644,7 +4643,7 @@
 			"obj-2" : [ "input-gain", "input", 0 ],
 			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
 			"obj-39::obj-10::obj-6" : [ "week3-filter-filter-type", "week3-filter-filter-type", 0 ],
-			"obj-41::obj-2::obj-32" : [ "[3]", "[2]", 0 ],
+			"obj-41::obj-2::obj-35" : [ "[3]", "Level", 0 ],
 			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
 			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
@@ -4663,10 +4662,10 @@
 			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
 			"obj-43::obj-5::obj-35" : [ "[13]", "Level", 0 ],
 			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-47::obj-6::obj-32" : [ "[15]", "[2]", 0 ],
-			"obj-41::obj-2::obj-35" : [ "[2]", "Level", 0 ],
+			"obj-47::obj-6::obj-35" : [ "[15]", "Level", 0 ],
+			"obj-41::obj-2::obj-32" : [ "[2]", "[2]", 0 ],
 			"obj-47::obj-32::obj-21::obj-6" : [ "live.tab[10]", "live.tab[1]", 0 ],
-			"obj-43::obj-2::obj-32" : [ "[11]", "[2]", 0 ],
+			"obj-43::obj-2::obj-35" : [ "[11]", "Level", 0 ],
 			"obj-43::obj-5::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
 			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
 			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ]
