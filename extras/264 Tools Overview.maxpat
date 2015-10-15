@@ -47,7 +47,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 45.0, 44.0, 703.0, 747.0 ],
+						"rect" : [ 197.0, 44.0, 924.0, 747.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -70,6 +70,61 @@
 						"title" : "Week 6, 10/13",
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ "overview-audiotest" ],
+									"id" : "obj-44",
+									"maxclass" : "bpatcher",
+									"name" : "264.audiotest~.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 705.0, 345.0, 195.0, 195.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-43",
+									"linecount" : 15,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 705.0, 120.0, 195.0, 208.0 ],
+									"presentation_rect" : [ 701.0, 125.0, 0.0, 0.0 ],
+									"text" : "When preparing to perform, it is helpful to have tools and routines to check your system is up and running correctly.\n\n264.audiotest~ allows you to output a “speaker test” (some white noise) to check if your speakers are working.\n\nYou can also check whether Max’s audio is turned on, what input & output devices are selected, and keep an eye on the global levels being sent out of Max.",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 18.0,
+									"frgb" : 0.0,
+									"id" : "obj-41",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 705.0, 90.0, 136.0, 27.0 ],
+									"text" : "264.audiotest~",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-42",
+									"maxclass" : "live.line",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 686.0, 88.0, 5.0, 557.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
@@ -79,7 +134,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 450.0, 555.0, 225.0, 74.0 ],
-									"presentation_rect" : [ 451.0, 554.0, 0.0, 0.0 ],
 									"text" : "Every time you press “freeze” the module will capture a snapshot of the audio spectrum at that moment and output it until the next click (or bang into the second inlet).",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -102,7 +156,6 @@
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 465.0, 300.0, 20.0, 20.0 ],
-									"presentation_rect" : [ 450.0, 287.0, 0.0, 0.0 ],
 									"rounded" : 60.0,
 									"text" : "3",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -120,7 +173,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 485.0, 300.0, 90.0, 20.0 ],
-									"presentation_rect" : [ 470.0, 287.0, 0.0, 0.0 ],
 									"text" : "Press “Freeze”",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -277,7 +329,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 120.0, 682.5, 520.0, 30.0 ],
+									"patching_rect" : [ 120.0, 682.5, 765.0, 30.0 ],
 									"rounded" : 0.0,
 									"text" : "Listen to music chosen by Ute Wassermann",
 									"textcolor" : [ 0.752941, 0.14902, 0.14902, 1.0 ],
@@ -339,7 +391,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 52.0, 660.0, 623.0, 75.0 ],
+									"patching_rect" : [ 52.0, 660.0, 863.0, 75.0 ],
 									"rounded" : 4
 								}
 
@@ -738,7 +790,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 10.0, 675.0, 65.0 ],
+									"patching_rect" : [ 15.0, 10.0, 900.0, 65.0 ],
 									"rounded" : 4
 								}
 
@@ -4577,47 +4629,47 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
-			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-47::obj-32::obj-32" : [ "[18]", "[2]", 0 ],
-			"obj-41::obj-2::obj-35" : [ "[3]", "Level", 0 ],
+			"obj-43::obj-2::obj-35" : [ "[12]", "Level", 0 ],
+			"obj-4" : [ "output-gain", "output", 0 ],
+			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
+			"obj-47::obj-6::obj-21::obj-6" : [ "live.tab[9]", "live.tab[1]", 0 ],
 			"obj-47::obj-2::obj-32" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-43::obj-2::obj-21::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
-			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-41::obj-15::obj-32" : [ "[10]", "[2]", 0 ],
-			"obj-39::obj-2::obj-35" : [ "[1]", "Level", 0 ],
+			"obj-47::obj-6::obj-35" : [ "[16]", "Level", 0 ],
+			"obj-41::obj-15::obj-35" : [ "[4]", "Level", 0 ],
+			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
+			"obj-43::obj-6::obj-113" : [ "Pitch[1]", "live.numbox", 0 ],
+			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
+			"obj-47::obj-32::obj-32" : [ "[17]", "[2]", 0 ],
+			"obj-2" : [ "input-gain", "input", 0 ],
 			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
 			"obj-39::obj-10::obj-6" : [ "week3-filter-filter-type", "week3-filter-filter-type", 0 ],
-			"obj-47::obj-17" : [ "output-gain[5]", "output", 0 ],
-			"obj-43::obj-6::obj-113" : [ "Pitch[1]", "live.numbox", 0 ],
-			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
-			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ],
-			"obj-43::obj-5::obj-35" : [ "[14]", "Level", 0 ],
-			"obj-43::obj-6::obj-33" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-39::obj-2::obj-32" : [ "[9]", "[2]", 0 ],
-			"obj-43::obj-5::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
-			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
-			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-47::obj-6::obj-32" : [ "[16]", "[2]", 0 ],
-			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
-			"obj-43::obj-5::obj-32" : [ "[13]", "[2]", 0 ],
+			"obj-41::obj-2::obj-32" : [ "[3]", "[2]", 0 ],
 			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
-			"obj-47::obj-6::obj-35" : [ "[15]", "Level", 0 ],
+			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
+			"obj-43::obj-2::obj-21::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
+			"obj-43::obj-6::obj-32" : [ "Pitch", "live.numbox", 0 ],
+			"obj-41::obj-15::obj-32" : [ "[10]", "[2]", 0 ],
+			"obj-47::obj-32::obj-35" : [ "[18]", "Level", 0 ],
 			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
-			"obj-47::obj-6::obj-21::obj-6" : [ "live.tab[9]", "live.tab[1]", 0 ],
+			"obj-39::obj-2::obj-32" : [ "[1]", "[2]", 0 ],
+			"obj-47::obj-17" : [ "output-gain[5]", "output", 0 ],
+			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
+			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
+			"obj-43::obj-6::obj-33" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-43::obj-5::obj-32" : [ "[14]", "[2]", 0 ],
+			"obj-39::obj-2::obj-35" : [ "[9]", "Level", 0 ],
+			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
+			"obj-43::obj-5::obj-35" : [ "[13]", "Level", 0 ],
+			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-47::obj-6::obj-32" : [ "[15]", "[2]", 0 ],
+			"obj-41::obj-2::obj-35" : [ "[2]", "Level", 0 ],
 			"obj-47::obj-32::obj-21::obj-6" : [ "live.tab[10]", "live.tab[1]", 0 ],
 			"obj-43::obj-2::obj-32" : [ "[11]", "[2]", 0 ],
-			"obj-41::obj-2::obj-32" : [ "[2]", "[2]", 0 ],
-			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-43::obj-2::obj-35" : [ "[12]", "Level", 0 ],
-			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
-			"obj-47::obj-32::obj-35" : [ "[17]", "Level", 0 ],
-			"obj-4" : [ "output-gain", "output", 0 ],
-			"obj-43::obj-6::obj-32" : [ "Pitch", "live.numbox", 0 ],
-			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
-			"obj-41::obj-15::obj-35" : [ "[4]", "Level", 0 ],
-			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ]
+			"obj-43::obj-5::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
+			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
+			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -4825,6 +4877,13 @@
 			}
 , 			{
 				"name" : "264.freeze-pfft~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.audiotest~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
