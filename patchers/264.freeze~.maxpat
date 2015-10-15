@@ -10,7 +10,7 @@
 ,
 		"rect" : [ 65.0, 44.0, 386.0, 706.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -605,7 +605,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 210.0, 60.0, 91.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 1.0, 9.0, 5.0 ],
+					"presentation_rect" : [ 181.0, 1.0, 9.0, 5.0 ],
 					"rounded" : 0
 				}
 
