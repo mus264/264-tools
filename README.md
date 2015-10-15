@@ -44,11 +44,17 @@ The toolkit currently includes the following modules, which should be loaded in 
 * `264.ringmod~` — modulate a signal with a single frequency oscillator
 * `264.reverb~` — a basic reverb module
 * `264.transpose~` — a pitch shifter with 3 octave range above & below source
+* `264.freeze~` — a spectral audio freezer
 
 #### Analysis
 
 * `264.envelope~` — an envelope follower compatible with other modules
 * `264.pitchtrack~` — a fundamental frequency tracker
+* `264.trigger~` — an attack detector
+
+#### Utility
+
+* `264.audiotest~` — display audio status & test loudspeakers
 
 ### Control
 
@@ -72,6 +78,8 @@ The `264.reverb~` core is heavily based on [Randy Jones](http://madronalabs.com/
 `264.pitchtrack~` is built around the `sigmund~` sinusoidal analysis and pitch tracking external, originally developed by Miller Puckette, ported to Max/MSP by Miller Puckette, Cort Lippe & [Ted Apel](http://vud.org/). Included here is [Volker Böhm](http://vboehm.net/)’s [64-bit version][f9cd7a51].
 
   [f9cd7a51]: https://github.com/v7b1/sigmund_64bit-version "v7b1/sigmund_64bit-version - GitHub"
+
+`264.freeze~` relies on [Jean-François Charles](http://www.jeanfrancoischarles.com)’s spectral freezing patches.
 
 ## License
 

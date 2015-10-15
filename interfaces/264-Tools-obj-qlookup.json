@@ -62,6 +62,27 @@
       "264 Tools"
     ]
   },
+  "264.trigger~": {
+    "digest": "Use in a bpatcher to detect attacks.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
+  "264.freeze~": {
+    "digest": "Use in a bpatcher to apply a spectral freeze to incoming audio.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
+  "264.audiotest~": {
+    "digest": "Use in a bpatcher to provide basic audio status testing.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
   "264.midi-learn": {
     "digest": "Use in a bpatcher to quickly map MIDI controls in Max.",
     "module": "264 Tools",
