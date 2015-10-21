@@ -79,7 +79,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 705.0, 570.0, 195.0, 33.0 ],
-									"presentation_rect" : [ 700.0, 574.0, 0.0, 0.0 ],
 									"text" : "The speaker test white noise peaks at -12dB.",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -953,7 +952,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "",
+					"annotation" : "Introducing 264.trigger~, 264.freeze~ & 264.audiotest~",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.66 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
 					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 0.65 ],
@@ -964,7 +963,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"hint" : "",
+					"hint" : "Introducing 264.trigger~, 264.freeze~ & 264.audiotest~",
 					"id" : "obj-48",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -1652,7 +1651,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "",
+					"annotation" : "Introducing 264.transpose~ & 264.pitchtrack~",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.66 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
 					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 0.65 ],
@@ -1663,7 +1662,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"hint" : "",
+					"hint" : "Introducing 264.transpose~ & 264.pitchtrack~",
 					"id" : "obj-44",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -2566,7 +2565,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "",
+					"annotation" : "Introducing 264.ringmod~ & 264.reverb~",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.66 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
 					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 0.65 ],
@@ -2577,7 +2576,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"hint" : "",
+					"hint" : "Introducing 264.ringmod~ & 264.reverb~",
 					"id" : "obj-42",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -2614,7 +2613,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 556.0, 44.0, 736.0, 731.0 ],
+						"rect" : [ 544.0, 44.0, 736.0, 731.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -3321,7 +3320,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "",
+					"annotation" : "Introducing 264.envelope~ & 264.midi-presets",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.66 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
 					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 0.65 ],
@@ -3332,7 +3331,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"hint" : "",
+					"hint" : "Introducing 264.envelope~ & 264.midi-presets",
 					"id" : "obj-40",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -3861,7 +3860,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "",
+					"annotation" : "Introducing 264.grains~",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.66 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
 					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 0.65 ],
@@ -3872,7 +3871,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"hint" : "",
+					"hint" : "Introducing 264.grains~",
 					"id" : "obj-36",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -4648,24 +4647,24 @@
 			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
 			"obj-43::obj-6::obj-32" : [ "Pitch", "live.numbox", 0 ],
 			"obj-43::obj-5::obj-32" : [ "[13]", "[2]", 0 ],
-			"obj-47::obj-6::obj-35" : [ "[15]", "Level", 0 ],
+			"obj-47::obj-6::obj-32" : [ "[15]", "[2]", 0 ],
 			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
 			"obj-47::obj-32::obj-21::obj-6" : [ "live.tab[10]", "live.tab[1]", 0 ],
-			"obj-43::obj-2::obj-35" : [ "[11]", "Level", 0 ],
+			"obj-43::obj-2::obj-32" : [ "[11]", "[2]", 0 ],
 			"obj-43::obj-5::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
 			"obj-43::obj-6::obj-113" : [ "Pitch[1]", "live.numbox", 0 ],
 			"obj-4" : [ "output-gain", "output", 0 ],
-			"obj-43::obj-2::obj-32" : [ "[12]", "[2]", 0 ],
+			"obj-43::obj-2::obj-35" : [ "[12]", "Level", 0 ],
 			"obj-43::obj-6::obj-33" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
 			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
 			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
 			"obj-47::obj-6::obj-21::obj-6" : [ "live.tab[9]", "live.tab[1]", 0 ],
 			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
-			"obj-41::obj-15::obj-35" : [ "[4]", "Level", 0 ],
+			"obj-41::obj-15::obj-32" : [ "[4]", "[2]", 0 ],
 			"obj-47::obj-2::obj-32" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ],
-			"obj-47::obj-6::obj-32" : [ "[16]", "[2]", 0 ],
+			"obj-47::obj-6::obj-35" : [ "[16]", "Level", 0 ],
 			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-47::obj-32::obj-35" : [ "[17]", "Level", 0 ],
 			"obj-41::obj-2::obj-32" : [ "[3]", "[2]", 0 ],
@@ -4677,7 +4676,7 @@
 			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
 			"obj-39::obj-10::obj-6" : [ "week3-filter-filter-type", "week3-filter-filter-type", 0 ],
 			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
-			"obj-41::obj-15::obj-32" : [ "[10]", "[2]", 0 ],
+			"obj-41::obj-15::obj-35" : [ "[10]", "Level", 0 ],
 			"obj-47::obj-32::obj-32" : [ "[18]", "[2]", 0 ],
 			"obj-39::obj-2::obj-35" : [ "[1]", "Level", 0 ],
 			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
