@@ -9,7 +9,7 @@
 		}
 ,
 		"rect" : [ 4.0, 44.0, 812.0, 670.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -28,6 +28,94 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"hint" : "",
+					"id" : "obj-63",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 495.0, 315.0, 38.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 150.0, 54.0, 29.0, 18.0 ],
+					"text" : "0.20",
+					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"frgb" : 0.0,
+					"hint" : "",
+					"id" : "obj-84",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 480.0, 376.0, 90.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 36.0, 55.0, 86.0, 17.0 ],
+					"text" : "T H R E S H O L D",
+					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "How loud must the audio get to trigger a bang",
+					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 0.0 ],
+					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
+					"contdata" : 1,
+					"hint" : "How loud must the audio get to trigger a bang",
+					"id" : "obj-110",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"orientation" : 0,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 435.0, 165.0, 98.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 36.0, 53.0, 142.0, 20.0 ],
+					"setminmax" : [ 0.0, 127.0 ],
+					"setstyle" : 1,
+					"slidercolor" : [ 0.94902, 0.376471, 0.0, 0.05 ],
+					"thickness" : 4,
+					"varname" : "#1-threshold-slider"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
+					"contdata" : 1,
+					"id" : "obj-22",
+					"ignoreclick" : 1,
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"orientation" : 0,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 480.0, 375.0, 95.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 36.0, 53.0, 142.0, 20.0 ],
+					"setminmax" : [ 0.0, 127.0 ],
+					"setstyle" : 1,
+					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
+					"thickness" : 4,
+					"varname" : "#1-delay-slider"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Arial",
@@ -61,7 +149,35 @@
 					"outlinecolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"patching_rect" : [ 159.0, 345.0, 35.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 143.0, 77.5, 35.0, 35.0 ]
+					"presentation_rect" : [ 145.0, 75.5, 35.0, 35.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+					"id" : "obj-18",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 240.0, 105.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 149.0, 79.5, 27.0, 27.0 ],
+					"rounded" : 100
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+					"id" : "obj-17",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 225.0, 90.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 138.0, 66.5, 50.0, 50.0 ],
+					"rounded" : 100
 				}
 
 			}
@@ -570,26 +686,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"hint" : "",
-					"id" : "obj-63",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 495.0, 315.0, 38.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 54.0, 29.0, 18.0 ],
-					"text" : "0.20",
-					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
-					"textjustification" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-41",
@@ -599,25 +695,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 495.0, 285.0, 74.0, 20.0 ],
 					"text" : "prepend set"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"frgb" : 0.0,
-					"hint" : "",
-					"id" : "obj-84",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 480.0, 376.0, 90.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 55.0, 86.0, 17.0 ],
-					"text" : "T H R E S H O L D",
-					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
 
 			}
@@ -634,31 +711,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 53.0, 20.0, 20.0 ],
 					"varname" : "trigger-threshold"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "How loud must the audio get to trigger a bang",
-					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 0.0 ],
-					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
-					"contdata" : 1,
-					"hint" : "How loud must the audio get to trigger a bang",
-					"id" : "obj-110",
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"orientation" : 0,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 435.0, 165.0, 98.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 53.0, 142.0, 20.0 ],
-					"setminmax" : [ 0.0, 127.0 ],
-					"setstyle" : 1,
-					"slidercolor" : [ 0.94902, 0.376471, 0.0, 0.05 ],
-					"thickness" : 4,
-					"varname" : "#1-threshold-slider"
 				}
 
 			}
@@ -758,30 +810,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 435.0, 195.0, 145.0, 20.0 ],
 					"text" : "scale 0. 127. 0.01 1. 1.07"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
-					"contdata" : 1,
-					"id" : "obj-22",
-					"ignoreclick" : 1,
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"orientation" : 0,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 480.0, 375.0, 95.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 53.0, 142.0, 20.0 ],
-					"setminmax" : [ 0.0, 127.0 ],
-					"setstyle" : 1,
-					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
-					"thickness" : 4,
-					"varname" : "#1-delay-slider"
 				}
 
 			}
