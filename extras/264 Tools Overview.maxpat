@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 37.0, 62.0, 1214.0, 711.0 ],
+		"rect" : [ 37.0, 62.0, 1216.0, 711.0 ],
 		"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
@@ -30,6 +30,405 @@
 		"tags" : "",
 		"title" : "264 Tools Overview",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 476.0, 207.0, 451.0, 445.0 ],
+						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 0,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"title" : "Week 7, 10/20",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-24",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 225.0, 356.0, 149.0, 20.0 ],
+									"presentation_rect" : [ 313.0, 359.0, 0.0, 0.0 ],
+									"text" : "my-performance-project",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 2,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-23",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 313.0, 398.0, 99.0, 20.0 ],
+									"text" : "(coming soon…)",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-21",
+									"linecount" : 16,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 225.0, 210.0, 210.0, 221.0 ],
+									"presentation_rect" : [ 230.0, 486.0, 0.0, 0.0 ],
+									"text" : "For file loading to work, you must keep your sound files in a special folder.\n\nAll your sound files must be kept in a folder called “soundfiles” alongside your main patch.\n\nA good project file structure would look like this:\n\n\n├ my-patch.maxpat\n├ midi-presets\n├ audio-presets\n└ soundfiles",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-19",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 330.0, 177.0, 78.0, 24.0 ],
+									"presentation_rect" : [ 254.0, 187.0, 0.0, 0.0 ],
+									"text" : "click here",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-18",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 255.0, 180.0, 71.0, 18.0 ],
+									"text" : "rainstick.aif"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-15",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 257.0, 135.0, 168.0, 33.0 ],
+									"presentation_rect" : [ 257.0, 125.0, 0.0, 0.0 ],
+									"text" : "It lets you load a sound file by sending a message.",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"arrows" : 1,
+									"border" : 1.5,
+									"id" : "obj-5",
+									"justification" : 4,
+									"linecolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+									"maxclass" : "live.line",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 200.75, 125.0, 59.0, 38.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-6",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 257.0, 120.0, 168.0, 20.0 ],
+									"presentation_rect" : [ 285.0, 137.0, 0.0, 0.0 ],
+									"text" : "264.sfplay~ has a new inlet!",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "sound-loading-extra" ],
+									"id" : "obj-2",
+									"maxclass" : "bpatcher",
+									"name" : "264.sfplay~.maxpat",
+									"numinlets" : 5,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 15.0, 165.0, 195.0, 195.0 ],
+									"varname" : "264.sfplay~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 18.0,
+									"frgb" : 0.0,
+									"id" : "obj-27",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 90.0, 410.0, 27.0 ],
+									"text" : "Loading sounds in 264.sfplay~ with messages",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"local" : 1,
+									"maxclass" : "ezdac~",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 375.0, 45.0, 45.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "front" ],
+									"patching_rect" : [ 334.0, 32.5, 41.0, 20.0 ],
+									"text" : "t front"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 334.0, 62.5, 69.0, 20.0 ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+									"text" : "thispatcher"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"hidden" : 1,
+									"id" : "obj-1",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 334.0, 2.5, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-16",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 30.0, 45.0, 269.0, 21.0 ],
+									"text" : "Introducing sound file loading for 264.sfplay~",
+									"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 24.0,
+									"frgb" : 0.0,
+									"id" : "obj-14",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 30.0, 15.0, 226.0, 33.0 ],
+									"text" : "Week 7, 10/20/2015",
+									"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+									"border" : 1,
+									"bordercolor" : [ 0.2, 0.286275, 0.298039, 0.5 ],
+									"id" : "obj-20",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 10.0, 420.0, 65.0 ],
+									"rounded" : 4
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 4 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 264.5, 203.0, 217.5, 203.0, 217.5, 162.0, 200.5, 162.0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 1198.0, 585.0, 55.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p week7",
+					"varname" : "week6[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Introducing soundfile loading for 264.sfplay~",
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.66 ],
+					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
+					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 0.65 ],
+					"bgoveroncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
+					"borderoncolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"hint" : "Introducing soundfile loading for 264.sfplay~",
+					"id" : "obj-45",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1078.0, 555.0, 110.0, 25.0 ],
+					"prototypename" : "M4L.toggle",
+					"rounded" : 0.0,
+					"text" : "Week 7, 10/20",
+					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"texton" : "Trig",
+					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"textovercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -4319,7 +4718,7 @@
 					"id" : "obj-6",
 					"maxclass" : "bpatcher",
 					"name" : "264.sfplay~.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 465.0, 135.0, 195.0, 195.0 ],
@@ -4348,7 +4747,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.0, 585.0, 454.0, 48.0 ],
-					"presentation_rect" : [ 17.0, 318.0, 50.0, 34.0 ],
+					"presentation_rect" : [ 17.0, 318.0, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "output-gain",
@@ -4608,6 +5007,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -4644,47 +5052,47 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
-			"obj-43::obj-6::obj-32" : [ "Pitch", "live.numbox", 0 ],
+			"obj-41::obj-15::obj-35" : [ "[10]", "Level", 0 ],
+			"obj-47::obj-32::obj-32" : [ "[18]", "[2]", 0 ],
+			"obj-39::obj-2::obj-32" : [ "[1]", "[2]", 0 ],
+			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
+			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
+			"obj-43::obj-5::obj-35" : [ "[14]", "Level", 0 ],
+			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
+			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-39::obj-2::obj-35" : [ "[9]", "Level", 0 ],
+			"obj-47::obj-17" : [ "output-gain[5]", "output", 0 ],
 			"obj-43::obj-5::obj-32" : [ "[13]", "[2]", 0 ],
+			"obj-43::obj-6::obj-33" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
 			"obj-47::obj-6::obj-32" : [ "[15]", "[2]", 0 ],
-			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
 			"obj-47::obj-32::obj-21::obj-6" : [ "live.tab[10]", "live.tab[1]", 0 ],
+			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-41::obj-2::obj-35" : [ "[2]", "Level", 0 ],
 			"obj-43::obj-2::obj-32" : [ "[11]", "[2]", 0 ],
 			"obj-43::obj-5::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
-			"obj-43::obj-6::obj-113" : [ "Pitch[1]", "live.numbox", 0 ],
-			"obj-4" : [ "output-gain", "output", 0 ],
+			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
 			"obj-43::obj-2::obj-35" : [ "[12]", "Level", 0 ],
-			"obj-43::obj-6::obj-33" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
-			"obj-37::obj-5::obj-138" : [ "0-pitch-variance", "var.", 0 ],
+			"obj-7::obj-6" : [ "overview-filter-filter-type", "overview-filter-filter-type", 0 ],
 			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
 			"obj-47::obj-6::obj-21::obj-6" : [ "live.tab[9]", "live.tab[1]", 0 ],
-			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
+			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
 			"obj-41::obj-15::obj-32" : [ "[4]", "[2]", 0 ],
 			"obj-47::obj-2::obj-32" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ],
+			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
 			"obj-47::obj-6::obj-35" : [ "[16]", "Level", 0 ],
+			"obj-43::obj-6::obj-32" : [ "Pitch", "live.numbox", 0 ],
+			"obj-4" : [ "output-gain", "output", 0 ],
+			"obj-2" : [ "input-gain", "input", 0 ],
 			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-47::obj-32::obj-35" : [ "[17]", "Level", 0 ],
 			"obj-41::obj-2::obj-32" : [ "[3]", "[2]", 0 ],
-			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ],
-			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-41::obj-2::obj-35" : [ "[2]", "Level", 0 ],
-			"obj-43::obj-2::obj-21::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
-			"obj-37::obj-5::obj-22" : [ "0-rate-variance", "var.", 0 ],
+			"obj-43::obj-6::obj-113" : [ "Pitch[1]", "live.numbox", 0 ],
+			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-room-size", "overview-reverb-ex-room-size", 0 ],
 			"obj-39::obj-10::obj-6" : [ "week3-filter-filter-type", "week3-filter-filter-type", 0 ],
-			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
-			"obj-41::obj-15::obj-35" : [ "[10]", "Level", 0 ],
-			"obj-47::obj-32::obj-32" : [ "[18]", "[2]", 0 ],
-			"obj-39::obj-2::obj-35" : [ "[1]", "Level", 0 ],
-			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
-			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-43::obj-5::obj-35" : [ "[14]", "Level", 0 ],
-			"obj-47::obj-17" : [ "output-gain[5]", "output", 0 ],
-			"obj-39::obj-2::obj-32" : [ "[9]", "[2]", 0 ]
+			"obj-43::obj-2::obj-21::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
+			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-37::obj-5::obj-95" : [ "0-size-variance", "var.", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
