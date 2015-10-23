@@ -72,7 +72,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1-sfp-volume" ],
+					"args" : [ "#1-frz-trigger" ],
 					"id" : "obj-7",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -165,7 +165,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1-sfp-volume" ],
+					"args" : [ "#1-frz-volume" ],
 					"id" : "obj-67",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
