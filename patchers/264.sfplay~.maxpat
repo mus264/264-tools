@@ -1425,7 +1425,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "",
-					"comment" : "file name or path (symbol)",
+					"comment" : "name of file in soundfiles folder (symbol)",
 					"hint" : "",
 					"id" : "obj-84",
 					"maxclass" : "inlet",
@@ -4065,7 +4065,7 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
-					"hint" : "file name or path (symbol)",
+					"hint" : "name of file in soundfiles folder (symbol)",
 					"id" : "obj-85",
 					"maxclass" : "panel",
 					"numinlets" : 1,
