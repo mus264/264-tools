@@ -62,18 +62,19 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-76",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 435.0, 465.0, 146.0, 20.0 ],
-					"text" : "pitch envelope (0.–127.)",
+					"patching_rect" : [ 435.0, 465.0, 209.0, 33.0 ],
+					"text" : "pitch envelope (0.–127. in absolute mode; -36.–36. in relative mode)",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "pitch envelope, FLOAT (0.–127.)",
+					"comment" : "pitch envelope, FLOAT (0.–127. in absolute mode; -36.–36. in relative mode)",
 					"id" : "obj-78",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -1401,8 +1402,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.0, 165.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 158.0, 167.0, 0.0, 0.0 ]
+									"patching_rect" : [ 60.0, 165.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1518,19 +1518,20 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-39", 0 ],
+									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 24.5, 69.0, 146.0, 69.0, 146.0, 99.0, 69.5, 99.0 ],
 									"source" : [ "obj-35", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
+									"destination" : [ "obj-39", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-39", 0 ]
+									"source" : [ "obj-35", 0 ]
 								}
 
 							}
@@ -2300,12 +2301,12 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 1.0, 0.823529, 0.356863, 1.0 ],
-					"hint" : "pitch envelope, FLOAT (0.–127.)",
+					"hint" : "pitch envelope, FLOAT (0.–127. in absolute mode; -36.–36. in relative mode)",
 					"id" : "obj-79",
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 435.0, 465.0, 146.0, 20.0 ],
+					"patching_rect" : [ 435.0, 465.0, 209.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 181.0, 189.0, 9.0, 5.0 ],
 					"rounded" : 0
