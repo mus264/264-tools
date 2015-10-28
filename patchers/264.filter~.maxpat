@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 46.0, 991.0, 704.0 ],
+		"rect" : [ 288.0, 44.0, 991.0, 704.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -285,7 +285,7 @@
 					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textovercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"varname" : "#1-bypass"
+					"varname" : "#1-fltr-bypass-toggle"
 				}
 
 			}
@@ -355,7 +355,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 645.0, 210.0, 49.0, 20.0 ],
-					"text" : "clip 0 2"
+					"text" : "clip 0 3"
 				}
 
 			}
@@ -530,8 +530,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 495.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 53.0, 20.0, 20.0 ],
@@ -560,7 +560,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
 					"thickness" : 4,
-					"varname" : "#1-delay-slider[2]"
+					"varname" : "#1-fltr-Q-slider"
 				}
 
 			}
@@ -682,8 +682,7 @@
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
-					"thickness" : 4,
-					"varname" : "#1-delay-slider[3]"
+					"thickness" : 4
 				}
 
 			}
@@ -788,8 +787,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 270.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 32.0, 20.0, 20.0 ],
@@ -818,7 +817,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 0.05 ],
 					"thickness" : 4,
-					"varname" : "#1-delay-slider[1]"
+					"varname" : "#1-fltr-frequency-slider"
 				}
 
 			}
@@ -954,8 +953,7 @@
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
-					"thickness" : 4,
-					"varname" : "#1-delay-slider"
+					"thickness" : 4
 				}
 
 			}
@@ -985,7 +983,7 @@
 					"presentation_rect" : [ 15.0, 103.0, 163.0, 80.0 ],
 					"prototypename" : "M4L.black",
 					"range" : [ 0.041667, 24.0 ],
-					"setfilter" : [ 0, 3, 1, 1, 0, 440.0, 5.746156, 1.0, 0.01, 22000.0, 0.0, 0.0, 0.01, 10.0 ],
+					"setfilter" : [ 0, 3, 1, 1, 0, 440.0, 1.082558, 1.0, 0.01, 22000.0, 0.0, 0.0, 0.01, 10.0 ],
 					"textcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ]
 				}
 
@@ -1175,25 +1173,27 @@
 					"bgcolor" : [ 0.572549, 0.615686, 0.658824, 0.75 ],
 					"bordercolor" : [ 0.27451, 0.32549, 0.4, 0.75 ],
 					"focusbordercolor" : [ 0.2, 0.286275, 0.298039, 0.75 ],
+					"fontsize" : 9.0,
 					"id" : "obj-6",
 					"maxclass" : "live.tab",
 					"mode" : 1,
-					"num_lines_patching" : 3,
+					"multiline" : 0,
+					"num_lines_patching" : 1,
 					"num_lines_presentation" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 645.0, 240.0, 60.0, 75.0 ],
+					"patching_rect" : [ 645.0, 240.0, 180.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 77.0, 166.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "#1-filter-type",
-							"parameter_shortname" : "#1-filter-type",
+							"parameter_longname" : "#1-fltr-type-tab",
+							"parameter_shortname" : "#1-fltr-type-tab",
 							"parameter_type" : 2,
-							"parameter_enum" : [ "lowpass", "highpass", "bandpass" ],
+							"parameter_enum" : [ "lopass", "hipass", "bandpass", "bandstop" ],
 							"parameter_unitstyle" : 0
 						}
 
@@ -1203,7 +1203,7 @@
 					"spacing_y" : 3.0,
 					"textcolor" : [ 0.059675, 0.079332, 0.081866, 1.0 ],
 					"textoncolor" : [ 0.059942, 0.079738, 0.08229, 1.0 ],
-					"varname" : "#1-filter-type"
+					"varname" : "#1-fltr-type-tab"
 				}
 
 			}
@@ -1676,7 +1676,7 @@
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 654.5, 324.0, 834.0, 324.0, 834.0, 113.0, 942.5, 113.0 ],
+					"midpoints" : [ 654.5, 272.0, 834.0, 272.0, 834.0, 113.0, 942.5, 113.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1913,7 +1913,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6" : [ "#1-filter-type", "#1-filter-type", 0 ]
+			"obj-6" : [ "#1-fltr-type-tab", "#1-fltr-type-tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1931,10 +1931,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.pattr-read-write.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]
