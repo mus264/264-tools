@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 656.0, 44.0, 624.0, 706.0 ],
+		"rect" : [ 268.0, 44.0, 376.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -82,7 +82,7 @@
 					"patching_rect" : [ 135.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 32.0, 20.0, 20.0 ],
-					"varname" : "playback-volume[1]"
+					"varname" : "freeze-trigger"
 				}
 
 			}
@@ -175,7 +175,7 @@
 					"patching_rect" : [ 315.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 53.0, 20.0, 20.0 ],
-					"varname" : "playback-volume"
+					"varname" : "freeze-volume"
 				}
 
 			}
