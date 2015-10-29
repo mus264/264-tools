@@ -43,6 +43,7 @@
   midi-presets:
     - #1-frz-trigger
     - #1-frz-volume
+    - #1-frz-clear
   audio-presets:
     - #1-frz-vol-slider
 264.go!:
