@@ -47,7 +47,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 97.0, 44.0, 1021.0, 711.0 ],
+						"rect" : [ 259.0, 44.0, 1021.0, 711.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -69,6 +69,24 @@
 						"tags" : "",
 						"title" : "Week 8, 10/27",
 						"boxes" : [ 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-8",
+									"linecount" : 7,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 870.0, 521.0, 146.0, 104.0 ],
+									"text" : "You can include or exclude modules using the “P” button.\nWhen the button is illuminated, the module’s parameters are stored",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+									"textjustification" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -117,7 +135,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 720.0, 495.0, 195.0, 90.0 ],
+									"patching_rect" : [ 675.0, 495.0, 195.0, 90.0 ],
 									"varname" : "264.transpose~"
 								}
 
@@ -128,7 +146,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 720.0, 645.0, 45.0, 45.0 ]
+									"patching_rect" : [ 675.0, 645.0, 45.0, 45.0 ]
 								}
 
 							}
@@ -141,7 +159,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 802.0, 645.0, 210.0, 20.0 ],
+									"patching_rect" : [ 757.0, 660.0, 210.0, 20.0 ],
 									"text" : "Turn on the DSP (if it isn’t on already)",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -163,7 +181,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 782.0, 645.0, 20.0, 20.0 ],
+									"patching_rect" : [ 737.0, 660.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -180,7 +198,7 @@
 									"numinlets" : 9,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 510.0, 495.0, 195.0, 195.0 ],
+									"patching_rect" : [ 465.0, 495.0, 195.0, 195.0 ],
 									"varname" : "264.grains~"
 								}
 
@@ -194,7 +212,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 60.25, 555.0, 225.0, 95.0 ]
+									"patching_rect" : [ 15.25, 555.0, 225.0, 95.0 ]
 								}
 
 							}
@@ -459,7 +477,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 80.25, 525.0, 123.0, 20.0 ],
+									"patching_rect" : [ 35.25, 525.0, 123.0, 20.0 ],
 									"text" : "Start playing a sound",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -481,7 +499,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 60.25, 525.0, 20.0, 20.0 ],
+									"patching_rect" : [ 15.25, 525.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -696,7 +714,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 300.0, 495.0, 195.0, 195.0 ],
+									"patching_rect" : [ 255.0, 495.0, 195.0, 195.0 ],
 									"varname" : "264.delay~"
 								}
 
@@ -734,7 +752,7 @@
 									"destination" : [ "obj-50", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 69.75, 660.0, 292.625, 660.0, 292.625, 485.0, 309.5, 485.0 ],
+									"midpoints" : [ 24.75, 660.0, 247.625, 660.0, 247.625, 485.0, 264.5, 485.0 ],
 									"source" : [ "obj-45", 0 ]
 								}
 
@@ -744,7 +762,7 @@
 									"destination" : [ "obj-51", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 519.5, 701.0, 712.0, 701.0, 712.0, 486.0, 729.5, 486.0 ],
+									"midpoints" : [ 474.5, 701.0, 667.0, 701.0, 667.0, 486.0, 684.5, 486.0 ],
 									"source" : [ "obj-46", 0 ]
 								}
 
@@ -763,7 +781,7 @@
 									"destination" : [ "obj-46", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 309.5, 702.0, 503.0, 702.0, 503.0, 487.0, 519.5, 487.0 ],
+									"midpoints" : [ 264.5, 702.0, 458.0, 702.0, 458.0, 487.0, 474.5, 487.0 ],
 									"source" : [ "obj-50", 0 ]
 								}
 
@@ -5567,6 +5585,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "overview-home-delays" ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "264.delay~.maxpat",
@@ -5861,55 +5880,55 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
-			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
-			"obj-43::obj-5::obj-32" : [ "[14]", "[2]", 0 ],
-			"obj-46::obj-2::obj-85" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
-			"obj-46::obj-2::obj-6" : [ "Input Gain", "Gain", 0 ],
-			"obj-39::obj-2::obj-35" : [ "[9]", "Level", 0 ],
-			"obj-43::obj-5::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
-			"obj-46::obj-45::obj-21::obj-6" : [ "live.tab[11]", "live.tab[1]", 0 ],
-			"obj-37::obj-5::obj-95" : [ "0-grains-size-v-dial", "var.", 0 ],
-			"obj-39::obj-10::obj-6" : [ "week3-filter-fltr-type-tab", "week3-filter-fltr-type-tab", 0 ],
-			"obj-43::obj-5::obj-35" : [ "[13]", "Level", 0 ],
-			"obj-46::obj-46::obj-22" : [ "ap-demo-grains-grains-rate-v-dial", "var.", 0 ],
-			"obj-43::obj-6::obj-113" : [ "Detected pitch", "Detected pitch", 0 ],
-			"obj-47::obj-6::obj-35" : [ "[15]", "Level", 0 ],
-			"obj-37::obj-5::obj-138" : [ "0-grains-pitch-v-dial", "var.", 0 ],
-			"obj-47::obj-6::obj-21::obj-6" : [ "live.tab[9]", "live.tab[1]", 0 ],
-			"obj-47::obj-32::obj-21::obj-6" : [ "live.tab[10]", "live.tab[1]", 0 ],
-			"obj-43::obj-2::obj-35" : [ "[11]", "Level", 0 ],
-			"obj-46::obj-45::obj-32" : [ "[19]", "[2]", 0 ],
-			"obj-43::obj-6::obj-33" : [ "264extra-pitchtracking-pt-rel-pitch-number-obj", "rel. pitch", 0 ],
-			"obj-7::obj-6" : [ "overview-filter-fltr-type-tab", "overview-filter-fltr-type-tab", 0 ],
-			"obj-43::obj-2::obj-32" : [ "[12]", "[2]", 0 ],
-			"obj-37::obj-5::obj-22" : [ "0-grains-rate-v-dial", "var.", 0 ],
 			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
-			"obj-47::obj-32::obj-32" : [ "[17]", "[2]", 0 ],
-			"obj-46::obj-46::obj-138" : [ "ap-demo-grains-grains-pitch-v-dial", "var.", 0 ],
-			"obj-46::obj-46::obj-95" : [ "ap-demo-grains-grains-size-v-dial", "var.", 0 ],
-			"obj-47::obj-6::obj-32" : [ "[16]", "[2]", 0 ],
-			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-41::obj-15::obj-35" : [ "[4]", "Level", 0 ],
-			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-41::obj-2::obj-35" : [ "[2]", "Level", 0 ],
-			"obj-47::obj-17" : [ "output-gain[5]", "output", 0 ],
-			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-47::obj-32::obj-35" : [ "[18]", "Level", 0 ],
-			"obj-41::obj-2::obj-32" : [ "[3]", "[2]", 0 ],
-			"obj-47::obj-2::obj-32" : [ "overview-trigger-trg-timegate-num", "time-gate", 0 ],
-			"obj-4" : [ "output-gain", "output", 0 ],
-			"obj-2" : [ "input-gain", "input", 0 ],
-			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
-			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
-			"obj-43::obj-2::obj-21::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
-			"obj-46::obj-45::obj-35" : [ "[20]", "Level", 0 ],
-			"obj-41::obj-15::obj-32" : [ "[10]", "[2]", 0 ],
 			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-rvrb-size-tab", "Plate Size", 0 ],
-			"obj-39::obj-2::obj-32" : [ "[1]", "[2]", 0 ],
-			"obj-43::obj-6::obj-32" : [ "Detected Pitch", "Detected Pitch", 0 ]
+			"obj-41::obj-2::obj-32" : [ "[2]", "[2]", 0 ],
+			"obj-47::obj-32::obj-32" : [ "[18]", "[2]", 0 ],
+			"obj-46::obj-2::obj-6" : [ "Input Gain", "Gain", 0 ],
+			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
+			"obj-47::obj-6::obj-35" : [ "[16]", "Level", 0 ],
+			"obj-47::obj-2::obj-32" : [ "overview-trigger-trg-timegate-num", "time-gate", 0 ],
+			"obj-2" : [ "input-gain", "input", 0 ],
+			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-39::obj-2::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
+			"obj-41::obj-2::obj-35" : [ "[3]", "Level", 0 ],
+			"obj-43::obj-2::obj-21::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
+			"obj-46::obj-46::obj-95" : [ "ap-demo-grains-grains-size-v-dial", "var.", 0 ],
+			"obj-46::obj-46::obj-22" : [ "ap-demo-grains-grains-rate-v-dial", "var.", 0 ],
+			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-43::obj-6::obj-32" : [ "Detected Pitch", "Detected Pitch", 0 ],
+			"obj-46::obj-2::obj-85" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
+			"obj-7::obj-6" : [ "overview-filter-fltr-type-tab", "overview-filter-fltr-type-tab", 0 ],
+			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
+			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
+			"obj-41::obj-15::obj-32" : [ "[4]", "[2]", 0 ],
+			"obj-41::obj-15::obj-35" : [ "[10]", "Level", 0 ],
+			"obj-39::obj-2::obj-35" : [ "[1]", "Level", 0 ],
+			"obj-43::obj-5::obj-35" : [ "[14]", "Level", 0 ],
+			"obj-46::obj-45::obj-32" : [ "[20]", "[2]", 0 ],
+			"obj-43::obj-5::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
+			"obj-37::obj-5::obj-22" : [ "overview-grains-grains-rate-v-dial", "var.", 0 ],
+			"obj-47::obj-17" : [ "output-gain[5]", "output", 0 ],
+			"obj-37::obj-5::obj-138" : [ "overview-grains-grains-pitch-v-dial", "var.", 0 ],
+			"obj-39::obj-2::obj-32" : [ "[9]", "[2]", 0 ],
+			"obj-39::obj-10::obj-6" : [ "week3-filter-fltr-type-tab", "week3-filter-fltr-type-tab", 0 ],
+			"obj-47::obj-6::obj-32" : [ "[15]", "[2]", 0 ],
+			"obj-47::obj-6::obj-21::obj-6" : [ "live.tab[9]", "live.tab[1]", 0 ],
+			"obj-4" : [ "output-gain", "output", 0 ],
+			"obj-46::obj-45::obj-35" : [ "[19]", "Level", 0 ],
+			"obj-43::obj-6::obj-33" : [ "264extra-pitchtracking-pt-rel-pitch-number-obj", "rel. pitch", 0 ],
+			"obj-46::obj-45::obj-21::obj-6" : [ "live.tab[11]", "live.tab[1]", 0 ],
+			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
+			"obj-47::obj-32::obj-21::obj-6" : [ "live.tab[10]", "live.tab[1]", 0 ],
+			"obj-46::obj-46::obj-138" : [ "ap-demo-grains-grains-pitch-v-dial", "var.", 0 ],
+			"obj-43::obj-2::obj-35" : [ "[11]", "Level", 0 ],
+			"obj-43::obj-2::obj-32" : [ "[12]", "[2]", 0 ],
+			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-47::obj-32::obj-35" : [ "[17]", "Level", 0 ],
+			"obj-37::obj-5::obj-95" : [ "overview-grains-grains-size-v-dial", "var.", 0 ],
+			"obj-43::obj-6::obj-113" : [ "Detected pitch", "Detected pitch", 0 ],
+			"obj-43::obj-5::obj-32" : [ "[13]", "[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -5948,6 +5967,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "264.preset-toggle.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-home-delays-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "264.sfplay~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -5969,6 +6002,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "overview-filter-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "264.tog.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -5979,6 +6019,13 @@
 				"name" : "264.grains~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-grains-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6039,6 +6086,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "overview-envfol-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "week3-filter-fltr-frequency-264ml.json",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/midi-presets",
 				"patcherrelativepath" : "./midi-presets",
@@ -6049,6 +6103,13 @@
 				"name" : "week3-filter-fltr-Q-264ml.json",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/midi-presets",
 				"patcherrelativepath" : "./midi-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "week3-filter-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6067,6 +6128,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "overview-ringmod-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "264.reverb~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -6081,9 +6149,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "overview-reverb-ex-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "264.pitchtrack~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264extra-pitchtracking-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6102,9 +6184,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "264extra-pshift-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "264.trigger~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-trigger-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6123,6 +6219,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "overview-freeze-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "264.audiotest~.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -6131,6 +6234,13 @@
 			}
 , 			{
 				"name" : "ap-demo-delay-264del~.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ap-demo-delay-264ptog.json",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
 				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
@@ -6158,7 +6268,21 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ap-demo-grains-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ap-demo-transpose-264trans~.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ap-demo-transpose-264ptog.json",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/audio-presets",
 				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
