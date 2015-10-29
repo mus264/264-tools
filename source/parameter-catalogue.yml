@@ -33,7 +33,7 @@
   audio-presets:
     - #1-env-gain-slider
     - #1-env-sharpness-slider
-    - #1-env-bypass-toggle
+    - #1-env-invert-toggle
 264.filter~:
   short-name: fltr
   midi-presets:
