@@ -182,6 +182,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-49",
+									"local" : 1,
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
@@ -634,6 +635,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
+									"local" : 1,
 									"maxclass" : "ezadc~",
 									"numinlets" : 1,
 									"numoutlets" : 2,
