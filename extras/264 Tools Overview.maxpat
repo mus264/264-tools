@@ -70,6 +70,45 @@
 						"title" : "Week 8, 10/27",
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-7",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 245.0, 225.0, 113.0, 20.0 ],
+									"text" : "Set your input level",
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"border" : 0,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"hint" : "",
+									"id" : "obj-10",
+									"ignoreclick" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 225.0, 225.0, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "2",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+									"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -5902,10 +5941,10 @@
 			"obj-7::obj-6" : [ "overview-filter-fltr-type-tab", "overview-filter-fltr-type-tab", 0 ],
 			"obj-37::obj-17" : [ "output-gain[1]", "output", 0 ],
 			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
-			"obj-41::obj-15::obj-32" : [ "[4]", "[2]", 0 ],
-			"obj-41::obj-15::obj-35" : [ "[10]", "Level", 0 ],
+			"obj-41::obj-15::obj-35" : [ "[4]", "Level", 0 ],
+			"obj-41::obj-15::obj-32" : [ "[10]", "[2]", 0 ],
 			"obj-39::obj-2::obj-35" : [ "[1]", "Level", 0 ],
-			"obj-43::obj-5::obj-35" : [ "[14]", "Level", 0 ],
+			"obj-43::obj-5::obj-32" : [ "[14]", "[2]", 0 ],
 			"obj-46::obj-45::obj-32" : [ "[20]", "[2]", 0 ],
 			"obj-43::obj-5::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
 			"obj-37::obj-5::obj-22" : [ "overview-grains-grains-rate-v-dial", "var.", 0 ],
@@ -5922,13 +5961,13 @@
 			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
 			"obj-47::obj-32::obj-21::obj-6" : [ "live.tab[10]", "live.tab[1]", 0 ],
 			"obj-46::obj-46::obj-138" : [ "ap-demo-grains-grains-pitch-v-dial", "var.", 0 ],
-			"obj-43::obj-2::obj-35" : [ "[11]", "Level", 0 ],
-			"obj-43::obj-2::obj-32" : [ "[12]", "[2]", 0 ],
+			"obj-43::obj-2::obj-32" : [ "[11]", "[2]", 0 ],
+			"obj-43::obj-2::obj-35" : [ "[12]", "Level", 0 ],
 			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-47::obj-32::obj-35" : [ "[17]", "Level", 0 ],
 			"obj-37::obj-5::obj-95" : [ "overview-grains-grains-size-v-dial", "var.", 0 ],
 			"obj-43::obj-6::obj-113" : [ "Detected pitch", "Detected pitch", 0 ],
-			"obj-43::obj-5::obj-32" : [ "[13]", "[2]", 0 ]
+			"obj-43::obj-5::obj-35" : [ "[13]", "Level", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
