@@ -32,9 +32,10 @@ The toolkit currently includes the following modules, which should be loaded in 
 
 ### Audio
 
-#### Generation
+#### Sound Files
 
 * `264.sfplay~` — a simple sound file player
+* `264.sfrecord~` — a monophonic sound file recorder
 
 #### Processing
 
