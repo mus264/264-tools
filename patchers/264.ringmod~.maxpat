@@ -29,6 +29,22 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "#1" ],
+					"id" : "obj-6",
+					"maxclass" : "bpatcher",
+					"name" : "264.preset-toggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 300.0, 600.0, 15.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 178.0, 177.0, 15.0, 15.0 ],
+					"varname" : "264.preset-toggle"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-53",
@@ -36,7 +52,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 615.0, 206.0, 20.0 ],
+					"patching_rect" : [ 300.0, 630.0, 206.0, 20.0 ],
 					"text" : "264.pattr-control #1-264rmod~ audio"
 				}
 
@@ -50,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 585.0, 72.0, 20.0 ],
+					"patching_rect" : [ 300.0, 570.0, 72.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -83,7 +99,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 645.0, 206.0, 33.0 ],
+					"patching_rect" : [ 300.0, 660.0, 206.0, 33.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 0, 44, 1280, 796 ],
 						"parameter_enable" : 0,
@@ -112,7 +128,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u904008720"
+					"varname" : "u566010427"
 				}
 
 			}
@@ -2094,7 +2110,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-54", 0 ]
@@ -2107,6 +2123,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -2213,6 +2238,13 @@
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.preset-toggle.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ]

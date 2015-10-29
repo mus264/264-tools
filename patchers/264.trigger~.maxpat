@@ -29,6 +29,22 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "#1" ],
+					"id" : "obj-57",
+					"maxclass" : "bpatcher",
+					"name" : "264.preset-toggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 300.0, 555.0, 15.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 178.0, 177.0, 15.0, 15.0 ],
+					"varname" : "264.preset-toggle"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-38",
@@ -36,7 +52,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 555.0, 192.0, 20.0 ],
+					"patching_rect" : [ 300.0, 585.0, 192.0, 20.0 ],
 					"text" : "264.pattr-control #1-264trg~ audio"
 				}
 
@@ -83,7 +99,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 585.0, 224.5, 33.0 ],
+					"patching_rect" : [ 300.0, 615.0, 224.5, 33.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 0, 44, 1280, 796 ],
 						"parameter_enable" : 0,
@@ -112,7 +128,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u227000337"
+					"varname" : "u832011294"
 				}
 
 			}
@@ -3053,7 +3069,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
+					"destination" : [ "obj-57", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-39", 0 ]
@@ -3103,6 +3119,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-57", 0 ]
 				}
 
 			}
@@ -3258,6 +3283,13 @@
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.preset-toggle.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ]

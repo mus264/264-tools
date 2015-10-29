@@ -9,7 +9,7 @@
 		}
 ,
 		"rect" : [ 346.0, 44.0, 850.0, 676.0 ],
-		"bglocked" : 1,
+		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -29,6 +29,36 @@
 		"tags" : "",
 		"showontab" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-60",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 299.5, 525.0, 72.0, 20.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "#1" ],
+					"id" : "obj-57",
+					"maxclass" : "bpatcher",
+					"name" : "264.preset-toggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 300.0, 555.0, 15.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 178.0, 177.0, 15.0, 15.0 ],
+					"varname" : "264.preset-toggle"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -495,22 +525,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 555.0, 194.0, 20.0 ],
+					"patching_rect" : [ 300.0, 585.0, 194.0, 20.0 ],
 					"text" : "264.pattr-control #1-264del~ audio"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-70",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 300.0, 525.0, 34.0, 20.0 ],
-					"text" : "!= 0."
 				}
 
 			}
@@ -542,11 +558,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 585.0, 224.5, 33.0 ],
+					"patching_rect" : [ 300.0, 615.0, 224.5, 33.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 854, 172, 1208, 300 ],
+						"client_rect" : [ 0, 44, 1280, 796 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 766, 44, 1220, 302 ]
+						"storage_rect" : [ 583, 69, 1204, 530 ]
 					}
 ,
 					"text" : "pattrstorage #1-264del~ @changemode 0 @greedy 2",
@@ -664,7 +680,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u726014685"
+					"varname" : "u837001950"
 				}
 
 			}
@@ -1644,6 +1660,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1675,6 +1700,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-60", 0 ]
 				}
 
 			}
@@ -1725,29 +1759,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-70", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 174.5, 297.0, 5.0, 297.0, 5.0, 488.0, 278.0, 488.0, 278.0, 519.0, 309.5, 519.0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-78", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-70", 0 ]
 				}
 
 			}
@@ -1865,6 +1880,13 @@
 			}
 , 			{
 				"name" : "264.midi-learn.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.preset-toggle.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

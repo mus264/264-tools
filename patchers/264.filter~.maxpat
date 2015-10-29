@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 300.0, 44.0, 991.0, 704.0 ],
+		"rect" : [ 289.0, 44.0, 991.0, 704.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,22 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "#1" ],
+					"id" : "obj-32",
+					"maxclass" : "bpatcher",
+					"name" : "264.preset-toggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 300.0, 570.0, 15.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 178.0, 177.0, 15.0, 15.0 ],
+					"varname" : "264.preset-toggle"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -126,7 +142,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 315.0, 615.0, 92.0, 20.0 ],
+					"patching_rect" : [ 315.0, 630.0, 92.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -153,7 +169,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 585.0, 192.0, 20.0 ],
+					"patching_rect" : [ 300.0, 600.0, 192.0, 20.0 ],
 					"text" : "264.pattr-control #1-264fltr~ audio"
 				}
 
@@ -167,7 +183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 555.0, 72.0, 20.0 ],
+					"patching_rect" : [ 300.0, 540.0, 72.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -196,8 +212,8 @@
 					"fontsize" : 12.0,
 					"id" : "obj-51",
 					"interp" : 					{
-						"#1-fltr-type-tab" : [ 0, 0.0 ],
-						"#1-fltr-bypass-toggle" : [ 0, 0.0 ]
+						"#1-fltr-bypass-toggle" : [ 0, 0.0 ],
+						"#1-fltr-type-tab" : [ 0, 0.0 ]
 					}
 ,
 					"linecount" : 2,
@@ -205,15 +221,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 645.0, 192.0, 33.0 ],
+					"patching_rect" : [ 300.0, 660.0, 192.0, 33.0 ],
 					"priority" : 					{
 						"#1-fltr-bypass-toggle" : 10
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 854, 172, 1208, 300 ],
+						"client_rect" : [ 0, 44, 1280, 796 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 766, 44, 1220, 302 ]
+						"storage_rect" : [ 583, 69, 1204, 530 ]
 					}
 ,
 					"text" : "pattrstorage #1-264fltr~ @changemode 0 @greedy 2",
@@ -239,7 +255,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u222019026"
+					"varname" : "u789006838"
 				}
 
 			}
@@ -1615,7 +1631,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
@@ -1823,6 +1839,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-30", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -2190,6 +2215,13 @@
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.preset-toggle.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ]

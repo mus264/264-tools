@@ -29,6 +29,22 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "#1" ],
+					"id" : "obj-101",
+					"maxclass" : "bpatcher",
+					"name" : "264.preset-toggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1005.0, 600.0, 15.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 178.0, 177.0, 15.0, 15.0 ],
+					"varname" : "264.preset-toggle"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
@@ -125,7 +141,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1020.0, 645.0, 92.0, 20.0 ],
+					"patching_rect" : [ 1020.0, 660.0, 92.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -152,7 +168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1005.0, 615.0, 211.0, 20.0 ],
+					"patching_rect" : [ 1005.0, 630.0, 211.0, 20.0 ],
 					"text" : "264.pattr-control #1-264grains~ audio"
 				}
 
@@ -166,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1005.0, 585.0, 72.0, 20.0 ],
+					"patching_rect" : [ 1005.0, 570.0, 72.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -194,12 +210,16 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-98",
+					"interp" : 					{
+						"#1-grains-bypass-toggle" : [ 0, 0.0 ]
+					}
+,
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1005.0, 675.0, 224.5, 33.0 ],
+					"patching_rect" : [ 1005.0, 690.0, 224.5, 33.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 0, 44, 1280, 796 ],
 						"parameter_enable" : 0,
@@ -233,7 +253,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u690008126"
+					"varname" : "u599008181"
 				}
 
 			}
@@ -2764,6 +2784,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-101", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3754,7 +3783,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
+					"destination" : [ "obj-101", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-86", 0 ]
@@ -3873,9 +3902,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-138" : [ "#1-grains-pitch-v-dial", "var.", 0 ],
+			"obj-22" : [ "#1-grains-rate-v-dial", "var.", 0 ],
 			"obj-95" : [ "#1-grains-size-v-dial", "var.", 0 ],
-			"obj-22" : [ "#1-grains-rate-v-dial", "var.", 0 ]
+			"obj-138" : [ "#1-grains-pitch-v-dial", "var.", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3897,6 +3926,13 @@
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.preset-toggle.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
