@@ -187,7 +187,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "@loop", 1, "@file", "rainstick.aif", "@vol", 0 ],
+									"args" : [ "@loop", 1, "@file", "jongly.aif", "@vol", 0 ],
 									"id" : "obj-45",
 									"maxclass" : "bpatcher",
 									"name" : "demosound.maxpat",
