@@ -664,7 +664,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u611010277"
+					"varname" : "u726014685"
 				}
 
 			}
@@ -1183,7 +1183,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 495.0, 255.0, 165.0 ],
+					"patching_rect" : [ 285.0, 495.0, 256.0, 165.0 ],
 					"rounded" : 0
 				}
 

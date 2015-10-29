@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 404.0, 44.0, 877.0, 706.0 ],
+		"rect" : [ 403.0, 44.0, 877.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,107 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 300.0, 615.0, 206.0, 20.0 ],
+					"text" : "264.pattr-control #1-264rmod~ audio"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 300.0, 585.0, 72.0, 20.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-57",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 285.0, 555.0, 256.0, 18.0 ],
+					"text" : "P R E S E T   M E C H A N I S M",
+					"textcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-98",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 300.0, 645.0, 206.0, 33.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 0, 44, 1280, 796 ],
+						"parameter_enable" : 0,
+						"storage_rect" : [ 583, 69, 1204, 530 ]
+					}
+,
+					"text" : "pattrstorage #1-264rmod~ @changemode 0 @greedy 2",
+					"varname" : "#1-264rmod~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 465.0, 585.0, 59.5, 20.0 ],
+					"restore" : 					{
+						"#1-rmod-frequency-slider" : [ 0.0 ],
+						"#1-rmod-strength-slider" : [ 127.0 ],
+						"#1-rmod-volume-slider" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u904008720"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 0.08 ],
+					"id" : "obj-59",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 285.0, 555.0, 256.0, 150.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.964787, 0.964787, 0.964787, 1.0 ],
 					"bordercolor" : [ 0.961365, 0.961365, 0.961365, 1.0 ],
 					"calccount" : 16,
@@ -40,7 +141,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 540.0, 100.0, 50.0 ],
+					"patching_rect" : [ 615.0, 510.0, 100.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 105.0, 163.0, 75.0 ],
 					"prototypename" : "M4L.yellow",
@@ -1979,6 +2080,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-54", 0 ]
 				}
 
 			}
