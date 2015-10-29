@@ -1,3 +1,9 @@
+264.audio-presets:
+  short-name: ap
+  midi-presets:
+    - #1-ap-recall-num
+    - #1-ap-store-num
+    - #1-ap-interpolate
 264.audiotest~: none
 264.brightness~:
   short-name: brt
