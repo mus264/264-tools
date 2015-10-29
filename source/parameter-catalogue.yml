@@ -1,0 +1,149 @@
+264.audiotest~: none
+264.brightness~:
+  short-name: brt
+  midi-presets:
+    - #1-brt-lo
+    - #1-brt-hi
+  audio-presets:
+    - #1-brt-range
+    - #1-brt-invert
+264.delay~:
+  short-name: del
+  midi-presets:
+    - #1-del-volume
+    - #1-del-time
+    - #1-del-fbck
+    - #1-del-ffreq
+  audio-presets:
+    - #1-del-vol-slider
+    - #1-del-time-slider
+    - #1-del-fbck-slider
+    - #1-del-ffreq-slider
+264.envelope~:
+  short-name: env
+  midi-presets:
+    - #1-env-gain
+    - #1-env-sharpness
+  audio-presets:
+    - #1-env-gain-slider
+    - #1-env-sharpness-slider
+    - #1-env-bypass-toggle
+264.filter~:
+  short-name: fltr
+  midi-presets:
+    - #1-fltr-frequency
+    - #1-fltr-Q
+  audio-presets:
+    - #1-fltr-frequency-slider
+    - #1-fltr-Q-slider
+    - #1-fltr-type-tab
+    - #1-fltr-bypass-toggle
+264.freeze~:
+  short-name: frz
+  midi-presets:
+    - #1-frz-trigger
+    - #1-frz-volume
+  audio-presets:
+    - #1-frz-vol-slider
+264.go!:
+  short-name: bang
+  midi-presets:
+    - #1-bang
+264.grains~:
+  short-name: grains
+  midi-presets:
+    - #1-grains-rate
+    - #1-grains-rate-v
+    - #1-grains-size
+    - #1-grains-size-v
+    - #1-grains-pitch
+    - #1-grains-pitch-v
+    - #1-grains-volume
+  audio-presets:
+    - #1-grains-rate-slider
+    - #1-grains-rate-v-dial
+    - #1-grains-size-slider
+    - #1-grains-size-v-dial
+    - #1-grains-pitch-slider
+    - #1-grains-pitch-v-dial
+    - #1-grains-volume-slider
+    - #1-grains-bypass-toggle
+264.midi-learn:
+  short-name: 264ml
+  presets:
+    - #1-264ml-num
+    - #1-264ml-chan
+264.midi-presets:
+  short-name: mp
+  midi-presets:
+    - #1-mp-recall-num
+    - #1-mp-store-num
+264.pitchtrack~:
+  short-name: pt
+  midi-presets:
+    - #1-pt-sharpness
+    - #1-pt-quality
+  audio-presets:
+    - #1-pt-sharpness-slider
+    - #1-pt-quality-slider
+    - #1-pt-mode-toggle
+    - #1-pt-rel-pitch-number
+264.reverb~:
+  short-name: rvrb
+  midi-presets:
+    - #1-rvrb-lowpass
+    - #1-rvrb-decay
+    - #1-rvrb-dry
+    - #1-rvrb-wet
+  audio-presets:
+    - #1-rvrb-lowpass-slider
+    - #1-rvrb-decay-slider
+    - #1-rvrb-dry-slider
+    - #1-rvrb-wet-slider
+    - #1-rvrb-size-tab
+264.ringmod~:
+  short-name: rmod
+  midi-presets:
+    - #1-rmod-frequency
+    - #1-rmod-strength
+    - #1-rmod-volume
+  audio-presets:
+    - #1-rmod-frequency-slider
+    - #1-rmod-strength-slider
+    - #1-rmod-volume-slider
+264.sfplay~:
+  short-name: sfp
+  midi-presets:
+    - #1-sfp-volume
+    - #1-sfp-speed
+  audio-presets:
+    - #1-sfp-volume-slider
+    - #1-sfp-speed-slider
+    - #1-sfp-loop-toggle
+    - #1-sfp-filename
+264.sfrecord~:
+  short-name: sfr
+  midi-presets:
+    - #1-sfr-volume
+264.tog:
+  short-name: tog
+  midi-presets:
+    - #1-tog
+  audio-presets:
+    - #1-tog-toggle
+264.transpose~:
+  short-name: trans
+  midi-presets:
+    - #1-trans-amount
+  audio-presets:
+    - #1-trans-amount-slider
+264.trigger~:
+  short-name: trg
+  midi-presets:
+    - #1-trg-gain
+    - #1-trg-threshold
+    - #1-trg-timegate
+  audio-presets:
+    - #1-trg-gain-slider
+    - #1-trg-threshold-slider
+    - #1-trg-timegate-num
