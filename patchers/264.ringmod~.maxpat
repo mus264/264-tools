@@ -67,7 +67,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 300.0, 570.0, 72.0, 20.0 ],
-					"text" : "loadmess 1"
+					"text" : "loadmess 0"
 				}
 
 			}
@@ -128,7 +128,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u566010427"
+					"varname" : "u882003156"
 				}
 
 			}
