@@ -1,5 +1,6 @@
 max oblist "264 Tools objects" 264.delay~;
 max oblist "264 Tools objects" 264.sfplay~;
+max oblist "264 Tools objects" 264.sfrecord~;
 max oblist "264 Tools objects" 264.filter~;
 max oblist "264 Tools objects" 264.grains~;
 max oblist "264 Tools objects" 264.envelope~;
@@ -14,3 +15,4 @@ max oblist "264 Tools objects" 264.midi-learn;
 max oblist "264 Tools objects" 264.tog;
 max oblist "264 Tools objects" 264.go!;
 max oblist "264 Tools objects" 264.midi-presets;
+max oblist "264 Tools objects" 264.audio-presets;
