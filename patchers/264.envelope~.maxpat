@@ -102,7 +102,7 @@
 					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textovercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"varname" : "#1-bypass"
+					"varname" : "#1-env-bypass-toggle"
 				}
 
 			}
@@ -716,7 +716,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-gain-slider"
+					"varname" : "#1-env-gain-slider"
 				}
 
 			}
@@ -889,7 +889,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 0.05 ],
 					"thickness" : 4,
-					"varname" : "#1-sharpness-slider"
+					"varname" : "#1-env-sharpness-slider"
 				}
 
 			}
@@ -1011,8 +1011,7 @@
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
-					"thickness" : 4,
-					"varname" : "#1-delay-slider"
+					"thickness" : 4
 				}
 
 			}

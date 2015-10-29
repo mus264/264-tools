@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 119.0, 52.0, 840.0, 656.0 ],
+		"rect" : [ 383.0, 94.0, 840.0, 656.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -211,7 +211,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1-env-gain" ],
+					"args" : [ "#1-brt-hi" ],
 					"id" : "obj-10",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -221,7 +221,7 @@
 					"patching_rect" : [ 570.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 158.0, 38.0, 20.0, 20.0 ],
-					"varname" : "envelope-gain[1]"
+					"varname" : "brightness-range-high"
 				}
 
 			}
@@ -261,10 +261,11 @@
 					"frgb" : 0.0,
 					"hint" : "Current volume of the sfplay module",
 					"id" : "obj-14",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 538.0, 407.0, 31.0, 18.0 ],
+					"patching_rect" : [ 538.0, 407.0, 27.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 64.0, 56.0, 18.0 ],
 					"text" : "0 Hz",
@@ -360,7 +361,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1-env-gain" ],
+					"args" : [ "#1-brt-lo" ],
 					"id" : "obj-67",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -370,7 +371,7 @@
 					"patching_rect" : [ 345.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 38.0, 20.0, 20.0 ],
-					"varname" : "envelope-gain"
+					"varname" : "brightness-range-low"
 				}
 
 			}
@@ -530,7 +531,8 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
-					"fgcolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
+					"drawline" : 0,
+					"fgcolor" : [ 0.94902, 0.376471, 0.0, 0.5 ],
 					"floatoutput" : 1,
 					"id" : "obj-25",
 					"maxclass" : "rslider",
@@ -542,7 +544,7 @@
 					"patching_rect" : [ 240.0, 195.0, 244.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.0, 32.0, 121.0, 32.0 ],
-					"varname" : "#1-range-slider"
+					"varname" : "#1-brt-range"
 				}
 
 			}
@@ -591,7 +593,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Flip the envelope to be high when incoming audio is low",
+					"annotation" : "Flip the envelope to move in the opposite direction from the incoming audio",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.75 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
 					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 0.75 ],
@@ -602,7 +604,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"hint" : "Flip the envelope to be high when incoming audio is low",
+					"hint" : "Flip the envelope to move in the opposite direction from the incoming audio",
 					"id" : "obj-39",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -621,7 +623,7 @@
 					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textovercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"varname" : "#1-invert"
+					"varname" : "#1-brt-invert"
 				}
 
 			}
@@ -1217,7 +1219,7 @@
 					"id" : "obj-9",
 					"ignoreclick" : 1,
 					"interval" : 50,
-					"markercolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
+					"markercolor" : [ 0.301961, 0.337255, 0.403922, 0.0 ],
 					"maxclass" : "spectroscope~",
 					"monochrome" : 0,
 					"numinlets" : 2,

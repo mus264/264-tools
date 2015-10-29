@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 825.0, 706.0 ],
+		"rect" : [ 421.0, 44.0, 825.0, 706.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -910,7 +910,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 435.0, 285.0, 180.0, 31.0 ],
-									"presentation_rect" : [ 433.0, 289.0, 0.0, 0.0 ],
 									"text" : "Succesfully created presets storage folder “~/midi-presets”"
 								}
 
@@ -956,7 +955,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 630.0, 285.0, 214.0, 31.0 ],
-									"presentation_rect" : [ 628.0, 289.0, 0.0, 0.0 ],
 									"text" : "Failed to create presets storage folder “~/midi-presets”"
 								}
 
@@ -971,7 +969,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
 									"patching_rect" : [ 435.0, 255.0, 409.0, 20.0 ],
-									"presentation_rect" : [ 433.0, 254.0, 0.0, 0.0 ],
 									"text" : "sel 1 0"
 								}
 
@@ -986,7 +983,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 435.0, 225.0, 66.0, 20.0 ],
-									"presentation_rect" : [ 178.0, 225.0, 0.0, 0.0 ],
 									"text" : "mxj filesys"
 								}
 
@@ -1001,7 +997,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 435.0, 195.0, 87.0, 20.0 ],
-									"presentation_rect" : [ 97.0, 195.0, 0.0, 0.0 ],
 									"text" : "prepend mkdir"
 								}
 
@@ -1867,17 +1862,17 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1-store-num" ],
+					"args" : [ "#1-mp-store-num" ],
 					"id" : "obj-38",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 375.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 62.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn[1]"
+					"varname" : "#1-mp-store-num"
 				}
 
 			}
@@ -2001,17 +1996,17 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1-recall-num" ],
+					"args" : [ "#1-mp-recall-num" ],
 					"id" : "obj-20",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 60.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 32.0, 20.0, 20.0 ],
-					"varname" : "264.midi-learn"
+					"varname" : "#1-mp-recall-num"
 				}
 
 			}

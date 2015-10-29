@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 166.0, 46.0, 451.0, 661.0 ],
+		"rect" : [ 456.0, 44.0, 451.0, 661.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -71,8 +71,7 @@
 					"texton" : "1.",
 					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textovercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"varname" : "#1-bypass"
+					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
 			}
@@ -92,7 +91,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1-env-gain" ],
+					"args" : [ "#1-trans-amount" ],
 					"id" : "obj-67",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -102,7 +101,7 @@
 					"patching_rect" : [ 375.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 32.0, 20.0, 20.0 ],
-					"varname" : "envelope-gain"
+					"varname" : "#1-trans-amount"
 				}
 
 			}
@@ -280,7 +279,7 @@
 					"signed" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-gain-slider"
+					"varname" : "#1-trans-amount-slider"
 				}
 
 			}

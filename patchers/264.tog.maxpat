@@ -190,7 +190,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 26.0, 19.0, 30.0, 30.0 ],
 					"prototypename" : "M4L.reversed",
-					"varname" : "#1-nanotog"
+					"varname" : "#1-tog-toggle"
 				}
 
 			}
@@ -215,8 +215,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 75.0, 90.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 20.0, 20.0, 20.0 ],
@@ -353,10 +353,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.pattr-read-write.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]

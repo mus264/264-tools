@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 877.0, 706.0 ],
+		"rect" : [ 404.0, 44.0, 877.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -79,7 +79,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1-sfp-volume" ],
+					"args" : [ "#1-rmod-volume" ],
 					"id" : "obj-15",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -89,7 +89,7 @@
 					"patching_rect" : [ 735.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 74.0, 20.0, 20.0 ],
-					"varname" : "playback-volume[1]"
+					"varname" : "ringmod-volume"
 				}
 
 			}
@@ -280,13 +280,13 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-volume-slider[2]"
+					"varname" : "#1-rmod-volume-slider"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1-sfp-volume" ],
+					"args" : [ "#1-rmod-strength" ],
 					"id" : "obj-67",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -296,7 +296,7 @@
 					"patching_rect" : [ 585.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 53.0, 20.0, 20.0 ],
-					"varname" : "playback-volume"
+					"varname" : "ringmod-strength"
 				}
 
 			}
@@ -487,7 +487,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-volume-slider[1]"
+					"varname" : "#1-rmod-strength-slider"
 				}
 
 			}
@@ -1194,7 +1194,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1-fltr-frequency" ],
+					"args" : [ "#1-rmod-frequency" ],
 					"id" : "obj-25",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -1204,7 +1204,7 @@
 					"patching_rect" : [ 300.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 32.0, 20.0, 20.0 ],
-					"varname" : "filter-frequency"
+					"varname" : "ringmod-frequency"
 				}
 
 			}
@@ -1229,7 +1229,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 0.05 ],
 					"thickness" : 4,
-					"varname" : "#1-delay-slider[1]"
+					"varname" : "#1-rmod-frequency-slider"
 				}
 
 			}
@@ -1365,8 +1365,7 @@
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
-					"thickness" : 4,
-					"varname" : "#1-delay-slider"
+					"thickness" : 4
 				}
 
 			}

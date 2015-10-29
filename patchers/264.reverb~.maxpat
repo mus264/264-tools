@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 20.0, 44.0, 1096.0, 706.0 ],
+		"rect" : [ 180.0, 44.0, 1096.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -498,7 +498,7 @@
 					"setminmax" : [ 0.0, 127.0 ],
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-decay-slider"
+					"varname" : "#1-rvrb-decay-slider"
 				}
 
 			}
@@ -863,7 +863,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-wet-slider"
+					"varname" : "#1-rvrb-wet-slider"
 				}
 
 			}
@@ -1054,7 +1054,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-dry-slider"
+					"varname" : "#1-rvrb-dry-slider"
 				}
 
 			}
@@ -1184,7 +1184,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 0.05 ],
 					"thickness" : 5,
-					"varname" : "#1-lowpass-slider"
+					"varname" : "#1-rvrb-lowpass-slider"
 				}
 
 			}
@@ -1460,8 +1460,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "#1-room-size",
-							"parameter_shortname" : "#1-room-size",
+							"parameter_longname" : "#1-rvrb-size-tab",
+							"parameter_shortname" : "Plate Size",
 							"parameter_type" : 2,
 							"parameter_enum" : [ "small", "medium", "large" ],
 							"parameter_unitstyle" : 0
@@ -1473,7 +1473,7 @@
 					"spacing_y" : 3.0,
 					"textcolor" : [ 0.059675, 0.079332, 0.081866, 1.0 ],
 					"textoncolor" : [ 0.059942, 0.079738, 0.08229, 1.0 ],
-					"varname" : "#1-room-size"
+					"varname" : "#1-rvrb-size-tab"
 				}
 
 			}
@@ -1509,8 +1509,7 @@
 					"presentation_rect" : [ 36.0, 62.0, 142.0, 20.0 ],
 					"setminmax" : [ 0.0, 127.0 ],
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
-					"thickness" : 4,
-					"varname" : "#1-delay-slider"
+					"thickness" : 4
 				}
 
 			}
@@ -2018,7 +2017,7 @@
 					"destination" : [ "obj-5", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 699.5, 476.0, 639.5, 476.0 ],
+					"midpoints" : [ 699.5, 543.0, 639.5, 543.0 ],
 					"source" : [ "obj-63", 0 ]
 				}
 
@@ -2073,7 +2072,7 @@
 					"destination" : [ "obj-5", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 864.5, 477.5, 789.5, 477.5 ],
+					"midpoints" : [ 864.5, 544.5, 789.5, 544.5 ],
 					"source" : [ "obj-77", 0 ]
 				}
 
@@ -2183,7 +2182,7 @@
 					"destination" : [ "obj-137", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 520.0, 159.0, 670.0, 159.0, 670.0, 460.0, 489.5, 460.0 ],
+					"midpoints" : [ 520.0, 159.0, 673.0, 159.0, 673.0, 180.0, 673.0, 180.0, 673.0, 519.0, 489.5, 519.0 ],
 					"source" : [ "obj-90", 1 ]
 				}
 
@@ -2316,7 +2315,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6" : [ "#1-room-size", "#1-room-size", 0 ]
+			"obj-6" : [ "#1-rvrb-size-tab", "Plate Size", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

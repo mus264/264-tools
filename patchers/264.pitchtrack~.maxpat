@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1235.0, 594.0 ],
+		"rect" : [ 26.0, 44.0, 1235.0, 594.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -66,7 +66,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 435.0, 465.0, 209.0, 33.0 ],
+					"patching_rect" : [ 435.0, 465.0, 210.0, 33.0 ],
 					"text" : "pitch envelope (0.–127. in absolute mode; -36.–36. in relative mode)",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
@@ -512,9 +512,8 @@
 					"prototypename" : "pitch",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 1,
-							"parameter_longname" : "Pitch[1]",
-							"parameter_shortname" : "live.numbox",
+							"parameter_longname" : "Detected pitch",
+							"parameter_shortname" : "Detected pitch",
 							"parameter_type" : 0,
 							"parameter_initial" : [ 60 ],
 							"parameter_unitstyle" : 8,
@@ -523,8 +522,7 @@
 						}
 
 					}
-,
-					"varname" : "Pitch[1]"
+
 				}
 
 			}
@@ -988,8 +986,7 @@
 					"texton" : "float",
 					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textovercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"varname" : "#1-bypass[1]"
+					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
 			}
@@ -1265,7 +1262,7 @@
 					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textovercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"varname" : "#1-bypass"
+					"varname" : "#1-pt-mode-toggle"
 				}
 
 			}
@@ -1611,8 +1608,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.numbox",
-							"parameter_shortname" : "live.numbox",
+							"parameter_longname" : "#1-pt-rel-pitch-number",
+							"parameter_shortname" : "rel. pitch",
 							"parameter_type" : 0,
 							"parameter_mmax" : 120.0,
 							"parameter_initial_enable" : 1,
@@ -1624,7 +1621,7 @@
 
 					}
 ,
-					"varname" : "live.numbox"
+					"varname" : "#1-pt-rel-pitch-number"
 				}
 
 			}
@@ -1646,9 +1643,8 @@
 					"prototypename" : "pitch",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 1,
-							"parameter_longname" : "Pitch",
-							"parameter_shortname" : "live.numbox",
+							"parameter_longname" : "Detected Pitch",
+							"parameter_shortname" : "Detected Pitch",
 							"parameter_type" : 0,
 							"parameter_mmin" : -36.0,
 							"parameter_mmax" : 36.0,
@@ -1660,8 +1656,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.0, 0.02, 0.08, 0.0 ],
-					"varname" : "Pitch"
+					"textcolor" : [ 0.0, 0.02, 0.08, 0.0 ]
 				}
 
 			}
@@ -1722,7 +1717,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1-env-gain" ],
+					"args" : [ "#1-pt-quality" ],
 					"id" : "obj-6",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -1732,7 +1727,7 @@
 					"patching_rect" : [ 555.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 53.0, 20.0, 20.0 ],
-					"varname" : "envelope-gain[1]"
+					"varname" : "#1-pt-quality"
 				}
 
 			}
@@ -1875,7 +1870,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-quality-slider"
+					"varname" : "#1-pt-quality-slider"
 				}
 
 			}
@@ -1938,7 +1933,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1-env-gain" ],
+					"args" : [ "#1-pt-sharpness" ],
 					"id" : "obj-67",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -1948,7 +1943,7 @@
 					"patching_rect" : [ 390.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 32.0, 20.0, 20.0 ],
-					"varname" : "envelope-gain"
+					"varname" : "#1-pt-sharpness"
 				}
 
 			}
@@ -2091,7 +2086,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-sharpness-slider"
+					"varname" : "#1-pt-sharpness-slider"
 				}
 
 			}
@@ -3075,9 +3070,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-33" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-32" : [ "Pitch", "live.numbox", 0 ],
-			"obj-113" : [ "Pitch[1]", "live.numbox", 0 ]
+			"obj-33" : [ "#1-pt-rel-pitch-number", "rel. pitch", 0 ],
+			"obj-113" : [ "Detected pitch", "Detected pitch", 0 ],
+			"obj-32" : [ "Detected Pitch", "Detected Pitch", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

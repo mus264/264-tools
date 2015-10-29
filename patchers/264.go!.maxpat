@@ -188,8 +188,7 @@
 					"outlinecolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"patching_rect" : [ 30.0, 147.0, 35.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.0, 17.0, 35.0, 35.0 ],
-					"varname" : "#1-go-button"
+					"presentation_rect" : [ 25.0, 17.0, 35.0, 35.0 ]
 				}
 
 			}
@@ -214,8 +213,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 75.0, 90.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 22.0, 20.0, 20.0 ],
@@ -352,10 +351,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.pattr-read-write.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]

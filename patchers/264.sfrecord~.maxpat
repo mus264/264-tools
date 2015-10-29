@@ -2721,7 +2721,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 45.0, 437.0, 67.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 44.0, 67.0, 18.0 ],
+					"presentation_rect" : [ 36.0, 43.0, 67.0, 18.0 ],
 					"text" : "V O L U M E",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
@@ -2824,6 +2824,7 @@
 					"display_range" : [ -70.0, 12.0 ],
 					"hint" : "Level of the incoming audio",
 					"id" : "obj-94",
+					"ignoreclick" : 1,
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -3071,7 +3072,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1-sfp-volume" ],
+					"args" : [ "#1-sfr-volume" ],
 					"id" : "obj-67",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -3081,7 +3082,7 @@
 					"patching_rect" : [ 510.0, 120.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 43.0, 20.0, 20.0 ],
-					"varname" : "playback-volume"
+					"varname" : "#1-sfr-volume"
 				}
 
 			}
@@ -3245,9 +3246,8 @@
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 1,
-							"parameter_longname" : "live.gain~",
-							"parameter_shortname" : "live.gain~",
+							"parameter_longname" : "Input Gain",
+							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
 							"parameter_mmax" : 12.0,
@@ -3261,8 +3261,7 @@
 					}
 ,
 					"showname" : 0,
-					"shownumber" : 0,
-					"varname" : "live.gain~"
+					"shownumber" : 0
 				}
 
 			}
@@ -4037,7 +4036,7 @@
  ],
 		"parameters" : 		{
 			"obj-85" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-6" : [ "live.gain~", "live.gain~", 0 ]
+			"obj-6" : [ "Input Gain", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

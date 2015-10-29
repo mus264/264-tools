@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 868.0, 676.0 ],
+		"rect" : [ 346.0, 44.0, 850.0, 676.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -149,8 +149,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 600.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 95.0, 20.0, 20.0 ],
@@ -165,8 +165,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 465.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 74.0, 20.0, 20.0 ],
@@ -181,8 +181,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 330.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 53.0, 20.0, 20.0 ],
@@ -197,8 +197,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 32.0, 20.0, 20.0 ],
@@ -227,7 +227,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
 					"thickness" : 4,
-					"varname" : "#1-delay-slider"
+					"varname" : "#1-del-time-slider"
 				}
 
 			}
@@ -492,11 +492,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-78",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 555.0, 205.0, 20.0 ],
-					"text" : "264.pattr-control #1-264del~ params"
+					"patching_rect" : [ 300.0, 555.0, 194.0, 20.0 ],
+					"text" : "264.pattr-control #1-264del~ audio"
 				}
 
 			}
@@ -544,9 +544,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 300.0, 585.0, 224.5, 33.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 0, 44, 1280, 796 ],
+						"client_rect" : [ 854, 172, 1208, 300 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 583, 69, 1204, 530 ]
+						"storage_rect" : [ 766, 44, 1220, 302 ]
 					}
 ,
 					"text" : "pattrstorage #1-264del~ @changemode 0 @greedy 2",
@@ -657,14 +657,14 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 465.0, 525.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"#1-delay-slider" : [ 0.0 ],
-						"#1-feedback-slider" : [ 0.0 ],
-						"#1-filter-freq-slider" : [ 0.0 ],
-						"#1-volume-slider" : [ 0.0 ]
+						"#1-del-fbck-slider" : [ 0.0 ],
+						"#1-del-ffreq-slider" : [ 0.0 ],
+						"#1-del-time-slider" : [ 0.0 ],
+						"#1-del-vol-slider" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u251001763"
+					"varname" : "u611010277"
 				}
 
 			}
@@ -922,7 +922,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-filter-freq-slider"
+					"varname" : "#1-del-ffreq-slider"
 				}
 
 			}
@@ -1001,7 +1001,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-feedback-slider"
+					"varname" : "#1-del-fbck-slider"
 				}
 
 			}
@@ -1172,7 +1172,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-volume-slider"
+					"varname" : "#1-del-vol-slider"
 				}
 
 			}
@@ -1857,10 +1857,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.pattr-read-write.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

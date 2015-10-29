@@ -653,7 +653,7 @@
 					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textovercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"varname" : "#1-bypass"
+					"varname" : "#1-grains-bypass-toggle"
 				}
 
 			}
@@ -799,8 +799,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1230.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 116.0, 20.0, 20.0 ],
@@ -912,7 +912,8 @@
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
-					"thickness" : 4
+					"thickness" : 4,
+					"varname" : "#1-grains-volume-slider"
 				}
 
 			}
@@ -1116,8 +1117,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 930.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 95.0, 20.0, 20.0 ],
@@ -1229,7 +1230,8 @@
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
-					"thickness" : 4
+					"thickness" : 4,
+					"varname" : "#1-grains-pitch-slider"
 				}
 
 			}
@@ -1240,8 +1242,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1080.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 136.0, 95.0, 20.0, 20.0 ],
@@ -1269,7 +1271,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "#1-pitch-variance",
+							"parameter_longname" : "#1-grains-pitch-v-dial",
 							"parameter_shortname" : "var.",
 							"parameter_type" : 0,
 							"parameter_mmax" : 1.0,
@@ -1285,7 +1287,7 @@
 					"showname" : 0,
 					"shownumber" : 0,
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
-					"varname" : "#1-pitch-variance"
+					"varname" : "#1-grains-pitch-v-dial"
 				}
 
 			}
@@ -1502,8 +1504,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 600.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 74.0, 20.0, 20.0 ],
@@ -1532,7 +1534,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
 					"thickness" : 4,
-					"varname" : "#1-delay-slider[1]"
+					"varname" : "#1-grains-size-slider"
 				}
 
 			}
@@ -1651,8 +1653,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 765.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 136.0, 74.0, 20.0, 20.0 ],
@@ -1680,7 +1682,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "#1-size-variance",
+							"parameter_longname" : "#1-grains-size-v-dial",
 							"parameter_shortname" : "var.",
 							"parameter_type" : 0,
 							"parameter_mmax" : 1.0,
@@ -1696,7 +1698,7 @@
 					"showname" : 0,
 					"shownumber" : 0,
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
-					"varname" : "#1-size-variance"
+					"varname" : "#1-grains-size-v-dial"
 				}
 
 			}
@@ -1913,8 +1915,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 270.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 53.0, 20.0, 20.0 ],
@@ -1943,7 +1945,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
 					"thickness" : 4,
-					"varname" : "#1-delay-slider"
+					"varname" : "#1-grains-rate-slider"
 				}
 
 			}
@@ -2283,8 +2285,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 435.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 136.0, 53.0, 20.0, 20.0 ],
@@ -2312,7 +2314,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "#1-rate-variance",
+							"parameter_longname" : "#1-grains-rate-v-dial",
 							"parameter_shortname" : "var.",
 							"parameter_type" : 0,
 							"parameter_mmax" : 1.0,
@@ -2328,7 +2330,7 @@
 					"showname" : 0,
 					"shownumber" : 0,
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
-					"varname" : "#1-rate-variance"
+					"varname" : "#1-grains-rate-v-dial"
 				}
 
 			}
@@ -3622,9 +3624,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-138" : [ "#1-pitch-variance", "var.", 0 ],
-			"obj-95" : [ "#1-size-variance", "var.", 0 ],
-			"obj-22" : [ "#1-rate-variance", "var.", 0 ]
+			"obj-95" : [ "#1-grains-size-v-dial", "var.", 0 ],
+			"obj-22" : [ "#1-grains-rate-v-dial", "var.", 0 ],
+			"obj-138" : [ "#1-grains-pitch-v-dial", "var.", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

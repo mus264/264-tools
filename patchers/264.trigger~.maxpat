@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 812.0, 670.0 ],
+		"rect" : [ 419.0, 44.0, 812.0, 670.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -87,7 +87,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 0.05 ],
 					"thickness" : 4,
-					"varname" : "#1-threshold-slider"
+					"varname" : "#1-trg-threshold-slider"
 				}
 
 			}
@@ -110,8 +110,7 @@
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
-					"thickness" : 4,
-					"varname" : "#1-delay-slider"
+					"thickness" : 4
 				}
 
 			}
@@ -125,7 +124,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 180.0, 52.0, 18.0 ],
+					"patching_rect" : [ 690.0, 195.0, 52.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.0, 165.0, 54.0, 18.0 ],
 					"text" : "time gate",
@@ -160,7 +159,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 105.0, 128.0, 128.0 ],
+					"patching_rect" : [ 162.0, 348.0, 31.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 149.0, 79.5, 27.0, 27.0 ],
 					"rounded" : 100
@@ -174,7 +173,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 90.0, 128.0, 128.0 ],
+					"patching_rect" : [ 147.0, 333.0, 60.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 138.0, 66.5, 50.0, 50.0 ],
 					"rounded" : 100
@@ -241,8 +240,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.numbox",
-							"parameter_shortname" : "live.numbox",
+							"parameter_longname" : "#1-trg-timegate-num",
+							"parameter_shortname" : "time-gate",
 							"parameter_type" : 0,
 							"parameter_mmin" : 50.0,
 							"parameter_mmax" : 5000.0,
@@ -256,7 +255,7 @@
 					}
 ,
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"varname" : "live.numbox"
+					"varname" : "#1-trg-timegate-num"
 				}
 
 			}
@@ -629,7 +628,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-gain-slider"
+					"varname" : "#1-trg-gain-slider"
 				}
 
 			}
@@ -3118,7 +3117,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-32" : [ "live.numbox", "live.numbox", 0 ]
+			"obj-32" : [ "#1-trg-timegate-num", "time-gate", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

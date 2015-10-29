@@ -587,7 +587,7 @@
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
-					"varname" : "#1-volume-slider"
+					"varname" : "#1-frz-vol-slider"
 				}
 
 			}

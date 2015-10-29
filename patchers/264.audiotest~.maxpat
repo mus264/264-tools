@@ -681,9 +681,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 510.0, 165.0, 94.0, 30.0 ],
+					"patching_rect" : [ 510.0, 165.0, 94.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 32.0, 165.0, 45.138252 ],
+					"presentation_rect" : [ 15.0, 32.0, 165.0, 45.0 ],
 					"prototypename" : "M4L.toggle",
 					"rounded" : 0.0,
 					"text" : "Audio is OFF",
@@ -692,8 +692,7 @@
 					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textovercolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
 					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"truncate" : 0,
-					"varname" : "#1-bypass"
+					"truncate" : 0
 				}
 
 			}
@@ -1084,7 +1083,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 519.5, 203.0, 495.0, 203.0, 495.0, 70.0, 519.5, 70.0 ],
+					"midpoints" : [ 519.5, 219.0, 495.0, 219.0, 495.0, 70.0, 519.5, 70.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
