@@ -95,6 +95,10 @@
     - #1-pt-quality-slider
     - #1-pt-mode-toggle
     - #1-pt-rel-pitch-number
+264.preset-toggle:
+  short-name: ptog
+  audio-presets:
+    - #1-ptog-toggle
 264.reverb~:
   short-name: rvrb
   midi-presets:
