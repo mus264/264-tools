@@ -6301,7 +6301,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1095.0, 75.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.5, 9.5, 18.0, 18.0 ],
+					"presentation_rect" : [ 165.5, 9.5, 20.0, 20.0 ],
 					"prototypename" : "M4L.toggle",
 					"rounded" : 0.0,
 					"text" : "+",
@@ -6403,7 +6403,7 @@
 					"annotation" : "Select files from your soundfiles folder",
 					"arrowframe" : 0,
 					"autopopulate" : 1,
-					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.75 ],
+					"bgcolor" : [ 0.670588, 0.709804, 0.741176, 1.0 ],
 					"bgcolor2" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
 					"fontface" : 1,
 					"fontname" : "Arial",
@@ -6423,11 +6423,28 @@
 					"prefix" : "Macintosh HD:/Users/chris/Documents/Max/Packages/264 Tools/patchers/soundfiles/",
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 10.0, 77.0, 18.0 ],
+					"presentation_rect" : [ 88.0, 10.0, 77.0, 18.0 ],
 					"rounded" : 0,
-					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"textcolor" : [ 0.079099, 0.091139, 0.126269, 1.0 ],
 					"textcolor2" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"types" : [ "AIFF", "WAVE" ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.670588, 0.709804, 0.741176, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+					"hint" : "Select files from your soundfiles folder",
+					"id" : "obj-113",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 855.0, 165.0, 80.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 88.0, 10.0, 77.0, 20.0 ],
+					"rounded" : 0
 				}
 
 			}
@@ -6447,23 +6464,6 @@
 					"presentation_rect" : [ 0.0, 8.0, 195.0, 177.0 ],
 					"rounded" : 0.0,
 					"types" : [ "AIFF", "WAVE" ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
-					"hint" : "Select files from your soundfiles folder",
-					"id" : "obj-113",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 855.0, 165.0, 80.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 10.0, 77.0, 18.0 ],
-					"rounded" : 0
 				}
 
 			}
