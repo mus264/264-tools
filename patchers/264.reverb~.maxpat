@@ -255,7 +255,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u538010286"
+					"varname" : "u284013078"
 				}
 
 			}
@@ -1691,7 +1691,6 @@
 					"hint" : "Plate size",
 					"id" : "obj-6",
 					"maxclass" : "live.tab",
-					"mode" : 1,
 					"num_lines_patching" : 3,
 					"num_lines_presentation" : 1,
 					"numinlets" : 1,
