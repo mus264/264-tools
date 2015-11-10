@@ -10,7 +10,7 @@
 ,
 		"rect" : [ 10.0, 44.0, 931.0, 706.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -38,7 +38,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 180.0, 375.0, 131.0, 20.0 ],
-					"presentation_rect" : [ 178.0, 382.0, 0.0, 0.0 ],
 					"text" : "prepend recall-number"
 				}
 
@@ -67,7 +66,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 840.0, 135.0, 112.0, 20.0 ],
-					"presentation_rect" : [ 627.0, 557.0, 0.0, 0.0 ],
 					"text" : "scale 1. 10. 0. 127."
 				}
 
@@ -282,11 +280,11 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "How long it takes for a sound to decay",
+					"annotation" : "Move smoothly between presets",
 					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
 					"contdata" : 1,
-					"hint" : "How long it takes for a sound to decay",
+					"hint" : "Move smoothly between presets",
 					"id" : "obj-70",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -299,8 +297,7 @@
 					"presentation_rect" : [ 36.0, 92.0, 144.0, 20.0 ],
 					"setminmax" : [ 0.0, 127.0 ],
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
-					"thickness" : 4,
-					"varname" : "#1-rvrb-decay-slider"
+					"thickness" : 4
 				}
 
 			}
@@ -2332,7 +2329,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"annotation" : "",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.66 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
@@ -2449,8 +2445,10 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Preset number to store",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hint" : "Preset number to store",
 					"id" : "obj-8",
 					"maxclass" : "number",
 					"minimum" : 1,
@@ -2466,8 +2464,10 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Preset number to recall",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hint" : "Preset number to recall",
 					"id" : "obj-1",
 					"maxclass" : "number",
 					"minimum" : 1,
@@ -2483,7 +2483,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"annotation" : "",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.66 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
