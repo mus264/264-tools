@@ -37,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 375.0, 131.0, 20.0 ],
+					"patching_rect" : [ 135.0, 315.0, 131.0, 20.0 ],
 					"text" : "prepend recall-number"
 				}
 
@@ -711,7 +711,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 465.0, 51.0, 20.0 ],
+					"patching_rect" : [ 195.0, 465.0, 51.0, 20.0 ],
 					"text" : "forward"
 				}
 
@@ -2329,6 +2329,7 @@
 			}
 , 			{
 				"box" : 				{
+					"active" : 0,
 					"annotation" : "",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.66 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
@@ -2483,6 +2484,7 @@
 			}
 , 			{
 				"box" : 				{
+					"active" : 0,
 					"annotation" : "",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.66 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
