@@ -587,7 +587,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 37.0, 70.0, 59.0, 20.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
-					"setstyle" : 1,
 					"signed" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
