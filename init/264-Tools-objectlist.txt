@@ -12,6 +12,7 @@ max oblist "264 Tools objects" 264.trigger~;
 max oblist "264 Tools objects" 264.freeze~;
 max oblist "264 Tools objects" 264.audiotest~;
 max oblist "264 Tools objects" 264.limit~;
+max oblist "264 Tools objects" 264.loop~;
 max oblist "264 Tools objects" 264.midi-learn;
 max oblist "264 Tools objects" 264.tog;
 max oblist "264 Tools objects" 264.go!;

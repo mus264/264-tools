@@ -97,6 +97,13 @@
       "264 Tools"
     ]
   },
+  "264.loop~": {
+    "digest": "Use in a bpatcher to record and manipulate audio loops.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
   "264.midi-learn": {
     "digest": "Use in a bpatcher to quickly map MIDI controls in Max.",
     "module": "264 Tools",
