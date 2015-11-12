@@ -2374,10 +2374,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 76.0, 23.0 ],
+					"patching_rect" : [ 15.0, 15.0, 85.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 5.0, 83.0, 23.0 ],
-					"text" : "K A R M A",
+					"presentation_rect" : [ 1.0, 5.0, 85.0, 23.0 ],
+					"text" : "L O O P E R",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 0.25 ]
 				}
 
