@@ -2375,8 +2375,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 15.0, 85.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 5.0, 85.0, 23.0 ],
-					"text" : "L O O P E R",
+					"presentation_rect" : [ 1.0, 5.0, 59.0, 23.0 ],
+					"text" : "L O O P",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 0.25 ]
 				}
 
