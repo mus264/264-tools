@@ -4378,7 +4378,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 825.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.5, 147.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 15.5, 105.0, 20.0, 20.0 ],
 					"varname" : "read-head-position"
 				}
 
@@ -4424,7 +4424,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 735.0, 285.0, 49.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.0, 148.0, 40.0, 19.0 ],
+					"presentation_rect" : [ 57.0, 106.0, 40.0, 19.0 ],
 					"text" : "0.0%",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
 					"textjustification" : 2
@@ -4444,7 +4444,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 720.0, 196.0, 32.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 149.0, 33.0, 18.0 ],
+					"presentation_rect" : [ 35.0, 107.0, 33.0, 18.0 ],
 					"text" : "POS",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
@@ -4523,7 +4523,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 720.0, 195.0, 140.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 147.0, 59.0, 20.0 ],
+					"presentation_rect" : [ 37.0, 105.0, 59.0, 20.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"signed" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
@@ -4804,7 +4804,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 975.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.5, 147.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 97.5, 105.0, 20.0, 20.0 ],
 					"varname" : "read-window"
 				}
 
@@ -4850,7 +4850,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 885.0, 285.0, 49.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.0, 148.0, 46.0, 19.0 ],
+					"presentation_rect" : [ 133.0, 106.0, 46.0, 19.0 ],
 					"text" : "100%",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
 					"textjustification" : 2
@@ -4870,7 +4870,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 870.0, 196.0, 31.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 117.0, 149.0, 31.0, 18.0 ],
+					"presentation_rect" : [ 117.0, 107.0, 31.0, 18.0 ],
 					"text" : "WIN",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
@@ -4949,7 +4949,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 870.0, 195.0, 140.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.0, 147.0, 59.0, 20.0 ],
+					"presentation_rect" : [ 119.0, 105.0, 59.0, 20.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
@@ -5650,7 +5650,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 525.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 105.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 147.0, 20.0, 20.0 ],
 					"varname" : "playback-volume"
 				}
 
@@ -5918,7 +5918,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 435.0, 315.0, 49.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 132.0, 106.0, 46.000004, 19.0 ],
+					"presentation_rect" : [ 132.0, 148.0, 46.000004, 19.0 ],
 					"text" : "0.00",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
 					"textjustification" : 2
@@ -5938,7 +5938,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 420.0, 196.0, 67.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 106.0, 67.0, 18.0 ],
+					"presentation_rect" : [ 36.0, 148.0, 67.0, 18.0 ],
 					"text" : "V O L U M E",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
@@ -6045,7 +6045,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 420.0, 195.0, 140.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 105.0, 142.0, 20.0 ],
+					"presentation_rect" : [ 36.0, 147.0, 142.0, 20.0 ],
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
