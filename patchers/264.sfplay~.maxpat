@@ -31,6 +31,7 @@
 				"box" : 				{
 					"autofit" : 1,
 					"id" : "obj-101",
+					"ignoreclick" : 1,
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 0,
