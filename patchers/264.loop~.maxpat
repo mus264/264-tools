@@ -523,7 +523,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u140017114"
+					"varname" : "u577012533"
 				}
 
 			}
@@ -611,9 +611,9 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Play/stop toggle",
+					"annotation" : "Jump toggle",
 					"args" : [ "#1-loop-jump" ],
-					"hint" : "Play/stop toggle",
+					"hint" : "Jump toggle",
 					"id" : "obj-20",
 					"maxclass" : "bpatcher",
 					"name" : "264.midi-learn.maxpat",
@@ -968,7 +968,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u134017108"
+									"varname" : "u570012539"
 								}
 
 							}
@@ -2865,7 +2865,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 840.0, 300.0, 69.0, 20.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "noclose", "nozoom", "float", "nomenu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 170, 197, 365, 302, ";", "#Q", "window", "notitle", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -7545,12 +7545,14 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The waveform of the recorded buffer",
 					"attr_bpm" : 133.990005,
 					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"bordercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"buffername" : "#0-264buf",
 					"grid" : 0.0,
 					"gridcolor" : [ 0.392, 0.392, 0.392, 1.0 ],
+					"hint" : "The waveform of the recorded buffer",
 					"id" : "obj-72",
 					"ignoreclick" : 1,
 					"labels" : 0,
