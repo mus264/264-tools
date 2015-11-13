@@ -217,7 +217,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 1280.0, 752.0 ],
+						"rect" : [ 176.0, 202.0, 195.0, 105.0 ],
 						"bgcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1230,7 +1230,7 @@
 									"annotation" : "jump rate randomisation (%)",
 									"appearance" : 1,
 									"focusbordercolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
-									"hint" : "jitter rate randomisation (%)",
+									"hint" : "jump rate randomisation (%)",
 									"id" : "obj-95",
 									"maxclass" : "live.dial",
 									"numinlets" : 1,
@@ -2120,7 +2120,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 840.0, 300.0, 69.0, 20.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 44, 1280, 796, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 176, 202, 371, 307, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -3660,10 +3660,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 720.0, 196.0, 31.0, 18.0 ],
+					"patching_rect" : [ 720.0, 196.0, 32.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 72.0, 30.0, 18.0 ],
-					"text" : "pos.",
+					"presentation_rect" : [ 35.0, 72.0, 33.0, 18.0 ],
+					"text" : "POS",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
 
@@ -3727,11 +3727,11 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Position— where does the loop start",
+					"annotation" : "Position — where does the loop start",
 					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
 					"contdata" : 1,
-					"hint" : "Position— where does the loop start",
+					"hint" : "Position — where does the loop start",
 					"id" : "obj-160",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -4086,10 +4086,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 870.0, 196.0, 30.0, 18.0 ],
+					"patching_rect" : [ 870.0, 196.0, 31.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 117.0, 72.0, 30.0, 18.0 ],
-					"text" : "win.",
+					"presentation_rect" : [ 117.0, 72.0, 31.0, 18.0 ],
+					"text" : "WIN",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
 
