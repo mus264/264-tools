@@ -424,7 +424,6 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.95, 0.38, 0.0, 0.0 ],
-					"border" : 1,
 					"bordercolor" : [ 0.8, 0.3, 0.07, 0.0 ],
 					"hint" : "Lights up when signal is above threshold and is being limited",
 					"id" : "obj-22",
@@ -433,8 +432,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 119.5, 210.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.5, 27.5, 20.0, 20.0 ],
-					"rounded" : 3
+					"presentation_rect" : [ 1.0, 28.0, 58.0, 18.0 ],
+					"rounded" : 0
 				}
 
 			}
@@ -477,8 +476,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 119.5, 210.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.5, 27.5, 20.0, 20.0 ],
-					"rounded" : 3
+					"presentation_rect" : [ 0.0, 27.0, 60.0, 20.0 ],
+					"rounded" : 0
 				}
 
 			}
