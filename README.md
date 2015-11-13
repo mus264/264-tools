@@ -47,6 +47,7 @@ The toolkit currently includes the following modules, which should be loaded in 
 * `264.transpose~` — a pitch shifter with 3 octave range above & below source
 * `264.freeze~` — a spectral audio freezer
 * `264.loop~` — a buffer-based loop recorder and manipulator
+* `264.limit~` — a no-options audio limiter (implementing `omx.peaklim~`)
 
 #### Analysis
 
