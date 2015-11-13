@@ -75,6 +75,28 @@
     - #1-grains-pitch-v-dial
     - #1-grains-volume-slider
     - #1-grains-bypass-toggle
+264.loop~:
+  short-name: loop
+  midi-presets:
+    - #1-loop-volume
+    - #1-loop-speed
+    - #1-loop-position
+    - #1-loop-window
+    - #1-loop-play
+    - #1-loop-record
+    - #1-loop-jump
+    - #1-loop-constrain
+    - #1-loop-jump-rate
+    - #1-loop-jump-rate-v
+  audio-presets:
+    - #1-loop-volume-slider
+    - #1-loop-speed-slider
+    - #1-loop-position-slider
+    - #1-loop-window-slider
+    - #1-loop-jump-toggle
+    - #1-loop-constrain-toggle
+    - #1-loop-jump-rate-slider
+    - #1-loop-jump-rate-v-dial
 264.midi-learn:
   short-name: 264ml
   presets:
