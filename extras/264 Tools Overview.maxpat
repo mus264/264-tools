@@ -93,7 +93,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 705.0, 525.0, 240.0, 47.0 ],
-									"presentation_rect" : [ 705.0, 512.0, 0.0, 0.0 ],
 									"text" : "If you don’t need the visual cue of the red signal peak indicator, just use 264.limit~ like a normal Max object:",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -110,7 +109,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 858.0, 366.0, 104.0, 47.0 ],
-									"presentation_rect" : [ 871.0, 346.0, 0.0, 0.0 ],
 									"text" : "Glows red when signal is peaking & limiter is active",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -127,7 +125,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 705.0, 120.0, 240.0, 60.0 ],
-									"presentation_rect" : [ 703.0, 124.0, 0.0, 0.0 ],
 									"text" : "264.limit~ implements some very simple peak limiting to try and handle signal that strays beyond the range of -1 to 1 and prevent clipping.",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -143,8 +140,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 725.0, 225.0, 220.0, 33.0 ],
-									"presentation_rect" : [ 722.0, 153.0, 0.0, 0.0 ],
+									"patching_rect" : [ 725.0, 225.0, 222.0, 33.0 ],
 									"text" : "Listen to the difference with and without limiting:",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -167,7 +163,6 @@
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 705.0, 225.0, 20.0, 20.0 ],
-									"presentation_rect" : [ 702.0, 153.0, 0.0, 0.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -187,7 +182,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 753.0, 270.0, 102.0, 47.0 ],
-									"presentation_rect" : [ 854.0, 360.0, 0.0, 0.0 ],
 									"text" : "off\nwithout limiting\nwith limiting",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -246,8 +240,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 466.5, 45.0, 45.0 ],
-									"presentation_rect" : [ 701.0, 409.0, 0.0, 0.0 ]
+									"patching_rect" : [ 735.0, 466.5, 45.0, 45.0 ]
 								}
 
 							}
@@ -823,7 +816,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 455.0, 270.0, 220.0, 47.0 ],
-									"text" : "When the window size is less than the whole buffer, try setting the position of that window:",
+									"text" : "Changing the window position.\nThis is where in the buffer your window starts.",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
 
@@ -921,7 +914,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 435.0, 120.0, 240.0, 47.0 ],
-									"text" : "In addition to speed/pitch & volume You can manipulate the looping playback in a number of different ways:",
+									"text" : "In addition to speed/pitch & volume, you can manipulate the looping playback in a number of different ways:",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
 
@@ -7624,7 +7617,7 @@
 			"obj-47::obj-32::obj-21::obj-6" : [ "live.tab[10]", "live.tab[1]", 0 ],
 			"obj-46::obj-2::obj-85" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-43::obj-5::obj-32" : [ "[14]", "[2]", 0 ],
-			"obj-46::obj-45::obj-35" : [ "[19]", "Level", 0 ],
+			"obj-46::obj-45::obj-32" : [ "[19]", "[2]", 0 ],
 			"obj-50::obj-5::obj-32" : [ "[22]", "[2]", 0 ],
 			"obj-37::obj-5::obj-22" : [ "overview-grains-grains-rate-v-dial", "var.", 0 ],
 			"obj-41::obj-2::obj-32" : [ "[3]", "[2]", 0 ],
@@ -7633,16 +7626,16 @@
 			"obj-37::obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
 			"obj-50::obj-2::obj-143::obj-95" : [ "overview-looper-loop-jump-rate-v-dial", "var.", 0 ],
-			"obj-39::obj-2::obj-35" : [ "[9]", "Level", 0 ],
+			"obj-39::obj-2::obj-32" : [ "[9]", "[2]", 0 ],
 			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
 			"obj-47::obj-17" : [ "output-gain[5]", "output", 0 ],
 			"obj-43::obj-6::obj-32" : [ "Detected Pitch", "Detected Pitch", 0 ],
 			"obj-50::obj-5::obj-21::obj-6" : [ "live.tab[12]", "live.tab[1]", 0 ],
 			"obj-47::obj-32::obj-35" : [ "[17]", "Level", 0 ],
-			"obj-39::obj-2::obj-32" : [ "[1]", "[2]", 0 ],
+			"obj-39::obj-2::obj-35" : [ "[1]", "Level", 0 ],
 			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
 			"obj-43::obj-5::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
-			"obj-47::obj-6::obj-35" : [ "[15]", "Level", 0 ],
+			"obj-47::obj-6::obj-32" : [ "[15]", "[2]", 0 ],
 			"obj-41::obj-15::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
 			"obj-41::obj-15::obj-35" : [ "[4]", "Level", 0 ],
 			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
@@ -7661,14 +7654,14 @@
 			"obj-7::obj-6" : [ "overview-filter-fltr-type-tab", "overview-filter-fltr-type-tab", 0 ],
 			"obj-50::obj-66" : [ "flonum", "flonum", 0 ],
 			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-43::obj-2::obj-35" : [ "[12]", "Level", 0 ],
+			"obj-43::obj-2::obj-32" : [ "[12]", "[2]", 0 ],
 			"obj-46::obj-46::obj-138" : [ "ap-demo-grains-grains-pitch-v-dial", "var.", 0 ],
-			"obj-43::obj-2::obj-32" : [ "[11]", "[2]", 0 ],
+			"obj-43::obj-2::obj-35" : [ "[11]", "Level", 0 ],
 			"obj-46::obj-46::obj-95" : [ "ap-demo-grains-grains-size-v-dial", "var.", 0 ],
-			"obj-47::obj-6::obj-32" : [ "[16]", "[2]", 0 ],
+			"obj-47::obj-6::obj-35" : [ "[16]", "Level", 0 ],
 			"obj-43::obj-6::obj-33" : [ "264extra-pitchtracking-pt-rel-pitch-number-obj", "rel. pitch", 0 ],
 			"obj-37::obj-5::obj-138" : [ "overview-grains-grains-pitch-v-dial", "var.", 0 ],
-			"obj-46::obj-45::obj-32" : [ "[20]", "[2]", 0 ],
+			"obj-46::obj-45::obj-35" : [ "[20]", "Level", 0 ],
 			"obj-46::obj-45::obj-21::obj-6" : [ "live.tab[11]", "live.tab[1]", 0 ]
 		}
 ,
