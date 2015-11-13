@@ -47,7 +47,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 156.0, 104.0, 966.0, 618.0 ],
+						"rect" : [ 156.0, 104.0, 966.0, 616.0 ],
 						"bgcolor" : [ 0.921569, 0.921569, 0.921569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -348,7 +348,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 75.0, 255.0, 225.0, 17.0 ],
-													"presentation_rect" : [ 123.0, 301.0, 0.0, 0.0 ],
 													"rounded" : 0
 												}
 
@@ -392,7 +391,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "signal" ],
 													"patching_rect" : [ 240.0, 105.0, 37.0, 20.0 ],
-													"presentation_rect" : [ 238.0, 100.0, 0.0, 0.0 ],
 													"text" : "abs~"
 												}
 
@@ -1185,7 +1183,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 480.0, 20.0, 20.0 ],
+									"patching_rect" : [ 15.0, 360.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "5",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1199,11 +1197,11 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-29",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 35.0, 480.0, 239.0, 47.0 ],
+									"patching_rect" : [ 35.0, 360.0, 162.0, 74.0 ],
 									"text" : "Add to the buffer by holding record again while still playing, or start afresh by stopping playback and then holding record",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -1225,7 +1223,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 435.0, 20.0, 20.0 ],
+									"patching_rect" : [ 15.0, 315.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "4",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1243,7 +1241,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 35.0, 435.0, 175.0, 33.0 ],
+									"patching_rect" : [ 35.0, 315.0, 162.0, 33.0 ],
 									"text" : "Click the play button to start playing the loop",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -1260,7 +1258,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 400.0, 182.0, 24.0 ],
+									"patching_rect" : [ 30.0, 280.0, 182.0, 24.0 ],
 									"text" : "click & hold the record button",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -1291,7 +1289,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 35.0, 360.0, 175.0, 33.0 ],
+									"patching_rect" : [ 35.0, 240.0, 151.0, 33.0 ],
 									"text" : "Record some sound into the looper",
 									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 								}
@@ -1313,7 +1311,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 360.0, 20.0, 20.0 ],
+									"patching_rect" : [ 15.0, 240.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "3",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1410,7 +1408,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 609.0, 77.0, 18.0 ],
+									"patching_rect" : [ 30.0, 609.0, 77.0, 18.0 ],
 									"text" : "help karma~"
 								}
 
@@ -1425,7 +1423,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 105.0, 609.0, 55.0, 20.0 ],
+									"patching_rect" : [ 120.0, 609.0, 55.0, 20.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -1450,7 +1448,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 580.0, 375.0, 23.0 ],
+									"patching_rect" : [ 30.0, 580.0, 375.0, 23.0 ],
 									"prototypename" : "M4L.toggle",
 									"rounded" : 0.0,
 									"text" : "Read karma~’s help file",
@@ -1464,6 +1462,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
@@ -1471,9 +1470,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 555.0, 375.0, 20.0 ],
+									"patching_rect" : [ 30.0, 555.0, 376.0, 20.0 ],
 									"text" : "264.loop~ is built around Rodrigo Constanzo & raja’s karma~",
-									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+									"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+									"textjustification" : 1
 								}
 
 							}
@@ -1542,7 +1542,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 285.0, 465.0, 45.0, 45.0 ]
+									"patching_rect" : [ 210.0, 465.0, 45.0, 45.0 ]
 								}
 
 							}
@@ -7872,23 +7872,23 @@
 			"obj-46::obj-45::obj-21::obj-6" : [ "live.tab[11]", "live.tab[1]", 0 ],
 			"obj-46::obj-46::obj-138" : [ "ap-demo-grains-grains-pitch-v-dial", "var.", 0 ],
 			"obj-39::obj-10::obj-6" : [ "week3-filter-fltr-type-tab", "week3-filter-fltr-type-tab", 0 ],
-			"obj-43::obj-5::obj-32" : [ "[13]", "[2]", 0 ],
+			"obj-43::obj-5::obj-35" : [ "[13]", "Level", 0 ],
 			"obj-7::obj-6" : [ "overview-filter-fltr-type-tab", "overview-filter-fltr-type-tab", 0 ],
 			"obj-41::obj-24" : [ "output-gain[4]", "output", 0 ],
 			"obj-43::obj-2::obj-21::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
 			"obj-37::obj-2::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-47::obj-32::obj-21::obj-6" : [ "live.tab[10]", "live.tab[1]", 0 ],
-			"obj-43::obj-2::obj-35" : [ "[11]", "Level", 0 ],
+			"obj-43::obj-2::obj-32" : [ "[11]", "[2]", 0 ],
 			"obj-43::obj-6::obj-113" : [ "Detected pitch", "Detected pitch", 0 ],
 			"obj-47::obj-6::obj-21::obj-6" : [ "live.tab[9]", "live.tab[1]", 0 ],
 			"obj-41::obj-2::obj-35" : [ "[2]", "Level", 0 ],
-			"obj-46::obj-45::obj-32" : [ "[19]", "[2]", 0 ],
+			"obj-46::obj-45::obj-35" : [ "[19]", "Level", 0 ],
 			"obj-46::obj-46::obj-95" : [ "ap-demo-grains-grains-size-v-dial", "var.", 0 ],
 			"obj-50::obj-5::obj-32" : [ "[22]", "[2]", 0 ],
 			"obj-39::obj-17" : [ "output-gain[2]", "output", 0 ],
 			"obj-50::obj-70" : [ "flonum[1]", "flonum[1]", 0 ],
 			"obj-43::obj-6::obj-32" : [ "Detected Pitch", "Detected Pitch", 0 ],
-			"obj-43::obj-5::obj-35" : [ "[14]", "Level", 0 ],
+			"obj-43::obj-5::obj-32" : [ "[14]", "[2]", 0 ],
 			"obj-41::obj-2::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
 			"obj-47::obj-32::obj-32" : [ "[17]", "[2]", 0 ],
 			"obj-37::obj-2::obj-32" : [ "[8]", "[2]", 0 ],
@@ -7903,13 +7903,13 @@
 			"obj-50::obj-66" : [ "flonum", "flonum", 0 ],
 			"obj-41::obj-2::obj-32" : [ "[3]", "[2]", 0 ],
 			"obj-47::obj-32::obj-35" : [ "[18]", "Level", 0 ],
-			"obj-46::obj-45::obj-35" : [ "[20]", "Level", 0 ],
+			"obj-46::obj-45::obj-32" : [ "[20]", "[2]", 0 ],
 			"obj-50::obj-5::obj-21::obj-6" : [ "live.tab[12]", "live.tab[1]", 0 ],
 			"obj-37::obj-5::obj-95" : [ "overview-grains-grains-size-v-dial", "var.", 0 ],
 			"obj-41::obj-17" : [ "output-gain[3]", "output", 0 ],
 			"obj-43::obj-6::obj-33" : [ "264extra-pitchtracking-pt-rel-pitch-number-obj", "rel. pitch", 0 ],
 			"obj-37::obj-5::obj-22" : [ "overview-grains-grains-rate-v-dial", "var.", 0 ],
-			"obj-43::obj-2::obj-32" : [ "[12]", "[2]", 0 ],
+			"obj-43::obj-2::obj-35" : [ "[12]", "Level", 0 ],
 			"obj-4" : [ "output-gain", "output", 0 ],
 			"obj-41::obj-15::obj-32" : [ "[10]", "[2]", 0 ],
 			"obj-41::obj-18::obj-6" : [ "overview-reverb-ex-rvrb-size-tab", "Plate Size", 0 ]
