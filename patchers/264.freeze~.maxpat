@@ -29,6 +29,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"autofit" : 1,
+					"id" : "obj-32",
+					"ignoreclick" : 1,
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 440.0, 200.0, 20.0, 20.0 ],
+					"pic" : "264.ui-close.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 158.0, 28.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "#1" ],
 					"id" : "obj-57",
 					"maxclass" : "bpatcher",
@@ -155,7 +170,7 @@
 					"presentation_rect" : [ 158.0, 28.0, 20.0, 20.0 ],
 					"prototypename" : "M4L.toggle",
 					"rounded" : 0.0,
-					"text" : "X",
+					"text" : "",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"texton" : "Trig",
 					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
@@ -247,7 +262,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u525010738"
+					"varname" : "u387007420"
 				}
 
 			}
@@ -1461,6 +1476,13 @@
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-close.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
  ]
