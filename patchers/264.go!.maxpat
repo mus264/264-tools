@@ -242,6 +242,23 @@
 			}
 , 			{
 				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+					"grad1" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+					"grad2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"id" : "obj-2",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 79.0, 151.0, 27.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 29.0, 21.0, 27.0, 27.0 ],
+					"shape" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
 					"hint" : "Output Received Message as bang",
