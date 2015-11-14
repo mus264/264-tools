@@ -58,6 +58,8 @@ The toolkit currently includes the following modules, which should be loaded in 
 #### Utility
 
 * `264.audiotest~` — display audio status & test loudspeakers
+* `264.fullscreen` — toggle a patch to display fullscreen
+* `264.lockstatus` — check if a patch is currently locked
 
 ### Control
 
