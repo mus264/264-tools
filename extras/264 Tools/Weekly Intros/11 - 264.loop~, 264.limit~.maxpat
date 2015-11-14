@@ -223,7 +223,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 381.0, 125.0, 316.0, 391.0 ],
+						"rect" : [ 509.0, 247.0, 316.0, 391.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -233,11 +233,11 @@
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
+						"toolbarvisible" : 0,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
+						"enablehscroll" : 0,
+						"enablevscroll" : 0,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
@@ -1839,6 +1839,132 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"parameters" : 		{
+			"obj-5::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-5::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-70" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-66" : [ "flonum", "flonum", 0 ],
+			"obj-2::obj-143::obj-95" : [ "overview-looper-loop-jump-rate-v-dial", "var.", 0 ],
+			"obj-5::obj-35" : [ "[5]", "Level", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "264.loop~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.midi-learn.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.pattr-control.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../../../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-close.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../../../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-question.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../../../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-settings.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../../../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.preset-toggle.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-play.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../../../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-record.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../../../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "demosound.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/msp-help",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/msp-help",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sine.svg",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "saw.svg",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "square.svg",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random.svg",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.limit~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "karma~.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
