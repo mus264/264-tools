@@ -33,6 +33,69 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-95",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 184.5, 594.0, 335.0, 31.0 ],
+					"text" : ";\rmax launchbrowser http://www.rodrigoconstanzo.com/karma/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"handoff" : "",
+					"hltcolor" : [ 0.047059, 0.972549, 0.392157, 0.25 ],
+					"id" : "obj-93",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"patching_rect" : [ 186.5, 540.0, 107.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-92",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 291.5, 540.0, 94.0, 20.0 ],
+					"presentation_rect" : [ 52.552631, 526.657898, 0.0, 0.0 ],
+					"text" : "& raja’s karma~",
+					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-91",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 184.5, 540.0, 113.0, 20.0 ],
+					"text" : "Rodrigo Constanzo",
+					"textcolor" : [ 0.752941, 0.14902, 0.14902, 1.0 ],
+					"underline" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-88",
 					"maxclass" : "comment",
@@ -1650,13 +1713,13 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Find out more about karma~",
-					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.75 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
-					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
+					"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 0.75 ],
 					"bgoveroncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.698039, 0.792157, 1.0, 0.8 ],
-					"borderoncolor" : [ 0.698039, 0.792157, 1.0, 0.8 ],
+					"bordercolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
+					"borderoncolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
@@ -1671,10 +1734,10 @@
 					"prototypename" : "M4L.toggle",
 					"rounded" : 0.0,
 					"text" : "Read karma~’s help file",
-					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
-					"texton" : "Trig",
+					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"texton" : "JUMP",
 					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"textovercolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
+					"textovercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
@@ -1689,10 +1752,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 540.0, 376.0, 20.0 ],
-					"text" : "264.loop~ is built around Rodrigo Constanzo & raja’s karma~",
-					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
-					"textjustification" : 1
+					"patching_rect" : [ 50.5, 540.0, 142.0, 20.0 ],
+					"text" : "264.loop~ is built around",
+					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
 			}
@@ -2140,6 +2202,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-93", 0 ]
 				}
 
 			}
