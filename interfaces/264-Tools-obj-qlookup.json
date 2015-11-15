@@ -138,5 +138,19 @@
     "category": [
       "264 Tools"
     ]
+  },
+  "264.fullscreen": {
+    "digest": "Use in a bpatcher to easily toggle fullscreen display.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
+  },
+  "264.lockstatus": {
+    "digest": "Find out if the patcher is currently locked or not.",
+    "module": "264 Tools",
+    "category": [
+      "264 Tools"
+    ]
   }
 }
