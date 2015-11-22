@@ -97,6 +97,7 @@
     - #1-loop-constrain-toggle
     - #1-loop-jump-rate-slider
     - #1-loop-jump-rate-v-dial
+    - #1-loop-filename
 264.midi-learn:
   short-name: 264ml
   presets:
