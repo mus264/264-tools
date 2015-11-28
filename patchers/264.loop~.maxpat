@@ -67,6 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1695.0, 135.0, 149.0, 20.0 ],
+					"text" : "sfplay-refresh-264.loop~",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
@@ -380,7 +381,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "populate" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1450,7 +1451,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "bang" ],
 													"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ]
 												}
 
@@ -3928,7 +3929,7 @@
 					"hint" : "Select files from your soundfiles folder",
 					"hltcolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
 					"id" : "obj-111",
-					"items" : "<empty>",
+					"items" : [ "(Load", "file…)", ",", "<separator>" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4069,7 +4070,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
 								}
 
@@ -4134,7 +4135,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 191.5, 615.0, 78.0, 20.0 ],
+					"patching_rect" : [ 206.5, 615.0, 78.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -4441,8 +4442,8 @@
 					"fontsize" : 12.0,
 					"id" : "obj-37",
 					"interp" : 					{
-						"#1-loop-jump-toggle" : [ 0, 0.0 ],
-						"#1-loop-filename" : [ 0, 0.0 ]
+						"#1-loop-filename" : [ 0, 0.0 ],
+						"#1-loop-jump-toggle" : [ 0, 0.0 ]
 					}
 ,
 					"linecount" : 2,
@@ -4482,7 +4483,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u999002447"
+					"varname" : "u106001196"
 				}
 
 			}
@@ -4927,7 +4928,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u204002441"
+									"varname" : "u484001190"
 								}
 
 							}
@@ -11960,6 +11961,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 294.5, 621.0, 159.5, 621.0 ],
 					"source" : [ "obj-12", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 1 ]
 				}
 
 			}
