@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.delay~" module="264 Tools" kind="patcher">
+
+	<digest>
+		Apply a delay line to audio via a graphical interface.
+	</digest>
+
+	<description>
+		Combines delay with feedback and filtering
+		in a simple graphical interface.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chris Swithinbank</metadata>
+		<metadata name="tag">264 Tools</metadata>
+		<metadata name="tag">264 Tools abstractions</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="signal">
+			<digest>
+				Audio to be processed
+			</digest>
+			<description>
+				Signal connected to the first outlet will have the delay effect applied.
+			</description>
+		</inlet>
+		<inlet id="1" type="int/float">
+			<digest>
+				Volume
+			</digest>
+			<description>
+				Sets the volume of the delay module’s output. Floats are understood as absolute values (0.–1.). Integers are understood as a MIDI range (0–127) and mapped to the float range.
+			</description>
+		</inlet>
+		<inlet id="2" type="int/float">
+			<digest>
+				Delay length
+			</digest>
+			<description>
+				Sets the interval of the delay. Floats are understood as absolute values in seconds (0.–60). Integers are understood as a MIDI range (0–127) and mapped to the float range.
+			</description>
+		</inlet>
+		<inlet id="3" type="int/float">
+			<digest>
+				Feedback amount
+			</digest>
+			<description>
+				Set how much the delay line feeds back into itself. Floats are understood as absolute values (0.–1.). Integers are understood as a MIDI range (0–127) and mapped to the float range.
+			</description>
+		</inlet>
+		<inlet id="4" type="int/float">
+			<digest>
+				Filter frequency
+			</digest>
+			<description>
+				Set the cut-off frequency of the feedback low-pass filter. Floats are understood as absolute values (0.–22.1) in kilohertz. Integers are understood as a MIDI range (0–127) and mapped to the float range.
+			</description>
+		</inlet>
+		<inlet id="5" type="bang">
+			<digest>
+				Clear delay
+			</digest>
+			<description>
+				Clear the memory of the delay line. Helpful when using long delays.
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="signal">
+			<digest>
+				Processed signal
+			</digest>
+			<description>
+				Signal with the delay effect applied.
+			</description>
+		</outlet>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="unique id" optional="0" type="symbol">
+			<digest>
+				Unique identifier
+			</digest>
+			<description>
+				A unique name allows the module to communicate with the 264 Tools preset mechanisms.
+			</description>
+		</objarg>
+	</objarglist>
+
+	<!--MESSAGES-->
+
+	<!--ATTRIBUTES-->
+
+	<!--EXAMPLE-->
+
+	<!--DISCUSSION-->
+	<discussion>
+		Used in a <o>bpatcher</o>, <o>264.delay~</o> provides a graphical interface to control a delay effect with built-in feedback and filtering. Connect to your MIDI controller by clicking on the <o>264.midi-learn</o> arrows.
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="264.reverb~" />
+		<seealso name="264.filter~" />
+		<seealso name="264.freeze~" />
+		<seealso name="264.grains~" />
+		<seealso name="264.ringmod~" />
+		<seealso name="264.transpose~" />
+	</seealsolist>
+
+</c74object>
