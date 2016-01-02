@@ -46,8 +46,6 @@ The toolkit currently includes the following modules, which should be loaded in 
 #### Utility
 
 * `264.audiotest~` — display audio status & test loudspeakers
-* `264.fullscreen` — toggle a patch to display fullscreen
-* `264.lockstatus` — check if a patch is currently locked
 
 ### Control
 
@@ -56,6 +54,8 @@ The toolkit currently includes the following modules, which should be loaded in 
 * `264.go!` — a MIDI-ready button
 * `264.midi-presets` — manage mapping presets between your MIDI controller and `264.midi-learn` objects
 * `264.audio-presets` — manage presets for parameters across 264 Tools modules
+* `264.fullscreen` — toggle a patch to display fullscreen
+* `264.lockstatus` — check if a patch is currently locked
 
 ## Compatibility
 
