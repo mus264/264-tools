@@ -14,6 +14,10 @@ While waiting for *264 Tools* to be included in the official Package Manager, pl
 
 2. Open (or restart) Max.
 
+## Getting Started
+
+After you have installed 264 Tools, open Max’s **Extras** menu to find the ‘264 Tools Overview’ for an introduction to the various modules.
+
 ## Current Functionality
 
 The toolkit currently includes the following modules, which should be loaded in a `bpatcher`.
