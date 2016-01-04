@@ -10,7 +10,7 @@ A modular kit providing high-level sound generation, processing and performance 
 
 While waiting for *264 Tools* to be included in the official Package Manager, please install it manually:
 
-1. Download and uncompress the [latest release](https://github.com/mus264/264-tools/releases/latest) to your Max Packages directory. You can find this under `~/Documents/Max/Packages` for Max 6 or `~/Documents/Max 7/Packages` for Max 7. If you use both Max 6 and 7, install it for both.
+1. Download and uncompress the [latest release](https://github.com/mus264/264-tools/releases/latest) to your Max Packages directory. You can find this under `~/Documents/Max/Packages` for Max 6 or `~/Documents/Max 7/Packages` for Max 7.
 
 2. Open (or restart) Max.
 
