@@ -6,13 +6,22 @@ A modular kit providing high-level sound generation, processing and performance 
 
 ## Installation
 
-*264 Tools* was included in Nathanaël Lécaudé’s *[Max Package Downloader](https://github.com/natcl/max_package_downloader)*, but since the introduction of Max 7.1’s [new native Package Manager](https://cycling74.com/2015/12/14/introducing-the-max-package-manager/) that is no longer the recommended installation method.
+1. **Download the [latest release](https://github.com/mus264/264-tools/releases/latest)** (click ‘Source code’ under Downloads)
 
-While waiting for *264 Tools* to be included in the official Package Manager, please install it manually:
+2. **Uncompress your download to your Max Packages directory.**
+You can find this under `~/Documents/Max/Packages` for Max 6 or `~/Documents/Max 7/Packages` for Max 7.
+You should end up with file paths that look like `~/Documents/Max/Packages/264-tools/ALL-THE-FILES-GO-HERE`.
 
-1. Download and uncompress the [latest release](https://github.com/mus264/264-tools/releases/latest) to your Max Packages directory. You can find this under `~/Documents/Max/Packages` for Max 6 or `~/Documents/Max 7/Packages` for Max 7.
+3. **Open (or restart) Max.**
 
-2. Open (or restart) Max.
+Alternatively if you prefer using the command line:
+
+```sh
+# move to your packages directory
+cd ~/Documents/Max/Packages
+# download 264 Tools to your packages directory
+git clone https://github.com/mus264/264-tools.git
+```
 
 ## Getting Started
 
