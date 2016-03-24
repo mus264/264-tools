@@ -8,8 +8,8 @@ A modular kit providing high-level sound generation, processing and performance 
 
 1. **Download the [latest release](https://github.com/mus264/264-tools/releases/latest)** (click ‘Source code’ under Downloads)
 
-2. **Uncompress your download to your Max Packages directory.**
-You can find this under `~/Documents/Max/Packages` for Max 6 or `~/Documents/Max 7/Packages` for Max 7.
+2. **Uncompress your download to your Max Packages directory.**    
+You can find this under `~/Documents/Max/Packages` for Max 6 or `~/Documents/Max 7/Packages` for Max 7.    
 You should end up with file paths that look like `~/Documents/Max/Packages/264-tools/ALL-THE-FILES-GO-HERE`.
 
 3. **Open (or restart) Max.**
