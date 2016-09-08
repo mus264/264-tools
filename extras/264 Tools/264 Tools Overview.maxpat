@@ -2,10 +2,11 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 9,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 2,
+			"revision" : 3,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
 		"rect" : [ 37.0, 62.0, 1216.0, 711.0 ],
@@ -15,19 +16,27 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 2,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"title" : "264 Tools Overview",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -53,10 +62,11 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 9,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 2,
+							"revision" : 3,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 0.0, 368.0, 678.0, 382.0 ],
@@ -65,19 +75,27 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -88,6 +106,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 390.0, 105.0, 257.0, 18.0 ],
+									"style" : "",
 									"text" : "\"05 - 264.pitchtrack~, 264.transpose~.maxpat\""
 								}
 
@@ -102,6 +121,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 45.0, 165.0, 319.0, 18.0 ],
+									"style" : "",
 									"text" : "\"06 - 264.trigger~, 264.transpose~, 264.audiotest.maxpat\""
 								}
 
@@ -116,6 +136,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 405.0, 165.0, 147.0, 18.0 ],
+									"style" : "",
 									"text" : "\"07 - 264.sfplay~.maxpat\""
 								}
 
@@ -130,6 +151,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 60.0, 225.0, 262.0, 18.0 ],
+									"style" : "",
 									"text" : "\"08 - 264.sfrecord~, 264.audio-presets.maxpat\""
 								}
 
@@ -144,6 +166,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 420.0, 225.0, 196.0, 18.0 ],
+									"style" : "",
 									"text" : "\"11 - 264.loop~, 264.limit~.maxpat\""
 								}
 
@@ -158,6 +181,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 300.0, 81.0, 20.0 ],
+									"style" : "",
 									"text" : "prepend load"
 								}
 
@@ -172,6 +196,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 330.0, 53.0, 20.0 ],
+									"style" : "",
 									"text" : "pcontrol"
 								}
 
@@ -186,6 +211,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 30.0, 105.0, 230.0, 18.0 ],
+									"style" : "",
 									"text" : "\"04 - 264.ringmod~, 264.reverb~.maxpat\"",
 									"varname" : "week4"
 								}
@@ -201,6 +227,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 375.0, 45.0, 260.0, 18.0 ],
+									"style" : "",
 									"text" : "\"03 - 264.envelope~, 264.midi-presets.maxpat\"",
 									"varname" : "week3"
 								}
@@ -216,6 +243,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 45.0, 149.0, 18.0 ],
+									"style" : "",
 									"text" : "\"02 - 264.grains~.maxpat\"",
 									"varname" : "week2"
 								}
@@ -1541,124 +1569,108 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "264.delay~.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : "../../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.delay-poly~.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : "../../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.pattr-control.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : "../../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "set-patch-path.js",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
-				"patcherrelativepath" : "../../javascript",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.midi-learn.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : "../../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.preset-toggle.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : "../../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "overview-home-delays-264ptog.json",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/264 Tools/Weekly Intros/audio-presets",
-				"patcherrelativepath" : "./Weekly Intros/audio-presets",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/extras/264 Tools/Weekly Intros/audio-presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.sfplay~.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : "../../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.ui-play.png",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.ui-stop.png",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.ui-pause.png",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.ui-plus.png",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.go!.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : "../../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.filter~.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : "../../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "overview-filter-264ptog.json",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/264 Tools/Weekly Intros/audio-presets",
-				"patcherrelativepath" : "./Weekly Intros/audio-presets",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/extras/264 Tools/Weekly Intros/audio-presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.tog.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
-				"patcherrelativepath" : "../../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.ui-new-burst.png",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "~/Documents/Max 7/Packages/264-tools/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }
