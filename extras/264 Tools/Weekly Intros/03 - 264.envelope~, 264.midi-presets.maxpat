@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -28,7 +28,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"title" : "Week 3, 9/22",
+		"title" : "Envelope tracking & MIDI presets",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -131,8 +131,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 450.0, 270.0, 60.0 ],
-					"text" : "The MIDI controllers (first two faders & dials on the Korg nanoKontrol) have been associated with the sliders of the 264.envelope~ and 264.filter~ modules.",
+					"patching_rect" : [ 450.0, 450.0, 274.0, 60.0 ],
+					"text" : "The MIDI controllers (first two faders & dials on a Korg nanoKontrol) have been associated with the sliders of the 264.envelope~ and 264.filter~ modules.",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
@@ -180,7 +180,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 450.0, 120.0, 273.0, 114.0 ],
-					"text" : "Unlike the other modules, 264.midi-presets doesn’t play a direct role in creating or controlling sound. Instead it helps you get going more quickly by storing the mapping you’ve set up between your MIDI controller and your patch.\n\nTry hitting the “Recall” button below (preset 1) and watching the midi-learn arrows on the left.",
+					"text" : "Unlike the other modules, 264.midi-presets doesn’t play a direct role in creating or controlling sound. Instead it helps you get going more quickly by storing the mapping you’ve set up between a MIDI controller and your patch.\n\nTry hitting the “Recall” button below (preset 1) and watching the midi-learn arrows on the left.",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
@@ -547,8 +547,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 15.0, 213.0, 33.0 ],
-					"text" : "Week 3, 9/22/2015",
+					"patching_rect" : [ 30.0, 15.0, 391.0, 33.0 ],
+					"text" : "Envelope tracking & MIDI presets",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
 
@@ -714,6 +714,141 @@
 					"source" : [ "obj-5", 0 ]
 				}
 
+			}
+ ],
+		"parameters" : 		{
+			"obj-10::obj-6" : [ "week3-filter-fltr-type-tab", "week3-filter-fltr-type-tab", 0 ],
+			"obj-2::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-2::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-17" : [ "output-gain[2]", "output", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "demosound.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/msp-help",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/msp-help",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sine.svg",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "saw.svg",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "square.svg",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random.svg",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.envelope~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.midi-learn.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-envfol-env-sharpness-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/extras/264 Tools/Weekly Intros/midi-presets",
+				"patcherrelativepath" : "./midi-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.pattr-control.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/javascript",
+				"patcherrelativepath" : "../../../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-envfol-env-gain-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/extras/264 Tools/Weekly Intros/midi-presets",
+				"patcherrelativepath" : "./midi-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.preset-toggle.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overview-envfol-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/extras/264 Tools/Weekly Intros/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.filter~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "week3-filter-fltr-frequency-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/extras/264 Tools/Weekly Intros/midi-presets",
+				"patcherrelativepath" : "./midi-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "week3-filter-fltr-Q-264ml.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/extras/264 Tools/Weekly Intros/midi-presets",
+				"patcherrelativepath" : "./midi-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "week3-filter-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/extras/264 Tools/Weekly Intros/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.midi-presets.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ]
 	}

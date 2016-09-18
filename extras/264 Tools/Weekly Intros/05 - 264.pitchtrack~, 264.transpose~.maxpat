@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -28,7 +28,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"title" : "Week 5, 10/6",
+		"title" : "Transposition & pitch tracking",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontface" : 1,
@@ -515,8 +515,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 15.0, 213.0, 33.0 ],
-					"text" : "Week 5, 10/6/2015",
+					"patching_rect" : [ 30.0, 15.0, 356.0, 33.0 ],
+					"text" : "Transposition & pitch tracking",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
 
@@ -634,6 +634,121 @@
 					"source" : [ "obj-7", 0 ]
 				}
 
+			}
+ ],
+		"parameters" : 		{
+			"obj-6::obj-113" : [ "Detected pitch", "Detected pitch", 0 ],
+			"obj-5::obj-35" : [ "[10]", "Level", 0 ],
+			"obj-6::obj-32" : [ "Detected Pitch", "Detected Pitch", 0 ],
+			"obj-5::obj-32" : [ "[9]", "[2]", 0 ],
+			"obj-2::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-2::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-6::obj-33" : [ "264extra-pitchtracking-pt-rel-pitch-number-obj", "rel. pitch", 0 ],
+			"obj-5::obj-21::obj-6" : [ "live.tab[1]", "live.tab[1]", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "demosound.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/msp-help",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/msp-help",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sine.svg",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "saw.svg",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "square.svg",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random.svg",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.pitchtrack~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.midi-learn.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.pattr-control.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/javascript",
+				"patcherrelativepath" : "../../../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.preset-toggle.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264extra-pitchtracking-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/extras/264 Tools/Weekly Intros/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.transpose~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.transpose-pfft~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264extra-pshift-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/extras/264 Tools/Weekly Intros/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sigmund~.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

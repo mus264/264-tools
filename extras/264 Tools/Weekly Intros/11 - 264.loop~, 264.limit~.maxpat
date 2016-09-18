@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -28,7 +28,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"title" : "Week 11, 11/17",
+		"title" : "Limiting & looping",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -69,7 +69,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 291.5, 540.0, 94.0, 20.0 ],
-					"presentation_rect" : [ 52.552631, 526.657898, 0.0, 0.0 ],
 					"text" : "& raja’s karma~",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
@@ -102,7 +101,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 530.0, 723.0, 141.0, 20.0 ],
-					"presentation_rect" : [ 554.0, 720.0, 0.0, 0.0 ],
 					"text" : "1 = locked; 0 = unlocked",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"textjustification" : 1
@@ -163,7 +161,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 560.0, 642.0, 184.0, 20.0 ],
-					"presentation_rect" : [ 575.0, 638.0, 0.0, 0.0 ],
 					"text" : "…or turn on continuous output…",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"textjustification" : 1
@@ -180,7 +177,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 530.0, 615.0, 159.0, 20.0 ],
-					"presentation_rect" : [ 582.0, 610.5, 0.0, 0.0 ],
 					"text" : "bang to get current status…",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
 					"textjustification" : 1
@@ -260,8 +256,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 645.0, 210.0, 87.0 ],
-					"presentation_rect" : [ 329.0, 649.0, 0.0, 0.0 ],
+					"patching_rect" : [ 285.0, 645.0, 214.0, 87.0 ],
 					"text" : "If you are programming keyboard commands using Max’s [key] object, it can be useful to know whether or not your patch is locked or unlocked to disable your key commands while editing.",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
@@ -313,8 +308,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 600.0, 930.0, 5.0 ],
-					"presentation_rect" : [ 603.0, 185.0, 0.0, 0.0 ]
+					"patching_rect" : [ 15.0, 600.0, 930.0, 5.0 ]
 				}
 
 			}
@@ -328,7 +322,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 660.0, 150.0, 60.0 ],
+					"patching_rect" : [ 105.0, 660.0, 152.0, 60.0 ],
 					"text" : "Click to put your Max patch into fullscreen mode for those extra few pixels of space.",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
@@ -540,7 +534,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1777,7 +1771,7 @@
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "264.loop~.maxpat",
-					"numinlets" : 8,
+					"numinlets" : 9,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 210.0, 255.0, 195.0, 195.0 ],
@@ -1897,7 +1891,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 15.0, 237.0, 33.0 ],
-					"text" : "Week 11, 11/17/2015",
+					"text" : "Limiting & looping",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
 
@@ -2021,7 +2015,7 @@
 					"destination" : [ "obj-2", 6 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 479.5, 258.0, 456.0, 258.0, 456.0, 252.0, 370.357147, 252.0 ],
+					"midpoints" : [ 479.5, 258.0, 456.0, 258.0, 456.0, 252.0, 351.5, 252.0 ],
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -2031,7 +2025,7 @@
 					"destination" : [ "obj-2", 6 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 519.5, 258.0, 456.0, 258.0, 456.0, 252.0, 370.357147, 252.0 ],
+					"midpoints" : [ 519.5, 258.0, 456.0, 258.0, 456.0, 252.0, 351.5, 252.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -2041,7 +2035,7 @@
 					"destination" : [ "obj-2", 6 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 558.25, 258.0, 456.0, 258.0, 456.0, 252.0, 370.357147, 252.0 ],
+					"midpoints" : [ 558.25, 258.0, 456.0, 258.0, 456.0, 252.0, 351.5, 252.0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -2060,7 +2054,7 @@
 					"destination" : [ "obj-2", 5 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 558.25, 348.0, 456.0, 348.0, 456.0, 327.0, 432.0, 327.0, 432.0, 252.0, 345.214294, 252.0 ],
+					"midpoints" : [ 558.25, 348.0, 456.0, 348.0, 456.0, 327.0, 432.0, 327.0, 432.0, 252.0, 329.5, 252.0 ],
 					"source" : [ "obj-52", 0 ]
 				}
 
@@ -2070,7 +2064,7 @@
 					"destination" : [ "obj-2", 5 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 519.5, 348.0, 456.0, 348.0, 456.0, 327.0, 432.0, 327.0, 432.0, 252.0, 345.214294, 252.0 ],
+					"midpoints" : [ 519.5, 348.0, 456.0, 348.0, 456.0, 327.0, 432.0, 327.0, 432.0, 252.0, 329.5, 252.0 ],
 					"source" : [ "obj-53", 0 ]
 				}
 
@@ -2080,7 +2074,7 @@
 					"destination" : [ "obj-2", 5 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 479.5, 348.0, 456.0, 348.0, 456.0, 327.0, 432.0, 327.0, 432.0, 252.0, 345.214294, 252.0 ],
+					"midpoints" : [ 479.5, 348.0, 456.0, 348.0, 456.0, 327.0, 432.0, 327.0, 432.0, 252.0, 329.5, 252.0 ],
 					"source" : [ "obj-54", 0 ]
 				}
 
@@ -2099,7 +2093,7 @@
 					"destination" : [ "obj-2", 7 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 507.5, 438.0, 483.0, 438.0, 483.0, 417.0, 432.0, 417.0, 432.0, 252.0, 395.5, 252.0 ],
+					"midpoints" : [ 507.5, 438.0, 483.0, 438.0, 483.0, 417.0, 432.0, 417.0, 432.0, 252.0, 373.5, 252.0 ],
 					"source" : [ "obj-59", 0 ]
 				}
 
@@ -2127,7 +2121,7 @@
 					"destination" : [ "obj-2", 7 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 479.5, 543.0, 456.0, 543.0, 456.0, 495.0, 432.0, 495.0, 432.0, 252.0, 395.5, 252.0 ],
+					"midpoints" : [ 479.5, 543.0, 456.0, 543.0, 456.0, 495.0, 432.0, 495.0, 432.0, 252.0, 373.5, 252.0 ],
 					"source" : [ "obj-68", 0 ]
 				}
 
@@ -2137,7 +2131,7 @@
 					"destination" : [ "obj-2", 7 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 554.5, 543.0, 456.0, 543.0, 456.0, 495.0, 432.0, 495.0, 432.0, 252.0, 395.5, 252.0 ],
+					"midpoints" : [ 554.5, 543.0, 456.0, 543.0, 456.0, 495.0, 432.0, 495.0, 432.0, 252.0, 373.5, 252.0 ],
 					"source" : [ "obj-69", 0 ]
 				}
 
@@ -2216,80 +2210,87 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-5::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-2::obj-143::obj-95" : [ "overview-looper-loop-jump-rate-v-dial", "var.", 0 ],
-			"obj-5::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-70" : [ "flonum[1]", "flonum[1]", 0 ],
 			"obj-66" : [ "flonum", "flonum", 0 ],
-			"obj-70" : [ "flonum[1]", "flonum[1]", 0 ]
+			"obj-5::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-5::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-2::obj-143::obj-95" : [ "overview-looper-loop-jump-rate-v-dial", "var.", 0 ],
+			"obj-5::obj-32" : [ "[8]", "[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "264.loop~.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.midi-learn.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.pattr-control.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "set-patch-path.js",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/javascript",
 				"patcherrelativepath" : "../../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.ui-close.png",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/media",
 				"patcherrelativepath" : "../../../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.ui-question.png",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/media",
 				"patcherrelativepath" : "../../../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.ui-settings.png",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/media",
 				"patcherrelativepath" : "../../../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.preset-toggle.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.ui-play.png",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/media",
 				"patcherrelativepath" : "../../../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.ui-record.png",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/media",
+				"patcherrelativepath" : "../../../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-plus.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/media",
 				"patcherrelativepath" : "../../../media",
 				"type" : "PNG ",
 				"implicit" : 1
@@ -2331,42 +2332,42 @@
 			}
 , 			{
 				"name" : "264.limit~.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.fullscreen.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.fullscreen-parent.js",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/javascript",
 				"patcherrelativepath" : "../../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.lockstatus.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.parent-lock-status.js",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/javascript",
 				"patcherrelativepath" : "../../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.ui-locked.png",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/media",
 				"patcherrelativepath" : "../../../media",
 				"type" : "PNG ",
 				"implicit" : 1

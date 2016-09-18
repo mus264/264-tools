@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -28,7 +28,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"title" : "Week 4, 9/29",
+		"title" : "Ring modulation & reverb",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -65,12 +65,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-30",
-					"linecount" : 18,
+					"linecount" : 28,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 120.0, 192.0, 248.0 ],
-					"text" : "The 264.reverb~ module allows a range of controls over the reverb effect.\n\n- the “size” of the room (by default this is set to medium)\n\n- the frequency of a lowpass filter that effectively controls the “brightness” of the reverb sound\n\n- whether the reverb is short or long (this sets internal feedback amounts)\n\n- independent levels for the “dry” sound, and for the “wet” reverb sound",
+					"patching_rect" : [ 450.0, 120.0, 192.0, 382.0 ],
+					"text" : "The 264.reverb~ module allows a range of controls over the reverb effect.\n\n- the “size” of the room (by default this is set to medium)\n\n- the frequency of a lowpass filter that effectively controls the “brightness” of the reverb sound\n\n- whether the reverb is short or long (this sets internal feedback amounts)\n\n- independent levels for the “dry” sound, and for the “wet” reverb sound\n\n\nNote that unlike changes to the length or the brightness of the reverb, changing the “size” of the room can create a noticeable pop in the sound — avoid altering this parameter except when the reverb’s output is turned down or the DSP is turned off.",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
@@ -633,8 +633,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 15.0, 213.0, 33.0 ],
-					"text" : "Week 4, 9/29/2015",
+					"patching_rect" : [ 30.0, 15.0, 304.0, 33.0 ],
+					"text" : "Ring modulation & reverb",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
 
@@ -853,14 +853,14 @@
  ],
 		"parameters" : 		{
 			"obj-17" : [ "output-gain[3]", "output", 0 ],
-			"obj-2::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-15::obj-32" : [ "[10]", "[2]", 0 ],
-			"obj-15::obj-21::obj-6" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-15::obj-35" : [ "[9]", "Level", 0 ],
-			"obj-18::obj-6" : [ "overview-reverb-ex-rvrb-size-tab", "Plate Size", 0 ],
 			"obj-24" : [ "output-gain[4]", "output", 0 ],
-			"obj-2::obj-35" : [ "[5]", "Level", 0 ]
+			"obj-15::obj-35" : [ "[10]", "Level", 0 ],
+			"obj-15::obj-32" : [ "[9]", "[2]", 0 ],
+			"obj-2::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-2::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-2::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-15::obj-21::obj-6" : [ "live.tab[1]", "live.tab[1]", 0 ],
+			"obj-18::obj-6" : [ "overview-reverb-ex-rvrb-size-tab", "Plate Size", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -900,63 +900,63 @@
 			}
 , 			{
 				"name" : "264.ringmod~.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.midi-learn.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.pattr-control.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "set-patch-path.js",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/javascript",
 				"patcherrelativepath" : "../../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.preset-toggle.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "overview-ringmod-264ptog.json",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/264 Tools/Weekly Intros/audio-presets",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/extras/264 Tools/Weekly Intros/audio-presets",
 				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.reverb~.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.reverb-poly~.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "overview-reverb-ex-264ptog.json",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/extras/264 Tools/Weekly Intros/audio-presets",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/extras/264 Tools/Weekly Intros/audio-presets",
 				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
 				"implicit" : 1

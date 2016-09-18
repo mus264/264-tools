@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -28,7 +28,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"title" : "Week 7, 10/20",
+		"title" : "Sound file loading",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontface" : 1,
@@ -39,8 +39,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 356.0, 149.0, 20.0 ],
-					"text" : "my-performance-project",
+					"patching_rect" : [ 225.0, 356.0, 152.0, 20.0 ],
+					"text" : "my-performance-project/",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 210.0, 210.0, 221.0 ],
-					"text" : "For file loading to work, you must keep your sound files in a special folder.\n\nAll your sound files must be kept in a folder called “soundfiles” alongside your main patch.\n\nA good project file structure would look like this:\n\n\n├ my-patch.maxpat\n├ midi-presets\n├ audio-presets\n└ soundfiles",
+					"text" : "For file loading to work, you must keep your sound files in a special folder.\n\nAll your sound files must be kept in a folder called “soundfiles” alongside your main patch.\n\nA good project file structure would look like this:\n\n\n├ my-patch.maxpat\n├ midi-presets/\n├ audio-presets/\n└ soundfiles/",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
@@ -97,12 +97,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-15",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 257.0, 135.0, 170.0, 33.0 ],
-					"text" : "It lets you load a sound file by sending a message.",
+					"patching_rect" : [ 257.0, 120.0, 178.0, 47.0 ],
+					"text" : "The rightmost inlet 264.sfplay~ lets you load a sound file by sending a message.",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
@@ -118,22 +118,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 200.75, 125.0, 59.0, 38.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-6",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 257.0, 120.0, 168.0, 20.0 ],
-					"text" : "264.sfplay~ has a new inlet!",
-					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
 			}
@@ -248,7 +232,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 15.0, 226.0, 33.0 ],
-					"text" : "Week 7, 10/20/2015",
+					"text" : "Sound file loading",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
 
@@ -313,6 +297,63 @@
 					"source" : [ "obj-4", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "264.sfplay~.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.midi-learn.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.pattr-control.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/javascript",
+				"patcherrelativepath" : "../../../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-play.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/media",
+				"patcherrelativepath" : "../../../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-stop.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/media",
+				"patcherrelativepath" : "../../../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-pause.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/media",
+				"patcherrelativepath" : "../../../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-plus.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/media",
+				"patcherrelativepath" : "../../../media",
+				"type" : "PNG ",
+				"implicit" : 1
 			}
  ]
 	}
