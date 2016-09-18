@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -441,7 +441,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -731,7 +731,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1206,7 +1206,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1676,7 +1676,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -2329,7 +2329,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"annotation" : "",
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 0.66 ],
 					"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
@@ -2711,6 +2710,16 @@
 					"destination" : [ "obj-78", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 144.5, 279.5, 804.5, 279.5 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -3225,22 +3234,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "264.midi-learn.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max 7/Packages/264-tools/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.pattr-control.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"bootpath" : "/Users/chris/Documents/Max 7/Packages/264-tools/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "set-patch-path.js",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/javascript",
+				"patcherrelativepath" : "../../../../Max/Packages/264-tools/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
