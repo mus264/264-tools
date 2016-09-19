@@ -6,6 +6,8 @@ A modular kit providing high-level sound generation, processing and performance 
 
 ## Installation
 
+0. If you have previously installed a copy of 264 Tools, delete it from your Max Packages directory.
+
 1. **Download the [latest release](https://github.com/mus264/264-tools/releases/latest)** (click ‘Source code’ under Downloads)
 
 2. **Uncompress your download to your Max Packages directory.**    
