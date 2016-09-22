@@ -642,15 +642,15 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 60.0, 168.0, 47.0 ],
-					"text" : "filter type\n(0 = lowpass; 1 = highpass; 2 = bandpass)",
+					"patching_rect" : [ 645.0, 60.0, 180.0, 47.0 ],
+					"text" : "filter type\n(0 = lowpass; 1 = highpass; 2 = bandpass; 3 = bandstop)",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "filter type (0 = lowpass; 1 = highpass; 2= bandpass)",
+					"comment" : "filter type (0 = lowpass; 1 = highpass; 2 = bandpass; 3 = bandstop)",
 					"id" : "obj-88",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -1531,12 +1531,12 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
-					"hint" : "filter type (0 = lowpass; 1 = highpass; 2= bandpass)",
+					"hint" : "filter type (0 = lowpass; 1 = highpass; 2 = bandpass; 3 = bandstop)",
 					"id" : "obj-89",
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 60.0, 165.0, 47.0 ],
+					"patching_rect" : [ 645.0, 60.0, 180.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 137.0, 1.0, 9.0, 5.0 ],
 					"rounded" : 0
