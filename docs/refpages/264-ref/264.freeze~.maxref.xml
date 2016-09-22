@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.freeze~" module="264 Tools" kind="patcher">
+
+	<digest>
+		Freeze audio via a graphical interface.
+	</digest>
+
+	<description>
+		Capture and freeze an audio input creating a continuous
+		sound with a simple graphical interface.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chris Swithinbank</metadata>
+		<metadata name="tag">264 Tools</metadata>
+		<metadata name="tag">264 Tools abstractions</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="signal">
+			<digest>
+				Audio to be “frozen”
+			</digest>
+			<description>
+				Signal connected to the first outlet will be captured in a short buffer on the freeze command.
+			</description>
+		</inlet>
+		<inlet id="1" type="bang">
+			<digest>
+				Trigger freeze
+			</digest>
+			<description>
+				A bang will trigger the capturing of the input audio and start outputting the “frozen” sound.
+			</description>
+		</inlet>
+		<inlet id="2" type="int/float">
+			<digest>
+				Volume
+			</digest>
+			<description>
+				Sets the volume of the freeze module’s output. Floats are understood as absolute values (0.–1.). Integers are understood as a MIDI range (0–127) and mapped to the float range.
+			</description>
+		</inlet>
+		<inlet id="3" type="bang">
+			<digest>
+				Clear freeze
+			</digest>
+			<description>
+				A bang will clear the memory of the freeze module, silencing output.
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="signal">
+			<digest>
+				“Frozen” signal
+			</digest>
+			<description>
+				Outputs signal generated from the spectrum of the input at the moment that the freeze was triggered.
+			</description>
+		</outlet>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="unique id" optional="0" type="symbol">
+			<digest>
+				Unique identifier
+			</digest>
+			<description>
+				A unique name allows the module to communicate with the 264 Tools preset mechanisms.
+			</description>
+		</objarg>
+	</objarglist>
+
+	<!--MESSAGES-->
+
+	<!--ATTRIBUTES-->
+
+	<!--EXAMPLE-->
+
+	<!--DISCUSSION-->
+	<discussion>
+		Used in a <o>bpatcher</o>, <o>264.freeze~</o> provides a graphical interface to capture and output a “frozen” momentary audio spectrum. Connect to your MIDI controller by clicking on the <o>264.midi-learn</o> arrows.
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="264.reverb~" />
+		<seealso name="264.delay~" />
+		<seealso name="264.filter~" />
+		<seealso name="264.grains~" />
+		<seealso name="264.ringmod~" />
+		<seealso name="264.transpose~" />
+	</seealsolist>
+
+</c74object>
