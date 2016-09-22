@@ -78,7 +78,7 @@ The toolkit currently includes the following modules, which should be loaded in 
 
 ## Compatibility
 
-These modules have been tested with Max 6 and 7. They will not work with Max/MSP 5 or lower. Please report bugs under the issues tab above.
+These modules have been tested with Max 6 and 7. They will not work with Max/MSP 5 or lower. Please [report bugs under the issues tab above](https://github.com/mus264/264-tools/issues).
 
 ## Acknowledgments
 
