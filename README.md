@@ -29,6 +29,10 @@ git clone https://github.com/mus264/264-tools.git
 
 After you have installed 264 Tools, open Max’s **Extras** menu to find the ‘264 Tools Overview’ for an introduction to the various modules.
 
+## Checking for Updates
+
+From Max’s **Extras** menu, select **264 Tools > Check for Updates**. This will let you know if you need to update. (You will need to be connected to the internet for this to work.)
+
 ## Current Functionality
 
 The toolkit currently includes the following modules, which should be loaded in a `bpatcher`.
