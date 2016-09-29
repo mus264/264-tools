@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.transpose~" module="264 Tools" kind="patcher">
+
+	<digest>
+		Transpose audio via a graphical interface.
+	</digest>
+
+	<description>
+		Transpose audio up or down in pitch
+		using a simple graphical interface.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chris Swithinbank</metadata>
+		<metadata name="tag">264 Tools</metadata>
+		<metadata name="tag">264 Tools abstractions</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="signal">
+			<digest>
+				Audio to be transposed
+			</digest>
+			<description>
+				Signal connected to the first outlet will be transposed up or down in pitch.
+			</description>
+		</inlet>
+		<inlet id="1" type="int/float">
+			<digest>
+				Transposition amount
+			</digest>
+			<description>
+				Sets the number of semitones by which the audio input is transposed (up to three octaves in either direction). Floats are understood as absolute values (-36.–36.). Integers are understood as a MIDI range (0–127) and mapped to the float range.
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="signal">
+			<digest>
+				Transposed signal
+			</digest>
+			<description>
+				Signal with the transposition applied.
+			</description>
+		</outlet>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="unique id" optional="0" type="symbol">
+			<digest>
+				Unique identifier
+			</digest>
+			<description>
+				A unique name allows the module to communicate with the 264 Tools preset mechanisms.
+			</description>
+		</objarg>
+	</objarglist>
+
+	<!--MESSAGES-->
+
+	<!--ATTRIBUTES-->
+
+	<!--EXAMPLE-->
+
+	<!--DISCUSSION-->
+	<discussion>
+		Used in a <o>bpatcher</o>, <o>264.transpose~</o> provides a graphical interface to control transposition of incoming audio based on the <o>gizmo~</o> FFT pitch shifter. Connect to your MIDI controller by clicking on the <o>264.midi-learn</o> arrows.
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="264.reverb~" />
+		<seealso name="264.filter~" />
+		<seealso name="264.freeze~" />
+		<seealso name="264.grains~" />
+		<seealso name="264.ringmod~" />
+		<seealso name="264.delay~" />
+	</seealsolist>
+
+</c74object>
