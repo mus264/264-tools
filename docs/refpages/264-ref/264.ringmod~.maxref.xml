@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.ringmod~" module="264 Tools" kind="patcher">
+
+	<digest>
+		Ring modulate audio via a graphical interface.
+	</digest>
+
+	<description>
+		Apply a ring modulation effect, varying strength and
+		carrier frequency, with a simple graphical interface.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chris Swithinbank</metadata>
+		<metadata name="tag">264 Tools</metadata>
+		<metadata name="tag">264 Tools abstractions</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="signal">
+			<digest>
+				Audio to be modulated
+			</digest>
+			<description>
+				Signal connected to the first outlet will modulated by an internal sine wave.
+			</description>
+		</inlet>
+		<inlet id="1" type="int/float">
+			<digest>
+				Modulation frequency
+			</digest>
+			<description>
+				Sets the frequency of the modulating sine wave. Floats are understood as absolute values in kHz (0.001–2.). Integers are understood as a MIDI range (0–127) and mapped exponentially to the float range.
+			</description>
+		</inlet>
+		<inlet id="2" type="int/float">
+			<digest>
+				Modulation strength
+			</digest>
+			<description>
+				Controls how much the modulation affects the input signal. Floats are understood as absolute values (0.–1.) where 0. has no effect, and 1. is full strength. Integers are understood as a MIDI range (0–127) and mapped linearly to the float range.
+			</description>
+		</inlet>
+		<inlet id="3" type="int/float">
+			<digest>
+				Output volume
+			</digest>
+			<description>
+				Sets the volume of the ring modulation module’s output. Floats are understood as absolute values (0.–1.). Integers are understood as a MIDI range (0–127) and mapped to the float range.
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="signal">
+			<digest>
+				Modulated signal
+			</digest>
+			<description>
+				Signal that has been ring modulated according to the module’s settings.
+			</description>
+		</outlet>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="unique id" optional="0" type="symbol">
+			<digest>
+				Unique identifier
+			</digest>
+			<description>
+				A unique name allows the module to communicate with the 264 Tools preset mechanisms.
+			</description>
+		</objarg>
+	</objarglist>
+
+	<!--MESSAGES-->
+
+	<!--ATTRIBUTES-->
+
+	<!--EXAMPLE-->
+
+	<!--DISCUSSION-->
+	<discussion>
+		Used in a <o>bpatcher</o>, <o>264.ringmod~</o> provides a graphical interface to control ring modulation with a sinusoidal oscillator. Connect to your MIDI controller by clicking on the <o>264.midi-learn</o> arrows.
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="264.reverb~" />
+		<seealso name="264.delay~" />
+		<seealso name="264.freeze~" />
+		<seealso name="264.grains~" />
+		<seealso name="264.filter~" />
+		<seealso name="264.transpose~" />
+	</seealsolist>
+
+</c74object>
