@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.limit~" module="264 Tools" kind="patcher">
+
+	<digest>
+		Limit audio amplitude with graphical feedback.
+	</digest>
+
+	<description>
+		Limit the peaks of audio input to prevent clipping
+		or distortion and see visual feedback about the signal.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chris Swithinbank</metadata>
+		<metadata name="tag">264 Tools</metadata>
+		<metadata name="tag">264 Tools abstractions</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="signal">
+			<digest>
+				Audio to be limited
+			</digest>
+			<description>
+				Signal connected to the first outlet will be limited to between –1 and 1 to try to avoid audio clipping/distortion upon conversion to an analogue output.
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="signal">
+			<digest>
+				Limited signal
+			</digest>
+			<description>
+				Signal between -1 and 1.
+			</description>
+		</outlet>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+
+	<!--MESSAGES-->
+
+	<!--ATTRIBUTES-->
+
+	<!--EXAMPLE-->
+
+	<!--DISCUSSION-->
+	<discussion>
+		Used in a <o>bpatcher</o>, <o>264.limit~</o> provides a graphical interface that lights up red when peak limiting is active, giving you feedback about how your audio is being processed.
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="264.filter~" />
+		<seealso name="264.reverb~" />
+		<seealso name="264.delay~" />
+		<seealso name="264.transpose~" />
+		<seealso name="264.freeze~" />
+		<seealso name="264.grains~" />
+		<seealso name="264.ringmod~" />
+	</seealsolist>
+
+</c74object>
