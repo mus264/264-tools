@@ -158,6 +158,7 @@
 		<seealso name="264.freeze~" />
 		<seealso name="264.ringmod~" />
 		<seealso name="264.transpose~" />
+		<seealso name="264.limit~" />
 	</seealsolist>
 
 </c74object>
