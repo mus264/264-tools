@@ -37,7 +37,8 @@
 			<description>
 				Multiply the input signal to make it louder or quieter. Floats are
 				understood as absolute values (0.–4.). Integers are understood as a
-				MIDI range (0–127) and mapped to the float range.
+				MIDI range (0–127) and mapped to the float range. Defaults to 1. (32),
+				i.e. no change in volume.
 			</description>
 		</inlet>
 		<inlet id="2" type="int/float">
