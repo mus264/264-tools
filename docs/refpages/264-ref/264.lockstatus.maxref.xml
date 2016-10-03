@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.lockstatus" module="264 Tools" kind="patcher">
+
+	<digest>
+		Check whether or not a patch is currently locked.
+	</digest>
+
+	<description>
+		Returns the current status of a patch (locked/unlocked)
+		and in a bpatcher displays the status graphically.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chris Swithinbank</metadata>
+		<metadata name="tag">264 Tools</metadata>
+		<metadata name="tag">264 Tools abstractions</metadata>
+		<metadata name="tag">264 Tools utilities</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="bang">
+			<digest>
+				Get lock status
+			</digest>
+			<description>
+				Triggers output of current lock status.
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="int">
+			<digest>
+				Lock status
+			</digest>
+			<description>
+				Current lock status. 0 = unlocked; 1 = locked.
+			</description>
+		</outlet>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+
+	<!--MESSAGES-->
+	<methodlist>
+    <method name="bang">
+      <arglist/>
+      <digest>
+        Get lock status
+      </digest>
+      <description>
+        Triggers output of current lock status.
+      </description>
+    </method>
+    <method name="active">
+      <arglist>
+        <arg id="0" name="status" optional="0" type="int"/>
+      </arglist>
+      <digest/>
+      <description>
+        Sets whether or not <o>264.lockstatus</o> outputs at regular intervals
+				(<m>active 1</m> or other non-zero integer argument) or only upon
+				receiving a <m>bang</m> (<m>active 0</m>).
+      </description>
+    </method>
+  </methodlist>
+
+	<!--ATTRIBUTES-->
+	<attributelist>
+		<attribute name="active" get="1" set="1" type="int" size="1">
+			<digest>
+				Output type
+			</digest>
+			<description>
+				Sets whether or not <o>264.lockstatus</o> outputs at regular intervals
+				(<m>active 1</m> or other non-zero integer argument) or only upon
+				receiving a <m>bang</m> (<m>active 0</m>).
+			</description>
+		</attribute>
+		<attributelist>
+			<attribute name="default" get="1" set="1" type="int" size="1" value="0" />
+		</attributelist>
+	</attributelist>
+
+	<!--EXAMPLE-->
+
+	<!--DISCUSSION-->
+	<discussion>
+		<o>264.lockstatus</o> allows you to check whether or not a patch is
+		currently locked. This can be useful, for example, when building keyboard
+		control systems and you need to disable your keyboard shortcuts while
+		editing your patch, i.e. when your patch is unlocked. A <m>bang</m> will
+		trigger output of the current status, or the <m>active</m> attribute can
+		be turned on for continuous polling.
+		Used in a <o>bpatcher</o>, <o>264.lockstatus</o> also provides a graphical
+		representation of the patch’s lock status.
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="264.fullscreen" />
+		<seealso name="264.audiotest~" />
+	</seealsolist>
+
+</c74object>
