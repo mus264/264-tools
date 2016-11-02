@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.filter~" module="264 Tools" kind="patcher">
+
+	<digest>
+		Filter audio via a graphical interface.
+	</digest>
+
+	<description>
+		Apply a lowpass, highpass, bandpass, or bandstop
+		filter in a simple graphical interface.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chris Swithinbank</metadata>
+		<metadata name="tag">264 Tools</metadata>
+		<metadata name="tag">264 Tools abstractions</metadata>
+		<metadata name="tag">264 Tools audio processing</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="signal">
+			<digest>
+				Audio to be filtered
+			</digest>
+			<description>
+				Signal connected to the first outlet will be filtered according to the module’s settings.
+			</description>
+		</inlet>
+		<inlet id="1" type="int/float">
+			<digest>
+				Filter frequency
+			</digest>
+			<description>
+				Sets the center or cut-off frequency of the filter. Floats are understood as absolute values in kHz (0.01–22.1). Integers are understood as a MIDI range (0–127) and mapped exponentially to the float range.
+			</description>
+		</inlet>
+		<inlet id="2" type="int/float">
+			<digest>
+				Filter Q
+			</digest>
+			<description>
+				Sets the filter’s Q factor (how tight the filter’s response is). Floats are understood as absolute values (0.01–10.). Integers are understood as a MIDI range (0–127) and mapped exponentially to the float range.
+			</description>
+		</inlet>
+		<inlet id="3" type="int/float">
+			<digest>
+				Filter type
+			</digest>
+			<description>
+				Select whether the module is a lowpass, highpass, bandpass, or bandstop filter. 0 = lowpass; 1 = highpass; 2 = bandpass; 3 = bandstop. Floats are truncated rather than rounded up/down, i.e. 1.8 = 1.
+			</description>
+		</inlet>
+		<inlet id="4" type="int">
+			<digest>
+				Bypass on/off
+			</digest>
+			<description>
+				Turn the filter bypass on or off. 0 = off; non-zero = on; bang reverses the current state.
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="signal">
+			<digest>
+				Filtered signal
+			</digest>
+			<description>
+				Signal that has been filtered according to the module’s settings.
+			</description>
+		</outlet>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="unique id" optional="0" type="symbol">
+			<digest>
+				Unique identifier
+			</digest>
+			<description>
+				A unique name allows the module to communicate with the 264 Tools preset mechanisms.
+			</description>
+		</objarg>
+	</objarglist>
+
+	<!--MESSAGES-->
+
+	<!--ATTRIBUTES-->
+
+	<!--EXAMPLE-->
+
+	<!--DISCUSSION-->
+	<discussion>
+		Used in a <o>bpatcher</o>, <o>264.filter~</o> provides a graphical interface to control an audio filter of various types. Connect to your MIDI controller by clicking on the <o>264.midi-learn</o> arrows.
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="264.reverb~" />
+		<seealso name="264.delay~" />
+		<seealso name="264.freeze~" />
+		<seealso name="264.grains~" />
+		<seealso name="264.ringmod~" />
+		<seealso name="264.transpose~" />
+		<seealso name="264.limit~" />
+	</seealsolist>
+
+</c74object>

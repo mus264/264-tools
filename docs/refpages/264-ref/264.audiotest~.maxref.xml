@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.audiotest~" module="264 Tools" kind="patcher">
+
+	<digest>
+		Check audio set-up quickly with a graphical interface.
+	</digest>
+
+	<description>
+		Shows audio status, input and output levels, input and output devices,
+		and provides a quick noise test for loudspeakers.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chris Swithinbank</metadata>
+		<metadata name="tag">264 Tools</metadata>
+		<metadata name="tag">264 Tools abstractions</metadata>
+		<metadata name="tag">264 Tools utilities</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+
+	<!--OUTLETS-->
+
+	<!--ARGUMENTS-->
+
+	<!--MESSAGES-->
+
+	<!--ATTRIBUTES-->
+
+	<!--EXAMPLE-->
+
+	<!--DISCUSSION-->
+	<discussion>
+		Used in a <o>bpatcher</o>, <o>264.audiotest~</o> allows you to quickly
+		troubleshoot common audio set-up problems. <o>264.audiotest~</o> clearly
+		shows whether DSP is currently turned on or off, and shows the input and
+		output levels of your patch for channels 1 and 2. While DSP is off, you can
+		also quickly select input and output devices. A speaker test allows you to
+		sends short bursts of white noise to channel 1, channel 2, or channels 1–8,
+		to quickly test whether your audio set-up is working.
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="264.audio-presets" />
+		<seealso name="264.fullscreen" />
+		<seealso name="264.lockstatus" />
+	</seealsolist>
+
+</c74object>

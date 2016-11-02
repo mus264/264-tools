@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.pitchtrack~" module="264 Tools" kind="patcher">
+
+	<digest>
+		Get pitch data from an audio signal.
+	</digest>
+
+	<description>
+		Analyse an audio signal and output a continuous flow of
+		data about its pitch content using a simple graphical interface.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chris Swithinbank</metadata>
+		<metadata name="tag">264 Tools</metadata>
+		<metadata name="tag">264 Tools abstractions</metadata>
+		<metadata name="tag">264 Tools audio analysis</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="signal">
+			<digest>
+				Audio to be analysed
+			</digest>
+			<description>
+				Signal connected to the first outlet will be analysed for its pitch.
+			</description>
+		</inlet>
+		<inlet id="1" type="int/float">
+			<digest>
+				Sharpness
+			</digest>
+			<description>
+				Controls how quickly the analysis responds to changes in your signal’s
+				pitch. Floats and integers are understood as equivalent in a MIDI
+				range (0.–127./0–127).
+				At 127 the pitch-tracker will try to report new notes as fast as
+				possible, while at 0 notes can be triggered at most about eight times
+				per second.
+			</description>
+		</inlet>
+		<inlet id="2" type="int/float">
+			<digest>
+				Quality
+			</digest>
+			<description>
+				Controls the maximum number of frequency peaks analysed before deciding
+				a signal’s main pitch. Higher values may give better quality results,
+				but will also use more processing power.
+				Floats are understood as absolute values (0.–40.). Integers are
+				understood as a MIDI range (0–127) and mapped to the float range.
+			</description>
+		</inlet>
+		<inlet id="3" type="int/float">
+			<digest>
+				Relative pitch
+			</digest>
+			<description>
+				Only used in relative mode. This sets which pitch you want to analyse
+				relative to. For example, if set to Middle C, an analysed Middle D
+				would output 2, i.e. 2 semitones above your relative pitch.
+				Floats and integers are understood as equivalent, and use standard MIDI
+				pitch values (0.–127./0–127). For example: Middle C = 60; C an octave
+				below that = 48.
+			</description>
+		</inlet>
+		<inlet id="4" type="int">
+			<digest>
+				Pitch mode
+			</digest>
+			<description>
+				Toggle between “absolute” and “relative” modes. 0 = absolute; non-zero =
+				relative; bang reverses the current state.
+				In absolute mode, the pitch-tracker will return the analysed pitch in
+				standard MIDI pitch values (e.g. Middle C = 60). In relative mode, the
+				output value will be the number of semitones above or below the relative
+				pitch set in the module’s graphical interface or fourth inlet.
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="int">
+			<digest>
+				Pitch as control data
+			</digest>
+			<description>
+				Integers (0–127) representing the pitch of the audio input are
+				output every time a note is detected.
+				In absolute mode, the pitch-tracker will return the analysed pitch in
+				standard MIDI pitch values (e.g. Middle C = 60). In relative mode, the
+				output value will be the number of semitones above or below the relative
+				pitch set in the module’s graphical interface or fourth inlet.
+			</description>
+		</outlet>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="unique id" optional="0" type="symbol">
+			<digest>
+				Unique identifier
+			</digest>
+			<description>
+				A unique name allows the module to communicate with the 264 Tools preset mechanisms.
+			</description>
+		</objarg>
+	</objarglist>
+
+	<!--MESSAGES-->
+
+	<!--ATTRIBUTES-->
+
+	<!--EXAMPLE-->
+
+	<!--DISCUSSION-->
+	<discussion>
+		Used in a <o>bpatcher</o>, <o>264.pitchtrack~</o> provides a graphical
+		interface to control an audio analysis tool returning information about the
+		pitch of an audio input. Connect to your MIDI controller by clicking on
+		the <o>264.midi-learn</o> arrows.
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="264.trigger~" />
+		<seealso name="264.envelope~" />
+	</seealsolist>
+
+</c74object>

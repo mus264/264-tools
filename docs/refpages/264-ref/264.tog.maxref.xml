@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object kind="patcher" module="264 Tools" name="264.tog">
+
+  <digest>
+    MIDI-ready toggle.
+  </digest>
+
+  <description>
+    A simple <o>toggle</o> extension to switch between <m>0</m> and <m>1</m> from your MIDI controller.
+  </description>
+
+  <!--METADATA-->
+  <metadatalist>
+    <metadata name="author">Chris Swithinbank</metadata>
+    <metadata name="tag">264 Tools</metadata>
+    <metadata name="tag">264 Tools abstractions</metadata>
+  </metadatalist>
+
+  <!--INLETS-->
+  <inletlist>
+    <inlet id="0">
+      <digest>
+        Toggle
+      </digest>
+      <description>
+        An integer sets the state of the toggle: zero = off; non-zero = on. A <m>bang</m> will reverse the current state.
+      </description>
+    </inlet>
+  </inletlist>
+
+  <!--OUTLETS-->
+  <outletlist>
+    <outlet id="0" type="int">
+      <digest>
+        Toggle state (1/0)
+      </digest>
+      <description>
+        Outputs the current toggle state (1 or 0) whenever it is changed.
+      </description>
+    </outlet>
+  </outletlist>
+
+  <!--ARGUMENTS-->
+  <objarglist>
+    <objarg name="unique id" optional="0" type="symbol">
+      <digest>
+        Unique identifier
+      </digest>
+      <description>
+        A unique name allows the module to communicate with the 264 Tools preset mechanisms.
+      </description>
+    </objarg>
+  </objarglist>
+
+  <!--MESSAGES-->
+  <methodlist>
+    <method name="bang">
+      <arglist/>
+      <digest>
+        Switches <o>264.tog</o> on if it is off; switches it off if it is on.
+      </digest>
+      <description>
+        Switches <o>264.tog</o> on if it is off; switches it off if it is on.
+      </description>
+    </method>
+    <method name="int">
+      <arglist>
+        <arg id="0" name="input" optional="0" type="int"/>
+      </arglist>
+      <digest/>
+      <description>
+        The number is sent out the outlet. If the number is not 0, <o>264.tog</o> displays a cross, showing it is on. If it is <m>0</m>, <o>toggle</o> is blank, showing it is off.
+      </description>
+    </method>
+    <method name="float">
+      <arglist>
+        <arg id="0" name="input" optional="0" type="float"/>
+      </arglist>
+      <digest>
+        Converted to <m>int</m>.
+      </digest>
+      <description>
+        Converted to <m>int</m>.
+      </description>
+    </method>
+  </methodlist>
+
+  <!--ATTRIBUTES-->
+
+  <!--EXAMPLE-->
+
+  <!--DISCUSSION-->
+  <discussion>
+    Used in a <o>bpatcher</o>, <o>264.tog</o> allows you to quickly link a MIDI controller button to your patch to toggle between <m>1</m> and <m>0</m>.
+  </discussion>
+
+  <!--SEEALSO-->
+  <seealsolist>
+    <seealso name="264.go!"/>
+  </seealsolist>
+
+</c74object>

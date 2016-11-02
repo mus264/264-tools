@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.sfrecord~" module="264 Tools" kind="patcher">
+
+	<digest>
+		Record soundfiles to disk via a graphical interface.
+	</digest>
+
+	<description>
+		Easily record mono soundfiles and save them to disk
+    in a simple graphical interface.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chris Swithinbank</metadata>
+		<metadata name="tag">264 Tools</metadata>
+		<metadata name="tag">264 Tools abstractions</metadata>
+		<metadata name="tag">264 Tools audio files</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="signal">
+			<digest>
+				Audio to record
+			</digest>
+			<description>
+				Audio input that will be recorded to disk.
+			</description>
+		</inlet>
+		<inlet id="1" type="message">
+			<digest>
+				Record control
+			</digest>
+			<description>
+				<m>0</m> stops recording;
+				<m>1</m> (or other non-zero) starts recording;
+				<m>bang</m> reverses current state (i.e. if recording, stops it; if stopped, starts recording).
+			</description>
+		</inlet>
+		<inlet id="2" type="int/float">
+			<digest>
+				Volume
+			</digest>
+			<description>
+				Sets the volume of the input audio.
+				Floats are understood as absolute values in dB (-70.–12.).
+				Integers are understood as a MIDI range (0–127) and mapped logarithmically to the float range.
+			</description>
+		<inlet id="3" type="symbol">
+			<digest>
+				Filename
+			</digest>
+			<description>
+				Sets the name your file will be saved to. Audio extensions (e.g.
+				<m>.wav</m>) will be stripped. Any non-alphanumeric character will
+				be replaced by a hyphen, e.g. an input of <m>±!@A£$%^&*()_+</m> will be
+				saved as <m>---A--------_-</m>. All audio files are saved to your
+				soundfiles folder.
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+
+	<!--ARGUMENTS-->
+	<!-- <objarglist>
+		<objarg name="unique id" optional="0" type="symbol">
+			<digest>
+				Unique identifier
+			</digest>
+			<description>
+				A unique name allows the module to communicate with the 264 Tools preset mechanisms.
+			</description>
+		</objarg>
+	</objarglist> -->
+
+	<!--MESSAGES-->
+
+	<!--ATTRIBUTES-->
+
+	<!--EXAMPLE-->
+
+	<!--DISCUSSION-->
+	<discussion>
+		Used in a <o>bpatcher</o>, <o>264.sfrecord~</o> provides a graphical interface to easily record a mono soundfile to your hard drive. <o>264.sfrecord~</o> saves files to your patch’s soundfiles folder, allowing for easy use later with <o>264.sfplay~</o>. Connect to your MIDI controller by clicking on the <o>264.midi-learn</o> arrows.
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="264.sfplay~" />
+		<seealso name="264.loop~" />
+		<seealso name="264.freeze~" />
+	</seealsolist>
+
+</c74object>

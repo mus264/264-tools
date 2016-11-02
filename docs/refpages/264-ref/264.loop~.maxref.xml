@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.loop~" module="264 Tools" kind="patcher">
+
+	<digest>
+		Record and loop audio via a graphical interface.
+	</digest>
+
+	<description>
+		Record audio input into a buffer and loop it with various
+		playback controls in a simple graphical interface.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chris Swithinbank</metadata>
+		<metadata name="tag">264 Tools</metadata>
+		<metadata name="tag">264 Tools abstractions</metadata>
+		<metadata name="tag">264 Tools audio files</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+    <inlet id="0" type="signal">
+      <digest>
+        Audio to record
+      </digest>
+      <description>
+        Audio input to be recorded to the looper buffer.
+      </description>
+    </inlet>
+		<inlet id="1" type="message">
+			<digest>
+				Playback control messages
+			</digest>
+			<description>
+				<m>0</m> stops playback;
+				<m>1</m> starts playback;
+				<m>bang</m> reverses current state (i.e. if playing, stops it; if stopped, starts playing).
+			</description>
+		</inlet>
+		<inlet id="2" type="message">
+			<digest>
+				Record control messages
+			</digest>
+			<description>
+				<m>0</m> stops recording;
+				<m>1</m> starts recording;
+				<m>bang</m> reverses current state (i.e. if recording, stops; if not recording, starts).
+        N.B. recording can be started and stopped during playback, in which case
+        stopping recording does not interrupt playback.
+			</description>
+		</inlet>
+		<inlet id="3" type="int/float">
+			<digest>
+				Volume
+			</digest>
+			<description>
+				Sets the volume of buffer playback.
+				Floats are understood as absolute values in terms of amplitude (0.–1.).
+				Integers are understood as a MIDI range (0–127) and mapped to the float range.
+			</description>
+		</inlet>
+		<inlet id="4" type="int/float">
+			<digest>
+				Speed
+			</digest>
+			<description>
+				Set how fast the buffer is played back.
+				Floats are understood as absolute values (-4.–4.), e.g. <m>0.5</m> = half speed; <m>1.</m> = normal speed; <m>2.</m> = double speed.
+				Negative values play the loop backwards, e.g. <m>-2.</m> = double speed backwards.
+				Integers are understood as a MIDI range (0–127) and mapped to the float range.
+			</description>
+		</inlet>
+    <inlet id="5" type="int/float">
+			<digest>
+				Position
+			</digest>
+			<description>
+				Set the position in the buffer to begin playback. If you are looping the
+        full duration of the buffer, this has no effect, but if you loop less than
+        the full duration (by setting a window smaller than <m>1.</m>), this will
+        control where the loop starts.
+				Floats are understood as absolute values (0.–1.).
+				Integers are understood as a MIDI range (0–127) and mapped to the float range.
+			</description>
+		</inlet>
+    <inlet id="6" type="int/float">
+			<digest>
+				Window
+			</digest>
+			<description>
+				Set how much of the buffer is played back. By default this is set to <m>1.</m>
+        and <o>264.loop~</o> will loop the entire recorded buffer, i.e. 100%.
+        Smaller values will loop through only a part of the loop’s duration.
+				Floats are understood as absolute values (0.–1.).
+				Integers are understood as a MIDI range (0–127) and mapped to the float range.
+			</description>
+		</inlet>
+    <inlet id="7" type="message">
+			<digest>
+				Jump control messages
+			</digest>
+			<description>
+				<m>jump 1/0</m> turns jumping behaviour on/off;
+				<m>constrain 1/0</m> sets whether jumping is constrained to the buffer window or not;
+				<m>rate float/int</m> sets how often the loop will jump to a new position (range: 0.004–10./0–127, where floats are understood as seconds);
+        <m>variation float/int</m> sets how much the jump rate varies (range: 0.–1./0–127, where floats are understood as a percentage of the rate).
+			</description>
+		</inlet>
+		<inlet id="8" type="symbol">
+			<digest>
+				Soundfile
+			</digest>
+			<description>
+				In addition to recording audio in the first inlet <o>264.loop~</o> can
+        load an existing soundfile from your hard drive. Doing so clears out any
+        content that the looper previously recorded. To load a file, your
+        message must match the name of an audio file in your soundfiles folder.
+        File names must include one of the following extensions: .wav; .wave;
+        .aif; or .aiff. File names should not include spaces. For best results
+        stick to upper- and lowercase letters, numbers, hyphens, and underscores.
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="signal">
+			<digest>
+				Signal
+			</digest>
+			<description>
+				Looper buffer playback signal.
+			</description>
+		</outlet>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="unique id" optional="0" type="symbol">
+			<digest>
+				Unique identifier
+			</digest>
+			<description>
+				A unique name allows the module to communicate with the 264 Tools preset mechanisms.
+			</description>
+		</objarg>
+	</objarglist>
+
+	<!--MESSAGES-->
+
+	<!--ATTRIBUTES-->
+
+	<!--EXAMPLE-->
+
+	<!--DISCUSSION-->
+	<discussion>
+		Used in a <o>bpatcher</o>, <o>264.loop~</o> provides a graphical interface
+    to record and playback an audio <o>buffer~</o>, including various controls
+    of volume, speed, loop position, loop size, and some more advanced playback
+    options. Connect to your MIDI controller by clicking on the
+    <o>264.midi-learn</o> arrows.
+    <o>264.loop~</o> is built around Rodrigo Constanzo and raja’s <o>karma~</o>
+    varispeed audio looper.
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="264.sfrecord~" />
+		<seealso name="264.sfplay~" />
+		<seealso name="264.freeze~" />
+    <seealso name="karma~" />
+	</seealsolist>
+
+</c74object>
