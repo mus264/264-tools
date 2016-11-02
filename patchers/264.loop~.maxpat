@@ -7941,7 +7941,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "play/stop (non-zero plays; zero stops; bang toggles)",
+					"comment" : "record (non-zero starts; zero stops; bang toggles)",
 					"id" : "obj-172",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -11642,7 +11642,7 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
-					"hint" : "pause (non-zero unpauses; zero pauses; bang toggles)",
+					"hint" : "record (non-zero starts; zero stops; bang toggles)",
 					"id" : "obj-89",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -12303,6 +12303,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-172", 0 ]
 				}
 
 			}
