@@ -105,6 +105,7 @@
 
 	<!--SEEALSO-->
 	<seealsolist>
+		<seealso name="264.gate~" />
 		<seealso name="264.trigger~" />
 		<seealso name="264.pitchtrack~" />
 	</seealsolist>
