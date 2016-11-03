@@ -55,6 +55,7 @@ The toolkit currently includes the following modules, which should be loaded in 
 * `264.freeze~` — a spectral audio freezer
 * `264.loop~` — a buffer-based loop recorder and manipulator
 * `264.limit~` — a no-options audio limiter (implementing `omx.peaklim~`)
+* `264.gate~` — an amplitude gate
 
 #### Analysis
 
