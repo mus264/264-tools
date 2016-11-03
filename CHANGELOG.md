@@ -7,7 +7,7 @@
 * :new: Add Max reference files for all 264 Tools modules (a9d2460) :tada: :clap: :tada: :clap: :tada:
 * :new: Add `264.gate~` amplitude gating module (9e0a442)
 * Fix mislabelled and disconnected third inlet in `264.loop~` (9bd28f6) :bug:
-* :new: Create dedicated [`CHANGELOG.md`](/CHANGELOG.md) to consolidate release and prelease information
+* :new: Create [`CHANGELOG.md`](/CHANGELOG.md) to consolidate release and prelease information (8a299fa)
 
 ## Released
 
