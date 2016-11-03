@@ -52,6 +52,12 @@
     - #1-frz-clear
   audio-presets:
     - #1-frz-vol-slider
+264.gate~:
+  short-name: gate
+  midi-presets:
+    - #1-gate-threshold
+  audio-presets:
+    - #1-gate-threshold-slider
 264.go!:
   short-name: bang
   midi-presets:
