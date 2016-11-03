@@ -8,6 +8,7 @@
 * :new: Add `264.gate~` amplitude gating module (9e0a442)
 * Fix mislabelled and disconnected third inlet in `264.loop~` (9bd28f6) :bug:
 * :new: Create [`CHANGELOG.md`](/CHANGELOG.md) to consolidate release and prelease information (8a299fa)
+* Update [`source/modules-screenshot.png`](/source/modules-screenshot.png)
 
 ## Released
 
