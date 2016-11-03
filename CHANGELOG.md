@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## Released
+
 ### v0.12.0
 
 * :new: Add Max reference files for all 264 Tools modules (a9d2460)
@@ -9,8 +11,6 @@
 * Fix mislabelled and disconnected third inlet in `264.loop~` (9bd28f6) :bug:
 * :new: Create [`CHANGELOG.md`](/CHANGELOG.md) to consolidate release and prelease information (8a299fa)
 * Update [`source/modules-screenshot.png`](/source/modules-screenshot.png)
-
-## Released
 
 ### v0.11.2
 
