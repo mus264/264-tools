@@ -39,7 +39,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 345.0, 336.5, 190.5, 37.0 ],
-					"presentation_rect" : [ 466.0, 336.5, 0.0, 0.0 ],
 					"text" : "graph shows mapping of input amplitude to output amplitude"
 				}
 
@@ -1244,7 +1243,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u857004028"
+					"varname" : "u732000494"
 				}
 
 			}
@@ -1525,7 +1524,7 @@
 					"id" : "obj-15",
 					"ignoreclick" : 1,
 					"legend" : 0,
-					"linecolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+					"linecolor" : [ 1.0, 0.603922, 0.0, 1.0 ],
 					"linethickness" : 2.0,
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -1534,7 +1533,7 @@
 					"outputmode" : 1,
 					"parameter_enable" : 0,
 					"patching_rect" : [ 180.0, 315.0, 160.0, 80.0 ],
-					"pointcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ],
+					"pointcolor" : [ 1.0, 0.603922, 0.0, 1.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 78.0, 146.0, 82.0 ],
 					"prototypename" : "M4L.black",
@@ -1545,7 +1544,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.890196, 0.901961, 0.878431, 1.0 ],
+					"bgcolor" : [ 0.094118, 0.113725, 0.137255, 1.0 ],
 					"bordercolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"id" : "obj-101",
 					"maxclass" : "panel",
