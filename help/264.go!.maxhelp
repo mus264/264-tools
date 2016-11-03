@@ -68,13 +68,31 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-7",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 5.0, 175.0, 150.0, 51.0 ],
+									"text" : "use the 264.midi-learn arrow to connect to your MIDI controller",
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.0, 260.0, 121.0, 21.0 ],
+									"patching_rect" : [ 20.0, 245.0, 121.0, 21.0 ],
 									"text" : "print go! @popup 1"
 								}
 
@@ -86,7 +104,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 30.0, 260.0, 23.0, 23.0 ]
+									"patching_rect" : [ 160.0, 245.0, 23.0, 23.0 ]
 								}
 
 							}
@@ -96,11 +114,11 @@
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
 									"id" : "obj-3",
-									"linecount" : 7,
+									"linecount" : 8,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.0, 185.0, 330.0, 108.0 ],
+									"patching_rect" : [ 230.0, 170.0, 320.0, 123.0 ],
 									"text" : "264.go! is equivalent to Max’s standard ‘button’, but allows you to link it with your MIDI controller.\n\nWhen you click it, it sends out a “bang”.\n\nWhen you connect it to a MIDI controller it will send a “bang” whenever your controller outputs a value of 127."
 								}
 
@@ -113,7 +131,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 30.0, 185.0, 60.0, 60.0 ],
+									"patching_rect" : [ 160.0, 170.0, 60.0, 60.0 ],
 									"varname" : "264.go!"
 								}
 
