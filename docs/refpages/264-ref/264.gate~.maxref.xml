@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.gate~" module="264 Tools" kind="patcher">
+
+	<digest>
+		Amplitude gate an audio signal.
+	</digest>
+
+	<description>
+		Analyse an audio signal and only pass it out if it is louder
+		than a given threshold using a simple graphical interface.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Chris Swithinbank</metadata>
+		<metadata name="tag">264 Tools</metadata>
+		<metadata name="tag">264 Tools abstractions</metadata>
+		<metadata name="tag">264 Tools audio processing</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="signal">
+			<digest>
+				Audio to be gated
+			</digest>
+			<description>
+				Signal connected to the first outlet will be gated, only passing when
+				its amplitude is higher than the threshold.
+			</description>
+		</inlet>
+		<inlet id="1" type="int/float">
+			<digest>
+				Threshold
+			</digest>
+			<description>
+				Set the threshold above which amplitude must rise in order to pass
+				through the gate. Floats are understood as absolute values in decibels
+				(-70.–0.). Integers are understood as a MIDI range (0–127) and mapped
+				to the float range. Defaults to -24. dB (83).
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="signal">
+			<digest>
+				Gated signal
+			</digest>
+			<description>
+				Audio signal which has passed through the gate.
+			</description>
+		</outlet>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="unique id" optional="0" type="symbol">
+			<digest>
+				Unique identifier
+			</digest>
+			<description>
+				A unique name allows the module to communicate with the 264 Tools preset mechanisms.
+			</description>
+		</objarg>
+	</objarglist>
+
+	<!--MESSAGES-->
+
+	<!--ATTRIBUTES-->
+
+	<!--EXAMPLE-->
+
+	<!--DISCUSSION-->
+	<discussion>
+		Used in a <o>bpatcher</o>, <o>264.gate~</o> provides a graphical interface
+		to apply an amplitude gate to audio input. Signal that rises above a given
+		threshold will be passed out of the module. Connect to your MIDI controller
+		by clicking on the <o>264.midi-learn</o> arrows.
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="264.limit~" />
+		<seealso name="264.envelope~" />
+	</seealsolist>
+
+</c74object>
