@@ -49,6 +49,7 @@
 				Floats are understood as absolute values in dB (-70.–12.).
 				Integers are understood as a MIDI range (0–127) and mapped logarithmically to the float range.
 			</description>
+		</inlet>
 		<inlet id="3" type="symbol">
 			<digest>
 				Filename
@@ -56,8 +57,8 @@
 			<description>
 				Sets the name your file will be saved to. Audio extensions (e.g.
 				<m>.wav</m>) will be stripped. Any non-alphanumeric character will
-				be replaced by a hyphen, e.g. an input of <m>±!@A£$%^&*()_+</m> will be
-				saved as <m>---A--------_-</m>. All audio files are saved to your
+				be replaced by a hyphen, e.g. an input of <m>±!@A£$%^*()_+</m> will be
+				saved as <m>---A-------_-</m>. All audio files are saved to your
 				soundfiles folder.
 			</description>
 		</inlet>
