@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Fix broken button in overview patch (50ba95d) :bug:
+
 ## Released
 
 ### v0.12.0
