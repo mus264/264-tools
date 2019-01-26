@@ -1,0 +1,53 @@
+{
+	"pattrstorage" : 	{
+		"name" : "264-help-kl-disabling-2-264kl",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"264-help-kl-disabling-2-264kl-ascii" : [ 110 ],
+					"264-help-kl-disabling-2-264kl-enabled" : [ 1 ],
+					"264-help-kl-disabling-2-264kl-toggle" : [ 0 ],
+					"live.text[1]" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"264-help-kl-disabling-2-264kl-ascii" : [ 110 ],
+					"264-help-kl-disabling-2-264kl-enabled" : [ 1 ],
+					"264-help-kl-disabling-2-264kl-toggle" : [ 0 ],
+					"live.text[1]" : [ 0.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"264-help-kl-disabling-2-264kl-ascii" : [ 110 ],
+					"264-help-kl-disabling-2-264kl-enabled" : [ 1 ],
+					"264-help-kl-disabling-2-264kl-toggle" : [ 0 ],
+					"live.text[1]" : [ 0.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"264-help-kl-disabling-2-264kl-ascii" : [ 110 ],
+					"264-help-kl-disabling-2-264kl-enabled" : [ 1 ],
+					"264-help-kl-disabling-2-264kl-toggle" : [ 0 ],
+					"live.text[1]" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

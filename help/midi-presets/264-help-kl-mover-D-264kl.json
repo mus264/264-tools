@@ -1,0 +1,53 @@
+{
+	"pattrstorage" : 	{
+		"name" : "264-help-kl-mover-D-264kl",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"264-help-kl-mover-D-264kl-ascii" : [ 31 ],
+					"264-help-kl-mover-D-264kl-enabled" : [ 1 ],
+					"264-help-kl-mover-D-264kl-toggle" : [ 0 ],
+					"live.text[1]" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"264-help-kl-mover-D-264kl-ascii" : [ 115 ],
+					"264-help-kl-mover-D-264kl-enabled" : [ 1 ],
+					"264-help-kl-mover-D-264kl-toggle" : [ 0 ],
+					"live.text[1]" : [ 0.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"264-help-kl-mover-D-264kl-ascii" : [ 100 ],
+					"264-help-kl-mover-D-264kl-enabled" : [ 1 ],
+					"264-help-kl-mover-D-264kl-toggle" : [ 0 ],
+					"live.text[1]" : [ 0.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"264-help-kl-mover-D-264kl-ascii" : [ 107 ],
+					"264-help-kl-mover-D-264kl-enabled" : [ 1 ],
+					"264-help-kl-mover-D-264kl-toggle" : [ 0 ],
+					"live.text[1]" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
