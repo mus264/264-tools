@@ -3,7 +3,9 @@
 ## Unreleased
 
 * :new: Add help files for all 264 Tools modules ([#14](https://github.com/mus264/264-tools/pull/14))
+* :new: Add `264.key-learn` keyboard shortcut module (d944914)
 * Fix broken button in overview patch (50ba95d) :bug:
+* Fix incorrect hint text in `264.sfplay~` (db14c57) :bug:
 
 ## Released
 
