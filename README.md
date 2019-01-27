@@ -69,10 +69,11 @@ The toolkit currently includes the following modules, which should be loaded in 
 
 ### Control
 
+* `264.key-learn` — a utility permitting quick linking of keyboard shortcuts
 * `264.midi-learn` — a utility permitting quick linking of inputs with a MIDI controller
 * `264.tog` — a MIDI-ready toggle switch
 * `264.go!` — a MIDI-ready button
-* `264.midi-presets` — manage mapping presets between your MIDI controller and `264.midi-learn` objects
+* `264.midi-presets` — manage mapping presets for your `264.key-learn` and `264.midi-learn` objects
 * `264.audio-presets` — manage presets for parameters across 264 Tools modules
 * `264.fullscreen` — toggle a patch to display fullscreen
 * `264.lockstatus` — check if a patch is currently locked
