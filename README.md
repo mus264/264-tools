@@ -1,6 +1,6 @@
 # 264 Tools
 
-A modular kit providing high-level sound generation, processing and performance tools for students of Music 264 at Harvard University.
+A modular kit providing high-level sound playback, processing and performance tools for students of Music 264 at Harvard University.
 
 ![264 Tools modules](/source/modules-screenshot.png)
 
