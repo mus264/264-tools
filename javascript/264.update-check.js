@@ -16,6 +16,7 @@ postPackageDetails(MPU264.localPackageInfo);
 * Default function Max will fire on patch load
 *
 */
+/* exported loadbang */
 function loadbang() {
   // Check for updates automatically on patch load
   checkForUpdates(MPU264);
@@ -143,6 +144,7 @@ function initialiseMgraphics() {
   mgraphics.autofill = 0;
 }
 
+/* exported paint */
 function paint() {
   // draw package name heading
   drawH1(MPU264.localPackageInfo.name ? MPU264.localPackageInfo.name : "<unknown>", [0, 0]);
@@ -370,6 +372,7 @@ function isOnButton(x, y, btn) {
 * handle interaction with the call-to-action button.
 *
 */
+/* exported onidle, onclick, ondrag */
 function onidle(x, y) {
   var onButton = isOnButton(x, y, MPU264.button);
   if (onButton && MPU264.button.state !== 1 && MPU264.button.instances.current.enabled) {

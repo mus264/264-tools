@@ -30,6 +30,7 @@ var parent = child.parentpatcher;
 // msg_int -- evaluates any integer input and uses non-zero
 // to toggle fullscreen on in a parent patcher, and zero to
 // toggle fullscreen off in a parent patcher
+/* exported msg_int */
 function msg_int(val) {
 	child = this.patcher;
 	parentTest = child.parentclass;

@@ -27,6 +27,7 @@ var patchPath = '';
 //////   M E T H O D S   //////
 */
 
+/* exported bang */
 function bang() {
 	getParentPatcher();
 	getGlobalPath();

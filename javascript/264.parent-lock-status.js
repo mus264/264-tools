@@ -28,6 +28,7 @@ var parent = child.parentpatcher;
 */
 
 // bang --
+/* exported bang */
 function bang() {
 	child = this.patcher;
 	parentTest = child.parentclass;
