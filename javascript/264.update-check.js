@@ -837,7 +837,7 @@ function SemVer(version) {
   // remove any surrounding whitespace from version string, and test against regular expression
   var v = version.trim().match(semVerRegX);
   if (!v) {
-    console.error("Error: ‘" + v + "’ could not be parsed as a semantic version...\n");
+    error("Error: ‘" + v + "’ could not be parsed as a semantic version...\n");
     return false;
   }
   this.major = +v[1];
