@@ -560,8 +560,6 @@ function requestRemotePackage(mpu, callback) {
     mpu.request = new XMLHttpRequest();
     // request the URL of the remote package-info.json
     mpu.request.open("GET", packageInfoURL);
-    // set timeout in case request is taking too long
-    mpu.request.timeout = 10000;
     // set callback function
     mpu.request.onreadystatechange = callback;
     // trigger request
