@@ -645,6 +645,38 @@ function getPackageInfoURL(localPackageInfo) {
 }
 
 /**
+ * sanitizeRepoSlug(repositoryString)
+ * returns a string in the format <username>/<reponame>
+ *
+ * arguments:
+ * repositoryString  = (string)  can be shorthand, e.g. “username/reponame”,
+ *                               or longer git URL, e.g.
+ *                               “https://github.com/username/reponame.git”
+ */
+function sanitizeRepoSlug (repositoryString) {
+  if (typeof repositoryString !== "string" || repositoryString === null) {
+    error("Error: RepoSlug() expects argument to be of type string...");
+    return false;
+  }
+  // patterns to match
+  var gitRepoRegX = new RegExp("^([A-Z0-9-_]+)/([A-Z0-9-_]+)$", "i");
+  var gitURLRegX = new RegExp("^(?:(?:git\\+)?https?://(?:www.)?github.com/([A-Z0-9-_]+/[A-Z0-9-_]+)(?:/|.git)?)$", "i");
+  // variable to hold username/repository slug
+
+  if (gitRepoRegX.test(repositoryString)) {
+    // if string is in "username/repository" GitHub format
+    return repositoryString;
+  } else if (gitURLRegX.test(repositoryString)) {
+    // if string is a GitHub URL from which we can retrieve a "username/repository" slug
+    return repositoryString.match(gitURLRegX)[1];
+  } else {
+    // (for now) if neither a github.com URL nor repository slug, throw error
+    error("Error: package-info.json “repository” field could not be parsed...\n");
+    return false;
+  }
+}
+
+/**
 * synthesisePackageInfoURL(repositoryString)
 * returns a string containing the URL to a remote repository’s package-info.json
 *
@@ -663,28 +695,7 @@ function getPackageInfoURL(localPackageInfo) {
 *
 */
 function synthesisePackageInfoURL(repositoryString) {
-  if (typeof repositoryString !== "string" || repositoryString === null) {
-    error("Error: formatRepositoryString() expects argument to be of type string...");
-    return false;
-  }
-  // patterns to match
-  var gitRepoRegX = new RegExp("^([A-Z0-9\-_]+)\/([A-Z0-9\-_]+)$", "i");
-  var gitURLRegX = new RegExp("^(?:(?:git\\+)?https?:\/\/(?:www\.)?github\.com\/([A-Z0-9\-_]+\/[A-Z0-9\-_]+)(?:\/|.git)?)$", "i");
-  // variable to hold username/repository slug
-  var repoSlug = null;
-
-  if (gitRepoRegX.test(repositoryString)) {
-    // if string is in "username/repository" GitHub format
-    repoSlug = repositoryString;
-  } else if (gitURLRegX.test(repositoryString)) {
-    // if string is a GitHub URL from which we can retrieve a "username/repository" slug
-    repoSlug = repositoryString.match(gitURLRegX)[1];
-  } else {
-    // (for now) if neither a github.com URL nor repository slug, throw error
-    error("Error: package-info.json “repository” field could not be parsed...\n");
-    return false;
-  }
-
+  var repoSlug = sanitizeRepoSlug(repositoryString);
   var gitHubURL = "https://raw.githubusercontent.com/" + repoSlug + "/master/package-info.json";
   return gitHubURL;
 }
@@ -768,28 +779,7 @@ function getLatestReleaseURL(packageInfo) {
 *
 */
 function synthesiseLatestReleaseURL(repositoryString) {
-  if (typeof repositoryString !== "string" || repositoryString === null) {
-    error("Error: synthesiseLatestReleaseURL() expects argument to be of type string...");
-    return false;
-  }
-  // patterns to match
-  var gitRepoRegX = new RegExp("^([A-Z0-9\-_]+)\/([A-Z0-9\-_]+)$", "i");
-  var gitURLRegX = new RegExp("^(?:(?:git\\+)?https?:\/\/(?:www\.)?github\.com\/([A-Z0-9\-_]+\/[A-Z0-9\-_]+)(?:\/|.git)?)$", "i");
-  // variable to hold username/repository slug
-  var repoSlug = null;
-
-  if (gitRepoRegX.test(repositoryString)) {
-    // if string is in "username/repository" GitHub format
-    repoSlug = repositoryString;
-  } else if (gitURLRegX.test(repositoryString)) {
-    // if string is a GitHub URL from which we can retrieve a "username/repository" slug
-    repoSlug = repositoryString.match(gitURLRegX)[1];
-  } else {
-    // (for now) if neither a github.com URL nor repository slug, throw error
-    error("Error: package-info.json “repository” field could not be parsed...\n");
-    return false;
-  }
-
+  var repoSlug = sanitizeRepoSlug(repositoryString)
   var gitHubURL = "https://github.com/" + repoSlug + "/releases/latest";
   return gitHubURL;
 }
