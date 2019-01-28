@@ -2,13 +2,16 @@
 
 ## Unreleased
 
+## Released
+
+### v0.13.0
+
 * :new: Add help files for all 264 Tools modules ([#14](https://github.com/mus264/264-tools/pull/14), closes [#4](https://github.com/mus264/264-tools/issues/4))
 * :new: Add `264.key-learn` keyboard shortcut module (d944914, closes [#15](https://github.com/mus264/264-tools/issues/15))
 * Fix `264.sfplay~` receiving play & load messages simultaneously ([#16](https://github.com/mus264/264-tools/pull/16), fixes [#10](https://github.com/mus264/264-tools/issues/10)) :bug:
 * Fix broken button in overview patch (50ba95d) :bug:
 * Fix incorrect hint text in `264.sfplay~` (db14c57) :bug:
-
-## Released
+* Improve update checker (fe5306c, c9620f6, 733b212, ccad51d) :bug:
 
 ### v0.12.0
 
