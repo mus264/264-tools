@@ -81,6 +81,17 @@
     - #1-grains-pitch-v-dial
     - #1-grains-volume-slider
     - #1-grains-bypass-toggle
+264.line:
+  short-name: line
+  midi-presets:
+    - #1-line-scrub
+    - #1-line-duration
+    - #1-line-play
+  audio-presets:
+    - #1-line-duration-numbox
+    - #1-line-loop-toggle
+    - #1-line-function-display
+    - #1-line-function-editor
 264.loop~:
   short-name: loop
   midi-presets:
