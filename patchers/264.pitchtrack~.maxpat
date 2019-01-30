@@ -29,6 +29,25 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-93",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 975.0, 405.0, 97.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "264.resize",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js 264.resize full"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "#1" ],
 					"id" : "obj-86",
 					"maxclass" : "bpatcher",
@@ -3467,6 +3486,13 @@
 			}
 , 			{
 				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.resize.js",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
