@@ -7189,7 +7189,7 @@
 					"id" : "obj-109",
 					"ignoreclick" : 1,
 					"legend" : 0,
-					"linecolor" : [ 1.0, 0.6, 0.0, 0.0 ],
+					"linecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"linethickness" : 2.0,
 					"maxclass" : "function",
 					"numinlets" : 1,
