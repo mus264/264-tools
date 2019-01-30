@@ -3704,7 +3704,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 540.0, 320.0, 840.0, 440.0 ],
+						"rect" : [ 220.0, 180.0, 840.0, 440.0 ],
 						"bgcolor" : [ 0.094118, 0.113725, 0.137255, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -4233,7 +4233,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 255.0, 105.0, 60.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 637.0, 7.0, 65.0, 20.0 ],
+									"presentation_rect" : [ 638.0, 7.0, 65.0, 20.0 ],
 									"prototypename" : "M4L.toggle",
 									"rounded" : 0.0,
 									"text" : "PASTE",
@@ -4267,7 +4267,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 180.0, 105.0, 60.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 572.0, 7.0, 65.0, 20.0 ],
+									"presentation_rect" : [ 571.0, 7.0, 65.0, 20.0 ],
 									"prototypename" : "M4L.toggle",
 									"rounded" : 0.0,
 									"text" : "COPY",
@@ -6045,7 +6045,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 600.0, 280.0, 69.0, 20.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "noclose", "nozoom", "nofloat", "nomenu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 220, 180, 1060, 620, ";", "#Q", "window", "notitle", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
