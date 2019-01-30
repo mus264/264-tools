@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 100.0, 126.0, 558.0, 381.0 ],
+						"rect" : [ 0.0, 26.0, 558.0, 381.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -502,7 +502,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 558.0, 381.0 ],
+						"rect" : [ 100.0, 126.0, 558.0, 381.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -531,6 +531,45 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"hint" : "",
+									"id" : "obj-3",
+									"ignoreclick" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 235.0, 145.0, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "1",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+									"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-5",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 255.0, 145.0, 285.0, 50.0 ],
+									"text" : "Try moving the “scrub” slider side to side. This outputs the vertical value for your horizontal position."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"border" : 0,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"hint" : "",
 									"id" : "obj-18",
 									"ignoreclick" : 1,
 									"maxclass" : "textbutton",
@@ -538,7 +577,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 235.0, 310.0, 20.0, 20.0 ],
+									"patching_rect" : [ 235.0, 255.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "3",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -556,7 +595,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 255.0, 310.0, 275.0, 36.0 ],
+									"patching_rect" : [ 255.0, 325.0, 285.0, 36.0 ],
 									"text" : "Try clicking on the line to open an editor and change its shape"
 								}
 
@@ -692,7 +731,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 235.0, 240.0, 20.0, 20.0 ],
+									"patching_rect" : [ 235.0, 215.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -710,7 +749,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 255.0, 240.0, 275.0, 50.0 ],
+									"patching_rect" : [ 255.0, 255.0, 285.0, 50.0 ],
 									"text" : "The first two outlets send out the value of the line’s Y-axis. The last sends bangs every time the line finishes and loops around"
 								}
 
@@ -731,9 +770,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 235.0, 200.0, 20.0, 20.0 ],
+									"patching_rect" : [ 235.0, 325.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
-									"text" : "1",
+									"text" : "4",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 									"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
@@ -748,7 +787,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 255.0, 200.0, 275.0, 21.0 ],
+									"patching_rect" : [ 255.0, 215.0, 128.0, 21.0 ],
 									"text" : "Click the play button"
 								}
 
@@ -942,7 +981,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.ui-play.png",
+				"name" : "264.ui-stop.png",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
@@ -991,7 +1030,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.ui-stop.png",
+				"name" : "264.ui-play.png",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
