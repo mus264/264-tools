@@ -1436,7 +1436,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u324003926"
+					"varname" : "u204005295"
 				}
 
 			}
@@ -1594,8 +1594,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 915.0, 90.0, 122.0, 20.0 ],
-					"text" : "patcherargs @loop 0"
+					"patching_rect" : [ 915.0, 90.0, 74.0, 20.0 ],
+					"text" : "patcherargs"
 				}
 
 			}
@@ -4167,7 +4167,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u915003928"
+									"varname" : "u752005300"
 								}
 
 							}
