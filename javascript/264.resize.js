@@ -3,15 +3,6 @@
 
 /*
 //////    G L O B A L    //////
-//////  S E T T I N G S  //////
-*/
-
-// inlets and outlets
-inlets = 1;
-setinletassist(0, 'resize this bpatcher (bang)');
-
-/*
-//////    G L O B A L    //////
 //////   M E T H O D S   //////
 */
 
