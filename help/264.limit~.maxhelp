@@ -197,7 +197,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 35.0, 227.0, 18.0, 47.0 ],
 									"size" : 3,
-									"value" : 2
+									"value" : 0
 								}
 
 							}
@@ -960,6 +960,13 @@
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools-0.12.0/patchers",
 				"patcherrelativepath" : "../../../../Max/Packages/264-tools-0.12.0/patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.resize.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]
