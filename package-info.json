@@ -1,41 +1,38 @@
 {
-	"author" : "Chris Swithinbank and Hans Tutschku",
-	"authors" : [  ],
-	"description" : "A modular kit providing high-level sound playback, processing and performance tools originally developed for students of Music 264 at Harvard University.",
-	"displayname" : "",
-	"extends" : "",
-	"extensible" : 0,
-	"homepatcher" : "264 Tools Overview.maxpat",
-	"max_version_max" : "none",
-	"max_version_min" : "6.1.9",
-	"name" : "264 Tools",
-	"repository" : "mus264/264-tools",
-	"os" : 	{
-		"macintosh" : 		{
-			"platform" : [ "ia32", "x64" ],
-			"min_version" : "none"
-		}
-,
-		"windows" : 		{
-			"platform" : [ "ia32" ]
-		}
+  "author": "Chris Swithinbank and Hans Tutschku",
+  "authors": [],
+  "description": "A modular kit providing high-level sound playback, processing and performance tools originally developed for students of Music 264 at Harvard University.",
+  "displayname": "",
+  "extends": "",
+  "extensible": 0,
+  "homepatcher": "264 Tools Overview.maxpat",
+  "max_version_max": "none",
+  "max_version_min": "6.1.9",
+  "name": "264 Tools",
+  "repository": "mus264/264-tools",
+  "os": {
+    "macintosh": {
+      "platform": ["ia32", "x64"],
+      "min_version": "none"
+    },
+    "windows": {
+      "platform": ["ia32"]
+    }
 
-	}
-,
-	"tags" : [  ],
-	"version" : "0.13.0",
-	"website" : "https://github.com/mus264/264-tools/",
-	"filelist" : 	{
-		"externals" : [ "karma~.mxe", "karma~.mxe64", "karma~.mxo", "munger~.mxe", "munger~.mxe64", "munger~.mxo", "sigmund~.mxe", "sigmund~.mxe64", "sigmund~.mxo" ],
-		"patchers" : [ "264.audio-presets.maxpat", "264.audiotest~.maxpat", "264.brightness-pfft~.maxpat", "264.brightness~.maxpat", "264.delay-poly~.maxpat", "264.delay~.maxpat", "264.envelope~.maxpat", "264.filter~.maxpat", "264.freeze-pfft~.maxpat", "264.freeze~.maxpat", "264.fullscreen.maxpat", "264.go!.maxpat", "264.grains~.maxpat", "264.key-learn", "264.limit~.maxpat", "264.lockstatus.maxpat", "264.loop~.maxpat", "264.midi-learn.maxpat", "264.midi-presets.maxpat", "264.pattr-control.maxpat", "264.pitchtrack~.maxpat", "264.preset-toggle.maxpat", "264.reverb-poly~.maxpat", "264.reverb~.maxpat", "264.ringmod~.maxpat", "264.sfplay~.maxpat", "264.sfrecord~.maxpat", "264.tog.maxpat", "264.transpose-pfft~.maxpat", "264.transpose~.maxpat", "264.trigger~.maxpat" ],
-		"help" : [ "264.audio-presets.maxhelp", "264.audiotest~.maxhelp", "264.brightness-pfft~.maxhelp", "264.brightness~.maxhelp", "264.delay-poly~.maxhelp", "264.delay~.maxhelp", "264.envelope~.maxhelp", "264.filter~.maxhelp", "264.freeze-pfft~.maxhelp", "264.freeze~.maxhelp", "264.fullscreen.maxhelp", "264.go!.maxhelp", "264.grains~.maxhelp", "264.key-learn", "264.limit~.maxhelp", "264.lockstatus.maxhelp", "264.loop~.maxhelp", "264.midi-learn.maxhelp", "264.midi-presets.maxhelp", "264.pattr-control.maxhelp", "264.pitchtrack~.maxhelp", "264.preset-toggle.maxhelp", "264.reverb-poly~.maxhelp", "264.reverb~.maxhelp", "264.ringmod~.maxhelp", "264.sfplay~.maxhelp", "264.sfrecord~.maxhelp", "264.tog.maxhelp", "264.transpose-pfft~.maxhelp", "264.transpose~.maxhelp", "264.trigger~.maxhelp" ],
-		"interfaces" : [ "264-Tools-obj-qlookup.json" ],
-		"java-classes" : [ "filesys.class", "filesys.java" ],
-		"media" : [ "264.ui-close.png", "264.ui-locked.png", "264.ui-new-burst.png", "264.ui-pause.png", "264.ui-play.png", "264.ui-plus.png", "264.ui-question.png", "264.ui-record.png", "264.ui-settings.png", "264.ui-stop.png", "264.ui-unlocked.png", "hamming1.aiff" ],
-		"docs" : [ "_c74_common.css", "_c74_common.xml", "_c74_common.xsl", "_c74_compat.html", "_c74_platform.xsl", "refpages/264-ref/_c74_contents.xml", "refpages/264-ref/_c74_ref.xsl", "refpages/_c74_ref_common.xsl", "refpages/_c74_ref_modules.xml", "refpages/264-ref/264.audio-presets.maxref.xml", "refpages/264-ref/264.audiotest~.maxref.xml", "refpages/264-ref/264.brightness-pfft~.maxref.xml", "refpages/264-ref/264.brightness~.maxref.xml", "refpages/264-ref/264.delay-poly~.maxref.xml", "refpages/264-ref/264.delay~.maxref.xml", "refpages/264-ref/264.envelope~.maxref.xml", "refpages/264-ref/264.filter~.maxref.xml", "refpages/264-ref/264.freeze-pfft~.maxref.xml", "refpages/264-ref/264.freeze~.maxref.xml", "refpages/264-ref/264.fullscreen.maxref.xml", "refpages/264-ref/264.go!.maxref.xml", "refpages/264-ref/264.grains~.maxref.xml", "refpages/264-ref/264.key-learn", "refpages/264-ref/264.limit~.maxref.xml", "refpages/264-ref/264.lockstatus.maxref.xml", "refpages/264-ref/264.loop~.maxref.xml", "refpages/264-ref/264.midi-learn.maxref.xml", "refpages/264-ref/264.midi-presets.maxref.xml", "refpages/264-ref/264.pattr-control.maxref.xml", "refpages/264-ref/264.pitchtrack~.maxref.xml", "refpages/264-ref/264.preset-toggle.maxref.xml", "refpages/264-ref/264.reverb-poly~.maxref.xml", "refpages/264-ref/264.reverb~.maxref.xml", "refpages/264-ref/264.ringmod~.maxref.xml", "refpages/264-ref/264.sfplay~.maxref.xml", "refpages/264-ref/264.sfrecord~.maxref.xml", "refpages/264-ref/264.tog.maxref.xml", "refpages/264-ref/264.transpose-pfft~.maxref.xml", "refpages/264-ref/264.transpose~.maxref.xml", "refpages/264-ref/264.trigger~.maxref.xml" ],
-		"javascript" : [ "264.fullscreen-parent.js", "264.helptext.js", "264.parent-lock-status.js", "264.resize.js", "264.update-check.js", "set-patch-path.js" ],
-		"code" : [ "264.brightness-gen~.gendsp" ],
-		"extras" : [ "264 Tools/264 Tools Overview.maxpat", "264 Tools/Check for Updates.maxpat", "264 Tools/Module Finder.maxpat", "264 Tools/soundfiles/264-rainstick.aif", "264 Tools/Weekly Intros/02 - 264.grains~.maxpat", "264 Tools/Weekly Intros/03 - 264.envelope~, 264.midi-presets.maxpat", "264 Tools/Weekly Intros/04 - 264.ringmod~, 264.reverb~.maxpat", "264 Tools/Weekly Intros/05 - 264.pitchtrack~, 264.transpose~.maxpat", "264 Tools/Weekly Intros/06 - 264.trigger~, 264.transpose~, 264.audiotest.maxpat", "264 Tools/Weekly Intros/07 - 264.sfplay~.maxpat", "264 Tools/Weekly Intros/08 - 264.sfrecord~, 264.audio-presets.maxpat", "264 Tools/Weekly Intros/11 - 264.loop~, 264.limit~.maxpat", "264 Tools/Weekly Intros/audio-presets/264extra-pitchtracking-264ptog.json", "264 Tools/Weekly Intros/audio-presets/264extra-pshift-264ptog.json", "264 Tools/Weekly Intros/audio-presets/ap-demo-delay-264del~.json", "264 Tools/Weekly Intros/audio-presets/ap-demo-delay-264ptog.json", "264 Tools/Weekly Intros/audio-presets/ap-demo-grains-264grains~.json", "264 Tools/Weekly Intros/audio-presets/ap-demo-grains-264ptog.json", "264 Tools/Weekly Intros/audio-presets/ap-demo-transpose-264ptog.json", "264 Tools/Weekly Intros/audio-presets/ap-demo-transpose-264trans~.json", "264 Tools/Weekly Intros/audio-presets/overview-envfol-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-filter-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-freeze-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-grains-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-home-delays-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-reverb-ex-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-ringmod-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-trigger-264ptog.json", "264 Tools/Weekly Intros/audio-presets/week3-filter-264ptog.json", "264 Tools/Weekly Intros/midi-presets/overview-envfol-env-gain-264ml.json", "264 Tools/Weekly Intros/midi-presets/overview-envfol-env-sharpness-264ml.json", "264 Tools/Weekly Intros/midi-presets/week3-filter-fltr-frequency-264ml.json", "264 Tools/Weekly Intros/midi-presets/week3-filter-fltr-Q-264ml.json", "264 Tools/Weekly Intros/soundfiles/264-rainstick.aif" ]
-	}
-
+  },
+  "tags": [],
+  "version": "0.13.0",
+  "website": "https://github.com/mus264/264-tools/",
+  "filelist": {
+    "externals": ["karma~.mxe", "karma~.mxe64", "karma~.mxo", "munger~.mxe", "munger~.mxe64", "munger~.mxo", "sigmund~.mxe", "sigmund~.mxe64", "sigmund~.mxo"],
+    "patchers": ["264.audio-presets.maxpat", "264.audiotest~.maxpat", "264.brightness-pfft~.maxpat", "264.brightness~.maxpat", "264.delay-poly~.maxpat", "264.delay~.maxpat", "264.envelope~.maxpat", "264.filter~.maxpat", "264.freeze-pfft~.maxpat", "264.freeze~.maxpat", "264.fullscreen.maxpat", "264.go!.maxpat", "264.grains~.maxpat", "264.key-learn", "264.limit~.maxpat", "264.lockstatus.maxpat", "264.loop~.maxpat", "264.midi-learn.maxpat", "264.midi-presets.maxpat", "264.pattr-control.maxpat", "264.pitchtrack~.maxpat", "264.preset-toggle.maxpat", "264.reverb-poly~.maxpat", "264.reverb~.maxpat", "264.ringmod~.maxpat", "264.sfplay~.maxpat", "264.sfrecord~.maxpat", "264.tog.maxpat", "264.transpose-pfft~.maxpat", "264.transpose~.maxpat", "264.trigger~.maxpat"],
+    "help": ["264.audio-presets.maxhelp", "264.audiotest~.maxhelp", "264.brightness-pfft~.maxhelp", "264.brightness~.maxhelp", "264.delay-poly~.maxhelp", "264.delay~.maxhelp", "264.envelope~.maxhelp", "264.filter~.maxhelp", "264.freeze-pfft~.maxhelp", "264.freeze~.maxhelp", "264.fullscreen.maxhelp", "264.go!.maxhelp", "264.grains~.maxhelp", "264.key-learn", "264.limit~.maxhelp", "264.lockstatus.maxhelp", "264.loop~.maxhelp", "264.midi-learn.maxhelp", "264.midi-presets.maxhelp", "264.pattr-control.maxhelp", "264.pitchtrack~.maxhelp", "264.preset-toggle.maxhelp", "264.reverb-poly~.maxhelp", "264.reverb~.maxhelp", "264.ringmod~.maxhelp", "264.sfplay~.maxhelp", "264.sfrecord~.maxhelp", "264.tog.maxhelp", "264.transpose-pfft~.maxhelp", "264.transpose~.maxhelp", "264.trigger~.maxhelp"],
+    "interfaces": ["264-Tools-obj-qlookup.json"],
+    "java-classes": ["filesys.class", "filesys.java"],
+    "media": ["264.ui-close.png", "264.ui-locked.png", "264.ui-new-burst.png", "264.ui-pause.png", "264.ui-play.png", "264.ui-plus.png", "264.ui-question.png", "264.ui-record.png", "264.ui-settings.png", "264.ui-stop.png", "264.ui-unlocked.png", "hamming1.aiff"],
+    "docs": ["_c74_common.css", "_c74_common.xml", "_c74_common.xsl", "_c74_compat.html", "_c74_platform.xsl", "refpages/264-ref/_c74_contents.xml", "refpages/264-ref/_c74_ref.xsl", "refpages/_c74_ref_common.xsl", "refpages/_c74_ref_modules.xml", "refpages/264-ref/264.audio-presets.maxref.xml", "refpages/264-ref/264.audiotest~.maxref.xml", "refpages/264-ref/264.brightness-pfft~.maxref.xml", "refpages/264-ref/264.brightness~.maxref.xml", "refpages/264-ref/264.delay-poly~.maxref.xml", "refpages/264-ref/264.delay~.maxref.xml", "refpages/264-ref/264.envelope~.maxref.xml", "refpages/264-ref/264.filter~.maxref.xml", "refpages/264-ref/264.freeze-pfft~.maxref.xml", "refpages/264-ref/264.freeze~.maxref.xml", "refpages/264-ref/264.fullscreen.maxref.xml", "refpages/264-ref/264.go!.maxref.xml", "refpages/264-ref/264.grains~.maxref.xml", "refpages/264-ref/264.key-learn", "refpages/264-ref/264.limit~.maxref.xml", "refpages/264-ref/264.lockstatus.maxref.xml", "refpages/264-ref/264.loop~.maxref.xml", "refpages/264-ref/264.midi-learn.maxref.xml", "refpages/264-ref/264.midi-presets.maxref.xml", "refpages/264-ref/264.pattr-control.maxref.xml", "refpages/264-ref/264.pitchtrack~.maxref.xml", "refpages/264-ref/264.preset-toggle.maxref.xml", "refpages/264-ref/264.reverb-poly~.maxref.xml", "refpages/264-ref/264.reverb~.maxref.xml", "refpages/264-ref/264.ringmod~.maxref.xml", "refpages/264-ref/264.sfplay~.maxref.xml", "refpages/264-ref/264.sfrecord~.maxref.xml", "refpages/264-ref/264.tog.maxref.xml", "refpages/264-ref/264.transpose-pfft~.maxref.xml", "refpages/264-ref/264.transpose~.maxref.xml", "refpages/264-ref/264.trigger~.maxref.xml"],
+    "javascript": ["264.fullscreen-parent.js", "264.helptext.js", "264.parent-lock-status.js", "264.resize.js", "264.update-check.js", "set-patch-path.js"],
+    "code": ["264.brightness-gen~.gendsp"],
+    "extras": ["264 Tools/264 Tools Overview.maxpat", "264 Tools/Check for Updates.maxpat", "264 Tools/Module Finder.maxpat", "264 Tools/soundfiles/264-rainstick.aif", "264 Tools/Weekly Intros/02 - 264.grains~.maxpat", "264 Tools/Weekly Intros/03 - 264.envelope~, 264.midi-presets.maxpat", "264 Tools/Weekly Intros/04 - 264.ringmod~, 264.reverb~.maxpat", "264 Tools/Weekly Intros/05 - 264.pitchtrack~, 264.transpose~.maxpat", "264 Tools/Weekly Intros/06 - 264.trigger~, 264.transpose~, 264.audiotest.maxpat", "264 Tools/Weekly Intros/07 - 264.sfplay~.maxpat", "264 Tools/Weekly Intros/08 - 264.sfrecord~, 264.audio-presets.maxpat", "264 Tools/Weekly Intros/11 - 264.loop~, 264.limit~.maxpat", "264 Tools/Weekly Intros/audio-presets/264extra-pitchtracking-264ptog.json", "264 Tools/Weekly Intros/audio-presets/264extra-pshift-264ptog.json", "264 Tools/Weekly Intros/audio-presets/ap-demo-delay-264del~.json", "264 Tools/Weekly Intros/audio-presets/ap-demo-delay-264ptog.json", "264 Tools/Weekly Intros/audio-presets/ap-demo-grains-264grains~.json", "264 Tools/Weekly Intros/audio-presets/ap-demo-grains-264ptog.json", "264 Tools/Weekly Intros/audio-presets/ap-demo-transpose-264ptog.json", "264 Tools/Weekly Intros/audio-presets/ap-demo-transpose-264trans~.json", "264 Tools/Weekly Intros/audio-presets/overview-envfol-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-filter-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-freeze-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-grains-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-home-delays-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-reverb-ex-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-ringmod-264ptog.json", "264 Tools/Weekly Intros/audio-presets/overview-trigger-264ptog.json", "264 Tools/Weekly Intros/audio-presets/week3-filter-264ptog.json", "264 Tools/Weekly Intros/midi-presets/overview-envfol-env-gain-264ml.json", "264 Tools/Weekly Intros/midi-presets/overview-envfol-env-sharpness-264ml.json", "264 Tools/Weekly Intros/midi-presets/week3-filter-fltr-frequency-264ml.json", "264 Tools/Weekly Intros/midi-presets/week3-filter-fltr-Q-264ml.json", "264 Tools/Weekly Intros/soundfiles/264-rainstick.aif"]
+  }
 }
