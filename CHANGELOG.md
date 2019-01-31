@@ -4,6 +4,13 @@
 
 ## Released
 
+### v0.14.1
+
+* Fix conflicting duplicated preset arguments and files (761da27)
+* Namespace `hamming1.aiff` to `264.hamming1.aiff` to avoid potential conflicts (af11bf1)
+* Fix typos in help files and examples (de4f4b4, be32615)
+* Update README (7cfe71d, 5d8e950, 4ab430c, 665311f, 74101a2)
+
 ### v0.14.0
 
 * :new: :sparkles: Automatically resize modules when created as a new `bpatcher` ([#19](https://github.com/mus264/264-tools/pull/19))
