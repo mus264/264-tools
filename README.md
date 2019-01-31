@@ -8,7 +8,7 @@ A modular kit providing high-level sound playback, processing and performance to
 
 0. If you have previously installed a copy of 264 Tools, delete it from your Max Packages directory.
 
-1. **Download the [latest release](https://github.com/mus264/264-tools/releases/latest)** (click ‘Source code’ under Downloads)
+1. **Download the [latest release](https://github.com/mus264/264-tools/releases/latest)** (click ‘Source code’ under Assets)
 
 2. **Uncompress your download to your Max Packages directory.**    
 You can find this under `~/Documents/Max/Packages` for Max 6 or `~/Documents/Max 7/Packages` for Max 7.    
