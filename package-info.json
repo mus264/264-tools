@@ -21,7 +21,7 @@
 
   },
   "tags": [],
-  "version": "0.13.0",
+  "version": "0.14.0",
   "website": "https://github.com/mus264/264-tools/",
   "filelist": {
     "externals": ["karma~.mxe", "karma~.mxe64", "karma~.mxo", "munger~.mxe", "munger~.mxe64", "munger~.mxo", "sigmund~.mxe", "sigmund~.mxe64", "sigmund~.mxo"],
