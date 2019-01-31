@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 180.0, 44.0, 1096.0, 706.0 ],
+		"rect" : [ 0.0, 44.0, 1096.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,25 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 570.0, 660.0, 97.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "264.resize",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js 264.resize full"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "#1" ],
 					"id" : "obj-19",
@@ -57,7 +76,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -255,7 +274,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u284013078"
+					"varname" : "u463006048"
 				}
 
 			}
@@ -285,7 +304,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -564,7 +583,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 271.0, 68.0, 60.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 121.0, 60.0, 17.0 ],
+					"presentation_rect" : [ 11.0, 26.0, 60.0, 17.0 ],
 					"text" : "O U T P U T",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
@@ -624,7 +643,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.0, 210.0, 52.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 85.0, 52.0, 17.0 ],
+					"presentation_rect" : [ 36.0, 139.0, 52.0, 17.0 ],
 					"text" : "S H O R T",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
@@ -641,7 +660,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 720.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 83.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 137.0, 20.0, 20.0 ],
 					"varname" : "decay-time"
 				}
 
@@ -658,7 +677,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 690.0, 210.0, 44.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.0, 85.0, 44.0, 17.0 ],
+					"presentation_rect" : [ 134.0, 139.0, 44.0, 17.0 ],
 					"text" : "L O N G",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
 					"textjustification" : 2
@@ -712,7 +731,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "feedback amount (0–127 / 0.05–0.9)",
+					"comment" : "feedback amount, a.k.a. reverb length (0–127 / 0.05–0.9)",
 					"id" : "obj-48",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -738,7 +757,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 690.0, 210.0, 88.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 83.0, 142.0, 20.0 ],
+					"presentation_rect" : [ 36.0, 137.0, 142.0, 20.0 ],
 					"setminmax" : [ 0.0, 127.0 ],
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4,
@@ -758,7 +777,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 990.0, 285.0, 57.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.0, 64.0, 57.0, 17.0 ],
+					"presentation_rect" : [ 121.0, 160.0, 57.0, 17.0 ],
 					"text" : "B R I G H T",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
 					"textjustification" : 2
@@ -917,7 +936,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 360.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 158.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 63.0, 20.0, 20.0 ],
 					"varname" : "wet-volume"
 				}
 
@@ -934,7 +953,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 345.0, 360.0, 46.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.0, 159.0, 30.0, 18.0 ],
+					"presentation_rect" : [ 148.0, 64.0, 30.0, 18.0 ],
 					"text" : "0.00",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
 					"textjustification" : 2
@@ -981,7 +1000,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 330.0, 210.0, 35.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 160.0, 61.0, 17.0 ],
+					"presentation_rect" : [ 36.0, 65.0, 61.0, 17.0 ],
 					"text" : "W E T",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
@@ -1102,7 +1121,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 330.0, 210.0, 61.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 158.0, 142.0, 20.0 ],
+					"presentation_rect" : [ 36.0, 63.0, 142.0, 20.0 ],
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
@@ -1122,7 +1141,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 210.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 137.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 42.0, 20.0, 20.0 ],
 					"varname" : "delay-volume"
 				}
 
@@ -1139,7 +1158,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 195.0, 360.0, 46.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.0, 138.0, 30.0, 18.0 ],
+					"presentation_rect" : [ 148.0, 43.0, 30.0, 18.0 ],
 					"text" : "0.00",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ],
 					"textjustification" : 2
@@ -1186,7 +1205,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 180.0, 210.0, 34.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 139.0, 61.0, 17.0 ],
+					"presentation_rect" : [ 36.0, 44.0, 61.0, 17.0 ],
 					"text" : "D R Y",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
@@ -1293,7 +1312,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 180.0, 210.0, 61.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 137.0, 142.0, 20.0 ],
+					"presentation_rect" : [ 36.0, 42.0, 142.0, 20.0 ],
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
@@ -1385,7 +1404,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 930.0, 285.0, 42.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 64.0, 42.0, 17.0 ],
+					"presentation_rect" : [ 36.0, 160.0, 42.0, 17.0 ],
 					"text" : "D U L L",
 					"textcolor" : [ 0.980392, 0.988235, 0.976471, 1.0 ]
 				}
@@ -1402,7 +1421,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 885.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 62.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 158.0, 20.0, 20.0 ],
 					"varname" : "lowpass-frequency"
 				}
 
@@ -1423,7 +1442,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 855.0, 165.0, 98.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 62.0, 142.0, 20.0 ],
+					"presentation_rect" : [ 36.0, 158.0, 142.0, 20.0 ],
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 0.05 ],
@@ -1493,7 +1512,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "lowpass frequency, in kHz (0–127 / 0.02–12.)",
+					"comment" : "lowpass frequency, in kHz, a.k.a. reverb brightness (0–127 / 0.02–12.)",
 					"id" : "obj-10",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -1699,7 +1718,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 495.0, 285.0, 60.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 32.0, 166.0, 22.0 ],
+					"presentation_rect" : [ 14.0, 107.0, 166.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -1749,7 +1768,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 930.0, 285.0, 117.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 62.0, 142.0, 20.0 ],
+					"presentation_rect" : [ 36.0, 158.0, 142.0, 20.0 ],
 					"setminmax" : [ 0.0, 127.0 ],
 					"slidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
 					"thickness" : 4
@@ -1776,7 +1795,7 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
-					"hint" : "lowpass frequency, in kHz (0–127 / 0.02–12.)",
+					"hint" : "lowpass frequency, in kHz, a.k.a. reverb brightness (0–127 / 0.02–12.)",
 					"id" : "obj-33",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1840,7 +1859,7 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
-					"hint" : "feedback amount (0–127 / 0.05–0.9)",
+					"hint" : "feedback amount, a.k.a. reverb length (0–127 / 0.05–0.9)",
 					"id" : "obj-58",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -2620,6 +2639,13 @@
 			}
 , 			{
 				"name" : "set-patch-path.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.resize.js",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",

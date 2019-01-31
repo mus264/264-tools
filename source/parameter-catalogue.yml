@@ -81,6 +81,12 @@
     - #1-grains-pitch-v-dial
     - #1-grains-volume-slider
     - #1-grains-bypass-toggle
+264.key-learn:
+  short-name: 264kl
+  presets:
+    - #1-264kl-ascii
+    - #1-264kl-enabled
+    - #1-264kl-toggle
 264.line:
   short-name: line
   midi-presets:

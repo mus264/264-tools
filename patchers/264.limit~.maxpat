@@ -29,6 +29,25 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 285.0, 330.0, 109.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "264.resize",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js 264.resize small"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.047059, 0.972549, 0.392157, 1.0 ],
 					"hint" : "limited signal",
 					"id" : "obj-29",
@@ -594,7 +613,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "264.resize.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }
