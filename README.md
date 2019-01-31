@@ -96,7 +96,7 @@ The `264.reverb~` core is heavily based on [Randy Jones](http://madronalabs.com/
 
   [f9cd7a51]: https://github.com/v7b1/sigmund_64bit-version "v7b1/sigmund_64bit-version - GitHub"
 
-`264.freeze~` relies on [Jean-François Charles](http://www.jeanfrancoischarles.com)’s spectral freezing patches.
+`264.freeze~` is adapted from [Jean-François Charles](http://www.jeanfrancoischarles.com)’s spectral freezing patches.
 
 `264.loop~` is built around [Rodrigo Constanzo](http://www.rodrigoconstanzo.com/karma) & raja’s amazing [`karma~`](https://github.com/rconstanzo/karma), which is Copyright © 2015, Rodrigo Constanzo All rights reserved. Please see the module for detailed redistribution information.
 
