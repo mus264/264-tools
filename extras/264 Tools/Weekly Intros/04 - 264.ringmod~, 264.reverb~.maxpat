@@ -293,7 +293,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 345.0, 171.0, 141.0 ],
-					"text" : "      Different modulation\n      frequencies have quite different impacts on the sound.\n\nVery low frequencies sound like a “tremolo” effect, while higher frequencies distort the original sounds frequency spectrum.",
+					"text" : "      Different modulation\n      frequencies have quite different impacts on the sound.\n\nVery low frequencies sound like a “tremolo” effect, while higher frequencies distort the original sound’s frequency spectrum.",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
