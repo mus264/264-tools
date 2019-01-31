@@ -27,13 +27,13 @@ git clone https://github.com/mus264/264-tools.git
 
 ## Getting Started
 
-After you have installed 264 Tools, open Max’s **Extras** menu to find **264 Tools > 264 Tools Overview** for an introduction to the various modules.
+After you have installed 264 Tools, open Max’s **Extras** menu to find **264 Tools** > **264 Tools Overview** for an introduction to the various modules.
 
 For a quick list of all available modules check out **264 Tools** > **Module Finder** in the **Extras** menu.
 
 ## Checking for Updates
 
-From Max’s **Extras** menu, select **264 Tools > Check for Updates**. This will let you know if you need to update. (You will need to be connected to the internet for this to work.)
+From Max’s **Extras** menu, select **264 Tools** > **Check for Updates**. This will let you know if you need to update. (You will need to be connected to the internet for this to work.)
 
 ## Current Functionality
 
