@@ -2,7 +2,10 @@
 
 ## Unreleased
 
+* :new: :sparkles: Automatically resize modules when created as a new `bpatcher` ([#19](https://github.com/mus264/264-tools/pull/19))
 * :new: Add `264.line` breakpoint function module ([#17](https://github.com/mus264/264-tools/pull/17), closes [#6](https://github.com/mus264/264-tools/issues/6))
+* Improve unintuitive inlet ordering vs GUI ordering in `264.reverb~` ([#18](https://github.com/mus264/264-tools/pull/18), closes [#8](https://github.com/mus264/264-tools/issues/8))
+* Update init, interfaces, and parameter catalogue (c802cca)
 
 ## Released
 
