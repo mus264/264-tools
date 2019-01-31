@@ -243,7 +243,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 300.0, 390.0, 189.0, 20.0 ],
-													"text" : "buffer~ vdbwindow hamming1.aiff"
+													"text" : "buffer~ vdbwindow 264.hamming1.aiff"
 												}
 
 											}
@@ -3359,7 +3359,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 300.0, 390.0, 189.0, 20.0 ],
-													"text" : "buffer~ vdbwindow hamming1.aiff"
+													"text" : "buffer~ vdbwindow 264.hamming1.aiff"
 												}
 
 											}
