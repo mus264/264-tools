@@ -1161,7 +1161,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "overview-looper" ],
+									"args" : [ "264-help-looper" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -1474,7 +1474,7 @@
 			"obj-1::obj-18::obj-143::obj-95" : [ "help-sfplay-ex-2-loop-jump-rate-v-dial", "var.", 0 ],
 			"obj-3::obj-5::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-3::obj-5::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-3::obj-14::obj-143::obj-95" : [ "overview-looper-loop-jump-rate-v-dial", "var.", 0 ],
+			"obj-3::obj-14::obj-143::obj-95" : [ "264-help-looper-loop-jump-rate-v-dial", "var.", 0 ],
 			"obj-3::obj-66" : [ "flonum", "flonum", 0 ],
 			"obj-3::obj-70" : [ "flonum[1]", "flonum[1]", 0 ]
 		}

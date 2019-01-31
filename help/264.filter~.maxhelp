@@ -196,7 +196,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "overview-filter" ],
+									"args" : [ "264-help-filter" ],
 									"id" : "obj-7",
 									"maxclass" : "bpatcher",
 									"name" : "264.filter~.maxpat",
@@ -365,9 +365,9 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-3::obj-1::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-3::obj-7::obj-6" : [ "264-help-filter-fltr-type-tab", "264-help-filter-fltr-type-tab", 0 ],
 			"obj-3::obj-1::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-3::obj-1::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-3::obj-7::obj-6" : [ "overview-filter-fltr-type-tab", "overview-filter-fltr-type-tab", 0 ]
+			"obj-3::obj-1::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -413,16 +413,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.preset-toggle.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/264-tools/patchers",
-				"type" : "JSON",
+				"name" : "264.resize.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "overview-filter-264ptog.json",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/extras/264 Tools/Weekly Intros/audio-presets",
-				"patcherrelativepath" : "../../../../Max/Packages/264-tools/extras/264 Tools/Weekly Intros/audio-presets",
+				"name" : "264.preset-toggle.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

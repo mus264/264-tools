@@ -215,7 +215,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "ap-demo-transpose" ],
+									"args" : [ "264-help-ap-transpose" ],
 									"id" : "obj-51",
 									"maxclass" : "bpatcher",
 									"name" : "264.transpose~.maxpat",
@@ -240,7 +240,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "ap-demo-grains" ],
+									"args" : [ "264-help-ap-grains" ],
 									"id" : "obj-46",
 									"maxclass" : "bpatcher",
 									"name" : "264.grains~.maxpat",
@@ -267,7 +267,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "overview-ap" ],
+									"args" : [ "264-help-ap" ],
 									"id" : "obj-28",
 									"maxclass" : "bpatcher",
 									"name" : "264.audio-presets.maxpat",
@@ -280,7 +280,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "ap-demo-delay" ],
+									"args" : [ "264-help-ap-delay" ],
 									"id" : "obj-50",
 									"maxclass" : "bpatcher",
 									"name" : "264.delay~.maxpat",
@@ -545,12 +545,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-46::obj-22" : [ "ap-demo-grains-grains-rate-v-dial", "var.", 0 ],
-			"obj-3::obj-45::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-3::obj-46::obj-138" : [ "ap-demo-grains-grains-pitch-v-dial", "var.", 0 ],
 			"obj-3::obj-45::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-3::obj-46::obj-22" : [ "264-help-ap-grains-grains-rate-v-dial", "var.", 0 ],
+			"obj-3::obj-46::obj-95" : [ "264-help-ap-grains-grains-size-v-dial", "var.", 0 ],
 			"obj-3::obj-45::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-3::obj-46::obj-95" : [ "ap-demo-grains-grains-size-v-dial", "var.", 0 ]
+			"obj-3::obj-45::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-3::obj-46::obj-138" : [ "264-help-ap-grains-grains-pitch-v-dial", "var.", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -582,8 +582,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ap-demo-delay-264del~.json",
 				"bootpath" : "/Users/chris/Documents/Max 7/Packages/264-tools/help/audio-presets",
+				"name" : "264-help-ap-delay-264del~.json",
 				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
 				"implicit" : 1
@@ -610,6 +610,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "264.resize.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "264.preset-toggle.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/patchers",
 				"patcherrelativepath" : "../../../../Max/Packages/264-tools/patchers",
@@ -617,8 +624,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ap-demo-delay-264ptog.json",
 				"bootpath" : "/Users/chris/Documents/Max 7/Packages/264-tools/help/audio-presets",
+				"name" : "264-help-ap-delay-264ptog.json",
 				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
 				"implicit" : 1
@@ -673,15 +680,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ap-demo-grains-264grains~.json",
 				"bootpath" : "/Users/chris/Documents/Max 7/Packages/264-tools/help/audio-presets",
+				"name" : "264-help-ap-grains-264grains~.json",
 				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ap-demo-grains-264ptog.json",
 				"bootpath" : "/Users/chris/Documents/Max 7/Packages/264-tools/help/audio-presets",
+				"name" : "264-help-ap-grains-264ptog.json",
 				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
 				"implicit" : 1
@@ -701,15 +708,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ap-demo-transpose-264trans~.json",
 				"bootpath" : "/Users/chris/Documents/Max 7/Packages/264-tools/help/audio-presets",
+				"name" : "264-help-ap-transpose-264trans~.json",
 				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ap-demo-transpose-264ptog.json",
 				"bootpath" : "/Users/chris/Documents/Max 7/Packages/264-tools/help/audio-presets",
+				"name" : "264-help-ap-transpose-264ptog.json",
 				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
 				"implicit" : 1

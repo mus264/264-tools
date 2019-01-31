@@ -94,7 +94,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "overview-home-delays" ],
+									"args" : [ "264-help-home-delays" ],
 									"id" : "obj-3",
 									"maxclass" : "bpatcher",
 									"name" : "264.delay~.maxpat",
@@ -328,7 +328,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "overview-home-delays-264ptog.json",
+				"name" : "264-help-home-delays-264ptog.json",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools/extras/264 Tools/Weekly Intros/audio-presets",
 				"patcherrelativepath" : "../../../../Max/Packages/264-tools/extras/264 Tools/Weekly Intros/audio-presets",
 				"type" : "JSON",

@@ -273,7 +273,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "overview-ringmod" ],
+									"args" : [ "264-help-ringmod" ],
 									"id" : "obj-38",
 									"maxclass" : "bpatcher",
 									"name" : "264.ringmod~.maxpat",
@@ -783,7 +783,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "overview-ringmod-264ptog.json",
+				"name" : "264-help-ringmod-264ptog.json",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools-0.12.0/extras/264 Tools/Weekly Intros/audio-presets",
 				"patcherrelativepath" : "../../../../Max/Packages/264-tools-0.12.0/extras/264 Tools/Weekly Intros/audio-presets",
 				"type" : "JSON",

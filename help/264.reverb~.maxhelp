@@ -232,7 +232,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "overview-reverb-ex" ],
+									"args" : [ "264-help-reverb-ex" ],
 									"id" : "obj-18",
 									"maxclass" : "bpatcher",
 									"name" : "264.reverb~.maxpat",
@@ -429,7 +429,7 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-18::obj-6" : [ "overview-reverb-ex-rvrb-size-tab", "Plate Size", 0 ],
+			"obj-3::obj-18::obj-6" : [ "264-help-reverb-ex-rvrb-size-tab", "Plate Size", 0 ],
 			"obj-3::obj-15::obj-32" : [ "[8]", "[2]", 0 ],
 			"obj-3::obj-15::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-3::obj-15::obj-35" : [ "[5]", "Level", 0 ],
@@ -528,7 +528,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "overview-reverb-ex-264ptog.json",
+				"name" : "264-help-reverb-ex-264ptog.json",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools-0.12.0/extras/264 Tools/Weekly Intros/audio-presets",
 				"patcherrelativepath" : "../../../../Max/Packages/264-tools-0.12.0/extras/264 Tools/Weekly Intros/audio-presets",
 				"type" : "JSON",

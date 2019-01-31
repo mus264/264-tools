@@ -196,7 +196,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "overview-filter" ],
+									"args" : [ "264-help-filter" ],
 									"id" : "obj-7",
 									"maxclass" : "bpatcher",
 									"name" : "264.gate~.maxpat",
@@ -419,7 +419,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "overview-filter-264ptog.json",
+				"name" : "264-help-filter-264ptog.json",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools-0.12.0/extras/264 Tools/Weekly Intros/audio-presets",
 				"patcherrelativepath" : "../../../../Max/Packages/264-tools-0.12.0/extras/264 Tools/Weekly Intros/audio-presets",
 				"type" : "JSON",

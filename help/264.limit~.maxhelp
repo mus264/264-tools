@@ -217,7 +217,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "overview-limiter" ],
+									"args" : [ "264-help-limiter" ],
 									"id" : "obj-34",
 									"maxclass" : "bpatcher",
 									"name" : "264.limit~.maxpat",

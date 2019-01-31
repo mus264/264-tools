@@ -1,0 +1,159 @@
+{
+	"pattrstorage" : 	{
+		"name" : "264-help-ap-grains-264grains~",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"264-help-ap-grains-grains-bypass-toggle" : [ 1 ],
+					"264-help-ap-grains-grains-pitch-slider" : [ 31.75 ],
+					"264-help-ap-grains-grains-pitch-v-dial" : [ 0.0 ],
+					"264-help-ap-grains-grains-rate-slider" : [ 0.0 ],
+					"264-help-ap-grains-grains-rate-v-dial" : [ 0.0 ],
+					"264-help-ap-grains-grains-size-slider" : [ 0.0 ],
+					"264-help-ap-grains-grains-size-v-dial" : [ 0.0 ],
+					"264-help-ap-grains-grains-volume-slider" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"264-help-ap-grains-grains-bypass-toggle" : [ 1 ],
+					"264-help-ap-grains-grains-pitch-slider" : [ 31.75 ],
+					"264-help-ap-grains-grains-pitch-v-dial" : [ 0.0 ],
+					"264-help-ap-grains-grains-rate-slider" : [ 0.0 ],
+					"264-help-ap-grains-grains-rate-v-dial" : [ 0.0 ],
+					"264-help-ap-grains-grains-size-slider" : [ 0.0 ],
+					"264-help-ap-grains-grains-size-v-dial" : [ 0.0 ],
+					"264-help-ap-grains-grains-volume-slider" : [ 0.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"264-help-ap-grains-grains-bypass-toggle" : [ 0 ],
+					"264-help-ap-grains-grains-pitch-slider" : [ 31.75 ],
+					"264-help-ap-grains-grains-pitch-v-dial" : [ 0.0 ],
+					"264-help-ap-grains-grains-rate-slider" : [ 25.4 ],
+					"264-help-ap-grains-grains-rate-v-dial" : [ 0.0 ],
+					"264-help-ap-grains-grains-size-slider" : [ 46.789474 ],
+					"264-help-ap-grains-grains-size-v-dial" : [ 0.0 ],
+					"264-help-ap-grains-grains-volume-slider" : [ 127.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"264-help-ap-grains-grains-bypass-toggle" : [ 0 ],
+					"264-help-ap-grains-grains-pitch-slider" : [ 31.75 ],
+					"264-help-ap-grains-grains-pitch-v-dial" : [ 0.0 ],
+					"264-help-ap-grains-grains-rate-slider" : [ 25.4 ],
+					"264-help-ap-grains-grains-rate-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-size-slider" : [ 46.789474 ],
+					"264-help-ap-grains-grains-size-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-volume-slider" : [ 127.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"264-help-ap-grains-grains-bypass-toggle" : [ 0 ],
+					"264-help-ap-grains-grains-pitch-slider" : [ 31.75 ],
+					"264-help-ap-grains-grains-pitch-v-dial" : [ 1.0 ],
+					"264-help-ap-grains-grains-rate-slider" : [ 66.842102 ],
+					"264-help-ap-grains-grains-rate-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-size-slider" : [ 69.515793 ],
+					"264-help-ap-grains-grains-size-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-volume-slider" : [ 127.0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"264-help-ap-grains-grains-bypass-toggle" : [ 0 ],
+					"264-help-ap-grains-grains-pitch-slider" : [ 31.75 ],
+					"264-help-ap-grains-grains-pitch-v-dial" : [ 1.0 ],
+					"264-help-ap-grains-grains-rate-slider" : [ 66.842102 ],
+					"264-help-ap-grains-grains-rate-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-size-slider" : [ 69.515793 ],
+					"264-help-ap-grains-grains-size-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-volume-slider" : [ 127.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"264-help-ap-grains-grains-bypass-toggle" : [ 0 ],
+					"264-help-ap-grains-grains-pitch-slider" : [ 31.75 ],
+					"264-help-ap-grains-grains-pitch-v-dial" : [ 1.0 ],
+					"264-help-ap-grains-grains-rate-slider" : [ 66.842102 ],
+					"264-help-ap-grains-grains-rate-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-size-slider" : [ 69.515793 ],
+					"264-help-ap-grains-grains-size-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-volume-slider" : [ 127.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"264-help-ap-grains-grains-bypass-toggle" : [ 0 ],
+					"264-help-ap-grains-grains-pitch-slider" : [ 31.75 ],
+					"264-help-ap-grains-grains-pitch-v-dial" : [ 1.0 ],
+					"264-help-ap-grains-grains-rate-slider" : [ 0.0 ],
+					"264-help-ap-grains-grains-rate-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-size-slider" : [ 69.515793 ],
+					"264-help-ap-grains-grains-size-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-volume-slider" : [ 127.0 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"264-help-ap-grains-grains-bypass-toggle" : [ 0 ],
+					"264-help-ap-grains-grains-pitch-slider" : [ 32.084209 ],
+					"264-help-ap-grains-grains-pitch-v-dial" : [ 0.111111 ],
+					"264-help-ap-grains-grains-rate-slider" : [ 0.0 ],
+					"264-help-ap-grains-grains-rate-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-size-slider" : [ 93.578949 ],
+					"264-help-ap-grains-grains-size-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-volume-slider" : [ 127.0 ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"data" : 				{
+					"264-help-ap-grains-grains-bypass-toggle" : [ 0 ],
+					"264-help-ap-grains-grains-pitch-slider" : [ 127.0 ],
+					"264-help-ap-grains-grains-pitch-v-dial" : [ 0.111111 ],
+					"264-help-ap-grains-grains-rate-slider" : [ 0.0 ],
+					"264-help-ap-grains-grains-rate-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-size-slider" : [ 93.578949 ],
+					"264-help-ap-grains-grains-size-v-dial" : [ 0.666667 ],
+					"264-help-ap-grains-grains-volume-slider" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

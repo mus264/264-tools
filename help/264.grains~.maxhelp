@@ -237,7 +237,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "overview-grains" ],
+									"args" : [ "264-help-grains" ],
 									"id" : "obj-5",
 									"maxclass" : "bpatcher",
 									"name" : "264.grains~.maxpat",
@@ -427,12 +427,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-5::obj-138" : [ "overview-grains-grains-pitch-v-dial", "var.", 0 ],
+			"obj-3::obj-5::obj-138" : [ "264-help-grains-grains-pitch-v-dial", "var.", 0 ],
 			"obj-3::obj-1::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-3::obj-5::obj-22" : [ "overview-grains-grains-rate-v-dial", "var.", 0 ],
+			"obj-3::obj-5::obj-22" : [ "264-help-grains-grains-rate-v-dial", "var.", 0 ],
 			"obj-3::obj-1::obj-32" : [ "[8]", "[2]", 0 ],
 			"obj-3::obj-17" : [ "output-gain[5]", "output", 0 ],
-			"obj-3::obj-5::obj-95" : [ "overview-grains-grains-size-v-dial", "var.", 0 ],
+			"obj-3::obj-5::obj-95" : [ "264-help-grains-grains-size-v-dial", "var.", 0 ],
 			"obj-3::obj-1::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ]
 		}
 ,
@@ -486,7 +486,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "overview-grains-264ptog.json",
+				"name" : "264-help-grains-264ptog.json",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264-tools-0.12.0/extras/264 Tools/Weekly Intros/audio-presets",
 				"patcherrelativepath" : "../../../../Max/Packages/264-tools-0.12.0/extras/264 Tools/Weekly Intros/audio-presets",
 				"type" : "JSON",
