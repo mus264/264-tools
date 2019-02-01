@@ -4,6 +4,10 @@
 
 ## Released
 
+### v0.14.2
+
+* Hot fix for `264.sfplay~` when looping in reverse (2634806, fixes [#20](https://github.com/mus264/264-tools/issues/20))
+
 ### v0.14.1
 
 * Fix conflicting duplicated preset arguments and files (761da27)
