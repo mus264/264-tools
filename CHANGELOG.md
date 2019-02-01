@@ -4,6 +4,10 @@
 
 ## Released
 
+### v0.14.3
+
+* Fix for bug adding new files to `soundfiles` folder via `264.sfplay~` introduced in v0.14.2
+
 ### v0.14.2
 
 * Hot fix for `264.sfplay~` when looping in reverse (2634806, fixes [#20](https://github.com/mus264/264-tools/issues/20))
