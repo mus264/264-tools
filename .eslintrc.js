@@ -1,5 +1,8 @@
 module.exports = {
     extends: 'eslint:recommended',
+    parserOptions: {
+      ecmaVersion: 3
+    },
     globals: {
       autowatch: true,
       Dict: false,
@@ -13,6 +16,7 @@ module.exports = {
       mgraphics: false,
       outlet: false,
       outlets: true,
+      Task: false,
       setinletassist: false,
       setoutletassist: false,
       XMLHttpRequest: false
