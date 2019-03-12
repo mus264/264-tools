@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 558.0, 381.0 ],
+						"rect" : [ 100.0, 126.0, 558.0, 381.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -68,7 +68,140 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 190.0, 45.0, 92.0, 20.0 ],
+									"text" : "loadmess 1000"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-28",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 305.0, 333.0, 141.0, 20.0 ],
+									"presentation_rect" : [ 307.0, 322.0, 0.0, 0.0 ],
+									"text" : "bang when done playing"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-25",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 355.0, 252.0, 126.0, 20.0 ],
+									"presentation_rect" : [ 342.0, 253.0, 0.0, 0.0 ],
+									"text" : "delete the current line"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-23",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 300.0, 255.0, 46.0, 18.0 ],
+									"presentation_rect" : [ 290.0, 254.0, 0.0, 0.0 ],
+									"text" : "clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-21",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 356.0, 115.0, 133.0, 20.0 ],
+									"presentation_rect" : [ 331.0, 106.5, 0.0, 0.0 ],
+									"text" : "reverse the current line"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-18",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 295.0, 115.0, 51.0, 18.0 ],
+									"text" : "reverse"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-11",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 355.0, 190.0, 159.0, 20.0 ],
+									"presentation_rect" : [ 333.0, 182.5, 0.0, 0.0 ],
+									"text" : "generate a new random line"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"maxclass" : "number",
+									"maximum" : 128,
+									"minimum" : 1,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 300.0, 190.0, 46.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 300.0, 220.0, 68.0, 18.0 ],
+									"text" : "random $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
@@ -77,15 +210,13 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.0, 130.5, 193.0, 37.0 ],
-									"text" : "output the current line as a list from the right-hand outlet",
-									"textjustification" : 1
+									"patching_rect" : [ 356.0, 145.0, 201.0, 33.0 ],
+									"text" : "output the current line as a list from the right-hand outlet"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
@@ -93,9 +224,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 389.0, 83.5, 152.0, 24.0 ],
-									"text" : "make a Basquiat crown",
-									"textjustification" : 1
+									"patching_rect" : [ 404.0, 73.5, 135.0, 20.0 ],
+									"text" : "make a Basquiat crown"
 								}
 
 							}
@@ -106,7 +236,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 280.0, 320.0, 20.0, 20.0 ]
+									"patching_rect" : [ 280.0, 335.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -120,7 +250,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 80.0, 143.0, 31.0 ],
+									"patching_rect" : [ 256.0, 70.0, 143.0, 31.0 ],
 									"text" : "18 0 20 110 47 28 63 122 86 28 106 116 109 0"
 								}
 
@@ -134,7 +264,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 70.0, 320.0, 189.0, 18.0 ]
+									"patching_rect" : [ 70.0, 335.0, 189.0, 18.0 ]
 								}
 
 							}
@@ -148,7 +278,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 155.0, 280.0, 50.0, 20.0 ]
+									"patching_rect" : [ 155.0, 295.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -162,7 +292,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 70.0, 280.0, 50.0, 20.0 ]
+									"patching_rect" : [ 70.0, 295.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -175,7 +305,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 240.0, 280.0, 60.0, 20.0 ],
+									"patching_rect" : [ 240.0, 295.0, 60.0, 20.0 ],
 									"text" : "route line"
 								}
 
@@ -189,7 +319,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 280.0, 140.0, 46.0, 18.0 ],
+									"patching_rect" : [ 300.0, 150.0, 46.0, 18.0 ],
 									"text" : "getline"
 								}
 
@@ -221,7 +351,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 190.0, 105.0, 50.0, 20.0 ]
+									"patching_rect" : [ 190.0, 105.0, 60.0, 20.0 ]
 								}
 
 							}
@@ -414,6 +544,15 @@
 									"destination" : [ "obj-1", 3 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 3 ],
+									"disabled" : 0,
+									"hidden" : 0,
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -441,6 +580,16 @@
 									"destination" : [ "obj-1", 3 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 309.5, 275.0, 276.0, 275.0, 276.0, 171.0, 255.5, 171.0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 3 ],
+									"disabled" : 0,
+									"hidden" : 0,
 									"source" : [ "obj-27", 0 ]
 								}
 
@@ -456,10 +605,38 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 3 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 309.5, 241.0, 278.0, 241.0, 278.0, 171.0, 255.5, 171.0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -502,7 +679,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 100.0, 126.0, 558.0, 381.0 ],
+						"rect" : [ 0.0, 26.0, 558.0, 381.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1016,7 +1193,42 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "264.resize.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "264.ui-close.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-undo.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-redo.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-copy.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-paste.png",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
@@ -1027,13 +1239,6 @@
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "264.ui-play.png",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
 				"implicit" : 1
 			}
  ]
