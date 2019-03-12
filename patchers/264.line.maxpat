@@ -102,11 +102,11 @@
 									"fontsize" : 12.0,
 									"id" : "obj-1",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 105.0, 75.0, 151.0, 20.0 ],
-									"text" : "routepass random reverse"
+									"numinlets" : 4,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 105.0, 75.0, 180.0, 20.0 ],
+									"text" : "routepass random clear reverse"
 								}
 
 							}
@@ -147,7 +147,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 195.0, 105.0, 78.0, 20.0 ],
+									"patching_rect" : [ 255.0, 105.0, 78.0, 20.0 ],
 									"text" : "s #0-newline"
 								}
 
@@ -182,6 +182,15 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 2 ]
@@ -2298,7 +2307,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "set line (list sets the line points, “getline” outputs current line data, “random <int>” generates new line, “reverse” reverses line)",
+					"comment" : "set line (list sets the line points, “getline” outputs current line data, “clear” deletes line, “random <int>” generates new line, “reverse” reverses line)",
 					"id" : "obj-271",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -2351,12 +2360,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-267",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 465.0, 30.0, 225.0, 60.0 ],
-					"text" : "set line\n(list sets line, “getline” outputs line,\n“random <int>” generates line, “reverse” flips line along X-axis)",
+					"patching_rect" : [ 465.0, 30.0, 375.0, 47.0 ],
+					"text" : "set line\n(list sets line, “getline” outputs line, “clear” deletes line, “random <int>” generates line, “reverse” flips line along X-axis)",
 					"textcolor" : [ 0.2, 0.286275, 0.298039, 1.0 ]
 				}
 
@@ -3802,6 +3811,20 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 225.0, 75.0, 24.0, 20.0 ],
+									"text" : "t b"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-78",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -4140,11 +4163,11 @@
 									"fontsize" : 12.0,
 									"id" : "obj-23",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 180.0, 45.0, 125.0, 20.0 ],
-									"text" : "route random reverse"
+									"numinlets" : 4,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 180.0, 45.0, 155.0, 20.0 ],
+									"text" : "route random clear reverse"
 								}
 
 							}
@@ -7209,6 +7232,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-23", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-35", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -7221,7 +7253,7 @@
 									"destination" : [ "obj-78", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-23", 1 ]
+									"source" : [ "obj-23", 2 ]
 								}
 
 							}
@@ -7249,6 +7281,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-26", 0 ]
 								}
 
 							}
@@ -8348,7 +8389,7 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
-					"hint" : "set line (list sets the line points, “getline” outputs current line data)",
+					"hint" : "set line (list sets the line points, “getline” outputs current line data, “clear” deletes line, “random <int>” generates new line, “reverse” reverses line)",
 					"id" : "obj-266",
 					"maxclass" : "panel",
 					"numinlets" : 1,
