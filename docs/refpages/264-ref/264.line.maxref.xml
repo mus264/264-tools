@@ -56,7 +56,8 @@
       <description>
         <m>list</m> sets the line to play back. The list should be made up of pairs of X and Y values, e.g. <m>0 0 20 80 127 50</m>;
         <m>getline</m> outputs the current line out of the right-hand outlet;
-        <m>random 1–128</m> generates a new line consisting of random points, e.g. <m>random 10</m> generates a line containing 10 random points.
+        <m>random 1–128</m> generates a new line consisting of random points, e.g. <m>random 10</m> generates a line containing 10 random points;
+        <m>reverse</m> flips the current line along the X-axis.
       </description>
     </inlet>
   </inletlist>
