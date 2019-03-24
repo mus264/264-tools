@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="264.line" module="264 Tools" kind="patcher">
+
+  <digest>
+    Draw and play back two-dimensional lines
+  </digest>
+
+  <description>
+    Graphically edit a two-dimensional line and play it back with varying
+    durations.
+  </description>
+
+  <!--METADATA-->
+  <metadatalist>
+    <metadata name="author">Chris Swithinbank</metadata>
+    <metadata name="tag">264 Tools</metadata>
+    <metadata name="tag">264 Tools abstractions</metadata>
+  </metadatalist>
+
+  <!--INLETS-->
+  <inletlist>
+    <inlet id="0" type="message">
+      <digest>
+        Playback control messages
+      </digest>
+      <description>
+        <m>0</m> stops playback;
+        <m>1</m> starts playback;
+        <m>bang</m> reverses current state (i.e. if playing, stops it; if stopped, starts playing);
+        <m>loop 1/0</m> turns playback looping on/off.
+      </description>
+    </inlet>
+    <inlet id="1" type="message">
+      <digest>
+        Scrub position
+      </digest>
+      <description>
+        <m>0–127</m> outputs the line’s Y-value for the positions you input.
+      </description>
+    </inlet>
+    <inlet id="2" type="message">
+      <digest>
+        Line duration
+      </digest>
+      <description>
+        <m>40.–240000.</m> sets line duration in milliseconds;
+        <m>0–127</m> is mapped exponentially to 40.–240000.
+      </description>
+    </inlet>
+    <inlet id="3" type="int/float">
+      <digest>
+        Line messages
+      </digest>
+      <description>
+        <m>list</m> sets the line to play back. The list should be made up of pairs of X and Y values, e.g. <m>0 0 20 80 127 50</m>;
+        <m>getline</m> outputs the current line out of the right-hand outlet;
+        <m>clear</m> deletes the current line;
+        <m>random 1–128</m> generates a new line consisting of random points, e.g. <m>random 10</m> generates a line containing 10 random points;
+        <m>reverse</m> flips the current line along the X-axis.
+      </description>
+    </inlet>
+  </inletlist>
+
+  <!--OUTLETS-->
+  <outletlist>
+    <outlet id="0" type="message">
+      <digest>
+        Line output (int)
+      </digest>
+      <description>
+        <m>0–127</m> integer output
+      </description>
+    </outlet>
+    <outlet id="1" type="message">
+      <digest>
+        Line output (float)
+      </digest>
+      <description>
+        <m>0.–1.</m> float output
+      </description>
+    </outlet>
+    <outlet id="2" type="message">
+      <digest>
+        Line data
+      </digest>
+      <description>
+        <m>bang</m> when the playback mechanism completes one loop;
+        <m>line list</m> representing the current line when you send a <m>getline</m> message.
+      </description>
+    </outlet>
+  </outletlist>
+
+  <!--ARGUMENTS-->
+  <objarglist>
+    <objarg name="unique id" optional="0" type="symbol">
+      <digest>
+        Unique identifier
+      </digest>
+      <description>
+        A unique name allows the module to communicate with the 264 Tools preset mechanisms.
+      </description>
+    </objarg>
+  </objarglist>
+
+  <!--MESSAGES-->
+  <methodlist>
+    <method name="bang">
+      <arglist/>
+      <digest>
+        In leftmost inlet: Toggles playback.
+      </digest>
+      <description>
+        In leftmost inlet: Toggles playback.
+      </description>
+    </method>
+    <method name="int">
+      <arglist>
+        <arg name="input" optional="0" type="int"></arg>
+      </arglist>
+      <digest>
+        In leftmost inlet: Non-zero starts playback, zero stops playback.
+      </digest>
+      <description>
+        In leftmost inlet: Non-zero starts playback, zero stops playback.
+      </description>
+    </method>
+    <method name="int2">
+      <arglist>
+        <arg name="input" optional="0" type="int"></arg>
+      </arglist>
+      <digest>
+        In second inlet: Trigger output of Y value for scrub position (0–127)
+      </digest>
+      <description>
+        In second inlet: Trigger output of Y value for scrub position (0–127)
+      </description>
+    </method>
+    <method name="int3">
+      <arglist>
+        <arg name="input" optional="0" type="int"></arg>
+      </arglist>
+      <digest>
+        In third inlet: Set playback duration in MIDI range (0–127)
+      </digest>
+      <description>
+        In third inlet: Set playback duration in MIDI range (0–127)
+      </description>
+    </method>
+    <method name="float3">
+      <arglist>
+        <arg name="input" optional="0" type="float"></arg>
+      </arglist>
+      <digest>
+        In third inlet: Set playback duration in milliseconds (40.–240000.)
+      </digest>
+      <description>
+        In third inlet: Set playback duration in milliseconds (40.–240000.)
+      </description>
+    </method>
+    <method name="loop">
+      <arglist>
+        <arg name="loop-enable" optional="0" type="int"></arg>
+      </arglist>
+      <digest>
+        In first inlet: Enable/disable playback looping
+      </digest>
+      <description>
+        In first inlet: Enable/disable playback looping
+      </description>
+    </method>
+    <method name="list4">
+      <arglist>
+        <arg name="input" optional="0" type="list"></arg>
+      </arglist>
+      <digest>
+        In fourth inlet: Set the line with a list of points. The list should be in the form <m>X0 Y0 X1 Y1 … Xn Yn</m>, e.g. <m>0 60 100 20 127 0</m>.
+      </digest>
+      <description>
+        In fourth inlet: Set the line with a list of points. The list should be in the form <m>X0 Y0 X1 Y1 … Xn Yn</m>, e.g. <m>0 60 100 20 127 0</m>.
+      </description>
+    </method>
+    <method name="getline">
+      <arglist/>
+      <digest>
+        In fourth inlet: Outputs the current line from the third outlet
+      </digest>
+      <description>
+        In fourth inlet: Outputs the current line from the third outlet
+      </description>
+    </method>
+    <method name="clear">
+      <arglist/>
+      <digest>
+        In fourth inlet: Clears the current line, deleting all points
+      </digest>
+      <description>
+        In fourth inlet: Clears the current line, deleting all points
+      </description>
+    </method>
+    <method name="random">
+      <arglist>
+        <arg name="number-of-points" optional="0" type="int"></arg>
+      </arglist>
+      <digest>
+        In fourth inlet: Generate a random line with n points (0–127)
+      </digest>
+      <description>
+        In fourth inlet: Generate a random line with n points (0–127)
+      </description>
+    </method>
+    <method name="reverse">
+      <arglist/>
+      <digest>
+        In fourth inlet: Reverses the current line
+      </digest>
+      <description>
+        In fourth inlet: Reverses the current line
+      </description>
+    </method>
+  </methodlist>
+
+  <!--ATTRIBUTES-->
+  <attributelist>
+    <attribute name="loop" get="1" set="1" type="int" size="1">
+      <digest>
+        Enable Looping
+      </digest>
+      <description>
+        Enable playback looping. When loop mode is enabled <o>264.line</o> will continue playback from the beginning when the end of the line is reached.
+      </description>
+      <attributelist>
+        <attribute name="category" get="1" set="1" type="atom" size="1" value="Parameter" />
+        <attribute name="label" get="1" set="1" type="symbol" size="1" value="Enable Looping" />
+        <attribute name="order" get="1" set="1" type="int" size="1" value="1" />
+        <attribute name="save" get="1" set="1" type="int" size="1" value="1" />
+        <attribute name="style" get="1" set="1" type="symbol" size="1" value="onoff" />
+      </attributelist>
+    </attribute>
+  </attributelist>
+
+  <!--EXAMPLE-->
+
+  <!--DISCUSSION-->
+  <discussion>
+    Used in a <o>bpatcher</o>, <o>264.line</o> provides a graphical interface
+    to edit a <o>function</o> and play it back, controlling its duration.
+    Connect to your MIDI controller by clicking on the <o>264.midi-learn</o>
+    arrows.
+  </discussion>
+
+  <!--SEEALSO-->
+  <seealsolist>
+    <seealso name="264.envelope~" />
+    <seealso name="264.pitchtrack~" />
+    <seealso name="264.trigger~" />
+    <seealso name="line" />
+    <seealso name="line~" />
+    <seealso name="function" />
+  </seealsolist>
+
+</c74object>

@@ -87,6 +87,16 @@
     - #1-264kl-ascii
     - #1-264kl-enabled
     - #1-264kl-toggle
+264.line:
+  short-name: line
+  midi-presets:
+    - #1-line-scrub
+    - #1-line-duration
+    - #1-line-play
+  audio-presets:
+    - #1-line-duration-numbox
+    - #1-line-loop-toggle
+    - #1-line-function-editor
 264.loop~:
   short-name: loop
   midi-presets:

@@ -73,6 +73,7 @@ The toolkit currently includes the following modules, which should be loaded in 
 
 * `264.key-learn` — a utility permitting quick linking of keyboard shortcuts
 * `264.midi-learn` — a utility permitting quick linking of inputs with a MIDI controller
+* `264.line` — a breakpoint function module for line playback
 * `264.tog` — a MIDI-ready toggle switch
 * `264.go!` — a MIDI-ready button
 * `264.midi-presets` — manage mapping presets for your `264.key-learn` and `264.midi-learn` objects
@@ -99,6 +100,8 @@ The `264.reverb~` core is heavily based on [Randy Jones](http://madronalabs.com/
 `264.freeze~` is adapted from [Jean-François Charles](http://www.jeanfrancoischarles.com)’s spectral freezing patches.
 
 `264.loop~` is built around [Rodrigo Constanzo](http://www.rodrigoconstanzo.com/karma) & raja’s amazing [`karma~`](https://github.com/rconstanzo/karma), which is Copyright © 2015, Rodrigo Constanzo All rights reserved. Please see the module for detailed redistribution information.
+
+`264.line` relies on an adapted version of [`simplify-js`](https://github.com/mourner/simplify-js/), which is Copyright © 2017, Vladimir Agafonkin All rights reserved and distributed under a BSD 2-Clause license.
 
 ## License
 

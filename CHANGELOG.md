@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* :new: Add `264.line` breakpoint function module ([#17](https://github.com/mus264/264-tools/pull/17), closes [#6](https://github.com/mus264/264-tools/issues/6))
+
 ## Released
 
 ### v0.14.3

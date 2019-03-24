@@ -4,6 +4,7 @@ module.exports = {
       ecmaVersion: 3
     },
     globals: {
+      arrayfromargs: false,
       autowatch: true,
       Dict: false,
       error: false,
@@ -13,6 +14,7 @@ module.exports = {
       post: false,
       postprops: false,
       max: false,
+      messagename: false,
       mgraphics: false,
       outlet: false,
       outlets: true,
