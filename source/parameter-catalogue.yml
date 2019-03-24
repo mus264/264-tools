@@ -96,7 +96,6 @@
   audio-presets:
     - #1-line-duration-numbox
     - #1-line-loop-toggle
-    - #1-line-function-display
     - #1-line-function-editor
 264.loop~:
   short-name: loop
