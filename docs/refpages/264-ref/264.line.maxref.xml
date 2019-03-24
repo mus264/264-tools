@@ -105,6 +105,121 @@
   </objarglist>
 
   <!--MESSAGES-->
+  <methodlist>
+    <method name="bang">
+      <arglist/>
+      <digest>
+        In leftmost inlet: Toggles playback.
+      </digest>
+      <description>
+        In leftmost inlet: Toggles playback.
+      </description>
+    </method>
+    <method name="int">
+      <arglist>
+        <arg name="input" optional="0" type="int"></arg>
+      </arglist>
+      <digest>
+        In leftmost inlet: Non-zero starts playback, zero stops playback.
+      </digest>
+      <description>
+        In leftmost inlet: Non-zero starts playback, zero stops playback.
+      </description>
+    </method>
+    <method name="int2">
+      <arglist>
+        <arg name="input" optional="0" type="int"></arg>
+      </arglist>
+      <digest>
+        In second inlet: Trigger output of Y value for scrub position (0–127)
+      </digest>
+      <description>
+        In second inlet: Trigger output of Y value for scrub position (0–127)
+      </description>
+    </method>
+    <method name="int3">
+      <arglist>
+        <arg name="input" optional="0" type="int"></arg>
+      </arglist>
+      <digest>
+        In third inlet: Set playback duration in MIDI range (0–127)
+      </digest>
+      <description>
+        In third inlet: Set playback duration in MIDI range (0–127)
+      </description>
+    </method>
+    <method name="float3">
+      <arglist>
+        <arg name="input" optional="0" type="float"></arg>
+      </arglist>
+      <digest>
+        In third inlet: Set playback duration in milliseconds (40.–240000.)
+      </digest>
+      <description>
+        In third inlet: Set playback duration in milliseconds (40.–240000.)
+      </description>
+    </method>
+    <method name="loop">
+      <arglist>
+        <arg name="loop-enable" optional="0" type="int"></arg>
+      </arglist>
+      <digest>
+        In first inlet: Enable/disable playback looping
+      </digest>
+      <description>
+        In first inlet: Enable/disable playback looping
+      </description>
+    </method>
+    <method name="list4">
+      <arglist>
+        <arg name="input" optional="0" type="list"></arg>
+      </arglist>
+      <digest>
+        In fourth inlet: Set the line with a list of points. The list should be in the form <m>X0 Y0 X1 Y1 … Xn Yn</m>, e.g. <m>0 60 100 20 127 0</m>.
+      </digest>
+      <description>
+        In fourth inlet: Set the line with a list of points. The list should be in the form <m>X0 Y0 X1 Y1 … Xn Yn</m>, e.g. <m>0 60 100 20 127 0</m>.
+      </description>
+    </method>
+    <method name="getline">
+      <arglist/>
+      <digest>
+        In fourth inlet: Outputs the current line from the third outlet
+      </digest>
+      <description>
+        In fourth inlet: Outputs the current line from the third outlet
+      </description>
+    </method>
+    <method name="clear">
+      <arglist/>
+      <digest>
+        In fourth inlet: Clears the current line, deleting all points
+      </digest>
+      <description>
+        In fourth inlet: Clears the current line, deleting all points
+      </description>
+    </method>
+    <method name="random">
+      <arglist>
+        <arg name="number-of-points" optional="0" type="int"></arg>
+      </arglist>
+      <digest>
+        In fourth inlet: Generate a random line with n points (0–127)
+      </digest>
+      <description>
+        In fourth inlet: Generate a random line with n points (0–127)
+      </description>
+    </method>
+    <method name="reverse">
+      <arglist/>
+      <digest>
+        In fourth inlet: Reverses the current line
+      </digest>
+      <description>
+        In fourth inlet: Reverses the current line
+      </description>
+    </method>
+  </methodlist>
 
   <!--ATTRIBUTES-->
   <attributelist>
