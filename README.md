@@ -99,6 +99,8 @@ The `264.reverb~` core is heavily based on [Randy Jones](http://madronalabs.com/
 
 `264.loop~` is built around [Rodrigo Constanzo](http://www.rodrigoconstanzo.com/karma) & raja’s amazing [`karma~`](https://github.com/rconstanzo/karma), which is Copyright © 2015, Rodrigo Constanzo All rights reserved. Please see the module for detailed redistribution information.
 
+`264.line` relies on an adapted version of [`simplify-js`](https://github.com/mourner/simplify-js/), which is Copyright © 2017, Vladimir Agafonkin All rights reserved and distributed under a BSD 2-Clause license.
+
 ## License
 
 This software is free to use, modify, and redistribute under a [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.txt).
