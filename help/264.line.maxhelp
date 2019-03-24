@@ -33,7 +33,7 @@
 				"box" : 				{
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 12.0,
-					"id" : "obj-1",
+					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
@@ -47,6 +47,287 @@
 						}
 ,
 						"rect" : [ 100.0, 126.0, 558.0, 381.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 5.0, 5.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"showontab" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "264-line-help-presets-ex" ],
+									"id" : "obj-1",
+									"maxclass" : "bpatcher",
+									"name" : "264.line.maxpat",
+									"numinlets" : 4,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "bang" ],
+									"patching_rect" : [ 15.0, 75.0, 195.0, 90.0 ],
+									"varname" : "264.line"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"hidden" : 1,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 59.0, 161.0, 52.0, 18.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-16",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 225.0, 310.0, 315.0, 60.0 ],
+									"text" : "The preset mechanism will interpolate between preset 2’s four points and the first four points of preset 3, but doesn’t know what to do with the rest of preset 3’s points so just adds them at the very end of the interpolation."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-13",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 446.0, 270.0, 19.0, 18.0 ],
+									"text" : "3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-14",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 296.0, 270.0, 19.0, 18.0 ],
+									"text" : "2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"floatoutput" : 1,
+									"id" : "obj-15",
+									"maxclass" : "slider",
+									"min" : 2.0,
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 310.0, 270.0, 135.0, 18.0 ],
+									"relative" : 1,
+									"size" : 1.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-12",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 225.0, 190.0, 315.0, 74.0 ],
+									"text" : "You need to be careful however, because if the two lines don’t have the same number of points you might get some surprising results.\n\nLet’s try moving from preset 2 to preset 3:"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-11",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 225.0, 70.0, 315.0, 74.0 ],
+									"text" : "You can use 264.line with the 264.audio-presets system to save different line settings.\n\nYou can even interpolate between different lines. Try moving between presets 1 and 2:"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-9",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 446.0, 150.0, 19.0, 18.0 ],
+									"text" : "2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-8",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 296.0, 150.0, 19.0, 18.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"floatoutput" : 1,
+									"id" : "obj-3",
+									"maxclass" : "slider",
+									"min" : 1.0,
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 310.0, 150.0, 135.0, 18.0 ],
+									"relative" : 1,
+									"size" : 1.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "bpatcher",
+									"name" : "264.audio-presets.maxpat",
+									"numinlets" : 5,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 180.0, 195.0, 195.0 ],
+									"varname" : "264.audio-presets"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpname.js",
+									"id" : "obj-5",
+									"ignoreclick" : 1,
+									"jsarguments" : [ "264.line" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 10.0, 10.0, 173.140625, 53.625 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 4 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 4 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 1 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 165.0, 90.0, 61.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p presets",
+					"varname" : "presets"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 10,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 0.0, 26.0, 558.0, 381.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -91,7 +372,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 305.0, 333.0, 141.0, 20.0 ],
-									"presentation_rect" : [ 307.0, 322.0, 0.0, 0.0 ],
 									"text" : "bang when done playing"
 								}
 
@@ -106,7 +386,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 355.0, 252.0, 126.0, 20.0 ],
-									"presentation_rect" : [ 342.0, 253.0, 0.0, 0.0 ],
 									"text" : "delete the current line"
 								}
 
@@ -121,7 +400,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 300.0, 255.0, 46.0, 18.0 ],
-									"presentation_rect" : [ 290.0, 254.0, 0.0, 0.0 ],
 									"text" : "clear"
 								}
 
@@ -136,7 +414,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 356.0, 115.0, 133.0, 20.0 ],
-									"presentation_rect" : [ 331.0, 106.5, 0.0, 0.0 ],
 									"text" : "reverse the current line"
 								}
 
@@ -165,7 +442,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 355.0, 190.0, 159.0, 20.0 ],
-									"presentation_rect" : [ 333.0, 182.5, 0.0, 0.0 ],
 									"text" : "generate a new random line"
 								}
 
@@ -1110,7 +1386,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 165.0, 90.0, 50.0, 20.0 ],
+					"patching_rect" : [ 240.0, 90.0, 50.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
@@ -1133,6 +1409,7 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-3::obj-1::obj-35" : [ "264-line-help-ex-line-duration-numbox", "live.numbox", 0 ],
+			"obj-2::obj-1::obj-35" : [ "264-line-help-presets-ex-line-duration-numbox", "live.numbox", 0 ],
 			"obj-1::obj-1::obj-35" : [ "264-line-help-messages-ex-line-duration-numbox", "live.numbox", 0 ]
 		}
 ,
@@ -1158,7 +1435,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "264.ui-stop.png",
+				"name" : "264.ui-play.png",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
@@ -1235,9 +1512,107 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "264.lockstatus.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.parent-lock-status.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-locked.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-move.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-pencil.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-mouse-pointer.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.simplify-line.js",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.ui-pencil-cursor.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "264.preset-toggle.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
 				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264-line-help-ex-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/help/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264-line-help-messages-ex-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/help/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.audio-presets.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264-line-help-presets-ex-264line-editor.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/help/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264-line-help-presets-ex-264line.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/help/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264-line-help-presets-ex-264ptog.json",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/264 Tools/help/audio-presets",
+				"patcherrelativepath" : "./audio-presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
