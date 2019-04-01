@@ -1,0 +1,121 @@
+{
+	"pattrstorage" : 	{
+		"name" : "help-sfplay-presets-ex-264sfp",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"help-sfplay-presets-ex-sfp-filename" : [ "264-rainstick.aif" ],
+					"help-sfplay-presets-ex-sfp-loop-toggle" : [ 1 ],
+					"help-sfplay-presets-ex-sfp-speed-slider" : [ 1.0 ],
+					"help-sfplay-presets-ex-sfp-stop-trigger-toggle" : [ 0 ],
+					"help-sfplay-presets-ex-sfp-volume-slider" : [ 127.0 ],
+					"help-sfplay-presets-ex-sfp-position-slider" : [ 0.0 ],
+					"help-sfplay-presets-ex-sfp-play-trigger-toggle" : [ 0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"help-sfplay-presets-ex-sfp-filename" : [ "264-rainstick.aif" ],
+					"help-sfplay-presets-ex-sfp-loop-toggle" : [ 0 ],
+					"help-sfplay-presets-ex-sfp-speed-slider" : [ 1.0 ],
+					"help-sfplay-presets-ex-sfp-stop-trigger-toggle" : [ 0 ],
+					"help-sfplay-presets-ex-sfp-volume-slider" : [ 127.0 ],
+					"help-sfplay-presets-ex-sfp-position-slider" : [ 0.0 ],
+					"help-sfplay-presets-ex-sfp-play-trigger-toggle" : [ 1 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"help-sfplay-presets-ex-sfp-filename" : [ "264-rainstick.aif" ],
+					"help-sfplay-presets-ex-sfp-loop-toggle" : [ 0 ],
+					"help-sfplay-presets-ex-sfp-speed-slider" : [ 0.4 ],
+					"help-sfplay-presets-ex-sfp-stop-trigger-toggle" : [ 0 ],
+					"help-sfplay-presets-ex-sfp-volume-slider" : [ 95.25 ],
+					"help-sfplay-presets-ex-sfp-position-slider" : [ 0.0 ],
+					"help-sfplay-presets-ex-sfp-play-trigger-toggle" : [ 1 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"help-sfplay-presets-ex-sfp-filename" : [ "264-rainstick.aif" ],
+					"help-sfplay-presets-ex-sfp-loop-toggle" : [ 1 ],
+					"help-sfplay-presets-ex-sfp-speed-slider" : [ -4.0 ],
+					"help-sfplay-presets-ex-sfp-stop-trigger-toggle" : [ 0 ],
+					"help-sfplay-presets-ex-sfp-volume-slider" : [ 82.550003 ],
+					"help-sfplay-presets-ex-sfp-position-slider" : [ 0.0 ],
+					"help-sfplay-presets-ex-sfp-play-trigger-toggle" : [ 1 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"help-sfplay-presets-ex-sfp-filename" : [ "264-rainstick.aif" ],
+					"help-sfplay-presets-ex-sfp-loop-toggle" : [ 1 ],
+					"help-sfplay-presets-ex-sfp-speed-slider" : [ -4.0 ],
+					"help-sfplay-presets-ex-sfp-stop-trigger-toggle" : [ 1 ],
+					"help-sfplay-presets-ex-sfp-volume-slider" : [ 82.550003 ],
+					"help-sfplay-presets-ex-sfp-position-slider" : [ 0.0 ],
+					"help-sfplay-presets-ex-sfp-play-trigger-toggle" : [ 0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"help-sfplay-presets-ex-sfp-filename" : [ "264-rainstick.aif" ],
+					"help-sfplay-presets-ex-sfp-loop-toggle" : [ 0 ],
+					"help-sfplay-presets-ex-sfp-speed-slider" : [ -0.114286 ],
+					"help-sfplay-presets-ex-sfp-stop-trigger-toggle" : [ 0 ],
+					"help-sfplay-presets-ex-sfp-volume-slider" : [ 127.0 ],
+					"help-sfplay-presets-ex-sfp-position-slider" : [ 55.480225 ],
+					"help-sfplay-presets-ex-sfp-play-trigger-toggle" : [ 1 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"help-sfplay-presets-ex-sfp-filename" : [ "264-rainstick.aif" ],
+					"help-sfplay-presets-ex-sfp-loop-toggle" : [ 0 ],
+					"help-sfplay-presets-ex-sfp-speed-slider" : [ 0.114286 ],
+					"help-sfplay-presets-ex-sfp-stop-trigger-toggle" : [ 0 ],
+					"help-sfplay-presets-ex-sfp-volume-slider" : [ 127.0 ],
+					"help-sfplay-presets-ex-sfp-position-slider" : [ 0.0 ],
+					"help-sfplay-presets-ex-sfp-play-trigger-toggle" : [ 1 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"help-sfplay-presets-ex-sfp-filename" : [ "264-rainstick.aif" ],
+					"help-sfplay-presets-ex-sfp-loop-toggle" : [ 1 ],
+					"help-sfplay-presets-ex-sfp-speed-slider" : [ 2.0 ],
+					"help-sfplay-presets-ex-sfp-stop-trigger-toggle" : [ 0 ],
+					"help-sfplay-presets-ex-sfp-volume-slider" : [ 49.892857 ],
+					"help-sfplay-presets-ex-sfp-position-slider" : [ 0.0 ],
+					"help-sfplay-presets-ex-sfp-play-trigger-toggle" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
