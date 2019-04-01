@@ -172,11 +172,15 @@
   midi-presets:
     - #1-sfp-volume
     - #1-sfp-speed
+    - #1-sfp-position
   audio-presets:
     - #1-sfp-volume-slider
     - #1-sfp-speed-slider
     - #1-sfp-loop-toggle
     - #1-sfp-filename
+    - #1-sfp-position-slider
+    - #1-sfp-play-trigger-toggle
+    - #1-sfp-stop-trigger-toggle
 264.sfrecord~:
   short-name: sfr
   midi-presets:
