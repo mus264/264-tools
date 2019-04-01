@@ -58,6 +58,12 @@ function postPackageDetails(lPinfo) {
 function checkForUpdates(mpu) {
   // update button state to ‘Checking for updates…’
   mpu.button.instances.current = mpu.button.instances.checkingForUpdates;
+  // disable for Max 6 and below
+  if (getMaxMajorVersion() < 7) {
+    mpu.button.instances.current = mpu.button.instances.incompatibleMax;
+    mgraphics.redraw();
+    return;
+  }
   // request remote package information
   requestRemotePackage(mpu, function () {
     // try to convert server response into package info object
@@ -91,7 +97,14 @@ function checkForUpdates(mpu) {
 */
 function downloadUpdate(mpu) {
   post("Opening latest update in web browser...\n");
-  max.launchbrowser(mpu.remotePackageInfo.releaseURL);
+  var releaseURL;
+  if (mpu.remotePackageInfo && mpu.remotePackageInfo.releaseURL) {
+    releaseURL = mpu.remotePackageInfo.releaseURL
+  }
+  if (!releaseURL) {
+    releaseURL = getLatestReleaseURL(mpu.localPackageInfo)
+  }
+  max.launchbrowser(releaseURL);
 }
 
 /**
@@ -298,6 +311,12 @@ function Button(rect, mpu, currentInstance) {
     "Update installation failed…",
     mpu.colors.reverse,
     mpu.colors.danger
+  );
+  this.instances.incompatibleMax = new buttonInstance(
+    "Check failed… Click to check manually",
+    mpu.colors.reverse,
+    mpu.colors.danger,
+    downloadUpdate
   );
   if (currentInstance && this.instances[currentInstance]) {
     this.instances.current = this.instances[currentInstance];
@@ -847,4 +866,13 @@ function SemVer(version) {
   this.minor = +v[2];
   this.patch = +v[3];
   this.version = this.major + '.' + this.minor + '.' + this.patch;
+}
+
+/**
+ * Get the major version of the Max that is running
+ * @return {Number} The major version, e.g. `6` or `7`
+ */
+function getMaxMajorVersion () {
+  var v = max.version;
+  return v.length ? parseInt(v[0]) : null
 }
