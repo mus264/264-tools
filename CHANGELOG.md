@@ -4,6 +4,11 @@
 
 ## Released
 
+### v0.16.0
+
+*  Add playback position control and presets to `264.sfplay~` ([#21](https://github.com/mus264/264-tools/pull/21))
+* Improve update checker experience for Max 6 (bcbd0e5)
+
 ### v0.15.0
 
 * :new: Add `264.line` breakpoint function module ([#17](https://github.com/mus264/264-tools/pull/17), closes [#6](https://github.com/mus264/264-tools/issues/6))
