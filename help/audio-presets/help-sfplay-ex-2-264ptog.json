@@ -1,0 +1,73 @@
+{
+	"pattrstorage" : 	{
+		"name" : "help-sfplay-ex-2-264ptog",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"help-sfplay-ex-2-ptog-toggle" : [ 0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"help-sfplay-ex-2-ptog-toggle" : [ 0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"help-sfplay-ex-2-ptog-toggle" : [ 0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"help-sfplay-ex-2-ptog-toggle" : [ 0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"help-sfplay-ex-2-ptog-toggle" : [ 0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"help-sfplay-ex-2-ptog-toggle" : [ 0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"help-sfplay-ex-2-ptog-toggle" : [ 0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"help-sfplay-ex-2-ptog-toggle" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

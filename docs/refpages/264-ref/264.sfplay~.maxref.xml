@@ -103,6 +103,125 @@
 	</objarglist> -->
 
 	<!--MESSAGES-->
+	<methodlist>
+		<method name="bang">
+			<arglist/>
+			<digest>
+				In first inlet: Toggles playback.
+			</digest>
+			<description>
+				In first inlet: Toggles playback.
+			</description>
+		</method>
+		<method name="int">
+			<arglist>
+				<arg name="input" optional="0" type="int"></arg>
+			</arglist>
+			<digest>
+				In first inlet: Non-zero starts playback, zero stops playback.
+			</digest>
+			<description>
+				In first inlet: Non-zero starts playback, zero stops playback.
+			</description>
+		</method>
+		<method name="loop">
+			<arglist>
+				<arg name="loop-enable" optional="0" type="int"></arg>
+			</arglist>
+			<digest>
+				In first inlet: Enable/disable playback looping
+			</digest>
+			<description>
+				In first inlet: Enable/disable playback looping
+			</description>
+		</method>
+		<method name="position">
+			<arglist>
+				<arg name="position" optional="0" type="int"></arg>
+			</arglist>
+			<digest>
+				In first inlet: Set playback position in file (0–127 or float for position in milliseconds)
+			</digest>
+			<description>
+				In first inlet: Set playback position in file (0–127 or float for position in milliseconds)
+			</description>
+		</method>
+		<method name="bang2">
+			<arglist/>
+			<digest>
+				In second inlet: Toggles pause state.
+			</digest>
+			<description>
+				In second inlet: Toggles pause state.
+			</description>
+		</method>
+		<method name="int2">
+			<arglist>
+				<arg name="input" optional="0" type="int"></arg>
+			</arglist>
+			<digest>
+				In second inlet: Non-zero pauses playback, zero resumes playback.
+			</digest>
+			<description>
+				In second inlet: Non-zero pauses playback, zero resumes playback.
+			</description>
+		</method>
+		<method name="int3">
+			<arglist>
+				<arg name="input" optional="0" type="int"></arg>
+			</arglist>
+			<digest>
+				In third inlet: Set playback volume (0–127)
+			</digest>
+			<description>
+				In third inlet: Set playback volume (0–127)
+			</description>
+		</method>
+		<method name="float3">
+			<arglist>
+				<arg name="input" optional="0" type="float"></arg>
+			</arglist>
+			<digest>
+				In third inlet: Set playback volume (0.–1.)
+			</digest>
+			<description>
+				In third inlet: Set playback volume (0.–1.)
+			</description>
+		</method>
+		<method name="int4">
+			<arglist>
+				<arg name="input" optional="0" type="int"></arg>
+			</arglist>
+			<digest>
+				In fourth inlet: Set playback speed (0–127)
+			</digest>
+			<description>
+				In fourth inlet: Set playback speed (0–127)
+			</description>
+		</method>
+		<method name="float4">
+			<arglist>
+				<arg name="input" optional="0" type="float"></arg>
+			</arglist>
+			<digest>
+				In fourth inlet: Set playback speed (-4.–4.)
+			</digest>
+			<description>
+				In fourth inlet: Set playback speed (-4.–4.)
+			</description>
+		</method>
+		<method name="anything5">
+			<arglist>
+				<arg name="input" optional="0" type="symbol"></arg>
+			</arglist>
+			<digest>
+				In fifth inlet: Load given file name
+			</digest>
+			<description>
+				In fifth inlet: Load given file name
+			</description>
+		</method>
+	</methodlist>
 
 	<!--ATTRIBUTES-->
 
