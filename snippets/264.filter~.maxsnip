@@ -72,22 +72,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "264.filter~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/264-tools-0.16.0/patchers",
-				"patcherrelativepath" : "../../../Packages/264-tools-0.16.0/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../Packages/264-tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.midi-learn.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/264-tools-0.16.0/patchers",
-				"patcherrelativepath" : "../../../Packages/264-tools-0.16.0/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../Packages/264-tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.pattr-control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/264-tools-0.16.0/patchers",
-				"patcherrelativepath" : "../../../Packages/264-tools-0.16.0/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../Packages/264-tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -100,15 +100,15 @@
 			}
 , 			{
 				"name" : "264.resize.js",
-				"bootpath" : "~/Documents/Max 8/Packages/264-tools-0.16.0/javascript",
-				"patcherrelativepath" : "../../../Packages/264-tools-0.16.0/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/264-tools/javascript",
+				"patcherrelativepath" : "../../../Packages/264-tools/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "264.preset-toggle.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/264-tools-0.16.0/patchers",
-				"patcherrelativepath" : "../../../Packages/264-tools-0.16.0/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/264-tools/patchers",
+				"patcherrelativepath" : "../../../Packages/264-tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
