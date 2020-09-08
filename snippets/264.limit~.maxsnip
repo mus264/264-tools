@@ -1,0 +1,98 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 5,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "195 x 195, containing 1 object",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
+		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-3",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "264.limit~.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 10.0, 10.0, 60.0, 60.0 ],
+					"varname" : "264.delay~",
+					"viewvisibility" : 1
+				}
+
+			}
+ ],
+		"lines" : [  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "264.limit~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/264-tools-0.16.0/patchers",
+				"patcherrelativepath" : "../../../Packages/264-tools-0.16.0/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "264.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/264-tools-0.16.0/javascript",
+				"patcherrelativepath" : "../../../Packages/264-tools-0.16.0/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"snippetinfo" : 		{
+			"name" : "264.delay~",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "195 x 195, containing 1 object",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABHNCSVQICAgIfAhkiAAAAsRJREFUaIHtm11PE0EUhp/ZXba0FLptCWgwgh8hgkAMN/4qr/wdXvm/1KAlGCEoMSiQfm9btunOeFFKLXRTm34gs/skvejMznvO25kz02a34vf5marWazQ8D5RCS4RgNmYzH5/DqtRdFpJJVh+tXPfvNt8O1Phgv5tkimOnUCpRcV2MS69JxnHuOp+Jk3EcLr0mhrbLuB9KYdx1DtMmdIatfo33bUMahtDNcGRYd3pquCUVe7l9ANZWHpDJZAcKHJ78pO5Wafktdre3ANHT39E0TQPflzx5vEI65SAVfPySw7pqD4o3SL/T3+9w9X3JzsY6ljVz3dYzw1J2h8l/PJ+bzSYtX95K5Kam70sAzi8uAKhfeoi/2oPiDdKvulVavsTv82rHlz3X992lJ0mt4QFQKJbGovdqcwOlFErBp9w+ArBM2Nl8iZQSw+it2qnWcMyeAQRes0mhVBiLpgAMITCN7gqI2TbALbMwVcOSpcUlAHJfvyF9yVw8RjI5N/ZILb8V2Bdo2BD9a2YUnNR8z/tsOo1pTreqAqPly2Xs2fj1pmOZgkQ8MUIogWWaSLqf8sL8PPmKO4Lm8AQarroNqu5x90JTsbO5NVIwIcBJpaiUy4DCtm183x9Jc1h6lrRhBC/jzkZwE9M0hwq4eHXWxmyrZ3xQCQ2rD2AH5Aog9g721Yvnz4YWvY8cHB6F76tlZFh3IsO6ExnWHXFy+kPVvVPcevGuc5koyUSaeOwhVs07xUkusb76GjGBHwz/A0pJzvLfKbm/MGr1IsvZJ9qaBRDCYDm7Rq1ebNewzmY7CNHerkK3aUWGdScyrDuRYd2JDOtOZFh3IsO6ExnWnciw7kSGdScyrDuRYd3p+1DLduPNwIGf4+/Hnsw0CN0Mh9OwCsE/W5RqP1VrJBNpzvLHWpvu3D1MJtKIfPFcXZSOQnF/eNF5yh9KHg0kotzNpwAAAABJRU5ErkJggg=="
+		}
+,
+		"autosave" : 0
+	}
+
+}

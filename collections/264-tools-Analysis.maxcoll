@@ -1,0 +1,5 @@
+{
+	"name" : "264 Analysis",
+	"type" : "filelist",
+	"contents" : [ "264.envelope~.maxsnip", "264.pitchtrack~.maxsnip", "264.trigger~.maxsnip" ]
+}

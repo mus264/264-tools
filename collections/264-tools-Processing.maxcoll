@@ -1,0 +1,5 @@
+{
+	"name" : "264 Processing",
+	"type" : "filelist",
+	"contents" : [ "264.delay~.maxsnip", "264.filter~.maxsnip", "264.grains~.maxsnip", "264.ringmod~.maxsnip", "264.reverb~.maxsnip", "264.transpose~.maxsnip", "264.freeze~.maxsnip", "264.loop~.maxsnip", "264.limit~.maxsnip", "264.gate~.maxsnip" ]
+}
