@@ -4,6 +4,10 @@
 
 ## Released
 
+### [v0.17.0](https://github.com/mus264/264-tools/releases/tag/v0.17.0) — Sep 9, 2020
+
+* :new: Added `.maxsnip` and `.maxcoll` files for all modules ([#22](https://github.com/mus264/264-tools/pull/22))
+
 ### [v0.16.0](https://github.com/mus264/264-tools/releases/tag/v0.16.0) — Apr 3, 2019
 
 *  Add playback position control and presets to `264.sfplay~` ([#21](https://github.com/mus264/264-tools/pull/21))
