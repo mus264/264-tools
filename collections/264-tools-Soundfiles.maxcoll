@@ -1,0 +1,5 @@
+{
+	"name" : "264 Soundfiles",
+	"type" : "filelist",
+	"contents" : [ "264.sfplay~.maxsnip", "264.sfrecord~.maxsnip", "264.loop~.maxsnip" ]
+}

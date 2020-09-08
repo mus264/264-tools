@@ -1,0 +1,5 @@
+{
+	"name" : "264 Control",
+	"type" : "filelist",
+	"contents" : [ "264.line.maxsnip", "264.tog.maxsnip", "264.go!.maxsnip", "264.key-learn.maxsnip", "264.midi-learn.maxsnip", "264.audio-presets.maxsnip", "264.midi-presets.maxsnip", "264.fullscreen.maxsnip", "264.lockstatus.maxsnip" ]
+}
