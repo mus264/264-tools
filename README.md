@@ -89,7 +89,7 @@ The latest release of these modules requires Max 8. For Max 6 and 7 support, you
 
 `264.grains~` relies on the `munger~` granulation external, which has a substantial ancestry including work by Ivica Ico Bukvic, Ji-Sun Kim, Dan Trueman, and R. Luke DuBois, most recently for [percolate](https://github.com/Cycling74/percolate).
 
-The original versions of `264.midi-presets`, `264.audio-presets`, `264.sfplay~`, and `264.sfrecord~` relied on [Patrick Delges](http://www.crfmw.be/max/)’s `filesys` Java class to manage file locations. (This is now done via a custom Node.js script.)
+The original versions of `264.midi-presets`, `264.audio-presets`, `264.loop~`, `264.sfplay~`, and `264.sfrecord~` relied on [Patrick Delges](http://www.crfmw.be/max/)’s `filesys` Java class to manage file locations. (This is now done via a custom Node.js script.)
 
 The `264.reverb~` core is heavily based on [Randy Jones](http://madronalabs.com/)’s `yafr2` example.
 
