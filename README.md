@@ -11,8 +11,8 @@ A modular kit providing high-level sound playback, processing and performance to
 1. **Download the [latest release](https://github.com/mus264/264-tools/releases/latest)** (click ‘Source code’ under Assets)
 
 2. **Uncompress your download to your Max Packages directory.**    
-You can find this under `~/Documents/Max 7/Packages` for Max 7    
-You should end up with file paths that look like `~/Documents/Max 7/Packages/264-tools/ALL-THE-FILES-GO-HERE`.
+You can find this under `~/Documents/Max 8/Packages` for Max 8    
+You should end up with file paths that look like `~/Documents/Max 8/Packages/264-tools/ALL-THE-FILES-GO-HERE`.
 
 3. **Open (or restart) Max.**
 
@@ -20,7 +20,7 @@ Alternatively if you prefer using the command line:
 
 ```sh
 # move to your packages directory
-cd ~/Documents/Max 7/Packages
+cd ~/Documents/Max 8/Packages
 # download 264 Tools to your packages directory
 git clone https://github.com/mus264/264-tools.git
 ```
