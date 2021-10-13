@@ -83,13 +83,13 @@ The toolkit currently includes the following modules, which should be loaded in 
 
 ## Compatibility
 
-These modules have been tested with Max 6 and 7. They will not work with Max/MSP 5 or lower. Please [report bugs under the issues tab above](https://github.com/mus264/264-tools/issues).
+The latest release of these modules requires Max 8. For Max 6 and 7 support, you can use v0.17 or lower. Please [report bugs under the issues tab above](https://github.com/mus264/264-tools/issues).
 
 ## Acknowledgments
 
 `264.grains~` relies on the `munger~` granulation external, which has a substantial ancestry including work by Ivica Ico Bukvic, Ji-Sun Kim, Dan Trueman, and R. Luke DuBois, most recently for [percolate](https://github.com/Cycling74/percolate).
 
-`264.midi-presets`, `264.audio-presets`, `264.sfplay~`, and `264.sfrecord~` rely on [Patrick Delges](http://www.crfmw.be/max/)’s `filesys` Java class to manage file locations.
+The original versions of `264.midi-presets`, `264.audio-presets`, `264.sfplay~`, and `264.sfrecord~` relied on [Patrick Delges](http://www.crfmw.be/max/)’s `filesys` Java class to manage file locations. (This is now done via a custom Node.js script.)
 
 The `264.reverb~` core is heavily based on [Randy Jones](http://madronalabs.com/)’s `yafr2` example.
 
