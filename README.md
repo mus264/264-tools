@@ -83,7 +83,12 @@ The toolkit currently includes the following modules, which should be loaded in 
 
 ## Compatibility
 
-The latest release of these modules requires Max 8. For Max 6 and 7 support, you can use v0.17 or lower. Please [report bugs under the issues tab above](https://github.com/mus264/264-tools/issues).
+The latest release of these modules requires **Max 8**. Please [report bugs under the issues tab above][issues].
+
+If you need to support Max 6 or 7, you can [download v0.17.0][017] or lower.
+
+  [issues]: https://github.com/mus264/264-tools/issues
+  [017]: https://github.com/mus264/264-tools/releases/tag/v0.17.0
 
 ## Acknowledgments
 
