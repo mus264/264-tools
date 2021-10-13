@@ -1058,7 +1058,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 435.0, 225.0, 66.0, 20.0 ],
-									"text" : "mxj filesys"
+									"text" : "264.fs"
 								}
 
 							}
@@ -1183,7 +1183,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 15.0, 225.0, 66.0, 20.0 ],
-									"text" : "mxj filesys"
+									"text" : "264.fs"
 								}
 
 							}
@@ -1523,7 +1523,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 15.0, 105.0, 66.0, 20.0 ],
-									"text" : "mxj filesys"
+									"text" : "264.fs"
 								}
 
 							}
