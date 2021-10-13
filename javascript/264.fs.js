@@ -7,13 +7,11 @@
 //
 // ---------------------------------------------------------------------------
 
-const fs = require('fs');
-const util = require('util');
+const { existsSync } = require('fs');
+const { mkdir } = require('fs').promises;
 const os = require('os');
 const maxAPI = require('max-api');
 const { resolve } = require('path');
-
-const mkdirp = util.promisify(fs.mkdir);
 
 // Script success/failure codes.
 const FAILURE = 0;
@@ -22,7 +20,7 @@ const SUCCESS = 1;
 // Register handlers with Max.
 maxAPI.addHandlers({
   exists: withErrorHandling('exists', exists),
-  mkdir: withErrorHandling('mkdir', mkdir),
+  mkdir: withErrorHandling('mkdir', makeDirectory),
 });
 
 /**
@@ -70,7 +68,7 @@ function normalizePath(path) {
  * @returns {Promise<void>}
  */
 async function exists(path) {
-  const exists = fs.existsSync(normalizePath(path));
+  const exists = existsSync(normalizePath(path));
   maxAPI.outlet(exists ? SUCCESS : FAILURE);
 }
 
@@ -79,7 +77,7 @@ async function exists(path) {
  * @param {string} path Path of directory to create.
  * @returns {Promise<void>}
  */
-async function mkdir(path) {
-  await mkdirp(normalizePath(path));
+async function makeDirectory(path) {
+  await mkdir(normalizePath(path));
   maxAPI.outlet(SUCCESS);
 }
