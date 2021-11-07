@@ -8,7 +8,7 @@
 // ---------------------------------------------------------------------------
 
 const { existsSync } = require('fs');
-const { mkdir } = require('fs').promises;
+const { mkdir, copyFile } = require('fs').promises;
 const os = require('os');
 const maxAPI = require('max-api');
 const { resolve } = require('path');
@@ -21,21 +21,22 @@ const SUCCESS = 1;
 maxAPI.addHandlers({
   exists: withErrorHandling('exists', exists),
   mkdir: withErrorHandling('mkdir', makeDirectory),
+  cp: withErrorHandling('cp', cp),
 });
 
 /**
  * Higher-order function to wrap a handler with basic error handling.
  * @param {string} commandName Command name.
- * @param {(path: string) => Promise<void>} handler Handler to wrap.
- * @returns {(path: string) => Promise<void>} An async function that will catch and log errors from the wrapped handler.
+ * @param {(...paths: string[]) => Promise<void>} handler Handler to wrap.
+ * @returns {(...paths: string[]) => Promise<void>} An async function that will catch and log errors from the wrapped handler.
  */
 function withErrorHandling(commandName, handler) {
-  return async (path) => {
+  return async (...paths) => {
     try {
-      if (!path) {
+      if (!paths.length) {
         throw new Error(`The "${commandName}" command needs a path argument`);
       }
-      await handler(path);
+      await handler(...paths);
     } catch (error) {
       maxAPI.post('Error: ' + error.message);
       maxAPI.outlet(FAILURE);
@@ -79,5 +80,16 @@ async function exists(path) {
  */
 async function makeDirectory(path) {
   await mkdir(normalizePath(path));
+  maxAPI.outlet(SUCCESS);
+}
+
+/**
+ * Copy a file from one location to another.
+ * @param {string} source Path of file to copy.
+ * @param {string} destination Path to copy file to.
+ * @returns {Promise<void>}
+ */
+async function cp(source, destination) {
+  await copyFile(normalizePath(source), normalizePath(destination));
   maxAPI.outlet(SUCCESS);
 }
