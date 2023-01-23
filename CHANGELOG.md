@@ -4,6 +4,13 @@
 
 ## Released
 
+### [v0.18.0](https://github.com/mus264/264-tools/releases/tag/v0.18.0) — Jan 23, 2023
+
+* Replace old Java `filesys` class to use Node.js for file system operations
+
+#### ⚠️ BREAKING CHANGES ⚠️
+
+This release drops support for Max versions lower than Max 8. If you need to use 264 Tools with Max 7 or below, please use [v0.17.0](https://github.com/mus264/264-tools/releases/tag/v0.17.0).
 ### [v0.17.0](https://github.com/mus264/264-tools/releases/tag/v0.17.0) — Sep 9, 2020
 
 * :new: Added `.maxsnip` and `.maxcoll` files for all modules ([#22](https://github.com/mus264/264-tools/pull/22))
