@@ -11,8 +11,8 @@ A modular kit providing high-level sound playback, processing and performance to
 1. **Download the [latest release](https://github.com/mus264/264-tools/releases/latest)** (click ‘Source code’ under Assets)
 
 2. **Uncompress your download to your Max Packages directory.**    
-You can find this under `~/Documents/Max 7/Packages` for Max 7    
-You should end up with file paths that look like `~/Documents/Max 7/Packages/264-tools/ALL-THE-FILES-GO-HERE`.
+You can find this under `~/Documents/Max 8/Packages` for Max 8    
+You should end up with file paths that look like `~/Documents/Max 8/Packages/264-tools/ALL-THE-FILES-GO-HERE`.
 
 3. **Open (or restart) Max.**
 
@@ -20,7 +20,7 @@ Alternatively if you prefer using the command line:
 
 ```sh
 # move to your packages directory
-cd ~/Documents/Max 7/Packages
+cd ~/Documents/Max 8/Packages
 # download 264 Tools to your packages directory
 git clone https://github.com/mus264/264-tools.git
 ```
@@ -83,13 +83,18 @@ The toolkit currently includes the following modules, which should be loaded in 
 
 ## Compatibility
 
-These modules have been tested with Max 6 and 7. They will not work with Max/MSP 5 or lower. Please [report bugs under the issues tab above](https://github.com/mus264/264-tools/issues).
+The latest release of these modules requires **Max 8**. Please [report bugs under the issues tab above][issues].
+
+If you need to support Max 6 or 7, you can [download v0.17.0][017] or lower.
+
+  [issues]: https://github.com/mus264/264-tools/issues
+  [017]: https://github.com/mus264/264-tools/releases/tag/v0.17.0
 
 ## Acknowledgments
 
 `264.grains~` relies on the `munger~` granulation external, which has a substantial ancestry including work by Ivica Ico Bukvic, Ji-Sun Kim, Dan Trueman, and R. Luke DuBois, most recently for [percolate](https://github.com/Cycling74/percolate).
 
-`264.midi-presets`, `264.audio-presets`, `264.sfplay~`, and `264.sfrecord~` rely on [Patrick Delges](http://www.crfmw.be/max/)’s `filesys` Java class to manage file locations.
+The original versions of `264.midi-presets`, `264.audio-presets`, `264.loop~`, `264.sfplay~`, and `264.sfrecord~` relied on [Patrick Delges](http://www.crfmw.be/max/)’s `filesys` Java class to manage file locations. (This is now done via a custom Node.js script.)
 
 The `264.reverb~` core is heavily based on [Randy Jones](http://madronalabs.com/)’s `yafr2` example.
 

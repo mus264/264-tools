@@ -7,7 +7,7 @@
   "extensible": 0,
   "homepatcher": "264 Tools Overview.maxpat",
   "max_version_max": "none",
-  "max_version_min": "6.1.9",
+  "max_version_min": "8.0.0",
   "name": "264 Tools",
   "repository": "mus264/264-tools",
   "os": {
@@ -16,7 +16,7 @@
       "min_version": "none"
     },
     "windows": {
-      "platform": ["ia32"]
+      "platform": ["ia32", "x64"]
     }
 
   },
